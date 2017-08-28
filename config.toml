@@ -1,0 +1,27 @@
+baseURL = "https://tamada.github.io/"
+languageCode = "en-us"
+title = "Haruaki Tamada"
+defaultContentLanguage = "ja"
+theme = "gohugo-theme-ananke"
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "ja"
+SectionPageMenu = "main"
+Paginate = 10
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  description = ""
+  facebook = ""
+  github = "https://github.com/tamada"
+  twitter = "https://twitter.com/tama5"
+  background_color_class = "bg-black"
+  featured_image = "images/hedgehog.jpg"
+
+
