@@ -20,10 +20,10 @@ Hugo だと，テーマの変更は Jekyll よりも簡単のように感じる�
 さて，テーマをcloneして ```/themes``` に保存するわけだが，それをそのままこのページのリポジトリに保存するのは気持ち悪い．
 ということで，submodule を使ってみる．
 
-```sh
+{{< highlight sh >}}
 $ cd themes
 $ git submodule add https://github.com/.... # <- 適当なテーマ
-```
+{{< /highlight >}}
 
 これでテーマの内容を丸ごとリポジトリにコミットする必要がなくなる．
 
@@ -39,4 +39,20 @@ Hugo だと ```public``` ディレクトリの内容が ```gh-pages``` になっ
 worktree とは，1つのサブディレクトリを別のブランチとして扱うものである．
 
 ### 準備
+
+{{< highlight sh >}}
+$ git checkout --orphan gh-pages # <-- 空の gh-pages ブランチを作成し，移動する．
+$ git rm archetypes config.toml content data layouts static themes .gitmodules README.md # <- public以外を削除する．
+$ mv public/* . # <- public の中身をトップディレクトリに移動する．
+$ rmdir public  # <- public の中身がなくなったので，public ディレクトリを削除する．
+$ git add .
+$ git commit -m "some comment"
+$ git checkout master
+$ git worktree public gh-pages # <- publicディレクトリをgh-pagesとして扱う．
+$ git submodule update # <- 上で themes 以下を削除したのでもう一度 clone する．
+{{< /highlight >}}
+
+ここまでやれば ```public``` ディレクトリが ```gh-pages``` ブランチであると認識されるようになる．
+以降は，```gh-pages``` へのコミットであれば，```public```ディレクトリで，
+それ以外のブランチでの操作であれば，トップディレクトリで行えば良い．
 
