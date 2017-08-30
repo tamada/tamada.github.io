@@ -1,5 +1,6 @@
 baseURL = "https://tamada.github.io/"
-languageCode = "en_US"
+languageCode = "ja"
+hasCJKLanguage = "true"
 title = "Haruaki Tamada"
 defaultContentLanguage = "ja"
 theme = "gohugo-theme-ananke"
