@@ -1,8 +1,9 @@
 ---
-title: "About my researches"
-featured_image: /images/beer.jpg
+title: "Researches"
+featured_image: /images/research.jpg
+weight: 1
 date: 2017-08-28T14:44:56+09:00
-isCJKLanguage: false
+isCJKLanguage: true
 draft: false
 ---
 

@@ -1,6 +1,7 @@
 ---
 title: "Profiles"
-featured_image: /images/beer.jpg
+featured_image: /images/miyako.jpg
+weight: 2
 date: 2017-08-28T14:44:56+09:00
 isCJKLanguage: true
 draft: false
