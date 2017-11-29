@@ -1,5 +1,5 @@
 ---
-title: "About me"
+title: "About Me"
 featured_image: /images/beer.jpg
 menu: main
 date: 2017-08-28T14:44:56+09:00
@@ -20,3 +20,7 @@ draft: false
 * Access
     * [https://tamadalab.github.io/contact](https://tamadalab.github.io/contact)
 
+
+## Pictures in this pages
+
+Pictures are downloaded from [VisualHunt](https://visualhunt.com/), are in public domain.

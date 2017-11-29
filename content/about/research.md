@@ -9,7 +9,7 @@ draft: false
 
 ## Target Research Areas
 
-My main research areas are software security,  software analysis, and computer-programming education.
+My main research areas are software security, software analysis, and computer-programming education.
 The research topics of the areas show below.
 
 * Software Security (Protection)
@@ -32,8 +32,10 @@ My achievements (papers) are listed in home page of our laboratory, [tamadalab.g
 
 ## 学会活動（Activitis）
 
+* Program committee member, the 17th IEEE/ACIS International Conference on Computer and Information Science ([ICIS 2018](http://www.acisinternational.org/icis2018/))
+* Program committee member, the 3rd International Conference on Big Data, Cloud Computing, and Data Science Engineering ([BCD 2018](http://www.acisinternational.org/bcd2018/))
 * Program committee member, the 2nd International Conference on Social Informatics and Systems Science ([SISS 2017](http://www.iaiai.org/conference/aai2017/siss-2017/))
-* Finalce Chair, the 2th IEEE/ACIS International Conference on Big Data, Cloud Computing, and Data Science ([BCD 2017](http://www.acisinternational.org/bcd2017/))
+* Finance Chair, the 2th IEEE/ACIS International Conference on Big Data, Cloud Computing, and Data Science ([BCD 2017](http://www.acisinternational.org/bcd2017/))
 * Program committee member, the 15th IEEE/ACIS International Conference on Computer and Information Science ([ICIS 2017](http://www.acisinternational.org/icis2017/))
 * Program committee member, the 15th IEEE/ACIS International Conference on Computer and Information Science ([ICIS 2016](http://www.acisinternational.org/icis2016/))
 * Program committee member, Joint Conference of the 21st International Workshop on Software Measurement (IWSM2011) and the 6th International Conference on Software Process and Product Measurement ([MENSURA2011](http://mensura.wordpress.com/organization/))
@@ -48,4 +50,4 @@ My achievements (papers) are listed in home page of our laboratory, [tamadalab.g
     * 科学研究費補助金 若手研究(B) 研究代表者 Java言語を対象とした動的多様化技術 (2013-2015)
     * 科学研究費補助金 若手研究(B) 研究代表者 バースマークの評価技術の確立 (2008-2011)
 
-
+See also, [Grant page of Our Lab.](https://tamadalab.github.io/researches/grant/).
