@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Using Hugo on User GitHub Pages</title>
+      <link>https://tamada.github.io/post/hugo_on_ghpages/</link>
+      <pubDate>Thu, 30 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/post/hugo_on_ghpages/</guid>
+      <description>Hugoを使って，ユーザの GitHub Pages を作成するときに少しハマったので記録しておく． 通常のリポジトリでの GitHub Pages は gh-pages ブランチや docs フォルダなどに置くことで</description>
+    </item>
+    
+    <item>
       <title>Icons of various things</title>
       <link>https://tamada.github.io/post/icons/</link>
       <pubDate>Sun, 27 Aug 2017 17:51:42 +0900</pubDate>
