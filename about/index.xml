@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About Me on Haruaki Tamada</title>
+    <link>https://tamada.github.io/about/</link>
+    <description>Recent content in About Me on Haruaki Tamada</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Mon, 28 Aug 2017 14:44:56 +0900</lastBuildDate>
+    
+	<atom:link href="https://tamada.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Researches</title>
+      <link>https://tamada.github.io/about/research/</link>
+      <pubDate>Mon, 28 Aug 2017 14:44:56 +0900</pubDate>
+      
+      <guid>https://tamada.github.io/about/research/</guid>
+      <description>Target Research Areas My main research areas are software security, software analysis, and computer-programming education. The research topics of the areas show below. Software Security (Protection) Software Birthmarking, Software Obfuscation, and Readability/Understandability/Tamper registance of programs Software Analytics Readability/Understandability of programs, Characteristics of developers from their activities, and Evaluating projects through repositories mining. Computer-Programming Education Computer Programming education for the novices. For more detail, see tamadalab.github.io/research Achievements My achievements (papers) are</description>
+    </item>
+    
+    <item>
+      <title>Profiles</title>
+      <link>https://tamada.github.io/about/profiles/</link>
+      <pubDate>Mon, 28 Aug 2017 14:44:56 +0900</pubDate>
+      
+      <guid>https://tamada.github.io/about/profiles/</guid>
+      <description>Profiles Education Doctor of Engineering （博士（工学））, 2006. Graduate School of Information Science, Nara Institute of Science and Technology, Japan. 奈良先端科学技術大学院大学 情報科学研究科 Master of Information Communication and Engineering（修士（情報通</description>
+    </item>
+    
+    <item>
+      <title>Hobbies</title>
+      <link>https://tamada.github.io/about/hobbies/</link>
+      <pubDate>Mon, 28 Aug 2017 14:44:56 +0900</pubDate>
+      
+      <guid>https://tamada.github.io/about/hobbies/</guid>
+      <description>Hobbies My hobbies are: Drinking Beer, Taking vacation on Okinawa islands, Programming, and Trekking. Drinking Beer I love craft beers, especially stout beer. I dream to brew own beer. 地ビールが好きです． 黒ビールが好きです． そのうち自ビールを作ってみたい． Taking vacation on Okinawa islands</description>
+    </item>
+    
+  </channel>
+</rss>
