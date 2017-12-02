@@ -46,7 +46,7 @@
 
 <meta itemprop="datePublished" content="2017-11-30T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2017-11-30T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="402">
+<meta itemprop="wordCount" content="478">
 
 
 
@@ -159,7 +159,11 @@
 
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ git clone git@github.com:tamada/webpage_source.git tamada.github.io
 $ cd tamada.github.io
-$ git submodule add -f -b master git@github.com:tamada/tamada.github.io public</code></pre></div>
+$ git submodule add -f -b master git@github.com:tamada/tamada.github.io.git public</code></pre></div>
+
+<p>上記のように，Hugoのファイルを <code>webpage_source.git</code> に置き，
+Hugoの出力 <code>webpage_source/public</code> を <code>tamada.github.io</code> に submodule として割り当てている．
+ローカルのディレクトリは <code>tamada.github.io/public</code> としているが，ここはお好きなように．</p>
 
       </section>
       
