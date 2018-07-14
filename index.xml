@@ -39,6 +39,15 @@
     </item>
     
     <item>
+      <title>JavaScriptによるランダムグループ分け</title>
+      <link>https://tamada.github.io/post/grouping_by_js/</link>
+      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/post/grouping_by_js/</guid>
+      <description>ランダムにグループ分けを行うスクリプト． ご自由にお使いください． 番号 〜 グループ数: window.onload = () = { tag = (name) = { return document.getElementById(name) } grouping = (json) = { const randomArray = (count, subgroup) = { let array = []</description>
+    </item>
+    
+    <item>
       <title>Using Hugo on User GitHub Pages</title>
       <link>https://tamada.github.io/post/hugo_on_ghpages/</link>
       <pubDate>Thu, 30 Nov 2017 00:00:00 +0000</pubDate>

@@ -24,6 +24,13 @@
   </url>
   
   <url>
+    <loc>https://tamada.github.io/post/grouping_by_js/</loc>
+    <lastmod>2018-07-14T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://tamada.github.io/post/hugo_on_ghpages/</loc>
     <lastmod>2017-11-30T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
