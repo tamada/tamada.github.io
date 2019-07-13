@@ -1,0 +1,68 @@
+[
+    {
+        "role":"Associate Professor",
+        "company":"Faculty of Information Science and Engineering, Kyoto Sangyo University",
+        "summary":"reorganized faculty (computer science and engineering to information science and engineering)",
+        "range":"April 2018 - Present"
+    },
+    {
+        "role":"Part-time Lecturer",
+        "company":"School of Engineering Science, Osaka University.",
+        "summary":"AiBiC Spiral",
+        "range":"2017 - Present"
+    },
+    {
+        "role":"Part-time Lecturer",
+        "company":"Faculty of Engineering, Okayama University",
+        "summary":"Talk about UML, Design Pattern, Software Architecture, MVC and etc. in software design class (The third semester)",
+        "range":"2016 - Present"
+    },
+    {
+        "role":"Guest Associate Professor",
+        "company":"Graduate School of Information Science and Technology, Osaka University.",
+        "summary":"Cloud Spiral",
+        "range":"April 2017 - March 2018"
+    },
+    {
+        "role":"Associate Professor",
+        "company":"Faculty of Computer Science and Engineering, Kyoto Sangyo University",
+        "summary":"",
+        "range":"April 2013 - March 2018"
+    },
+    {
+        "role":"Part-time Lecturer",
+        "company":"Graduate School of Information Science and Technology, Osaka University.",
+        "summary":"Cloud Spiral",
+        "range":"April 2013 - March 2018"
+    },
+    {
+        "role":"Assistant Professor",
+        "company":"Faculty of Computer Science and Engineering, Kyoto Sangyo University",
+        "summary":"",
+        "range":"April 2008 - March 2013"
+    },
+    {
+        "role":"Part-time Lecturer",
+        "company":"Faculty of Science and Engineering, Kindai University.",
+        "summary":"Talk about Design Patterns.",
+        "range":"April 2008 - March 2010"
+    },
+    {
+        "role":"Researcher/Assistant Professor",
+        "company":"Nara Institute Science and Technology (NAIST)",
+        "summary":"EASE Project",
+        "range":"April 2006 - March 2008"
+    },
+    {
+        "role":"Part-time Lecturer",
+        "company":"Faculty of Science and Engineering, Kindai University.",
+        "summary":"Talk about Design Patterns.",
+        "range":"April 2004 - March 2006"
+    },
+    {
+        "role":"Developer",
+        "company":"Sumisho Electoronics co. LTD.",
+        "summary":"Developing backend of Web application on J2EE platform.",
+        "range":"April 2001 - March 2003"
+    }
+]

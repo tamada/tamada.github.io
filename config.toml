@@ -1,0 +1,50 @@
+baseURL = "https://tamada.github.io/"
+languageCode = "en-us"
+title = "Haruaki TAMADA"
+theme = "hugo-resume"
+
+[params]
+    firstName = "Haruaki"
+    lastName = "TAMADA"
+    address = "Kyoto-pref, Japan"
+    phone = ""
+    contactNote = "Associate Professor, Ph.D (Engineering)"
+    profileImage = "images/harry.jpg"
+    email = "tamada@cc.kyoto-su.ac.jp"
+    description = "Associate Professor, Ph.D (Engineering)."
+    favicon = "images/favicon.ico"
+    # what sections
+    showSkills = true
+    showProjects = true
+    showOpenSource = false
+    showPublications = true
+    showExperience = true
+    showEducation = true
+
+    showQr = false
+
+    gitCommitPrefix = "https://github.com/tamada/wwwdraft/commit/"
+
+[[params.handles]]
+    name = "GitHub"
+    link = "https://github.com/tamada/"
+
+[[params.handles]]
+    name = "Twitter"
+    link = "https://twitter.com/tama5/"
+
+[[params.handles]]
+    name = "Bitbucket"
+    link = "https://bitbucket.org/htamada/"
+
+[[params.handles]]
+    name = "Docker Hub"
+    link = "https://hub.docker.com/u/tamada/"
+
+[[params.handles]]
+    name = "Keybase"
+    link = "https://keybase.io/tamada"
+    icon = "keybase"
+
+[params.google.analytics]
+    trackerID = "UA-62401730-5"
