@@ -20,13 +20,13 @@ To do so, I am signing this object:
       "username": "tamada"
     },
     "merkle_root": {
-      "ctime": 1563009692,
-      "hash": "a6025c6ae54ef4d7dd5fd7fde47a669069715494efccb63ef2c32d349ef7fc46da48179b22689971e6d54cfe8360f4e14d5c4a41ae854286fdb548a481cde75c",
-      "hash_meta": "2a1f0f52798f1d4d7b89b7cde4b3b5e68fe585995136df260cd2657d517a2f3e",
-      "seqno": 5754012
+      "ctime": 1563030580,
+      "hash": "b78bea6eb474904710dc6eae9ee62d02ad6c762821b559150c678db798e8562d24ea558947a4106c6671d0f001ce8c418c6476e481a0995125fcaf38240dd807",
+      "hash_meta": "6968258ec5bc9328df0e9442e788b7727df03214298a4417f2e47b8b1a47c93e",
+      "seqno": 5755123
     },
     "service": {
-      "entropy": "HpSfCxmISc00cY/pI3uQQ3JV",
+      "entropy": "lkLHzN8ltayaC5KPI7IpUTCV",
       "hostname": "tamada.github.io",
       "protocol": "https:"
     },
@@ -37,16 +37,16 @@ To do so, I am signing this object:
     "name": "keybase.io go client",
     "version": "4.2.0"
   },
-  "ctime": 1563009753,
+  "ctime": 1563030591,
   "expire_in": 504576000,
-  "prev": "167d2088b77d080d1617c208506583f4ed51503b08bb2546a3327bf93a3fc4de",
-  "seqno": 8,
+  "prev": "bb0d55f5af3940ab027329ad8d8c11cb775e28ff1cedf2b1ba338eb48b30c515",
+  "seqno": 16,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgmAkaCXowDtfj+rhK39B6QJORFuWoqNGdVk4nzJlywe4Kp3BheWxvYWTESpcCCMQgFn0giLd9CA0WF8IIUGWD9O1RUDsIuyVGozJ7+To/xN7EIDYkSwN6ZdrSmHNitPzPhlryya+jzFtbJrXhqfTq16R2AgHCo3NpZ8RA28L+rfL/rV7nCIPTrAZPsp16zUVYM6zrVOBYtVFLe5ziPpeBP3vUDIvPNszqOeZ+NB2gkVrjqeE21xBIXgdnBKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKhaKNOil/E9EcyVqv8Ct/O7Rjj1r9QRjDddIOP/dt8do3RhZ80CAqd2ZXJzaW9uAQ==
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgmAkaCXowDtfj+rhK39B6QJORFuWoqNGdVk4nzJlywe4Kp3BheWxvYWTESpcCEMQguw1V9a85QKsCcymtjYwRy3deKP8c7fKxujOOtIswxRXEINlZS0njCmOiDjorTAY34F3ZmOv/FCw/H+l9du7Gx4QqAgHCo3NpZ8RARvGWSMYQ1OfbI8oSOlNxK4KsZn0YlNXPKI1l9H8Fut/Q9UKo4w5RvKKxD1VCjpdskgbvZyJRTRVEY3ahhUDQAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIEABAdygajoefunuDrDFaIKQemCiyEW5w2a9VdIg5jOEo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
@@ -54,3 +54,4 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/tamada
 
 ==================================================================
+
