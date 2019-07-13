@@ -1,77 +1,93 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Haruaki Tamada</title>
+    <title>Home on Haruaki TAMADA</title>
     <link>https://tamada.github.io/</link>
-    <description>Recent content on Haruaki Tamada</description>
+    <description>Recent content in Home on Haruaki TAMADA</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja</language>
-    <lastBuildDate>Mon, 28 Aug 2017 14:44:56 +0900</lastBuildDate>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 13 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tamada.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Researches</title>
-      <link>https://tamada.github.io/about/research/</link>
-      <pubDate>Mon, 28 Aug 2017 14:44:56 +0900</pubDate>
-      
-      <guid>https://tamada.github.io/about/research/</guid>
-      <description>Target Research Areas My main research areas are software security, software analysis, and computer-programming education. The research topics of the areas show below. Software Security (Protection) Software Birthmarking, Software Obfuscation, Tamper resistance of programs. Software Analytics Readability/Understandability evaluation of programs, Characteristics of developers from their activities, and Evaluating projects through repositories mining. Computer-Programming Education Computer Programming education for the novices. For more detail, see tamadalab.github.io/research Achievements My achievements (papers) are</description>
-    </item>
-    
-    <item>
-      <title>Profiles</title>
-      <link>https://tamada.github.io/about/profiles/</link>
-      <pubDate>Mon, 28 Aug 2017 14:44:56 +0900</pubDate>
-      
-      <guid>https://tamada.github.io/about/profiles/</guid>
-      <description>Education Doctor of Engineering （博士（工学））, 2006. Graduate School of Information Science, Nara Institute of Science and Technology, Japan. 奈良先端科学技術大学院大学 情報科学研究科 Master of Information Communication and Engineering（修士（情報通信</description>
-    </item>
-    
-    <item>
       <title>Hobbies</title>
-      <link>https://tamada.github.io/about/hobbies/</link>
-      <pubDate>Mon, 28 Aug 2017 14:44:56 +0900</pubDate>
+      <link>https://tamada.github.io/hobbies/</link>
+      <pubDate>Sat, 13 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/about/hobbies/</guid>
-      <description>My hobbies are: Drinking Beer, Taking vacation on Okinawa islands, Programming, and Trekking. Drinking Beer I love craft beers, especially stout beer. I dream to brew own beer. 地ビールが好きです． 黒ビールが好きです． そのうち自ビールを作ってみたい． Taking vacation on Okinawa islands 沖</description>
+      <guid>https://tamada.github.io/hobbies/</guid>
+      <description>My hobbies are:
+ Drinking Beer, Taking vacation on Okinawa islands, Programming, and Trekking.  Drinking Beer I love craft beers, especially stout beer. I dream to brew own beer.
+Taking vacation on Okinawa islands 沖縄の本島，離島でのんびりするのも好きです． 最近は1年に1度は沖縄に行っている気がします．
+Programming 何かツールを作ろうと思い立ったら１〜３週間程度で作り上げている気がします． コマンドラインのツールがほとんどですが，多くは GitHub にて公開しています． 主に Java を使って書いています．最近は JavaScript も面白いと思っています．
+ただ，途中で放り投げたものもいくつかあります．
+Trekking 山歩きも好きです． 本格的な山登りとは違い，のんびりと歩き回ります．</description>
     </item>
     
     <item>
-      <title>JavaScriptによるランダムグループ分け</title>
-      <link>https://tamada.github.io/posts/grouping_by_js/</link>
-      <pubDate>Sat, 14 Jul 2018 00:00:00 +0000</pubDate>
+      <title>Activities</title>
+      <link>https://tamada.github.io/activities/</link>
+      <pubDate>Sat, 13 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/posts/grouping_by_js/</guid>
-      <description>ランダムにグループ分けを行うスクリプト． ご自由にお使いください． 番号 〜 グループ数: window.onload = () = { tag = (name) = { return document.getElementById(name) } grouping = (json) = { const randomArray = (count, subgroup) = { let array = []</description>
+      <guid>https://tamada.github.io/activities/</guid>
+      <description> Program committee member, the 17th IEEE/ACIS International Conference on Computer and Information Science (ICIS 2019) Program committee member, the 3rd International Conference on Big Data, Cloud Computing, and Data Science Engineering (BCD 2019) Program committee member, the 17th IEEE/ACIS International Conference on Computer and Information Science (ICIS 2018) Program committee member, the 3rd International Conference on Big Data, Cloud Computing, and Data Science Engineering (BCD 2018) Program committee member, the 2nd International Conference on Social Informatics and Systems Science (SISS 2017) Finance Chair, the 2th IEEE/ACIS International Conference on Big Data, Cloud Computing, and Data Science (BCD 2017) Program committee member, the 15th IEEE/ACIS International Conference on Computer and Information Science (ICIS 2017) Program committee member, the 15th IEEE/ACIS International Conference on Computer and Information Science (ICIS 2016) Program committee member, Joint Conference of the 21st International Workshop on Software Measurement (IWSM2011) and the 6th International Conference on Software Process and Product Measurement (MENSURA2011)  </description>
     </item>
     
     <item>
-      <title>Using Hugo on User GitHub Pages</title>
-      <link>https://tamada.github.io/posts/hugo_on_ghpages/</link>
-      <pubDate>Thu, 30 Nov 2017 00:00:00 +0000</pubDate>
+      <title>goheatman - heatmap generator</title>
+      <link>https://tamada.github.io/projects/creations/goheatman/</link>
+      <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/posts/hugo_on_ghpages/</guid>
-      <description>Hugoを使って，ユーザの GitHub Pages を作成するときに少しハマったので記録しておく． 通常のリポジトリでの GitHub Pages は gh-pages ブランチや docs フォルダなどに置くことで</description>
+      <guid>https://tamada.github.io/projects/creations/goheatman/</guid>
+      <description>Create heat map image from given csv file. Go language implementation of tamada/heatman.</description>
     </item>
     
     <item>
-      <title>Icons of various things</title>
-      <link>https://tamada.github.io/posts/icons/</link>
-      <pubDate>Sun, 27 Aug 2017 17:51:42 +0900</pubDate>
+      <title>uniq2</title>
+      <link>https://tamada.github.io/projects/creations/uniq2/</link>
+      <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/posts/icons/</guid>
-      <description>ホームページなどを作成していると，いろんなもののアイコンが欲しくなる． 例えば，このページにも favicon が欲しくなってくる． 作成しているツール（poc</description>
+      <guid>https://tamada.github.io/projects/creations/uniq2/</guid>
+      <description>This tool deletes duplicated lines.
+GNU core utilities have uniq command for deleting duplicate lines. However, uniq command deletes only continuous duplicate lines. When deleting not continuous duplicate lines, we use sort command together, in that case, the order of the list was not kept.
+We want to delete not continuous duplicated lines with remaining the order.</description>
     </item>
     
     <item>
-      <title>Reconstruct site by Hugo</title>
-      <link>https://tamada.github.io/posts/reconstruct-site/</link>
-      <pubDate>Sat, 26 Aug 2017 17:51:42 +0900</pubDate>
+      <title>rrh - a simple git repository manager</title>
+      <link>https://tamada.github.io/projects/creations/rrh/</link>
+      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/posts/reconstruct-site/</guid>
-      <description>Hugoを使ってサイトを再構築してみた． 以前は Jekyll を使っていたが，テーマの変更がものすごくしんどくて嫌になっていた． Hugo だと，テーマの変更は Jekyll よ</description>
+      <guid>https://tamada.github.io/projects/creations/rrh/</guid>
+      <description>There are too many repositories. We love programming; however, to manage many repositories is quite hard and bothersome tasks. Therefore, we built a headquarter for managing the git repositories, named rrh. rrh manages repositories by categorizing in groups and execute git command to the groups.
+I know the tool ghq, manages the git repositories. However, I cannot use it for the following reasons.
+ there are quite many repositories in my home directory.</description>
+    </item>
+    
+    <item>
+      <title>9rules - a tool for checking small object programming</title>
+      <link>https://tamada.github.io/projects/creations/9rules/</link>
+      <pubDate>Sat, 27 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/projects/creations/9rules/</guid>
+      <description>This tool validates the following nine rules for the object oriented programming exercise in Java language.
+A book titled &amp;lsquo;The ThoughtWorks Anthology: Essays on Software Technology and Innovation&amp;rsquo; are published. Chapter 6 in the book introduces object calisthenics for better software design. The rules shown in the book are as follows.
+ Use 1 level of indentation per method (DONE), Do not use the else keyword (DONE), Wrap all primitives and strings (DONE), Use only 1 dot per line (DONE), Do not abbreviate (Not support yet), Keep all entities small,  50 lines in a source file (DONE), 3 lines in a method (DONE), and 10 classses in a package (Not support yet).</description>
+    </item>
+    
+    <item>
+      <title>Search Results</title>
+      <link>https://tamada.github.io/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/search/</guid>
+      <description>This file exists solely to respond to /search URL with the related search layout template.
+No content shown here is rendered, all content is based in the template layouts/page/search.html
+Setting a very low sitemap priority will tell search engines this is not important content.
+This implementation uses Fusejs, jquery and mark.js
+Initial setup Search depends on additional output content type of JSON in config.toml
+[outputs] home = [&amp;quot;HTML&amp;quot;, &amp;quot;JSON&amp;quot;]  Searching additional fileds To search additional fields defined in front matter, you must add it in 2 places.</description>
     </item>
     
   </channel>

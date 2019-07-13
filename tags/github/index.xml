@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GitHub on Haruaki TAMADA</title>
+    <link>https://tamada.github.io/tags/github/</link>
+    <description>Recent content in GitHub on Haruaki TAMADA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 12 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tamada.github.io/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>goheatman - heatmap generator</title>
+      <link>https://tamada.github.io/projects/creations/goheatman/</link>
+      <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/projects/creations/goheatman/</guid>
+      <description>Create heat map image from given csv file. Go language implementation of tamada/heatman.</description>
+    </item>
+    
+    <item>
+      <title>uniq2</title>
+      <link>https://tamada.github.io/projects/creations/uniq2/</link>
+      <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/projects/creations/uniq2/</guid>
+      <description>This tool deletes duplicated lines.
+GNU core utilities have uniq command for deleting duplicate lines. However, uniq command deletes only continuous duplicate lines. When deleting not continuous duplicate lines, we use sort command together, in that case, the order of the list was not kept.
+We want to delete not continuous duplicated lines with remaining the order.</description>
+    </item>
+    
+    <item>
+      <title>rrh - a simple git repository manager</title>
+      <link>https://tamada.github.io/projects/creations/rrh/</link>
+      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/projects/creations/rrh/</guid>
+      <description>There are too many repositories. We love programming; however, to manage many repositories is quite hard and bothersome tasks. Therefore, we built a headquarter for managing the git repositories, named rrh. rrh manages repositories by categorizing in groups and execute git command to the groups.
+I know the tool ghq, manages the git repositories. However, I cannot use it for the following reasons.
+ there are quite many repositories in my home directory.</description>
+    </item>
+    
+    <item>
+      <title>9rules - a tool for checking small object programming</title>
+      <link>https://tamada.github.io/projects/creations/9rules/</link>
+      <pubDate>Sat, 27 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/projects/creations/9rules/</guid>
+      <description>This tool validates the following nine rules for the object oriented programming exercise in Java language.
+A book titled &amp;lsquo;The ThoughtWorks Anthology: Essays on Software Technology and Innovation&amp;rsquo; are published. Chapter 6 in the book introduces object calisthenics for better software design. The rules shown in the book are as follows.
+ Use 1 level of indentation per method (DONE), Do not use the else keyword (DONE), Wrap all primitives and strings (DONE), Use only 1 dot per line (DONE), Do not abbreviate (Not support yet), Keep all entities small,  50 lines in a source file (DONE), 3 lines in a method (DONE), and 10 classses in a package (Not support yet).</description>
+    </item>
+    
+  </channel>
+</rss>
