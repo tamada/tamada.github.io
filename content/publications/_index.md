@@ -8,6 +8,7 @@ A collection of articles, presentations or talks is listed on [the laboratory pa
 The key article papers are as follows.
 
 
+* 横井 昂典，玉田 春昭，''単体テストコードとアスペクト指向を用いた動的バースマークの抽出コストの削減''，情報処理学会論文誌，Vol.60, No.7，pp.1247--1259，July 2019.
 * Koji Toda, Haruaki Tamada, Masahide Nakamura, and Kenichi Matsumoto, “Characterizing Project Evolution on a Social Coding Platform”, In Proc. 20th ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD 2019), pp.525–532, July 2019 (Toyama, Japan).
 * 磯部 陽介，玉田 春昭，”ランダムフォレストを用いた名前難読化の耐タンパ化性能の評価”，情報処理学会論文誌，Vo.60, No.4, pp. 1063–1074, April 2019 (In Japanese).
 * Jun Nakamura, and Haruaki Tamada, “Fast Comparison of Software Birthmarks for Detecting the Theft with the Search Engine,” In Proc. of the 4th International Conference on Applied Computing & Information Technology (ACIT 2016), pp.152–157, December 2016 (UNLV, Las Vegas, NV, USA).
