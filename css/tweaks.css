@@ -100,3 +100,7 @@ div.skills-heading{
     border-left: 4px solid #BD5D38;
     padding-left: 1em;
 }
+
+.my-auto {
+    width: 100%
+}
