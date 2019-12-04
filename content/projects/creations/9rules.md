@@ -1,9 +1,10 @@
 ---
 title: "9rules - a tool for checking small object programming"
 date: "2016-08-27"
-link: https://github.com/tamada/9rules
+image: "https://tamada.github.io/9rules/images/logo.svg"
+link: https://tamada.github.io/9rules
 description: This tool validates the following nine rules for the object oriented programming exercise in Java language.
-tags: ["Java","GitHub","maven","code quality evaluation"]
+tags: ["Java","GitHub","maven","code quality evaluation","Homebrew","bash/shell"]
 featured: true
 ---
 

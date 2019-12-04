@@ -1,8 +1,8 @@
 {
   "title": "rrh - a simple git repository manager",
   "date": "2018-01-05",
-  "image": "/images/rrh.png",
-  "link": "https://github.com/tamada/rrh",
+  "image": "https://tamada.github.io/rrh/images/logo.png",
+  "link": "https://tamada.github.io/rrh",
   "description": "There are too many repositories. We love programming; however, to manage many repositories is quite hard and bothersome tasks. Therefore, we built a headquarter for managing the git repositories, named rrh. rrh manages repositories by categorizing in groups and execute git command to the groups.",
   "tags": ["git","git repository", "golang", "GitHub", "bash/shell", "Homebrew"],
   "fact": "",
