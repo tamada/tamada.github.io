@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Haruaki TAMADA</title>
@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Haruaki TAMADA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 12 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 27 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tamada.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>GitHub</title>
       <link>https://tamada.github.io/tags/github/</link>
-      <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 27 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/tags/github/</guid>
       <description></description>
@@ -23,9 +23,18 @@
     <item>
       <title>Homebrew</title>
       <link>https://tamada.github.io/tags/homebrew/</link>
-      <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 27 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/tags/homebrew/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>macOS</title>
+      <link>https://tamada.github.io/tags/macos/</link>
+      <pubDate>Sat, 27 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/macos/</guid>
       <description></description>
     </item>
     
@@ -75,11 +84,11 @@
     </item>
     
     <item>
-      <title>Java</title>
-      <link>https://tamada.github.io/tags/java/</link>
+      <title>birthmarking</title>
+      <link>https://tamada.github.io/tags/birthmarking/</link>
       <pubDate>Sat, 27 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/tags/java/</guid>
+      <guid>https://tamada.github.io/tags/birthmarking/</guid>
       <description></description>
     </item>
     
@@ -93,11 +102,29 @@
     </item>
     
     <item>
+      <title>Java</title>
+      <link>https://tamada.github.io/tags/java/</link>
+      <pubDate>Sat, 27 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>maven</title>
       <link>https://tamada.github.io/tags/maven/</link>
       <pubDate>Sat, 27 Aug 2016 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/tags/maven/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software theft detection</title>
+      <link>https://tamada.github.io/tags/software-theft-detection/</link>
+      <pubDate>Sat, 27 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/software-theft-detection/</guid>
       <description></description>
     </item>
     
