@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>software theft detection on Haruaki TAMADA</title>
+    <link>https://tamada.github.io/tags/software-theft-detection/</link>
+    <description>Recent content in software theft detection on Haruaki TAMADA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Aug 2016 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tamada.github.io/tags/software-theft-detection/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pochi - Detecting the software theft, the birthmark toolkit for the JVM platform.</title>
+      <link>https://tamada.github.io/projects/creations/pochi/</link>
+      <pubDate>Sat, 27 Aug 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/projects/creations/pochi/</guid>
+      <description>Overview pochi is the birthmarking toolkit for the JVM platform. The birthmarks are the native characteristics extracted from executable programs. Then, pochi compares them and computes the similarities. The resultant similarities shows the copy relation possibilities between two program.</description>
+    </item>
+    
+  </channel>
+</rss>

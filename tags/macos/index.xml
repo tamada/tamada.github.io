@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>macOS on Haruaki TAMADA</title>
+    <link>https://tamada.github.io/tags/macos/</link>
+    <description>Recent content in macOS on Haruaki TAMADA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Jul 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tamada.github.io/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Homebrew - my homebrew receipes</title>
+      <link>https://tamada.github.io/projects/creations/homebrew-brew/</link>
+      <pubDate>Sat, 27 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/projects/creations/homebrew-brew/</guid>
+      <description>This project contains my homebrew receipes. To use the receipes, use brew tap tamada/brew.
+ rrh  Git repository manager.  uniq2  Extended uniq.  heatman  Creating heat map from given csv file.  qrg  QR code generator.  9rules (ninerules)  Checking tool of small object programming for the Java language.  ttt (ttt)  Checking diploma of courses in ISE, KSU.  pochi
+ Detecting the software theft, the birthmark toolkit for the JVM platform.</description>
+    </item>
+    
+  </channel>
+</rss>

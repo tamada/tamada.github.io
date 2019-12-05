@@ -32,7 +32,8 @@ Trekking 山歩きも好きです． 本格的な山登りとは違い，のん�
       
       <guid>https://tamada.github.io/projects/creations/homebrew-brew/</guid>
       <description>This project contains my homebrew receipes. To use the receipes, use brew tap tamada/brew.
- rrh  Git repository manager.   uniq2  Extended uniq.   heatman  Creating heat map from given csv file.   qrg  QR code generator.   9rules (ninerules)  Checking tool of small object programming for the Java language.   ttt (ttt)  Checking diploma of courses in ISE, KSU.</description>
+ rrh  Git repository manager.  uniq2  Extended uniq.  heatman  Creating heat map from given csv file.  qrg  QR code generator.  9rules (ninerules)  Checking tool of small object programming for the Java language.  ttt (ttt)  Checking diploma of courses in ISE, KSU.  pochi
+ Detecting the software theft, the birthmark toolkit for the JVM platform.</description>
     </item>
     
     <item>
@@ -106,7 +107,7 @@ No content shown here is rendered, all content is based in the template layouts/
 Setting a very low sitemap priority will tell search engines this is not important content.
 This implementation uses Fusejs, jquery and mark.js
 Initial setup Search depends on additional output content type of JSON in config.toml
-[outputs] home = [&amp;quot;HTML&amp;quot;, &amp;quot;JSON&amp;quot;] Searching additional fileds To search additional fields defined in front matter, you must add it in 2 places.</description>
+[outputs] home = [&amp;quot;HTML&amp;quot;, &amp;quot;JSON&amp;quot;]  Searching additional fileds To search additional fields defined in front matter, you must add it in 2 places.</description>
     </item>
     
   </channel>
