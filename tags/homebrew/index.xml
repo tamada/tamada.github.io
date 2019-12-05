@@ -18,7 +18,7 @@
       
       <guid>https://tamada.github.io/projects/creations/homebrew-brew/</guid>
       <description>This project contains my homebrew receipes. To use the receipes, use brew tap tamada/brew.
- rrh  Git repository manager.   uniq2  Extended uniq.   heatman  Creating heat map from given csv file.   qrg  QR code generator.   9rules (ninerules)  Checking tool of small object programming for the Java language.   ttt  Checking diploma of courses in ISE, KSU.   pochi  Detecting the software theft, the birthmark toolkit for the JVM platform.</description>
+ rrh      Git repository manager.   uniq2      Extended uniq.   heatman    Creating heat map from given csv file.   qrg    QR code generator.   9rules      Checking tool of small object programming for the Java language.</description>
     </item>
     
     <item>
