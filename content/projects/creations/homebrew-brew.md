@@ -9,7 +9,6 @@ tags: ["macOS","Homebrew","GitHub"]
 featured: true
 ---
 
-
 This project contains my homebrew receipes.
 To use the receipes, use `brew tap tamada/brew`.
 
@@ -23,11 +22,10 @@ To use the receipes, use `brew tap tamada/brew`.
     * QR code generator.
 * [9rules](https://github.com/tamada/9rules) (ninerules)
     * Checking tool of small object programming for the Java language.
-* [ttt](https://github.com/tamada/ttt) (ttt)
+* [ttt](https://github.com/tamada/ttt)
     * Checking diploma of courses in ISE, KSU.
 * [pochi](https://github.com/tamada/pochi)
     * Detecting the software theft, the birthmark toolkit for the JVM platform.
-
 
 
 ```sh
@@ -40,3 +38,4 @@ $ brew install ninerules # <- 9rules
 $ brew install ttt
 $ brew install pochi
 ```
+
