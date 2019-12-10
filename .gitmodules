@@ -4,3 +4,15 @@
 [submodule "themes/hugo-resume"]
 	path = themes/hugo-resume
 	url = https://github.com/eddiewebb/hugo-resume.git
+[submodule "themes/hugo-cards"]
+	path = themes/hugo-cards
+	url = https://github.com/bul-ikana/hugo-cards.git
+[submodule "themes/hestia-pure"]
+	path = themes/hestia-pure
+	url = https://github.com/diwao/hestia-pure.git
+[submodule "themes/syna"]
+	path = themes/syna
+	url = https://github.com/okkur/syna.git
+[submodule "themes/hugo-theme-dream"]
+	path = themes/hugo-theme-dream
+	url = https://github.com/g1eny0ung/hugo-theme-dream.git

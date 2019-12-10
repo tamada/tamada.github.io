@@ -1,50 +1,26 @@
 baseURL = "https://tamada.github.io/"
 languageCode = "en-us"
 title = "Haruaki TAMADA"
-theme = "hugo-resume"
+theme = "hugo-theme-dream"
+pagenate = 9
+
+googleAnalytics = "UA-62401730-5"
+copyright = "Haruaki Tamada"
 
 [params]
-    firstName = "Haruaki"
-    lastName = "TAMADA"
-    address = "Kyoto-pref, Japan"
-    phone = ""
-    contactNote = "Associate Professor, Ph.D (Engineering)"
-    profileImage = "images/harry.jpg"
-    email = "tamada@cc.kyoto-su.ac.jp"
-    description = "Associate Professor, Ph.D (Engineering)."
-    favicon = "images/favicon.ico"
-    # what sections
-    showSkills = true
-    showProjects = true
-    showOpenSource = false
-    showPublications = true
-    showExperience = true
-    showEducation = true
+    author = "Haruaki Tamada"
+    avatar = "/images/harry.jpg"
+    motto = "人事が万事塞翁が馬, Que Sera, Sera"
+    
+    background = "black"
+    linkColor = "seagreen"
 
-    showQr = false
+    twitter = "tama5"
+    github = "tamada"
+    email = "tamada@cafebabe.jp"
 
-    gitCommitPrefix = "https://github.com/tamada/wwwdraft/commit/"
+    siteStartYear = 2007
 
-[[params.handles]]
-    name = "GitHub"
-    link = "https://github.com/tamada/"
-
-[[params.handles]]
-    name = "Twitter"
-    link = "https://twitter.com/tama5/"
-
-[[params.handles]]
-    name = "Bitbucket"
-    link = "https://bitbucket.org/htamada/"
-
-[[params.handles]]
-    name = "Docker Hub"
-    link = "https://hub.docker.com/u/tamada/"
-
-[[params.handles]]
-    name = "Keybase"
-    link = "https://keybase.io/tamada"
-    icon = "keybase"
-
-[params.google.analytics]
-    trackerID = "UA-62401730-5"
+    darkLinkColor = "darkseagreen"
+    darkNav = true
+    dark404Button = true

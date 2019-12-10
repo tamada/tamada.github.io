@@ -1,8 +1,8 @@
 ---
 title: "Hobbies"
-weight: 3
 date: 2019-07-13
 draft: false
+categories: ['profiles']
 ---
 
 My hobbies are:
@@ -11,6 +11,8 @@ My hobbies are:
 * Taking vacation on Okinawa islands,
 * Programming, and 
 * Trekking.
+
+<!--more-->
 
 ## Drinking Beer
 

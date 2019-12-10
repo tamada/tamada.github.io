@@ -1,11 +1,13 @@
 ---
 title: "Publications"
-sitemap:
-  priority : 0.6
+date: 2019-12-10
+categories: ['publications', 'work']
 ---
 
 A collection of articles, presentations or talks is listed on [the laboratory page](https://tamadalab.github.io/papers/) (pdfs are available).
 The key article papers are as follows.
+
+<!--more-->
 
 * 中村 潤，玉田 春昭，''大量のソフトウェアを対象にしたソフトウェアバースマークによる盗用検出 〜全文検索システムを用いた検査対象の絞り込み手法〜''，情報処理学会論文誌，Vol.61, No.2, Feburary 2020（to appear）．
 * 横井 昂典，玉田 春昭，''単体テストコードとアスペクト指向を用いた動的バースマークの抽出コストの削減''，情報処理学会論文誌，Vol.60, No.7，pp.1247--1259，July 2019.
