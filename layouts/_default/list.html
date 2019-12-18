@@ -10,12 +10,12 @@
     {{ $paginator := .Paginate (where .Site.RegularPages "Section" $base ) }}
     {{ range $paginator.Pages }}   
       <div class="col-md-4 card">
-        <a href="{{ .Permalink }}" class="index-anchor">
+        <a href="{{ .Permalink | relURL }}" class="index-anchor">
           <div class="panel panel-default">
             {{ if .Params.img }}
-              <img width="100%" src="{{ .Site.BaseURL }}images/{{ .Params.img }}" alt="{{ .Title }}">
+              <img width="100%" src="{{ .Site.BaseURL | relURL }}images/{{ .Params.img }}" alt="{{ .Title }}">
             {{ else }}
-              <img width="100%" src="{{ .Site.BaseURL }}images/{{ .Site.Params.defaultImage }}" alt="{{ .Site.Title }}">
+              <img width="100%" src="{{ .Site.BaseURL | relURL }}images/{{ .Site.Params.defaultImage }}" alt="{{ .Site.Title }}">
             {{ end }}
               <div class="panel-body">
                 <h3 class="panel-title pull-left">{{ .Title | truncate 25 }}</h3>
@@ -39,7 +39,7 @@
         {{ if gt .Paginator.TotalPages 1 }}
         <ul class="pagination">
           {{ if .Paginator.HasPrev }}
-            <li><a href="{{ .Paginator.Prev.URL }}">&laquo; Prev</a></li>
+            <li><a href="{{ .Paginator.Prev.URL | relURL }}">&laquo; Prev</a></li>
           {{ else }}
             <li><span>&laquo; Prev</span></li>
           {{ end }}
@@ -51,12 +51,12 @@
             {{ if eq .PageNumber ($scratch.Get "current") }}
               <li class="active"><span><em>{{ .PageNumber }}</em></span></li>
             {{ else }}
-            <li><a href="{{ .URL }}">{{ .PageNumber }}</a></li>
+            <li><a href="{{ .URL | relURL }}">{{ .PageNumber }}</a></li>
             {{ end }}
           {{ end }}
 
           {{ if .Paginator.HasNext }}
-            <li><a href="{{ .Paginator.Next.URL }}">Next &raquo;</a></li>
+            <li><a href="{{ .Paginator.Next.URL | relURL }}">Next &raquo;</a></li>
           {{ else }}
             <li><span >Next &raquo;</span></li>
           {{ end }}
