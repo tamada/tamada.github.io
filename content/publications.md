@@ -1,6 +1,7 @@
 ---
 title: "Publications"
 date: 2019-12-10
+img: articles.svg
 categories: ['publications', 'work']
 ---
 

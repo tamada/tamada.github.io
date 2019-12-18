@@ -7,12 +7,10 @@ categories: ['profiles']
 
 My hobbies are:
 
-* Drinking Beer,
-* Taking vacation on Okinawa islands,
-* Programming, and 
-* Trekking.
-
-<!--more-->
+* {{< emoji ":beer:" >}} [Drinking Beer](#drinking-beer),
+* {{< emoji ":island:" >}} [Taking vacation on Okinawa islands](#taking-vacation-on-okinawa-island),
+* {{< emoji ":computer:" >}} [Programming](#programming), and 
+* [Trekking](trekking).
 
 ## Drinking Beer
 
@@ -25,6 +23,9 @@ I dream to brew own beer.
 最近は1年に1度は沖縄に行っている気がします．
 
 ## Programming
+
+I love programming, my favorit languages are: Go-lang {{< devicons icon="go" >}}, JavaScript {{< devicons icon="js" >}}, and Java {{< devicons icon="java" >}}.
+
 
 何かツールを作ろうと思い立ったら１〜３週間程度で作り上げている気がします．
 コマンドラインのツールがほとんどですが，多くは [GitHub](http://github.com/tamada) にて公開しています．

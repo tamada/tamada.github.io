@@ -2,7 +2,6 @@
 layout: post
 title: uniq2
 categories: ['projects', 'homebrew']
-cover: /images/prost.png
 tags: ["GitHub", "go", "utility"]
 date: 2019-07-13
 ---

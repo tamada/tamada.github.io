@@ -2,7 +2,6 @@
 layout: post
 title: ttt
 categories: ['projects', 'homebrew']
-cover: /images/prost.png
 hasCJKLanguage: true
 tags: ["GitHub", "go", "utility", "Kyoto Sangyo University"]
 date: 2019-11-06

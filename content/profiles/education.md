@@ -7,8 +7,6 @@ categories: ['profiles']
 
 ## {{< emoji ":mortar_board:" >}} Education
 
-<!--more-->
-
 ### DOCTOR OF ENGINEERING.
 
 * Graduate School of Information Science, Nara Institute of Science and Technology (NAIST)

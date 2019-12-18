@@ -1,26 +1,19 @@
 baseURL = "https://tamada.github.io/"
 languageCode = "en-us"
 title = "Haruaki TAMADA"
-theme = "hugo-theme-dream"
+theme = "hugo-cards"
 pagenate = 9
 
 googleAnalytics = "UA-62401730-5"
-copyright = "Haruaki Tamada"
 
 [params]
-    author = "Haruaki Tamada"
-    avatar = "/images/harry.jpg"
-    motto = "人事が万事塞翁が馬, Que Sera, Sera"
-    
-    background = "black"
-    linkColor = "seagreen"
+    buildBy = "Haruaki Tamada"
+    defaultimage = "prost.png"
+    avatarIcon = "harry.jpg"
 
-    twitter = "tama5"
-    github = "tamada"
-    email = "tamada@cafebabe.jp"
+    twitter = "https://twitter.com/tama5"
+    github = "https://github.com/tamada"
 
-    siteStartYear = 2007
-
-    darkLinkColor = "darkseagreen"
-    darkNav = true
-    dark404Button = true
+[params.copyright]
+    name = "tamada"
+    link = "https://tamada.github.io/"

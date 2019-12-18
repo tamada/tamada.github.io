@@ -2,7 +2,7 @@
 layout: post
 title: heatman
 categories: ['projects', 'homebrew']
-cover: /images/goheatman.svg
+img: goheatman.svg
 tags: ["GitHub", "git", "go"]
 date: 2019-06-29
 ---

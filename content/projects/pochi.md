@@ -2,7 +2,7 @@
 layout: post
 title: pochi
 categories: ['projects', 'homebrew']
-cover: /images/pochi.png
+img: pochi.png
 tags: ["GitHub", "git", "theft detection", "java", "birthmarks"]
 date: 2019-12-04
 ---

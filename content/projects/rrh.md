@@ -2,7 +2,7 @@
 layout: post
 title: rrh
 categories: ['projects', 'homebrew']
-cover: /images/rrh.png
+img: rrh.png
 tags: ["GitHub", "git", "repository management", "go"]
 date: 2019-07-13
 ---
