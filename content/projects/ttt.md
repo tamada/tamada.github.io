@@ -25,7 +25,7 @@ $ brew install ttt
 
 ### {{< emoji ":spouting_whale:" >}} Docker
 
-* `tamada/ttt` (https://hub.docker.com/repository/docker/tamada/ttt)
+* `tamada/ttt` (https://hub.docker.com/r/tamada/ttt)
     * `1.0.0`, `latest`
 
 ### {{< emoji ":globe_with_meridians:" >}} Web pages

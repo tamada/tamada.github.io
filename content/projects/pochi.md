@@ -25,7 +25,7 @@ $ brew install pochi
 
 ### {{< emoji ":spouting_whale:" >}} Docker
 
-* `tamada/pochi` (https://hub.docker.com/repository/docker/tamada/pochi)
+* `tamada/pochi` (https://hub.docker.com/r/tamada/pochi)
     * `1.0.0`, `latest`
 
 ```sh

@@ -2,6 +2,7 @@
 layout: post
 title: "Activities"
 categories: ['profiles', 'work']
+img: CX198_L.jpg
 date: 2019-07-13
 ---
 

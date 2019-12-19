@@ -1,12 +1,12 @@
 ---
-title: "Skills"
+title: ":muscle: Skills"
 date: 2019-12-18
-img: 
+img: CM045_L.jpg
 draft: false
 categories: ['profiles']
 ---
 
-## {{< fontawesome icon="fa fa-terminal" >}} Languages
+## {{< emoji ":apple:" >}} Languages
 
 * {{< emoji ":jp:" >}} Japanese
 * {{< emoji ":us:" >}} English
@@ -15,7 +15,7 @@ categories: ['profiles']
 * {{< devicons icon="javascript" >}} JavaScript 
 * {{< devicons icon="c" >}} C
 
-## Others
+## {{< emoji ":crystal_ball:" >}} Others
 
 * {{< devicons icon="docker" >}} Docker
 * {{< devicons icon="git" >}} Git

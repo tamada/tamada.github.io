@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Education
+title: ":mortar_board: Education"
 date: 2019-12-10
+img: DL196_L.jpg
 categories: ['profiles']
 ---
-
-## {{< emoji ":mortar_board:" >}} Education
 
 ### DOCTOR OF ENGINEERING.
 

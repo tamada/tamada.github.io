@@ -9,7 +9,7 @@ googleAnalytics = "UA-62401730-5"
 [params]
     buildBy = "Haruaki Tamada"
     defaultimage = "prost.png"
-    avatarIcon = "harry.jpg"
+    avatarIcon = "harry.png"
 
     twitter = "https://twitter.com/tama5"
     github = "https://github.com/tamada"

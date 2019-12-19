@@ -49,7 +49,7 @@ $ brew install ninerules
 
 ### {{< emoji ":spouting_whale:" >}} Docker
 
-* `tamada/9rules` (https://hub.docker.com/repository/docker/tamada/9rules)
+* `tamada/9rules` (https://hub.docker.com/r/tamada/9rules)
     * `1.0.0-v2`, `latest`
     * `1.0.0`
 

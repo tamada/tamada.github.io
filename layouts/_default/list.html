@@ -2,7 +2,7 @@
 
 <div class="home">
   {{ $base := path.Base .File.Dir }}
-  <h1 class="post-title" itemprop="name headline">{{ .Title }}</h1>
+  <h1 class="post-title" itemprop="name headline">{{ .Title | emojify }}</h1>
   <div class="post-content" itemprop="articleBody">
     {{ .Content }}
   </div>
@@ -18,7 +18,7 @@
               <img width="100%" src="{{ .Site.BaseURL | relURL }}images/{{ .Site.Params.defaultImage }}" alt="{{ .Site.Title }}">
             {{ end }}
               <div class="panel-body">
-                <h3 class="panel-title pull-left">{{ .Title | truncate 25 }}</h3>
+                <h3 class="panel-title pull-left">{{ .Title | emojify | truncate 25 }}</h3>
                 <span class="post-meta pull-right">
                   <small>{{ .Date.Format "January 2, 2006" }}</small>
                 </span>

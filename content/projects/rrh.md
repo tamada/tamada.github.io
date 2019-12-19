@@ -13,8 +13,6 @@ date: 2019-07-13
 
 There are too many repositories. We love programming; however, to manage many repositories is quite hard and bothersome tasks. Therefore, we built a headquarter for managing the git repositories, named `rrh`. `rrh` manages repositories by categorizing in groups and execute git command to the groups.
 
-<!--more-->
-
 I know the tool `ghq`, manages the git repositories. However, I cannot use it for the following reasons.
 
 there are quite many repositories in my home directory.

@@ -12,7 +12,7 @@
     <ul>
       {{ range first 3 .Site.RegularPages }}
       <li>
-        <p><a href="{{ .Permalink | relURL }}">{{ .Title }}</a><small>&nbsp;&nbsp;{{ .Date.Format "January 2, 2006" }}</small></p>
+        <p><a href="{{ .Permalink | relURL }}">{{ .Title | emojify }}</a><small>&nbsp;&nbsp;{{ .Date.Format "January 2, 2006" }}</small></p>
       </li>
       {{ end }}
     </ul>

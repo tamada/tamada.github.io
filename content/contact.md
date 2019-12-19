@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Contact me
+title: ":phone: Contact me"
 img: contact.svg
 date: 2019-12-04
 ---

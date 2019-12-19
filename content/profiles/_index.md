@@ -1,7 +1,6 @@
 ---
 layout: post
-title: Profiles
-img: profile.svg
+title: ":bust_in_silhouette: Profiles"
 date: 2019-12-10
 categories: ['profiles']
 ---
@@ -12,4 +11,3 @@ categories: ['profiles']
 * Programmer/Software Engineer
 * Research Area
     * Empirical Software Engineering, Software Protection, Secure Programming, Software Birthmarking, Program Obfuscation, Program Obfuscation Evaluation, and Program Readability Evaluation.
-    * [see the laboratory pages for more detail](https://tamadalab.github.io/research).
