@@ -4,14 +4,12 @@ date: 2019-07-13
 img: harry.jpg
 ---
 
-* [Profile](profile)
+* [Profiles](profiles)
+    * Introduce myself.
 * [Publications](publications)
-    * publications list.
-* [Activities](activities)
-    * My activities.
-* [Experiences](experiences)
-    * My job histories.
-* [Education](education)
-    * My educational history.
+    * Key papers of my publications.
+	The full list is available on [my laboratory page](https://tamadalab.github.io/papers).
 * [Projects](projects)
-    * My created projects.
+    * Project list by myself.  All projects are hosted on [GitHub {{< devicons icon="github" >}}](https://github.com/tamada) 
+* {{< emoji ":telephone:" >}} [Contact](contact)
+    * Contact information.

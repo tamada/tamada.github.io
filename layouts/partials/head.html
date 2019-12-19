@@ -9,4 +9,5 @@
 {{ $main := resources.Get "sass/main.scss" | resources.ToCSS (dict "outputStyle" "compressed")}}
 <link rel="stylesheet" href="{{ $main.RelPermalink | relURL }}">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 </head>
