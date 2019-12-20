@@ -1,8 +1,8 @@
 ---
 title: "Evaluating obfuscation method by Kolmogorov complexity"
 date: 2013-09-01
-img: research/obfuscation_dnr.png
-categories: ['obfuscation','reflection API', 'dynamic name resolution']
+img: research/kolmogorov_complexity.png
+categories: ['kolmogorov complexity','evaluation of obfuscation', 'entropy']
 ---
 
 ### {{< emoji ":speaking_head:" >}} Overview

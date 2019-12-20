@@ -1,7 +1,7 @@
 ---
-title: "Obfuscation by method folding"
+title: "Method folding obfuscation"
 date: 2013-07-01
-img: research/shuffle_stack_status.png
+img: research/method_folding.png
 categories: ['obfuscation','method folding','Java 7']
 ---
 

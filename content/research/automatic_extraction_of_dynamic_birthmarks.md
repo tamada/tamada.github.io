@@ -1,7 +1,7 @@
 ---
 title: "Auto-extraction of Dynamic Birthmarks"
 date: 2019-07-15
-img: research/fasten_birthmark_comparison.png
+img: research/auto-extraction_of_dynamic_birthmarks.png
 categories: ['birthmarks','theft detection','software theft','auto extraction', 'aspect oriented programming']
 ---
 
