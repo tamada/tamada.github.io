@@ -2,7 +2,7 @@ baseURL = "https://tamada.github.io/"
 languageCode = "en-us"
 title = "Haruaki TAMADA"
 theme = "hugo-cards"
-pagenate = 9
+pagenate = 12
 
 googleAnalytics = "UA-62401730-5"
 
