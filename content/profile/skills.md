@@ -3,7 +3,7 @@ title: ":muscle: Skills"
 date: 2019-12-18
 img: CM045_L.jpg
 draft: false
-categories: ['profiles']
+categories: ['profile']
 ---
 
 ## {{< emoji ":apple:" >}} Languages

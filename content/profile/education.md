@@ -3,7 +3,7 @@ layout: post
 title: ":mortar_board: Education"
 date: 2019-12-10
 img: DL196_L.jpg
-categories: ['profiles']
+categories: ['profile']
 ---
 
 ### DOCTOR OF ENGINEERING.

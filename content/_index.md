@@ -4,7 +4,7 @@ date: 2019-07-13
 img: harry.png
 ---
 
-* [{{< emoji ":bust_in_silhouette:" >}} Profiles](profiles)
+* [{{< emoji ":bust_in_silhouette:" >}} Profile](profile)
     * Introduce myself.
 * [{{< emoji ":books:" >}} Publications](publications)
     * Key papers of my publications.

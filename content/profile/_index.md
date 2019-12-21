@@ -2,7 +2,7 @@
 layout: post
 title: ":bust_in_silhouette: Profiles"
 date: 2019-12-10
-categories: ['profiles']
+categories: ['profile']
 ---
 
 * Doctor of Engineering

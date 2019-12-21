@@ -3,7 +3,7 @@ title: "Hobbies"
 date: 2019-07-13
 draft: false
 img: EC064_L.jpg
-categories: ['profiles']
+categories: ['profile']
 ---
 
 My hobbies are:
