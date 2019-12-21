@@ -2,11 +2,20 @@
 title: "Method folding obfuscation"
 date: 2013-07-01
 img: research/method_folding.png
-categories: ['obfuscation','method folding','Java 7']
+categories: ['obfuscation','method folding','instruction folding', 'Java 7']
 ---
 
 ### {{< emoji ":speaking_head:" >}} Overview
 
+To improve tamper resistance of programs against illegal modification, this paper proposes *instruction folding* applicable to Java platform.
+
+In the proposed method, at first, similar methods are selected in a Java program.
+Next, these methods are merged into one method and diffs among these methods are stored in the program.
+Then, at runtime, when one of the merged methods is executed, diffs are restored by self-modification, which is realized by the Java instrumentation mechanism.
+The proposed method is resilient against tampering of folded method.
+Even if an adversary modifies the folded method, the program goes crash because the method is repeatedly modified at runtime.
+
+(Abstract from SNPD 2013)
 
 
 ### {{< emoji ":books:" >}} Publications

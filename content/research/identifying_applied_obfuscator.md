@@ -7,7 +7,20 @@ categories: ['identify','obfuscator','opcodes']
 
 ### {{< emoji ":speaking_head:" >}} Overview
 
+Recently, to prevent cracking, the various protection methods have been proposed.
+One of the protection methods is the obfuscation method.
+Obfuscation method changes the program into hard to understand for hiding secret information in the program.
 
+On the other hand, de-obfuscation is an interesting research topic for protecting the software.
+Since, though vulnerable protection methods are dangerous, measuring the robustness of the method was not discussed.
+
+In this paper, we tackle to identify the applied obfuscation methods towards de-obfuscation.
+To perform de-obfuscation requires a suitable method for each obfuscation method.
+For this, we obfuscated programs by two practical tools and three algorithms from one academic tool.
+Then, we analyzed the programs and extracted characteristics from them based on opcodes.
+By using the proposed method, we could identify the applied obfuscation method.
+
+(Abstract from ICIS 2016)
 
 ### {{< emoji ":books:" >}} Publications
 

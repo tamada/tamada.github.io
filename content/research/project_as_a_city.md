@@ -7,6 +7,13 @@ categories: ['project','GitHub','project metrics','smart city','project analysis
 
 ### {{< emoji ":speaking_head:" >}} Overview
 
+Social coding platforms (SCPs) have realized *spontaneous software evolution*, where new source code and ideas are spontaneously proposed by altruistic developers.
+Although there are many projects operated by active communities performing spontaneous evolution, it is yet unclear that how such successful projects and communities have been formed and governed.
+In this paper, we propose a method that can investigate the history of every project in the SCP.
+Introducing the concept of *project as a city*, we consider every project in the SCP as a city, where a government and citizens develop a city through collaborative activities.
+We then identify essential attributes that characterize a state of a city.
+For each attribute, we develop metrics that quantify the state $S(p,t)$ of a project $p$ at time $t$.
+An experimental evaluation investigating GitHub projects of famous code editors shows that the proposed metrics well visualize the history of the projects from essential perspectives of a city.
 
 
 ### {{< emoji ":books:" >}} Publications

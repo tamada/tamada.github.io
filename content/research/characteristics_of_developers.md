@@ -7,7 +7,18 @@ categories: ['characteristics of developers','development history', 'project ana
 
 ### {{< emoji ":speaking_head:" >}} Overview
 
+In software development, multiple developers compose a team, and perform a development process.
+To succeed the development, understanding developers' characteristics are needed.
+However, there is no way to measure the characteristics of the developer by quantitative analysis.
+Therefore, a project manager often assigns team members based on his/her own sense, considering experience year of them.
 
+This paper proposes a measurement framework for developers' characteristics using quantitative historical data.
+The proposed framework is useful for measuring developers' characteristics and building a team based on quantitative analysis.
+
+We collected historical data from a PBL project for graduate students, and applied our framework to the collected data.
+As a result, our framework measured developers' characteristics suitability in our subjective view.
+
+(Abstract from ACIT 2015)
 
 ### {{< emoji ":books:" >}} Publications
 

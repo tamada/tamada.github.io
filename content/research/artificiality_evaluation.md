@@ -7,7 +7,9 @@ categories: ['obfuscation', 'stealthiness', 'artificiality']
 
 ### {{< emoji ":speaking_head:" >}} Overview
 
-
+This research topic tries to evaluate the artificialities of the obfuscated programs.
+We believe that the obfuscation changes the programs into unordinal ones.
+This topics evaluates the artificialities by *tf-idf* and perplexities.
 
 ### {{< emoji ":books:" >}} Publications
 

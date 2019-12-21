@@ -7,7 +7,9 @@ categories: ['bot','support development']
 
 ### {{< emoji ":speaking_head:" >}} Overview
 
-
+This research topic aims to build a helpful bot for the software development.
+Also, the topic focuses on the bot on the Social Coding Platform in the social network services.
+The one goal of the topic is to build a bot for gently helping GitHub flow.
 
 ### {{< emoji ":books:" >}} Publications
 

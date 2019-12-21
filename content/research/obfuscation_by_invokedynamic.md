@@ -7,6 +7,18 @@ categories: ['obfuscation','Java 7','invokedynamic']
 
 ### {{< emoji ":speaking_head:" >}} Overview
 
+This paper proposes an obfuscation method against illegal analysis.
+The proposed method tries to build a fake call flow graph from debugging tools.
+The call flow graph represents relations among methods and helps understanding of a program.
+The fake call flow graph leads misunderstanding of the program.
+We focus on a hook mechanism of the method call for changing a callee.
+We conduct two experiments to evaluate the proposed method.
+First experiment simulates attacks by existing tools: Soot, jad, Procyon, and Krakatau.
+The Procyon only succeeded decompilation, the others crashed.
+Second experiment evaluates understandability of the obfuscated program by the hand.
+Only one subject in the nine subjects answered the correct value.
+The experiments shows the proposed method has good tolerance against existing tools, and high difficulty of understanding even if the target program is tiny and simple program.
+(Abstract from IJSI 2015)
 
 
 ### {{< emoji ":books:" >}} Publications

@@ -7,7 +7,16 @@ categories: ['dynamic birthmarks','theft detection','software theft', 'method ca
 
 ### {{< emoji ":speaking_head:" >}} Overview
 
+This paper presents a technique of dynamic software birthmarks to support efficient detection of software theft.
+A dynamic birthmark $f(p, I)$ is a set of unique and native characteristics of a program $p$, obtained by executing $p$ with a given input $I$. 
+For a pair of
+software $p$ and $q$, if $f(p, I) = f(q, I)$ holds, $q$ is suspected as a copy of $p$.
+In this paper, we propose two kinds of dynamic birthmarks, EXESEQ and EXEFREQ which use execution order and frequency distribution of runtime API Calls.
+In the first experiment, we applied the proposed birthmarks to the same-purpose applications.
+As a result, it was shown that an application and its extended version have quite similar birthmarks, and that the applications that are independently implemented possess significantly different birthmarks.
+The second experiment showed that the proposed birthmarks achieve the strong resilience against the usage of different compilers and optimizations.
 
+(Abstract from IEICE Transaction 2006)
 
 ### {{< emoji ":books:" >}} Publications
 

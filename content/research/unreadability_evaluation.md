@@ -2,12 +2,19 @@
 title: "Unreadability evaluation by mental simulation model"
 date: 2012-09-24
 img: research/mental_simulation.png
-categories: ['programming course','snapshots']
+categories: ['unreadable evaluation','obfuscated programs', 'mental simulation']
 ---
 
 ### {{< emoji ":speaking_head:" >}} Overview
 
+Obfuscation methods were proposed for protecting programs from cracking.
+These methods convert program into incomprehensible one, such as change symbol names from meaningful to meaningless.
+As a result, secret information in the program can be hidden.
+However, obfuscation methods are not evaluated sufficiently.
+This paper evaluates incomprehensibility of the obfuscated programs using queue based virtual mental simulation model (VMSM) which is focused on short term memory in program comprehension.
+An experimental evaluation showed that VMSM was able to evaluate the incomprehensibility of data and control flow obfuscation methods.
 
+(Abstract from SNPD 2012)
 
 ### {{< emoji ":books:" >}} Publications
 

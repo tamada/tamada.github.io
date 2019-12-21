@@ -7,6 +7,16 @@ categories: ['programming course','snapshots']
 
 ### {{< emoji ":speaking_head:" >}} Overview
 
+It is crucial for educators to understand pitfalls for novice programmers in programming education at computer science course.
+By giving well-timed advice to students who fall into a pitfall, educators are able to achieve efficient teaching and keep up their students' motivation.
+However, so far, it is less well-understood how novice students edit source code and why they fall into a pitfall.
+In this paper, we analyzed coding patterns of novice students empirically.
+We collected programming activities by students on exercises of programming course, and then performed qualitative and quantitative analysis.
+In qualitative analysis, experienced programmers analyzed patterns of the novice programmers manually.
+In quantitative analysis, we focused on transtions of the edit distance between a source code of each student under development and a correct source code in a programming class.
+As a result, we confirmed coding patterns of novice programmers in case of falling into pitfalls, and the characteristics of transitions of edit distance metric in the case that novice students had faced difficulty in understanding the exercise.
+
+(Abstract from IWESEP 2012)
 
 
 ### {{< emoji ":books:" >}} Publications

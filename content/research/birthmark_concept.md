@@ -7,8 +7,17 @@ categories: ['birthmarks','theft detection','software theft']
 
 ### {{< emoji ":speaking_head:" >}} Overview
 
-This research topic was propose the concept of software birthmarks for detecting the software theft.
-Before the research topic, to detecting the software theft was essentially hard task.
+To detect the theft of Java class files efficiently, we propose a concept of *Java birthmarks*, which are unique and native characteristics of every class file.
+For a pair of class files $p$ and $q$, if $q$ has the same birthmark as $p$'s, $q$ is suspected as a *copy* of $p$.
+Ideally, the birthmarks should satisfy the following properties: (a) *preservation* -- the birthmarks should be preserved even if the original class file is tampered with, and (b) *distinction* -- independent class files must be distinguished by completely different birthmarks.
+Taking (a) and (b) into account, we propose four types of birthmarks for Java class files.
+
+To show the effectiveness of the proposed birthmarks, we conduct three experiments.
+In the first experiment, we demonstrate that the proposed birthmarks are sufficiently robust against automatic program transformation (93.3876\% of the birthmarks were preserved).
+The second experiment shows that the proposed birthmarks successfully distinguish non-copied files in a practical Java application (97.8005\% of given class files were distinguished).
+In the third experiment, we exploit different Java compilers to confirm that the proposed Java birthmarks are core characteristics independent of compiler-specific issues.
+
+(Abstract from IEICE 2005)
 
 
 ### {{< emoji ":books:" >}} Publications

@@ -7,7 +7,24 @@ categories: ['birthmarks','theft detection','software theft','fast comparison']
 
 ### {{< emoji ":speaking_head:" >}} Overview
 
+The software birthmarks were proposed for detecting the software theft from a large number of suspected programs.
+The birthmark is a technique to compare the extracted characteristics as the software birthmarks, and compute similarities between two birthmarks.
+The conventional birthmarks require a much time by increasing the target programs for comparison.
+Therefore, it is the bottleneck of the conventional birthmarking technique.
+In this paper, we propose a method for reducing total processing time by introducing the narrowing phase between conventional extracting and comparison phases.
+The narrowing phase employs the fast but rough comparison algorithm in order to eliminate unrelated programs.
 
+We developed the narrowing system for the birthmark, named \mituba, then conducted the experimental evaluation with \mituba.
+The evaluation points are required time, narrowing rate, false negatives, false positives, accuracy, and preservation property of the birthmarks.
+The results are, in the threshold for deciding the theft is $0.2$, the required time reduced to 20%, the system successfully narrowed 80% programs.
+The false negatives in the rest of the programs are about 80%, it was quite high.
+However, the false positives were 0%, and the accuracies were over 70%.
+Additionally, the proposed method satisfied the preservation property by 80% in the strongest obfuscation method in the experiments.
+The results were totally quite well.
+From the results of the experimental evaluations, we discussed the suitable threshold.
+In ordinal case, the suitable threshold is $0.6$, however, the proposed method is acceptable in the threshold is $0.2$ in the user's discretion.
+
+(Abstract from IPSJ journal 2019)
 
 ### {{< emoji ":books:" >}} Publications
 

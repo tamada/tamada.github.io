@@ -7,10 +7,14 @@ categories: ['software repository','mining']
 
 ### {{< emoji ":speaking_head:" >}} Overview
 
+This topic is for mining software repositories.
+The following surveys were done.
 
+* why do the developers update the build files in the project, and
+* how to build the obliging bots for supporting next action.
 
 ### {{< emoji ":books:" >}} Publications
 
 * 鐘ヶ江 由佳，玉田 春昭，畑 秀明，”GitHubにおける言語ごとのビルドファイルの更新理由調査”， 研究報告ソフトウェア工学（SE）, Vol. 2017-SE-196, No.28, July 2017.
-* Akira Inokuchi, Haruaki Tamada, Hideaki Hata, and Masateru Tsunoda, “Toward Obliging Bots for Supporting Next Actions,” In Proc. of the 4th International Conference on Applied Computing & Information Technology (ACIT 2016), pp. 183–188, December 2016 (UNLV, Las Vegas, NV, USA).
+* Akira Inokuchi, Haruaki Tamada, Hideaki Hata, and Masateru Tsunoda, "Toward Obliging Bots for Supporting Next Actions," In Proc. of the 4th International Conference on Applied Computing & Information Technology (ACIT 2016), pp. 183–188, December 2016 (UNLV, Las Vegas, NV, USA).
 

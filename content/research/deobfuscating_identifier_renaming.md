@@ -7,7 +7,17 @@ categories: ['de-obfuscation','obfuscation','identifier renaming']
 
 ### {{< emoji ":speaking_head:" >}} Overview
 
+The obfuscation methods are often used to hide sensitive information in software.
+Especially, an identifier renaming method (IRM) is well used because it is easy to implement.
+IRM is one of the obfuscation methods, and to change the names of function, and variables into meaningless one.
+However, if we can restore the identifiers to the original names, IRM is invalidated.
+One of the serious problems about IRM is that the tolerance against de-obfuscation is not discussed. 
+This paper tries to de-obfuscate IRMed programs.
+Thereby, this paper evaluates the tolerance and effectiveness of IRM.
+From the experimental evaluation, the proposed method can restore the 49.71 % of method names to the original verbs.
+Furthermore, focusing on the meanings of verbs, the proposed method recommends the verbs of similar meanings to the original verbs in 57.01 % of methods.
 
+(Abstract from SNPD 2018)
 
 ### {{< emoji ":books:" >}} Publications
 

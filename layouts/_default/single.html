@@ -20,10 +20,10 @@
   <div class="row">
     <ul class="pager">
       {{ with .NextPage }}
-      <li><a class="next" href="{{ .Permalink }}">&laquo; {{ .Title | emojify }}</a></li>
+      <li><a class="next" href="{{ .Permalink | relURL }}">&laquo; {{ .Title | emojify }}</a></li>
       {{ end }}
       {{ with .PrevPage }}
-      <li><a class="previous" href="{{ .Permalink }}">{{ .Title | emojify }} &raquo;</a></li>
+      <li><a class="previous" href="{{ .Permalink | relURL }}">{{ .Title | emojify }} &raquo;</a></li>
       {{ end }}
     </ul>
   </div>

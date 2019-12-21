@@ -7,7 +7,14 @@ categories: ['kolmogorov complexity','evaluation of obfuscation', 'entropy']
 
 ### {{< emoji ":speaking_head:" >}} Overview
 
+This paper quantifies the diffuculty of program analysis based on the information theory.
+The basic idea is to consider that a program ultimately obscated if instructions appear at random;
+that is (1) all instructions has an equal frequency of appearance,
+and (2) there is no pattern observed in the instruction sequence.
+We quantified (1) based on the entropy and (2) based on the Kolmogorov complexity.
+We evaluated the feasibility of our proposal through a case study.
 
+(Abstract from Computer Software, Vol.30, No. 3)
 
 ### {{< emoji ":books:" >}} Publications
 

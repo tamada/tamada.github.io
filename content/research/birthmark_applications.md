@@ -7,6 +7,9 @@ categories: ['software birthmarks','applications']
 
 ### {{< emoji ":speaking_head:" >}} Overview
 
+This research topics shows applications of software birthmarks.
+In our publications, we try to classify the programs using extracted software birthmarks.
+Because, we believe that the birthmarks shows the functionalities of the programs.
 
 
 ### {{< emoji ":books:" >}} Publications
