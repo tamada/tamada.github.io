@@ -25,7 +25,12 @@ Even if an adversary modifies the folded method, the program goes crash because 
 * 玉田 春昭，神崎 雄一郎，門田 暁人，”Java言語を対象とした実行時多様化の試み”, 2012年暗号と情報セキュリティシンポジウム予稿集 (SCIS2012), 4E2-3, January 2012.
 
 
-### {{< emoji ":handshake:" >}} Related Research Topics
+### {{< emoji ":mag_right:" >}} Related Research Topics
 
 * [Obfuscation by `invokedynamic`](../obfuscation_by_invokedynamic)
 * [Obfuscation by dynamic name resolution](../obfuscation_by_dnr)
+
+### {{< emoji ":handshake:" >}} Collaborators
+
+* [A. Monden](http://digi-ana.sakura.ne.jp/)@[Software mesurement and analytics laboratory](http://analytics.jpn.org/index-e.html), Okayama University
+* [Y. Kanzaki](http://www.hi.kumamoto-nct.ac.jp/~kanzaki/)@Kumamoto National College of Technology

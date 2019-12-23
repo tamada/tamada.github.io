@@ -27,7 +27,7 @@ Furthermore, focusing on the meanings of verbs, the proposed method recommends t
 * 匂坂 勇仁，玉田 春昭，”命令列に着目した名前難読化の逆変換手法”，2017年暗号と情報セキュリティシンポジウム予稿集 (SCIS 2017)，3D1-5，January 2017. （沖縄，那覇）  Paper3  BibTeX  Like0
 * 磯部 陽介，玉田 春昭，”協調フィルタリングを利用した名前難読化の逆変換”，2017年暗号と情報セキュリティシンポジウム予稿集 (SCIS 2017)，3D1-3，January 2017.（沖縄，那覇）
 
-### {{< emoji ":handshake:" >}} Related Research Topics
+### {{< emoji ":mag_right:" >}} Related Research Topics
 
 * [Identifying the applied obfuscator](../identifying_applied_obfuscator/)
 * [Artificiality evaluation](../artificiality_evaluation)

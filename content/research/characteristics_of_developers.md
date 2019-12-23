@@ -32,6 +32,11 @@ As a result, our framework measured developers' characteristics suitability in o
 * Masateru Tsunoda, Haruaki Tamada, and Hideaki Hata, “How to Classify Personalities of Team Members on Project-Based Learning,” In Proc. Software Engineering Education Workshop (SEEW 2014), December 2014 (Jeju, Korea).
 * 藤原 新，五田 篤志，玉田 春昭，角田 雅照，畑 秀明，”ソフトウェア開発履歴を利用した風林火山モデルによる開発者の特性診断の試み”，ソフトウェア工学の基礎XX，日本ソフトウェア科学会 FOSE2013 (FOSE2013), pp.295-296, November 2013.
 
-### {{< emoji ":handshake:" >}} Related Research Topics
+### {{< emoji ":mag_right:" >}} Related Research Topics
 
 * [Development support bot](../development_support_bot)
+
+### {{< emoji ":handshake:" >}} Collaborators
+
+* [H. Hata](https://hideakihata.github.io/)@[NAIST SE Lab.](http://se-naist.jp/)
+* [M. Tsunoda](https://www.info.kindai.ac.jp/~tsunoda/)@Kindai University.

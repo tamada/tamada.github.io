@@ -30,10 +30,15 @@ By using the proposed method, we could identify the applied obfuscation method.
 * Hayato Sagisaka, and Haruaki Tamada, “Identifying the Applied Obfuscation Method towards De-obfuscation,” In Proc. 15th IEEE/ACIS International Conference on Computer and Information Science (ICIS 2016), pp.873–878, July 2016 (Oakayama, Japan).
 * 匂坂 勇仁，玉田 春昭，”適用保護手法特定の試み −不自然さ評価方法を用いて−”，信学技報, Vol. 115, No. 153, SS2015-21, pp. 63-68, July 2015 (札幌).
 
-### {{< emoji ":handshake:" >}} Related Research Topics
+### {{< emoji ":mag_right:" >}} Related Research Topics
 
 * [De-obfuscate IRM (identifier renaming method)](../deobfuscating_identifier_renaming)
 * [Artificiality evaluation](../artificiality_evaluation)
 * [Evaluating obfuscation method by Kolmogorov complexity](../evaluation_obfuscation_kolmogorov/)
 * [Unreadability evaluation of obfuscated programs](../unreadability_evaluation)
+
+
+### {{< emoji ":handshake:" >}} Collaborators
+
+* [Y. Kanzaki](http://www.hi.kumamoto-nct.ac.jp/~kanzaki/)@Kumamoto National College of Technology
 

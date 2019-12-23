@@ -28,6 +28,12 @@ In the third experiment, we exploit different Java compilers to confirm that the
 * 玉田 春昭, 神崎 雄一郎, 中村 匡秀, 門田 暁人, 松本 健一, “Java クラスファイルからプログラム指紋を抽出する方法の提案”, 信学技報 情報セキュリティ研究会, Vol. ISEC2003-29, pp.127-133, July 2003.
 
 
-### {{< emoji ":handshake:" >}} Related Research Topics
+### {{< emoji ":mag_right:" >}} Related Research Topics
 
 * [Dynamic Birthmarks](../dynamic_birthmarks)
+
+### {{< emoji ":handshake:" >}} Collaborators
+
+* [A. Monden](http://digi-ana.sakura.ne.jp/)@[Software mesurement and analytics laboratory](http://analytics.jpn.org/index-e.html), Okayama University
+* [M. Nakamura](http://www27.cs.kobe-u.ac.jp/~masa-n/)@[Kobe University](http://www27.cs.kobe-u.ac.jp/wiki/home/)
+* [K. Matsumoto](http://isw3.naist.jp/~matumoto/)@[NAIST SE Lab.](https://se-naist.jp)

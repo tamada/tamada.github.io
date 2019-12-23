@@ -35,7 +35,7 @@ In ordinal case, the suitable threshold is $0.6$, however, the proposed method i
 * Jun Nakamura, and Haruaki Tamada, “Fast Comparison of Software Birthmarks for Detecting the Theft with the Search Engine,” In Proc. of the 4th International Conference on Applied Computing & Information Technology (ACIT 2016), pp.152–157, December 2016 (UNLV, Las Vegas, NV, USA).
 * 山本 照明，玉田 春昭，門田 暁人，”大量のプログラムを対象としたファジーハッシュを用いたバースマーク手法”，2015年暗号と情報セキュリティシンポジウム予稿集（SCIS2015），3B4-4，January 2015（福岡，小倉）.
 
-### {{< emoji ":handshake:" >}} Related Research Topics
+### {{< emoji ":mag_right:" >}} Related Research Topics
 
 * [Concept of Software Birthmarks](../birthmark_concept)
 

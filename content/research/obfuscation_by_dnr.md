@@ -24,7 +24,13 @@ An experimental evaluation on the Java platform showed that the run-time overhea
 * 玉田 春昭, 中村 匡秀, 門田 暁人, 松本 健一, “APIライブラリ名隠ぺいのための動的名前解決を用いた名前難読化”, 電子情報通信学会論文誌, Vol.J90-D, No.10, pp.2723–2735, October 2007. 
 * 玉田 春昭, 中村 匡秀, 門田 暁人, 松本 健一 “C言語におけるライブラリ呼び出し隠蔽のための名前難読化手法”, 2007年暗号と情報セキュリティシンポジウム予稿集 (SCIS2007), January 2007.
 
-### {{< emoji ":handshake:" >}} Related Research Topics
+### {{< emoji ":mag_right:" >}} Related Research Topics
 
 * [Obfuscation by `invokedynamic`](../obfuscation_by_invokedynamic)
 * [Instruction folding obfuscation method](../obfuscation_by_method_folding)
+
+### {{< emoji ":handshake:" >}} Collaborators
+
+* [A. Monden](http://digi-ana.sakura.ne.jp/)@[Software mesurement and analytics laboratory](http://analytics.jpn.org/index-e.html), Okayama University
+* [M. Nakamura](http://www27.cs.kobe-u.ac.jp/~masa-n/)@[Kobe University](http://www27.cs.kobe-u.ac.jp/wiki/home/)
+* [K. Matsumoto](http://isw3.naist.jp/~matumoto/)@[NAIST SE Lab.](https://se-naist.jp)

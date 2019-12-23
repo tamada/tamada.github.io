@@ -26,6 +26,12 @@ The second experiment showed that the proposed birthmarks achieve the strong res
 * Haruaki Tamada, Keiji Okamoto, Masahide Nakamura, Akito Monden, and Ken-ichi Matsumoto, “Dynamic Software Birthmarks to Detect the Theft of Windows Applications,” In Proc. International Symposium on Future Software Technology 2004 (ISFST 2004), CD-ROM, 20-22 October 2004. (Xi’an, China)
 
 
-### {{< emoji ":handshake:" >}} Related Research Topics
+### {{< emoji ":mag_right:" >}} Related Research Topics
 
 * [Concept of Software Birthmarks](../birthmark_concept)
+
+### {{< emoji ":handshake:" >}} Collaborators
+
+* [A. Monden](http://digi-ana.sakura.ne.jp/)@[Software mesurement and analytics laboratory](http://analytics.jpn.org/index-e.html), Okayama University
+* [M. Nakamura](http://www27.cs.kobe-u.ac.jp/~masa-n/)@[Kobe University](http://www27.cs.kobe-u.ac.jp/wiki/home/)
+* [K. Matsumoto](http://isw3.naist.jp/~matumoto/)@[NAIST SE Lab.](https://se-naist.jp)

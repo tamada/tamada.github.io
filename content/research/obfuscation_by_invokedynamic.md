@@ -32,7 +32,7 @@ The experiments shows the proposed method has good tolerance against existing to
 * Kazumasa Fukuda, and Haruaki Tamada, “A Dynamic Birthmark from Analyzing Operand Stack Runtime Behavior to Detect Copied Software,” In Proc. 13th ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD 2013), pp.505-510, 1-3 July 2013 (Honolulu, Hawaii, U.S.A.).
 * 玉田 春昭，神崎 雄一郎，門田 暁人，”Java言語を対象とした実行時多様化の試み”, 2012年暗号と情報セキュリティシンポジウム予稿集 (SCIS2012), 4E2-3, January 2012.
 
-### {{< emoji ":handshake:" >}} Related Research Topics
+### {{< emoji ":mag_right:" >}} Related Research Topics
 
 * [Instruction folding obfuscation method](../obfuscation_by_method_folding)
 * [Obfuscation by dynamic name resolution](../obfuscation_by_dnr)

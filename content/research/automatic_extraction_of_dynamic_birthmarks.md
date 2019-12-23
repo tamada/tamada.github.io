@@ -25,7 +25,7 @@ In the cost evaluation, the proposed method can reduce the extraction cost of dy
 * Takanori Yokoi, and Haruaki Tamada, “A Beforehand Extraction Method for Dynamic Software Birthmarks using Unit Test Codes,” In Proc. 19th ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD 2018), July 2018 (Busan, Korea).
 * 横井 昂典，玉田 春昭，"単体テストコードを利用した動的バースマークの抽出"，コンピュータセキュリティシンポジウム2017（CSS 2017），pp.1288–1294 (3C3-4)，October 2017（山形）.
 
-### {{< emoji ":handshake:" >}} Related Research Topics
+### {{< emoji ":mag_right:" >}} Related Research Topics
 
 * [Concept of Software Birthmarks](../birthmark_concept)
 * [Dynamic Software Birthmarks](../dynamic_birthmarks)
