@@ -1,0 +1,2 @@
+{{ $type := .Get "type" }}
+<a title="{{ .Get "title" }}" href="{{ .Get "href" }}" style="font-size: 200%; margin-right: 10px; color: {{ .Get "color" }}">{{ if eq $type "devicon" }}<i class="devicon-{{ .Get "icon" }}-plain"></i>{{ else }}<i class="fa fa-{{ .Get "icon" }}"></i>{{ end }}</a>
