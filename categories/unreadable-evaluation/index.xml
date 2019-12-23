@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>unreadable evaluation on Haruaki TAMADA</title>
+    <link>https://tamada.github.io/categories/unreadable-evaluation/</link>
+    <description>Recent content in unreadable evaluation on Haruaki TAMADA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 24 Sep 2012 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tamada.github.io/categories/unreadable-evaluation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Unreadability evaluation by mental simulation model</title>
+      <link>https://tamada.github.io/research/unreadability_evaluation/</link>
+      <pubDate>Mon, 24 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/unreadability_evaluation/</guid>
+      <description>🗣 Overview Obfuscation methods were proposed for protecting programs from cracking. These methods convert program into incomprehensible one, such as change symbol names from meaningful to meaningless. As a result, secret information in the program can be hidden. However, obfuscation methods are not evaluated sufficiently. This paper evaluates incomprehensibility of the obfuscated programs using queue based virtual mental simulation model (VMSM) which is focused on short term memory in program comprehension.</description>
+    </item>
+    
+  </channel>
+</rss>

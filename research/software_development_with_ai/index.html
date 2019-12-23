@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Mining Software Repository - Haruaki TAMADA</title>
+    <meta name="description" content="🗣 Overview This topic is for mining software repositories. The following surveys were done.
+ why do the developers update the build files in the project, and how to build the obliging bots for supporting next action.  📚 Publications  鐘ヶ江 由佳，玉田 春昭，畑 秀明，”GitHubにおける言語ごとのビルドファイルの更新理由調査”， 研究報告ソフトウェア工学（SE）, Vol. 2017-SE-196, No.28, July 2017. Akira Inokuchi, Haruaki Tamada, Hideaki Hata, and Masateru Tsunoda, &amp;ldquo;Toward Obliging Bots for Supporting Next Actions,&amp;rdquo; In Proc. of the 4th International Conference on Applied Computing &amp;amp; Information Technology (ACIT 2016), pp."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/research/software_development_with_ai/" />
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="🗣 Overview This topic is for mining software repositories. The following surveys were done.
+ why do the developers update the build files in the project, and how to build the obliging bots for supporting next action.  📚 Publications  鐘ヶ江 由佳，玉田 春昭，畑 秀明，”GitHubにおける言語ごとのビルドファイルの更新理由調査”， 研究報告ソフトウェア工学（SE）, Vol. 2017-SE-196, No.28, July 2017. Akira Inokuchi, Haruaki Tamada, Hideaki Hata, and Masateru Tsunoda, &amp;ldquo;Toward Obliging Bots for Supporting Next Actions,&amp;rdquo; In Proc. of the 4th International Conference on Applied Computing &amp;amp; Information Technology (ACIT 2016), pp." />
+<meta name="twitter:title" content="Mining Software Repository - Haruaki TAMADA" />
+<meta name="twitter:site" content="https://twitter.com/tama5" />
+<meta name="twitter:creator" content="https://twitter.com/tama5" />
+
+
+<meta property="og:type" content="article" />
+<meta content="Mining Software Repository - Haruaki TAMADA" property="og:title">
+<meta content="🗣 Overview This topic is for mining software repositories. The following surveys were done.
+ why do the developers update the build files in the project, and how to build the obliging bots for supporting next action.  📚 Publications  鐘ヶ江 由佳，玉田 春昭，畑 秀明，”GitHubにおける言語ごとのビルドファイルの更新理由調査”， 研究報告ソフトウェア工学（SE）, Vol. 2017-SE-196, No.28, July 2017. Akira Inokuchi, Haruaki Tamada, Hideaki Hata, and Masateru Tsunoda, &amp;ldquo;Toward Obliging Bots for Supporting Next Actions,&amp;rdquo; In Proc. of the 4th International Conference on Applied Computing &amp;amp; Information Technology (ACIT 2016), pp." property="og:description">
+<meta property="og:url" content="https://tamada.github.io/research/software_development_with_ai/" />
+<meta property="og:site_name" content="Haruaki TAMADA" />
+<meta property="article:section" content="software repository" /><meta property="article:section" content="mining" />
+<meta property="article:published_time" content="2017-07-14 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+<script type="application/ld+json">
+{ 
+    "@context": "http://schema.org", 
+    "@type": "BlogPosting",
+    "headline": "Mining Software Repository",
+    "genre": "software repositorymining",  
+    "url": "https:\/\/tamada.github.io\/research\/software_development_with_ai\/",
+    "datePublished": "2017-07-14 00:00:00 \x2b0000 UTC",
+    "description": "🗣 Overview This topic is for mining software repositories. The following surveys were done.\n why do the developers update the build files in the project, and how to build the obliging bots for supporting next action.  📚 Publications  鐘ヶ江 由佳，玉田 春昭，畑 秀明，”GitHubにおける言語ごとのビルドファイルの更新理由調査”， 研究報告ソフトウェア工学（SE）, Vol. 2017-SE-196, No.28, July 2017. Akira Inokuchi, Haruaki Tamada, Hideaki Hata, and Masateru Tsunoda, \x26ldquo;Toward Obliging Bots for Supporting Next Actions,\x26rdquo; In Proc. of the 4th International Conference on Applied Computing \x26amp; Information Technology (ACIT 2016), pp.",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    }
+ }
+</script>
+
+
+
+    
+    <link rel="stylesheet" href="/sass/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <script defer type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  </head>
+
+  <body>
+    <header class="site-header">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/"><img src="/images/harry.png" height="64"></a>
+      <a class="navbar-brand" href="/">
+        Haruaki TAMADA
+      </a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/profile">Profile</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+
+    <div class="container">
+      <div class="wrapper">
+        
+<div class="row">
+<div class="col-md-8">
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">Mining Software Repository</h1>
+      <p class="post-meta"><time datetime='2017-07-14T00:00:00Z' itemprop="datePublished">July 14, 2017</time></p>
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+      <h3 id="hahahugoshortcode-s0-hbhb-overview">🗣
+ Overview</h3>
+<p>This topic is for mining software repositories.
+The following surveys were done.</p>
+<ul>
+<li>why do the developers update the build files in the project, and</li>
+<li>how to build the obliging bots for supporting next action.</li>
+</ul>
+<h3 id="hahahugoshortcode-s1-hbhb-publications">📚
+ Publications</h3>
+<ul>
+<li>鐘ヶ江 由佳，玉田 春昭，畑 秀明，”GitHubにおける言語ごとのビルドファイルの更新理由調査”， 研究報告ソフトウェア工学（SE）, Vol. 2017-SE-196, No.28, July 2017.</li>
+<li>Akira Inokuchi, Haruaki Tamada, Hideaki Hata, and Masateru Tsunoda, &ldquo;Toward Obliging Bots for Supporting Next Actions,&rdquo; In Proc. of the 4th International Conference on Applied Computing &amp; Information Technology (ACIT 2016), pp. 183–188, December 2016 (UNLV, Las Vegas, NV, USA).</li>
+</ul>
+<h3 id="hahahugoshortcode-s2-hbhb-related-research-topics">🤝
+ Related Research Topics</h3>
+<ul>
+<li><a href="../project_as_a_city">Project as a City</a></li>
+<li><a href="../characteristics_of_developers">Characteristics of the developers</a></li>
+</ul>
+
+    </div>
+  </article>
+  <div class="row">
+    
+  </div>
+    
+  <div class="row">
+    <ul class="pager">
+      
+      <li><a class="next" href="/research/evaluation_programming_course/">&laquo; Evaluating students in programming courses</a></li>
+      
+      
+      <li><a class="previous" href="/research/artificiality_evaluation/">Artificiality evaluation of obfuscations &raquo;</a></li>
+      
+    </ul>
+  </div>
+</div>
+
+
+<div class="col-md-4 mt20">
+  
+  <h3><a href="/research/">📁 Parent page</a></h3>
+  
+  <div class="post-img">
+    
+      <img width="600" src="/images/research/msr.png" alt="Mining Software Repository">
+    
+  </div>
+
+  <div class="mt10 recent">
+    <h3>Recent articles</h3>
+    <ul>
+      
+      <li>
+        <p><a href="/research/birthmark_fast_comparison/">Fast comparisons of the birthmarks</a><small>&nbsp;&nbsp;February 15, 2020</small></p>
+      </li>
+      
+      <li>
+        <p><a href="/research/identifying_applied_obfuscator/">Identifying the applied obfuscator</a><small>&nbsp;&nbsp;January 27, 2020</small></p>
+      </li>
+      
+      <li>
+        <p><a href="/profile/skills/">💪 Skills</a><small>&nbsp;&nbsp;December 18, 2019</small></p>
+      </li>
+      
+    </ul>
+  </div>
+  
+  <br>
+</div>
+
+
+</div>
+
+
+
+
+      </div>
+    </div>
+    <footer>
+    <div class="container">
+        <div class="row p20">
+            
+                <div class="col-md-4 text-center mt25">All rights reserved by <a target="_blank" href="https://tamada.github.io/">tamada</a></div>
+            
+
+            <div class="col-md-4 text-center mt25" >
+                
+            </div>
+            <div class="col-md-4 text-center mt25">
+               
+               
+               
+                <a target="_blank" href="https://twitter.com/tama5"><li class="social twitter"><i class="fa fa-twitter-square"></i></li></a>
+                
+               
+                <a target="_blank" href="https://github.com/tamada"><li class="social github"><i class="fa fa-github-square"></i></li></a>
+                
+               
+            </div>
+
+        </div> 
+    </div>
+</footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    
+  </body>
+</html>

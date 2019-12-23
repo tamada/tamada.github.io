@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>:bulb: Research on Haruaki TAMADA</title>
+    <link>https://tamada.github.io/research/</link>
+    <description>Recent content in :bulb: Research on Haruaki TAMADA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tamada.github.io/research/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fast comparisons of the birthmarks</title>
+      <link>https://tamada.github.io/research/birthmark_fast_comparison/</link>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/birthmark_fast_comparison/</guid>
+      <description>🗣 Overview The software birthmarks were proposed for detecting the software theft from a large number of suspected programs. The birthmark is a technique to compare the extracted characteristics as the software birthmarks, and compute similarities between two birthmarks. The conventional birthmarks require a much time by increasing the target programs for comparison. Therefore, it is the bottleneck of the conventional birthmarking technique. In this paper, we propose a method for reducing total processing time by introducing the narrowing phase between conventional extracting and comparison phases.</description>
+    </item>
+    
+    <item>
+      <title>Identifying the applied obfuscator</title>
+      <link>https://tamada.github.io/research/identifying_applied_obfuscator/</link>
+      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/identifying_applied_obfuscator/</guid>
+      <description>🗣 Overview Recently, to prevent cracking, the various protection methods have been proposed. One of the protection methods is the obfuscation method. Obfuscation method changes the program into hard to understand for hiding secret information in the program.
+On the other hand, de-obfuscation is an interesting research topic for protecting the software. Since, though vulnerable protection methods are dangerous, measuring the robustness of the method was not discussed.
+In this paper, we tackle to identify the applied obfuscation methods towards de-obfuscation.</description>
+    </item>
+    
+    <item>
+      <title>Development support bot</title>
+      <link>https://tamada.github.io/research/development_support_bot/</link>
+      <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/development_support_bot/</guid>
+      <description>🗣 Overview This research topic aims to build a helpful bot for the software development. Also, the topic focuses on the bot on the Social Coding Platform in the social network services. The one goal of the topic is to build a bot for gently helping GitHub flow.
+📚 Publications  宮崎 光，玉田 春昭，CUIツールの開発支援サービスとしての再構築手順の提案”，信学技法，Vol.119，No.246, SS2019-14, pp.7–12, October 2019（熊本）. 玉田 春昭，”初学者向けGitHub flow学習支援”，ソフトウェアシンポジウム2019 ワークショップ 討論テーマ（2）実証的ソフトウェア工学によるプログラミング教育とソフトウェア工学教育，August 2019.（東京） Ko Miyazaki, Haruaki Tamada, “Identifying Users in the Bridging Service between Two Different Chat Services using User Icons,” In Proc.</description>
+    </item>
+    
+    <item>
+      <title>Project as a City</title>
+      <link>https://tamada.github.io/research/project_as_a_city/</link>
+      <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/project_as_a_city/</guid>
+      <description>🗣 Overview Social coding platforms (SCPs) have realized spontaneous software evolution, where new source code and ideas are spontaneously proposed by altruistic developers. Although there are many projects operated by active communities performing spontaneous evolution, it is yet unclear that how such successful projects and communities have been formed and governed. In this paper, we propose a method that can investigate the history of every project in the SCP. Introducing the concept of project as a city, we consider every project in the SCP as a city, where a government and citizens develop a city through collaborative activities.</description>
+    </item>
+    
+    <item>
+      <title>Auto-extraction of Dynamic Birthmarks</title>
+      <link>https://tamada.github.io/research/automatic_extraction_of_dynamic_birthmarks/</link>
+      <pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/automatic_extraction_of_dynamic_birthmarks/</guid>
+      <description>🗣 Overview The software birthmark methods are proposed to find the stolen software from the huge number of suspects. The software birthmark methods are classified into two manners, static and dynamic manners. Different from the static birthmarks, dynamic birthmarks require inputs since they base on runtime behaviors. Also, the dynamic birthmark varies depending on the inputs, therefore, it is difficult to extract beforehand. Hence the extraction cost of the dynamic birthmarks is generally high than the static birthmarks.</description>
+    </item>
+    
+    <item>
+      <title>De-obfuscate IRM</title>
+      <link>https://tamada.github.io/research/deobfuscating_identifier_renaming/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/deobfuscating_identifier_renaming/</guid>
+      <description>🗣 Overview The obfuscation methods are often used to hide sensitive information in software. Especially, an identifier renaming method (IRM) is well used because it is easy to implement. IRM is one of the obfuscation methods, and to change the names of function, and variables into meaningless one. However, if we can restore the identifiers to the original names, IRM is invalidated. One of the serious problems about IRM is that the tolerance against de-obfuscation is not discussed.</description>
+    </item>
+    
+    <item>
+      <title>Evaluating students in programming courses</title>
+      <link>https://tamada.github.io/research/evaluation_programming_course/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/evaluation_programming_course/</guid>
+      <description>🗣 Overview It is crucial for educators to understand pitfalls for novice programmers in programming education at computer science course. By giving well-timed advice to students who fall into a pitfall, educators are able to achieve efficient teaching and keep up their students&amp;rsquo; motivation. However, so far, it is less well-understood how novice students edit source code and why they fall into a pitfall. In this paper, we analyzed coding patterns of novice students empirically.</description>
+    </item>
+    
+    <item>
+      <title>Mining Software Repository</title>
+      <link>https://tamada.github.io/research/software_development_with_ai/</link>
+      <pubDate>Fri, 14 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/software_development_with_ai/</guid>
+      <description>🗣 Overview This topic is for mining software repositories. The following surveys were done.
+ why do the developers update the build files in the project, and how to build the obliging bots for supporting next action.  📚 Publications  鐘ヶ江 由佳，玉田 春昭，畑 秀明，”GitHubにおける言語ごとのビルドファイルの更新理由調査”， 研究報告ソフトウェア工学（SE）, Vol. 2017-SE-196, No.28, July 2017. Akira Inokuchi, Haruaki Tamada, Hideaki Hata, and Masateru Tsunoda, &amp;ldquo;Toward Obliging Bots for Supporting Next Actions,&amp;rdquo; In Proc. of the 4th International Conference on Applied Computing &amp;amp; Information Technology (ACIT 2016), pp.</description>
+    </item>
+    
+    <item>
+      <title>Artificiality evaluation of obfuscations</title>
+      <link>https://tamada.github.io/research/artificiality_evaluation/</link>
+      <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/artificiality_evaluation/</guid>
+      <description>🗣 Overview This research topic tries to evaluate the artificialities of the obfuscated programs. We believe that the obfuscation changes the programs into unordinal ones. This topics evaluates the artificialities by tf-idf and perplexities.
+📚 Publications  横井 昂典，玉田 春昭，”使用クラスに基づいたTF-IDFによる難読化の不自然さ評価”，2017年暗号と情報セキュリティシンポジウム予稿集 (SCIS 2017)，3D1-4，January 2017.（沖縄，那覇） 大滝 隆貴，大堂 哲也，玉田 春昭，神崎 雄一郎，門田 暁人，”Javaバイトコード命令のオペコード、オペランドを用いた難読化手法のステルシネス評価”，2014年暗号と情報セキュリティシンポジウム予稿集 (SCIS2014), 2D2-2, January 2014.  🤝 Related Research Topics  Identifying the applied obfuscator De-obfuscate IRM (identifier renaming method) Evaluating obfuscation method by Kolmogorov complexity Unreadability evaluation of obfuscated programs  </description>
+    </item>
+    
+    <item>
+      <title>Obfuscation by invokedynamic</title>
+      <link>https://tamada.github.io/research/obfuscation_by_invokedynamic/</link>
+      <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/obfuscation_by_invokedynamic/</guid>
+      <description>🗣 Overview This paper proposes an obfuscation method against illegal analysis. The proposed method tries to build a fake call flow graph from debugging tools. The call flow graph represents relations among methods and helps understanding of a program. The fake call flow graph leads misunderstanding of the program. We focus on a hook mechanism of the method call for changing a callee. We conduct two experiments to evaluate the proposed method.</description>
+    </item>
+    
+    <item>
+      <title>Characteristics of the developers</title>
+      <link>https://tamada.github.io/research/characteristics_of_developers/</link>
+      <pubDate>Fri, 20 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/characteristics_of_developers/</guid>
+      <description>🗣 Overview In software development, multiple developers compose a team, and perform a development process. To succeed the development, understanding developers&amp;rsquo; characteristics are needed. However, there is no way to measure the characteristics of the developer by quantitative analysis. Therefore, a project manager often assigns team members based on his/her own sense, considering experience year of them.
+This paper proposes a measurement framework for developers&amp;rsquo; characteristics using quantitative historical data. The proposed framework is useful for measuring developers&amp;rsquo; characteristics and building a team based on quantitative analysis.</description>
+    </item>
+    
+    <item>
+      <title>Evaluating obfuscation method by Kolmogorov complexity</title>
+      <link>https://tamada.github.io/research/evaluation_obfuscation_kolmogorov/</link>
+      <pubDate>Sun, 01 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/evaluation_obfuscation_kolmogorov/</guid>
+      <description>🗣 Overview This paper quantifies the diffuculty of program analysis based on the information theory. The basic idea is to consider that a program ultimately obscated if instructions appear at random; that is (1) all instructions has an equal frequency of appearance, and (2) there is no pattern observed in the instruction sequence. We quantified (1) based on the entropy and (2) based on the Kolmogorov complexity. We evaluated the feasibility of our proposal through a case study.</description>
+    </item>
+    
+    <item>
+      <title>Method folding obfuscation</title>
+      <link>https://tamada.github.io/research/obfuscation_by_method_folding/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/obfuscation_by_method_folding/</guid>
+      <description>🗣 Overview To improve tamper resistance of programs against illegal modification, this paper proposes instruction folding applicable to Java platform.
+In the proposed method, at first, similar methods are selected in a Java program. Next, these methods are merged into one method and diffs among these methods are stored in the program. Then, at runtime, when one of the merged methods is executed, diffs are restored by self-modification, which is realized by the Java instrumentation mechanism.</description>
+    </item>
+    
+    <item>
+      <title>Unreadability evaluation by mental simulation model</title>
+      <link>https://tamada.github.io/research/unreadability_evaluation/</link>
+      <pubDate>Mon, 24 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/unreadability_evaluation/</guid>
+      <description>🗣 Overview Obfuscation methods were proposed for protecting programs from cracking. These methods convert program into incomprehensible one, such as change symbol names from meaningful to meaningless. As a result, secret information in the program can be hidden. However, obfuscation methods are not evaluated sufficiently. This paper evaluates incomprehensibility of the obfuscated programs using queue based virtual mental simulation model (VMSM) which is focused on short term memory in program comprehension.</description>
+    </item>
+    
+    <item>
+      <title>Applications of software birthmarks</title>
+      <link>https://tamada.github.io/research/birthmark_applications/</link>
+      <pubDate>Sat, 15 Aug 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/birthmark_applications/</guid>
+      <description>🗣 Overview This research topics shows applications of software birthmarks. In our publications, we try to classify the programs using extracted software birthmarks. Because, we believe that the birthmarks shows the functionalities of the programs.
+📚 Publications  牛窓 朋義, 門田 暁人, 玉田 春昭, 松本 健一, “使用クラスに基づくソフトウェアの機能面からの分類”, 信学技報 ソフトウェアサイエンス研究会, Vol.SS2009-17, pp.31-36, August 2009. 玉田 春昭，森崎 修司，門田 暁人，松本 健一，”バースマークを用いたソフトウェア拡張開発での流用度合いの測定”，情報処理学会第70回全国大会，pp.5-399-400, March 2008. Takesi Kakimoto, Akito Monden, Yasutaka Kamei, Haruaki Tamada, Masateru Tsunoda, and Ken-ichi Matsumoto, “Using Software Birthmarks to Identify Similar Classes and Major Functionalities,” In Proc.</description>
+    </item>
+    
+    <item>
+      <title>Obfuscation by dynamic name resolution</title>
+      <link>https://tamada.github.io/research/obfuscation_by_dnr/</link>
+      <pubDate>Tue, 12 Feb 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/obfuscation_by_dnr/</guid>
+      <description>🗣 Overview Name obfuscation is a software protection technique, which renames identifiers in a given program, to protect the program from illegal cracking. The conventional methods replace names appearing in the declaration part with the meaningless ones. Therefore, the methods cannot be used to obfuscate names declared in system libraries, since changing such system-defined names significantly deteriorates the program portability.
+This paper presents a new name obfuscation method, which can hide appearance of the system-defined names.</description>
+    </item>
+    
+    <item>
+      <title>Dynamic birthmarks</title>
+      <link>https://tamada.github.io/research/dynamic_birthmarks/</link>
+      <pubDate>Tue, 01 Aug 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/dynamic_birthmarks/</guid>
+      <description>🗣 Overview This paper presents a technique of dynamic software birthmarks to support efficient detection of software theft. A dynamic birthmark $f(p, I)$ is a set of unique and native characteristics of a program $p$, obtained by executing $p$ with a given input $I$. For a pair of software $p$ and $q$, if $f(p, I) = f(q, I)$ holds, $q$ is suspected as a copy of $p$. In this paper, we propose two kinds of dynamic birthmarks, EXESEQ and EXEFREQ which use execution order and frequency distribution of runtime API Calls.</description>
+    </item>
+    
+    <item>
+      <title>Concept of Birthmarks</title>
+      <link>https://tamada.github.io/research/birthmark_concept/</link>
+      <pubDate>Thu, 01 Sep 2005 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/birthmark_concept/</guid>
+      <description>🗣 Overview To detect the theft of Java class files efficiently, we propose a concept of Java birthmarks, which are unique and native characteristics of every class file. For a pair of class files $p$ and $q$, if $q$ has the same birthmark as $p$&#39;s, $q$ is suspected as a copy of $p$. Ideally, the birthmarks should satisfy the following properties: (a) preservation &amp;ndash; the birthmarks should be preserved even if the original class file is tampered with, and (b) distinction &amp;ndash; independent class files must be distinguished by completely different birthmarks.</description>
+    </item>
+    
+  </channel>
+</rss>

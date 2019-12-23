@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>pochi - Haruaki TAMADA</title>
+    <meta name="description" content="🗣 Overview pochi is the birthmarking toolkit for the JVM platform. The birthmarks are the native characteristics extracted from executable programs. Then, pochi compares them and computes the similarities. The resultant similarities shows the copy relation possibilities between two program.
+🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. $ brew install pochi 🐳 Docker  tamada/pochi (https://hub.docker.com/r/tamada/pochi)  1.0.0, latest    $ docker run -it --rm -v $PWD:/home/pochi tamada/pochi:latest [OPTIONS] [SCRIPT [ARGUMENTS."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/projects/pochi/" />
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="🗣 Overview pochi is the birthmarking toolkit for the JVM platform. The birthmarks are the native characteristics extracted from executable programs. Then, pochi compares them and computes the similarities. The resultant similarities shows the copy relation possibilities between two program.
+🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. $ brew install pochi 🐳 Docker  tamada/pochi (https://hub.docker.com/r/tamada/pochi)  1.0.0, latest    $ docker run -it --rm -v $PWD:/home/pochi tamada/pochi:latest [OPTIONS] [SCRIPT [ARGUMENTS." />
+<meta name="twitter:title" content="pochi - Haruaki TAMADA" />
+<meta name="twitter:site" content="https://twitter.com/tama5" />
+<meta name="twitter:creator" content="https://twitter.com/tama5" />
+
+
+<meta property="og:type" content="article" />
+<meta content="pochi - Haruaki TAMADA" property="og:title">
+<meta content="🗣 Overview pochi is the birthmarking toolkit for the JVM platform. The birthmarks are the native characteristics extracted from executable programs. Then, pochi compares them and computes the similarities. The resultant similarities shows the copy relation possibilities between two program.
+🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. $ brew install pochi 🐳 Docker  tamada/pochi (https://hub.docker.com/r/tamada/pochi)  1.0.0, latest    $ docker run -it --rm -v $PWD:/home/pochi tamada/pochi:latest [OPTIONS] [SCRIPT [ARGUMENTS." property="og:description">
+<meta property="og:url" content="https://tamada.github.io/projects/pochi/" />
+<meta property="og:site_name" content="Haruaki TAMADA" />
+<meta property="article:section" content="projects" /><meta property="article:section" content="homebrew" />
+<meta property="article:published_time" content="2019-12-04 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+<script type="application/ld+json">
+{ 
+    "@context": "http://schema.org", 
+    "@type": "BlogPosting",
+    "headline": "pochi",
+    "genre": "projectshomebrew",  
+    "url": "https:\/\/tamada.github.io\/projects\/pochi\/",
+    "datePublished": "2019-12-04 00:00:00 \x2b0000 UTC",
+    "description": "🗣 Overview pochi is the birthmarking toolkit for the JVM platform. The birthmarks are the native characteristics extracted from executable programs. Then, pochi compares them and computes the similarities. The resultant similarities shows the copy relation possibilities between two program.\n🍺 Install $ brew tap tamada\/brew # \x26lt;- the first time only. $ brew install pochi 🐳 Docker  tamada\/pochi (https:\/\/hub.docker.com\/r\/tamada\/pochi)  1.0.0, latest    $ docker run -it --rm -v $PWD:\/home\/pochi tamada\/pochi:latest [OPTIONS] [SCRIPT [ARGUMENTS.",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    }
+ }
+</script>
+
+
+
+    
+    <link rel="stylesheet" href="/sass/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <script defer type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  </head>
+
+  <body>
+    <header class="site-header">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/"><img src="/images/harry.png" height="64"></a>
+      <a class="navbar-brand" href="/">
+        Haruaki TAMADA
+      </a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/profile">Profile</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+
+    <div class="container">
+      <div class="wrapper">
+        
+<div class="row">
+<div class="col-md-8">
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">pochi</h1>
+      <p class="post-meta"><time datetime='2019-12-04T00:00:00Z' itemprop="datePublished">December 4, 2019</time></p>
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+      <h3 id="hahahugoshortcode-s0-hbhb-overview">🗣
+ Overview</h3>
+<p>pochi is the birthmarking toolkit for the JVM platform.
+The birthmarks are the native characteristics extracted from executable programs.
+Then, pochi compares them and computes the similarities.
+The resultant similarities shows the copy relation possibilities between two program.</p>
+<h3 id="hahahugoshortcode-s1-hbhb-install">🍺
+ Install</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ brew tap tamada/brew <span style="color:#75715e"># &lt;- the first time only.</span>
+$ brew install pochi
+</code></pre></div><h3 id="hahahugoshortcode-s2-hbhb-docker">🐳
+ Docker</h3>
+<ul>
+<li><code>tamada/pochi</code> (<a href="https://hub.docker.com/r/tamada/pochi">https://hub.docker.com/r/tamada/pochi</a>)
+<ul>
+<li><code>1.0.0</code>, <code>latest</code></li>
+</ul>
+</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ docker run -it --rm -v $PWD:/home/pochi tamada/pochi:latest <span style="color:#f92672">[</span>OPTIONS<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>SCRIPT <span style="color:#f92672">[</span>ARGUMENTS...<span style="color:#f92672">]</span><span style="color:#f92672">]</span>
+</code></pre></div><h3 id="hahahugoshortcode-s3-hbhb-web-pages">🌐
+ Web pages</h3>
+<ul>
+<li>Project page on GitHub
+<ul>
+<li><a href="https://github.com/tamada/pochi">https://github.com/tamada/pochi</a></li>
+</ul>
+</li>
+<li>Web page
+<ul>
+<li><a href="https://tamada.github.io/pochi">https://tamada.github.io/pochi</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="hahahugoshortcode-s4-hbhb-license">📜
+ License</h3>
+<p><a href="https://github.com/tamada/pochi/blob/master/LICENSE">Apache 2.0</a></p>
+
+    </div>
+  </article>
+  <div class="row">
+    
+  </div>
+    
+  <div class="row">
+    <ul class="pager">
+      
+      <li><a class="next" href="/contact/">&laquo; ☎️ Contact me</a></li>
+      
+      
+      <li><a class="previous" href="/projects/ttt/">ttt &raquo;</a></li>
+      
+    </ul>
+  </div>
+</div>
+
+
+<div class="col-md-4 mt20">
+  
+  <h3><a href="/projects/">📁 Parent page</a></h3>
+  
+  <div class="post-img">
+    
+      <img width="600" src="/images/pochi.png" alt="pochi">
+    
+  </div>
+
+  <div class="mt10 recent">
+    <h3>Recent articles</h3>
+    <ul>
+      
+      <li>
+        <p><a href="/research/birthmark_fast_comparison/">Fast comparisons of the birthmarks</a><small>&nbsp;&nbsp;February 15, 2020</small></p>
+      </li>
+      
+      <li>
+        <p><a href="/research/identifying_applied_obfuscator/">Identifying the applied obfuscator</a><small>&nbsp;&nbsp;January 27, 2020</small></p>
+      </li>
+      
+      <li>
+        <p><a href="/profile/skills/">💪 Skills</a><small>&nbsp;&nbsp;December 18, 2019</small></p>
+      </li>
+      
+    </ul>
+  </div>
+  
+  <br>
+</div>
+
+
+</div>
+
+
+
+
+      </div>
+    </div>
+    <footer>
+    <div class="container">
+        <div class="row p20">
+            
+                <div class="col-md-4 text-center mt25">All rights reserved by <a target="_blank" href="https://tamada.github.io/">tamada</a></div>
+            
+
+            <div class="col-md-4 text-center mt25" >
+                
+            </div>
+            <div class="col-md-4 text-center mt25">
+               
+               
+               
+                <a target="_blank" href="https://twitter.com/tama5"><li class="social twitter"><i class="fa fa-twitter-square"></i></li></a>
+                
+               
+                <a target="_blank" href="https://github.com/tamada"><li class="social github"><i class="fa fa-github-square"></i></li></a>
+                
+               
+            </div>
+
+        </div> 
+    </div>
+</footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    
+  </body>
+</html>

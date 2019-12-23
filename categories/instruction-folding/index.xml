@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>instruction folding on Haruaki TAMADA</title>
+    <link>https://tamada.github.io/categories/instruction-folding/</link>
+    <description>Recent content in instruction folding on Haruaki TAMADA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tamada.github.io/categories/instruction-folding/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Method folding obfuscation</title>
+      <link>https://tamada.github.io/research/obfuscation_by_method_folding/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/obfuscation_by_method_folding/</guid>
+      <description>🗣 Overview To improve tamper resistance of programs against illegal modification, this paper proposes instruction folding applicable to Java platform.
+In the proposed method, at first, similar methods are selected in a Java program. Next, these methods are merged into one method and diffs among these methods are stored in the program. Then, at runtime, when one of the merged methods is executed, diffs are restored by self-modification, which is realized by the Java instrumentation mechanism.</description>
+    </item>
+    
+  </channel>
+</rss>

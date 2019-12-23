@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Project as a City - Haruaki TAMADA</title>
+    <meta name="description" content="🗣 Overview Social coding platforms (SCPs) have realized spontaneous software evolution, where new source code and ideas are spontaneously proposed by altruistic developers. Although there are many projects operated by active communities performing spontaneous evolution, it is yet unclear that how such successful projects and communities have been formed and governed. In this paper, we propose a method that can investigate the history of every project in the SCP. Introducing the concept of project as a city, we consider every project in the SCP as a city, where a government and citizens develop a city through collaborative activities."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/research/project_as_a_city/" />
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="🗣 Overview Social coding platforms (SCPs) have realized spontaneous software evolution, where new source code and ideas are spontaneously proposed by altruistic developers. Although there are many projects operated by active communities performing spontaneous evolution, it is yet unclear that how such successful projects and communities have been formed and governed. In this paper, we propose a method that can investigate the history of every project in the SCP. Introducing the concept of project as a city, we consider every project in the SCP as a city, where a government and citizens develop a city through collaborative activities." />
+<meta name="twitter:title" content="Project as a City - Haruaki TAMADA" />
+<meta name="twitter:site" content="https://twitter.com/tama5" />
+<meta name="twitter:creator" content="https://twitter.com/tama5" />
+
+
+<meta property="og:type" content="article" />
+<meta content="Project as a City - Haruaki TAMADA" property="og:title">
+<meta content="🗣 Overview Social coding platforms (SCPs) have realized spontaneous software evolution, where new source code and ideas are spontaneously proposed by altruistic developers. Although there are many projects operated by active communities performing spontaneous evolution, it is yet unclear that how such successful projects and communities have been formed and governed. In this paper, we propose a method that can investigate the history of every project in the SCP. Introducing the concept of project as a city, we consider every project in the SCP as a city, where a government and citizens develop a city through collaborative activities." property="og:description">
+<meta property="og:url" content="https://tamada.github.io/research/project_as_a_city/" />
+<meta property="og:site_name" content="Haruaki TAMADA" />
+<meta property="article:section" content="project" /><meta property="article:section" content="GitHub" /><meta property="article:section" content="project metrics" /><meta property="article:section" content="smart city" /><meta property="article:section" content="project analysis" />
+<meta property="article:published_time" content="2019-09-20 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+<script type="application/ld+json">
+{ 
+    "@context": "http://schema.org", 
+    "@type": "BlogPosting",
+    "headline": "Project as a City",
+    "genre": "projectGitHubproject metricssmart cityproject analysis",  
+    "url": "https:\/\/tamada.github.io\/research\/project_as_a_city\/",
+    "datePublished": "2019-09-20 00:00:00 \x2b0000 UTC",
+    "description": "🗣 Overview Social coding platforms (SCPs) have realized spontaneous software evolution, where new source code and ideas are spontaneously proposed by altruistic developers. Although there are many projects operated by active communities performing spontaneous evolution, it is yet unclear that how such successful projects and communities have been formed and governed. In this paper, we propose a method that can investigate the history of every project in the SCP. Introducing the concept of project as a city, we consider every project in the SCP as a city, where a government and citizens develop a city through collaborative activities.",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    }
+ }
+</script>
+
+
+
+    
+    <link rel="stylesheet" href="/sass/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <script defer type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  </head>
+
+  <body>
+    <header class="site-header">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/"><img src="/images/harry.png" height="64"></a>
+      <a class="navbar-brand" href="/">
+        Haruaki TAMADA
+      </a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/profile">Profile</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+
+    <div class="container">
+      <div class="wrapper">
+        
+<div class="row">
+<div class="col-md-8">
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">Project as a City</h1>
+      <p class="post-meta"><time datetime='2019-09-20T00:00:00Z' itemprop="datePublished">September 20, 2019</time></p>
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+      <h3 id="hahahugoshortcode-s0-hbhb-overview">🗣
+ Overview</h3>
+<p>Social coding platforms (SCPs) have realized <em>spontaneous software evolution</em>, where new source code and ideas are spontaneously proposed by altruistic developers.
+Although there are many projects operated by active communities performing spontaneous evolution, it is yet unclear that how such successful projects and communities have been formed and governed.
+In this paper, we propose a method that can investigate the history of every project in the SCP.
+Introducing the concept of <em>project as a city</em>, we consider every project in the SCP as a city, where a government and citizens develop a city through collaborative activities.
+We then identify essential attributes that characterize a state of a city.
+For each attribute, we develop metrics that quantify the state $S(p,t)$ of a project $p$ at time $t$.
+An experimental evaluation investigating GitHub projects of famous code editors shows that the proposed metrics well visualize the history of the projects from essential perspectives of a city.</p>
+<p>(Abstract from SNPD 2019)</p>
+<h3 id="hahahugoshortcode-s1-hbhb-publications">📚
+ Publications</h3>
+<ul>
+<li>中村 匡秀，戸田 航史，玉田 春昭，松本 健一，”自発的ソフトウェア進化を促すプロジェクト状態の推定”，日本機械学会 第29回設計工学・システム部門講演会，September 2019.（仙台）</li>
+<li>Koji Toda, Haruaki Tamada, Masahide Nakamura, and Kenichi Matsumoto, “Characterizing Project Evolution on a Social Coding Platform,” In Proc. 20th ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD 2019), pp.525–532, July 2019 (Toyama, Japan).</li>
+</ul>
+<h3 id="hahahugoshortcode-s2-hbhb-related-research-topics">🤝
+ Related Research Topics</h3>
+<ul>
+<li><a href="../development_support_bot">Development support bot</a></li>
+<li><a href="../software_development_with_ai">Mining Software Repositories</a></li>
+<li><a href="../characteristics_of_developers">Characteristics of the developers</a></li>
+</ul>
+
+    </div>
+  </article>
+  <div class="row">
+    
+  </div>
+    
+  <div class="row">
+    <ul class="pager">
+      
+      <li><a class="next" href="/research/development_support_bot/">&laquo; Development support bot</a></li>
+      
+      
+      <li><a class="previous" href="/research/automatic_extraction_of_dynamic_birthmarks/">Auto-extraction of Dynamic Birthmarks &raquo;</a></li>
+      
+    </ul>
+  </div>
+</div>
+
+
+<div class="col-md-4 mt20">
+  
+  <h3><a href="/research/">📁 Parent page</a></h3>
+  
+  <div class="post-img">
+    
+      <img width="600" src="/images/research/project_as_a_city.png" alt="Project as a City">
+    
+  </div>
+
+  <div class="mt10 recent">
+    <h3>Recent articles</h3>
+    <ul>
+      
+      <li>
+        <p><a href="/research/birthmark_fast_comparison/">Fast comparisons of the birthmarks</a><small>&nbsp;&nbsp;February 15, 2020</small></p>
+      </li>
+      
+      <li>
+        <p><a href="/research/identifying_applied_obfuscator/">Identifying the applied obfuscator</a><small>&nbsp;&nbsp;January 27, 2020</small></p>
+      </li>
+      
+      <li>
+        <p><a href="/profile/skills/">💪 Skills</a><small>&nbsp;&nbsp;December 18, 2019</small></p>
+      </li>
+      
+    </ul>
+  </div>
+  
+  <br>
+</div>
+
+
+</div>
+
+
+
+
+      </div>
+    </div>
+    <footer>
+    <div class="container">
+        <div class="row p20">
+            
+                <div class="col-md-4 text-center mt25">All rights reserved by <a target="_blank" href="https://tamada.github.io/">tamada</a></div>
+            
+
+            <div class="col-md-4 text-center mt25" >
+                
+            </div>
+            <div class="col-md-4 text-center mt25">
+               
+               
+               
+                <a target="_blank" href="https://twitter.com/tama5"><li class="social twitter"><i class="fa fa-twitter-square"></i></li></a>
+                
+               
+                <a target="_blank" href="https://github.com/tamada"><li class="social github"><i class="fa fa-github-square"></i></li></a>
+                
+               
+            </div>
+
+        </div> 
+    </div>
+</footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    
+  </body>
+</html>

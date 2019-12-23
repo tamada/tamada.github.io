@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Auto-extraction of Dynamic Birthmarks - Haruaki TAMADA</title>
+    <meta name="description" content="🗣 Overview The software birthmark methods are proposed to find the stolen software from the huge number of suspects. The software birthmark methods are classified into two manners, static and dynamic manners. Different from the static birthmarks, dynamic birthmarks require inputs since they base on runtime behaviors. Also, the dynamic birthmark varies depending on the inputs, therefore, it is difficult to extract beforehand. Hence the extraction cost of the dynamic birthmarks is generally high than the static birthmarks."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/research/automatic_extraction_of_dynamic_birthmarks/" />
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="🗣 Overview The software birthmark methods are proposed to find the stolen software from the huge number of suspects. The software birthmark methods are classified into two manners, static and dynamic manners. Different from the static birthmarks, dynamic birthmarks require inputs since they base on runtime behaviors. Also, the dynamic birthmark varies depending on the inputs, therefore, it is difficult to extract beforehand. Hence the extraction cost of the dynamic birthmarks is generally high than the static birthmarks." />
+<meta name="twitter:title" content="Auto-extraction of Dynamic Birthmarks - Haruaki TAMADA" />
+<meta name="twitter:site" content="https://twitter.com/tama5" />
+<meta name="twitter:creator" content="https://twitter.com/tama5" />
+
+
+<meta property="og:type" content="article" />
+<meta content="Auto-extraction of Dynamic Birthmarks - Haruaki TAMADA" property="og:title">
+<meta content="🗣 Overview The software birthmark methods are proposed to find the stolen software from the huge number of suspects. The software birthmark methods are classified into two manners, static and dynamic manners. Different from the static birthmarks, dynamic birthmarks require inputs since they base on runtime behaviors. Also, the dynamic birthmark varies depending on the inputs, therefore, it is difficult to extract beforehand. Hence the extraction cost of the dynamic birthmarks is generally high than the static birthmarks." property="og:description">
+<meta property="og:url" content="https://tamada.github.io/research/automatic_extraction_of_dynamic_birthmarks/" />
+<meta property="og:site_name" content="Haruaki TAMADA" />
+<meta property="article:section" content="birthmarks" /><meta property="article:section" content="theft detection" /><meta property="article:section" content="software theft" /><meta property="article:section" content="auto extraction" /><meta property="article:section" content="aspect oriented programming" />
+<meta property="article:published_time" content="2019-07-15 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+<script type="application/ld+json">
+{ 
+    "@context": "http://schema.org", 
+    "@type": "BlogPosting",
+    "headline": "Auto-extraction of Dynamic Birthmarks",
+    "genre": "birthmarkstheft detectionsoftware theftauto extractionaspect oriented programming",  
+    "url": "https:\/\/tamada.github.io\/research\/automatic_extraction_of_dynamic_birthmarks\/",
+    "datePublished": "2019-07-15 00:00:00 \x2b0000 UTC",
+    "description": "🗣 Overview The software birthmark methods are proposed to find the stolen software from the huge number of suspects. The software birthmark methods are classified into two manners, static and dynamic manners. Different from the static birthmarks, dynamic birthmarks require inputs since they base on runtime behaviors. Also, the dynamic birthmark varies depending on the inputs, therefore, it is difficult to extract beforehand. Hence the extraction cost of the dynamic birthmarks is generally high than the static birthmarks.",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    }
+ }
+</script>
+
+
+
+    
+    <link rel="stylesheet" href="/sass/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <script defer type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  </head>
+
+  <body>
+    <header class="site-header">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/"><img src="/images/harry.png" height="64"></a>
+      <a class="navbar-brand" href="/">
+        Haruaki TAMADA
+      </a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/profile">Profile</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+
+    <div class="container">
+      <div class="wrapper">
+        
+<div class="row">
+<div class="col-md-8">
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">Auto-extraction of Dynamic Birthmarks</h1>
+      <p class="post-meta"><time datetime='2019-07-15T00:00:00Z' itemprop="datePublished">July 15, 2019</time></p>
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+      <h3 id="hahahugoshortcode-s0-hbhb-overview">🗣
+ Overview</h3>
+<p>The software birthmark methods are proposed to find the stolen software from the huge number of suspects.
+The software birthmark methods are classified into two manners, static and dynamic manners.
+Different from the static birthmarks, dynamic birthmarks require inputs since they base on runtime behaviors.
+Also, the dynamic birthmark varies depending on the inputs, therefore, it is difficult to extract beforehand.
+Hence the extraction cost of the dynamic birthmarks is generally high than the static birthmarks.
+This paper focuses on unit test codes in a project in order to extract the dynamic birthmarks beforehand, and reduce the extraction cost.
+The experiments evaluated the credibility and resilience performance of the birthmarks.
+The performance evaluation showed good results, the similarities were greater than 0.8 between most recent two versions of the same products, and were under 0.355 among different projects.
+In the cost evaluation, the proposed method can reduce the extraction cost of dynamic birthmarks.</p>
+<p>(Abstract from SNPD 2018)</p>
+<h3 id="hahahugoshortcode-s1-hbhb-publications">📚
+ Publications</h3>
+<ul>
+<li>横井 昂典，玉田 春昭，&ldquo;単体テストコードとアスペクト指向を用いた動的バースマークの抽出コストの削減&rdquo;，情報処理学会論文誌，Vol.60, No.7，pp.1247–1259，July 2019.</li>
+<li>Takanori Yokoi, and Haruaki Tamada, “A Beforehand Extraction Method for Dynamic Software Birthmarks using Unit Test Codes,” In Proc. 19th ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD 2018), July 2018 (Busan, Korea).</li>
+<li>横井 昂典，玉田 春昭，&ldquo;単体テストコードを利用した動的バースマークの抽出&rdquo;，コンピュータセキュリティシンポジウム2017（CSS 2017），pp.1288–1294 (3C3-4)，October 2017（山形）.</li>
+</ul>
+<h3 id="hahahugoshortcode-s2-hbhb-related-research-topics">🤝
+ Related Research Topics</h3>
+<ul>
+<li><a href="../birthmark_concept">Concept of Software Birthmarks</a></li>
+<li><a href="../dynamic_birthmarks">Dynamic Software Birthmarks</a></li>
+</ul>
+
+    </div>
+  </article>
+  <div class="row">
+    
+  </div>
+    
+  <div class="row">
+    <ul class="pager">
+      
+      <li><a class="next" href="/research/project_as_a_city/">&laquo; Project as a City</a></li>
+      
+      
+      <li><a class="previous" href="/profile/activities/">Activities &raquo;</a></li>
+      
+    </ul>
+  </div>
+</div>
+
+
+<div class="col-md-4 mt20">
+  
+  <h3><a href="/research/">📁 Parent page</a></h3>
+  
+  <div class="post-img">
+    
+      <img width="600" src="/images/research/auto-extraction_of_dynamic_birthmarks.png" alt="Auto-extraction of Dynamic Birthmarks">
+    
+  </div>
+
+  <div class="mt10 recent">
+    <h3>Recent articles</h3>
+    <ul>
+      
+      <li>
+        <p><a href="/research/birthmark_fast_comparison/">Fast comparisons of the birthmarks</a><small>&nbsp;&nbsp;February 15, 2020</small></p>
+      </li>
+      
+      <li>
+        <p><a href="/research/identifying_applied_obfuscator/">Identifying the applied obfuscator</a><small>&nbsp;&nbsp;January 27, 2020</small></p>
+      </li>
+      
+      <li>
+        <p><a href="/profile/skills/">💪 Skills</a><small>&nbsp;&nbsp;December 18, 2019</small></p>
+      </li>
+      
+    </ul>
+  </div>
+  
+  <br>
+</div>
+
+
+</div>
+
+
+
+
+      </div>
+    </div>
+    <footer>
+    <div class="container">
+        <div class="row p20">
+            
+                <div class="col-md-4 text-center mt25">All rights reserved by <a target="_blank" href="https://tamada.github.io/">tamada</a></div>
+            
+
+            <div class="col-md-4 text-center mt25" >
+                
+            </div>
+            <div class="col-md-4 text-center mt25">
+               
+               
+               
+                <a target="_blank" href="https://twitter.com/tama5"><li class="social twitter"><i class="fa fa-twitter-square"></i></li></a>
+                
+               
+                <a target="_blank" href="https://github.com/tamada"><li class="social github"><i class="fa fa-github-square"></i></li></a>
+                
+               
+            </div>
+
+        </div> 
+    </div>
+</footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    
+  </body>
+</html>

@@ -6,9 +6,442 @@
     <description>Recent content in Categories on Haruaki TAMADA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 15 Feb 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tamada.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>birthmarks</title>
+      <link>https://tamada.github.io/categories/birthmarks/</link>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/birthmarks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fast comparison</title>
+      <link>https://tamada.github.io/categories/fast-comparison/</link>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/fast-comparison/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software theft</title>
+      <link>https://tamada.github.io/categories/software-theft/</link>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/software-theft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>theft detection</title>
+      <link>https://tamada.github.io/categories/theft-detection/</link>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/theft-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>identify</title>
+      <link>https://tamada.github.io/categories/identify/</link>
+      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/identify/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>obfuscator</title>
+      <link>https://tamada.github.io/categories/obfuscator/</link>
+      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/obfuscator/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opcodes</title>
+      <link>https://tamada.github.io/categories/opcodes/</link>
+      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/opcodes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>profile</title>
+      <link>https://tamada.github.io/categories/profile/</link>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/profile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>publications</title>
+      <link>https://tamada.github.io/categories/publications/</link>
+      <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>work</title>
+      <link>https://tamada.github.io/categories/work/</link>
+      <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/work/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>homebrew</title>
+      <link>https://tamada.github.io/categories/homebrew/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/homebrew/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>projects</title>
+      <link>https://tamada.github.io/categories/projects/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bot</title>
+      <link>https://tamada.github.io/categories/bot/</link>
+      <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/bot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>support development</title>
+      <link>https://tamada.github.io/categories/support-development/</link>
+      <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/support-development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GitHub</title>
+      <link>https://tamada.github.io/categories/github/</link>
+      <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>project</title>
+      <link>https://tamada.github.io/categories/project/</link>
+      <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/project/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>project analysis</title>
+      <link>https://tamada.github.io/categories/project-analysis/</link>
+      <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/project-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>project metrics</title>
+      <link>https://tamada.github.io/categories/project-metrics/</link>
+      <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/project-metrics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>smart city</title>
+      <link>https://tamada.github.io/categories/smart-city/</link>
+      <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/smart-city/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>aspect oriented programming</title>
+      <link>https://tamada.github.io/categories/aspect-oriented-programming/</link>
+      <pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/aspect-oriented-programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>auto extraction</title>
+      <link>https://tamada.github.io/categories/auto-extraction/</link>
+      <pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/auto-extraction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>de-obfuscation</title>
+      <link>https://tamada.github.io/categories/de-obfuscation/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/de-obfuscation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>identifier renaming</title>
+      <link>https://tamada.github.io/categories/identifier-renaming/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/identifier-renaming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>obfuscation</title>
+      <link>https://tamada.github.io/categories/obfuscation/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/obfuscation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programming course</title>
+      <link>https://tamada.github.io/categories/programming-course/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/programming-course/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>snapshots</title>
+      <link>https://tamada.github.io/categories/snapshots/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/snapshots/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mining</title>
+      <link>https://tamada.github.io/categories/mining/</link>
+      <pubDate>Fri, 14 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/mining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software repository</title>
+      <link>https://tamada.github.io/categories/software-repository/</link>
+      <pubDate>Fri, 14 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/software-repository/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>artificiality</title>
+      <link>https://tamada.github.io/categories/artificiality/</link>
+      <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/artificiality/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stealthiness</title>
+      <link>https://tamada.github.io/categories/stealthiness/</link>
+      <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/stealthiness/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>invokedynamic</title>
+      <link>https://tamada.github.io/categories/invokedynamic/</link>
+      <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/invokedynamic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Java 7</title>
+      <link>https://tamada.github.io/categories/java-7/</link>
+      <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/java-7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>characteristics of developers</title>
+      <link>https://tamada.github.io/categories/characteristics-of-developers/</link>
+      <pubDate>Fri, 20 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/characteristics-of-developers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>development history</title>
+      <link>https://tamada.github.io/categories/development-history/</link>
+      <pubDate>Fri, 20 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/development-history/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>entropy</title>
+      <link>https://tamada.github.io/categories/entropy/</link>
+      <pubDate>Sun, 01 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/entropy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>evaluation of obfuscation</title>
+      <link>https://tamada.github.io/categories/evaluation-of-obfuscation/</link>
+      <pubDate>Sun, 01 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/evaluation-of-obfuscation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kolmogorov complexity</title>
+      <link>https://tamada.github.io/categories/kolmogorov-complexity/</link>
+      <pubDate>Sun, 01 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/kolmogorov-complexity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>instruction folding</title>
+      <link>https://tamada.github.io/categories/instruction-folding/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/instruction-folding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>method folding</title>
+      <link>https://tamada.github.io/categories/method-folding/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/method-folding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mental simulation</title>
+      <link>https://tamada.github.io/categories/mental-simulation/</link>
+      <pubDate>Mon, 24 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/mental-simulation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>obfuscated programs</title>
+      <link>https://tamada.github.io/categories/obfuscated-programs/</link>
+      <pubDate>Mon, 24 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/obfuscated-programs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>unreadable evaluation</title>
+      <link>https://tamada.github.io/categories/unreadable-evaluation/</link>
+      <pubDate>Mon, 24 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/unreadable-evaluation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>applications</title>
+      <link>https://tamada.github.io/categories/applications/</link>
+      <pubDate>Sat, 15 Aug 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/applications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software birthmarks</title>
+      <link>https://tamada.github.io/categories/software-birthmarks/</link>
+      <pubDate>Sat, 15 Aug 2009 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/software-birthmarks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dynamic name resolution</title>
+      <link>https://tamada.github.io/categories/dynamic-name-resolution/</link>
+      <pubDate>Tue, 12 Feb 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/dynamic-name-resolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reflection API</title>
+      <link>https://tamada.github.io/categories/reflection-api/</link>
+      <pubDate>Tue, 12 Feb 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/reflection-api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dynamic birthmarks</title>
+      <link>https://tamada.github.io/categories/dynamic-birthmarks/</link>
+      <pubDate>Tue, 01 Aug 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/dynamic-birthmarks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>method calls</title>
+      <link>https://tamada.github.io/categories/method-calls/</link>
+      <pubDate>Tue, 01 Aug 2006 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/method-calls/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

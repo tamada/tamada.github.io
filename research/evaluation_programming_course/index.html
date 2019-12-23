@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Evaluating students in programming courses - Haruaki TAMADA</title>
+    <meta name="description" content="🗣 Overview It is crucial for educators to understand pitfalls for novice programmers in programming education at computer science course. By giving well-timed advice to students who fall into a pitfall, educators are able to achieve efficient teaching and keep up their students&amp;rsquo; motivation. However, so far, it is less well-understood how novice students edit source code and why they fall into a pitfall. In this paper, we analyzed coding patterns of novice students empirically."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/research/evaluation_programming_course/" />
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="🗣 Overview It is crucial for educators to understand pitfalls for novice programmers in programming education at computer science course. By giving well-timed advice to students who fall into a pitfall, educators are able to achieve efficient teaching and keep up their students&amp;rsquo; motivation. However, so far, it is less well-understood how novice students edit source code and why they fall into a pitfall. In this paper, we analyzed coding patterns of novice students empirically." />
+<meta name="twitter:title" content="Evaluating students in programming courses - Haruaki TAMADA" />
+<meta name="twitter:site" content="https://twitter.com/tama5" />
+<meta name="twitter:creator" content="https://twitter.com/tama5" />
+
+
+<meta property="og:type" content="article" />
+<meta content="Evaluating students in programming courses - Haruaki TAMADA" property="og:title">
+<meta content="🗣 Overview It is crucial for educators to understand pitfalls for novice programmers in programming education at computer science course. By giving well-timed advice to students who fall into a pitfall, educators are able to achieve efficient teaching and keep up their students&amp;rsquo; motivation. However, so far, it is less well-understood how novice students edit source code and why they fall into a pitfall. In this paper, we analyzed coding patterns of novice students empirically." property="og:description">
+<meta property="og:url" content="https://tamada.github.io/research/evaluation_programming_course/" />
+<meta property="og:site_name" content="Haruaki TAMADA" />
+<meta property="article:section" content="programming course" /><meta property="article:section" content="snapshots" />
+<meta property="article:published_time" content="2018-01-15 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+<script type="application/ld+json">
+{ 
+    "@context": "http://schema.org", 
+    "@type": "BlogPosting",
+    "headline": "Evaluating students in programming courses",
+    "genre": "programming coursesnapshots",  
+    "url": "https:\/\/tamada.github.io\/research\/evaluation_programming_course\/",
+    "datePublished": "2018-01-15 00:00:00 \x2b0000 UTC",
+    "description": "🗣 Overview It is crucial for educators to understand pitfalls for novice programmers in programming education at computer science course. By giving well-timed advice to students who fall into a pitfall, educators are able to achieve efficient teaching and keep up their students\x26rsquo; motivation. However, so far, it is less well-understood how novice students edit source code and why they fall into a pitfall. In this paper, we analyzed coding patterns of novice students empirically.",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    }
+ }
+</script>
+
+
+
+    
+    <link rel="stylesheet" href="/sass/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <script defer type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  </head>
+
+  <body>
+    <header class="site-header">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/"><img src="/images/harry.png" height="64"></a>
+      <a class="navbar-brand" href="/">
+        Haruaki TAMADA
+      </a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/profile">Profile</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+
+    <div class="container">
+      <div class="wrapper">
+        
+<div class="row">
+<div class="col-md-8">
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">Evaluating students in programming courses</h1>
+      <p class="post-meta"><time datetime='2018-01-15T00:00:00Z' itemprop="datePublished">January 15, 2018</time></p>
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+      <h3 id="hahahugoshortcode-s0-hbhb-overview">🗣
+ Overview</h3>
+<p>It is crucial for educators to understand pitfalls for novice programmers in programming education at computer science course.
+By giving well-timed advice to students who fall into a pitfall, educators are able to achieve efficient teaching and keep up their students&rsquo; motivation.
+However, so far, it is less well-understood how novice students edit source code and why they fall into a pitfall.
+In this paper, we analyzed coding patterns of novice students empirically.
+We collected programming activities by students on exercises of programming course, and then performed qualitative and quantitative analysis.
+In qualitative analysis, experienced programmers analyzed patterns of the novice programmers manually.
+In quantitative analysis, we focused on transtions of the edit distance between a source code of each student under development and a correct source code in a programming class.
+As a result, we confirmed coding patterns of novice programmers in case of falling into pitfalls, and the characteristics of transitions of edit distance metric in the case that novice students had faced difficulty in understanding the exercise.</p>
+<p>(Abstract from IWESEP 2012)</p>
+<h3 id="hahahugoshortcode-s1-hbhb-publications">📚
+ Publications</h3>
+<ul>
+<li>藤原 賢二，上村 恭平，井垣 宏，吉田 則裕，伏田 享平，玉田 春昭，楠本 真二，飯田 元，”スナップショットを用いたプログラミング演習における行き詰まり箇所の特定”，コンピュータ ソフトウェア, Vol. 35, No. 1, pp.1_3-1_13, January 2018.</li>
+<li>藤原 賢二，上村 恭平，井垣 宏，伏田 享平，玉田 春昭，楠本 真二，飯田 元，”スナップショットを用いたプログラミング演習における行き詰まり箇所の特定”，第3回実践的IT教育シンポジウム（rePiT2017）論文集，pp.17–26, January 2017.（大阪，最優秀論文賞）</li>
+<li>Kenji Fujiwara, Kyohei Fushida, Haruaki Tamada, Hiroshi Igaki, and Norihiro Yoshida, “Why Novice Programmers Fall into a Pitfall?: Coding Pattern Analysis in Programming Exercise,” In Proc. 4th International Workshop on Empirical Software Engineering in Practice (IWESEP 2012), pp.46-51, October 2012. (Osaka, Japan) [Best Student Paper Award]</li>
+<li>伏田 享平, 玉田 春昭，井垣 宏，藤原 賢二，吉田 則裕，”プログラミング演習における初学者を対象としたコーディング傾向の分析”, 信学技報 ソフトウェアサイエンス研究会, Vol.2012-03-SS, pp.67-72, March 2012.</li>
+<li>Haruaki Tamada, Akihiro Ogino, and Hirotada Ueda, “A Framework for Programming Process Measurement and Compile Error Interpretation for Novice Programmers,” In Proc. The Joint Conference of the 21th International Workshop on Software Measurement (IWSM) and the 6th International Conference on Software Process and Product Measurement (Mensura) (IWSM/MENSURA 2011), pp.233-238, 3-4 November 2011. (Nara, Japan)</li>
+<li>Akihiro Ogino, Haruaki Tamada, and Hirotada Ueda, “Phynocation: A prototyping of a teaching assistant robot for C language class,” In Proc. HCI International 2011 (HCI2011), 9-14 July 2011. (Orlando, Florida, USA)</li>
+<li>荻野 晃大，玉田 春昭，上田 博唯，”ロボットをアシスタントとして利用する教育支援システムの研究”，京都産業大学総合学術研究所所報，第6号，pp.45–54, July 2011.</li>
+<li>玉田 春昭，荻野 晃大，上田 博唯，”アシスタントロボットを用いたプログラミング教育支援システムの構築”, 信学技報 マルチメディア・仮想環境基礎研究会, Vol.MVE2010-48, pp.143-148, June 2010.</li>
+<li>Haruaki Tamada, Akihiro Ogino, and Hirotada Ueda, “Robot Helps Teachers for Education of the C Language Beginners,” In Proc. HCI International 2009 (HCII2009), DVD, 19-24 July 2009. (San Diego, CA, USA).</li>
+</ul>
+<h3 id="hahahugoshortcode-s2-hbhb-related-research-topics">🤝
+ Related Research Topics</h3>
+<ul>
+<li><a href="../characteristics_of_developers">Characteristics of the developers</a></li>
+</ul>
+
+    </div>
+  </article>
+  <div class="row">
+    
+  </div>
+    
+  <div class="row">
+    <ul class="pager">
+      
+      <li><a class="next" href="/research/deobfuscating_identifier_renaming/">&laquo; De-obfuscate IRM</a></li>
+      
+      
+      <li><a class="previous" href="/research/software_development_with_ai/">Mining Software Repository &raquo;</a></li>
+      
+    </ul>
+  </div>
+</div>
+
+
+<div class="col-md-4 mt20">
+  
+  <h3><a href="/research/">📁 Parent page</a></h3>
+  
+  <div class="post-img">
+    
+      <img width="600" src="/images/research/qualitative_analysis.png" alt="Evaluating students in programming courses">
+    
+  </div>
+
+  <div class="mt10 recent">
+    <h3>Recent articles</h3>
+    <ul>
+      
+      <li>
+        <p><a href="/research/birthmark_fast_comparison/">Fast comparisons of the birthmarks</a><small>&nbsp;&nbsp;February 15, 2020</small></p>
+      </li>
+      
+      <li>
+        <p><a href="/research/identifying_applied_obfuscator/">Identifying the applied obfuscator</a><small>&nbsp;&nbsp;January 27, 2020</small></p>
+      </li>
+      
+      <li>
+        <p><a href="/profile/skills/">💪 Skills</a><small>&nbsp;&nbsp;December 18, 2019</small></p>
+      </li>
+      
+    </ul>
+  </div>
+  
+  <br>
+</div>
+
+
+</div>
+
+
+
+
+      </div>
+    </div>
+    <footer>
+    <div class="container">
+        <div class="row p20">
+            
+                <div class="col-md-4 text-center mt25">All rights reserved by <a target="_blank" href="https://tamada.github.io/">tamada</a></div>
+            
+
+            <div class="col-md-4 text-center mt25" >
+                
+            </div>
+            <div class="col-md-4 text-center mt25">
+               
+               
+               
+                <a target="_blank" href="https://twitter.com/tama5"><li class="social twitter"><i class="fa fa-twitter-square"></i></li></a>
+                
+               
+                <a target="_blank" href="https://github.com/tamada"><li class="social github"><i class="fa fa-github-square"></i></li></a>
+                
+               
+            </div>
+
+        </div> 
+    </div>
+</footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    
+  </body>
+</html>

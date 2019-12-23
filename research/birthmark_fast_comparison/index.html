@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Fast comparisons of the birthmarks - Haruaki TAMADA</title>
+    <meta name="description" content="🗣 Overview The software birthmarks were proposed for detecting the software theft from a large number of suspected programs. The birthmark is a technique to compare the extracted characteristics as the software birthmarks, and compute similarities between two birthmarks. The conventional birthmarks require a much time by increasing the target programs for comparison. Therefore, it is the bottleneck of the conventional birthmarking technique. In this paper, we propose a method for reducing total processing time by introducing the narrowing phase between conventional extracting and comparison phases."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/research/birthmark_fast_comparison/" />
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="🗣 Overview The software birthmarks were proposed for detecting the software theft from a large number of suspected programs. The birthmark is a technique to compare the extracted characteristics as the software birthmarks, and compute similarities between two birthmarks. The conventional birthmarks require a much time by increasing the target programs for comparison. Therefore, it is the bottleneck of the conventional birthmarking technique. In this paper, we propose a method for reducing total processing time by introducing the narrowing phase between conventional extracting and comparison phases." />
+<meta name="twitter:title" content="Fast comparisons of the birthmarks - Haruaki TAMADA" />
+<meta name="twitter:site" content="https://twitter.com/tama5" />
+<meta name="twitter:creator" content="https://twitter.com/tama5" />
+
+
+<meta property="og:type" content="article" />
+<meta content="Fast comparisons of the birthmarks - Haruaki TAMADA" property="og:title">
+<meta content="🗣 Overview The software birthmarks were proposed for detecting the software theft from a large number of suspected programs. The birthmark is a technique to compare the extracted characteristics as the software birthmarks, and compute similarities between two birthmarks. The conventional birthmarks require a much time by increasing the target programs for comparison. Therefore, it is the bottleneck of the conventional birthmarking technique. In this paper, we propose a method for reducing total processing time by introducing the narrowing phase between conventional extracting and comparison phases." property="og:description">
+<meta property="og:url" content="https://tamada.github.io/research/birthmark_fast_comparison/" />
+<meta property="og:site_name" content="Haruaki TAMADA" />
+<meta property="article:section" content="birthmarks" /><meta property="article:section" content="theft detection" /><meta property="article:section" content="software theft" /><meta property="article:section" content="fast comparison" />
+<meta property="article:published_time" content="2020-02-15 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+<script type="application/ld+json">
+{ 
+    "@context": "http://schema.org", 
+    "@type": "BlogPosting",
+    "headline": "Fast comparisons of the birthmarks",
+    "genre": "birthmarkstheft detectionsoftware theftfast comparison",  
+    "url": "https:\/\/tamada.github.io\/research\/birthmark_fast_comparison\/",
+    "datePublished": "2020-02-15 00:00:00 \x2b0000 UTC",
+    "description": "🗣 Overview The software birthmarks were proposed for detecting the software theft from a large number of suspected programs. The birthmark is a technique to compare the extracted characteristics as the software birthmarks, and compute similarities between two birthmarks. The conventional birthmarks require a much time by increasing the target programs for comparison. Therefore, it is the bottleneck of the conventional birthmarking technique. In this paper, we propose a method for reducing total processing time by introducing the narrowing phase between conventional extracting and comparison phases.",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    }
+ }
+</script>
+
+
+
+    
+    <link rel="stylesheet" href="/sass/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <script defer type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  </head>
+
+  <body>
+    <header class="site-header">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/"><img src="/images/harry.png" height="64"></a>
+      <a class="navbar-brand" href="/">
+        Haruaki TAMADA
+      </a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/profile">Profile</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+
+    <div class="container">
+      <div class="wrapper">
+        
+<div class="row">
+<div class="col-md-8">
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">Fast comparisons of the birthmarks</h1>
+      <p class="post-meta"><time datetime='2020-02-15T00:00:00Z' itemprop="datePublished">February 15, 2020</time></p>
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+      <h3 id="hahahugoshortcode-s0-hbhb-overview">🗣
+ Overview</h3>
+<p>The software birthmarks were proposed for detecting the software theft from a large number of suspected programs.
+The birthmark is a technique to compare the extracted characteristics as the software birthmarks, and compute similarities between two birthmarks.
+The conventional birthmarks require a much time by increasing the target programs for comparison.
+Therefore, it is the bottleneck of the conventional birthmarking technique.
+In this paper, we propose a method for reducing total processing time by introducing the narrowing phase between conventional extracting and comparison phases.
+The narrowing phase employs the fast but rough comparison algorithm in order to eliminate unrelated programs.</p>
+<p>We developed the narrowing system for the birthmark, named \mituba, then conducted the experimental evaluation with \mituba.
+The evaluation points are required time, narrowing rate, false negatives, false positives, accuracy, and preservation property of the birthmarks.
+The results are, in the threshold for deciding the theft is $0.2$, the required time reduced to 20%, the system successfully narrowed 80% programs.
+The false negatives in the rest of the programs are about 80%, it was quite high.
+However, the false positives were 0%, and the accuracies were over 70%.
+Additionally, the proposed method satisfied the preservation property by 80% in the strongest obfuscation method in the experiments.
+The results were totally quite well.
+From the results of the experimental evaluations, we discussed the suitable threshold.
+In ordinal case, the suitable threshold is $0.6$, however, the proposed method is acceptable in the threshold is $0.2$ in the user's discretion.</p>
+<p>(Abstract from IPSJ journal 2019)</p>
+<h3 id="hahahugoshortcode-s1-hbhb-publications">📚
+ Publications</h3>
+<ul>
+<li>中村 潤，玉田 春昭，”大量のソフトウェアを対象にしたソフトウェアバースマークによる盗用検出 〜全文検索システムを用いた検査対象の絞り込み手法〜”，情報処理学会論文誌，Vol.61, No.2, Feburary 2020（採録決定）.</li>
+<li>Jun Nakamura, Haruaki Tamada, “mituba: Scaling up Software Theft Detection with the Search Engine,” Proc. International Conference on Software Engineering and Information Management (ICSIM 2018), pp.6–10, January 2018 (Casablanca, Morocco).</li>
+<li>中村 潤，玉田 春昭，”検索エンジンを用いたソフトウェアバースマークによる検査対象の絞り込み手法”，第24回ソフトウェア工学の基礎ワークショップ（FOSE2017），pp.99–104, November 2017（福井）.</li>
+<li>Takehiro Tsuzaki, Teruaki Yamamoto, Haruaki Tamada, and Akito Monden, “Scaling Up Software Birthmarks Using Fuzzy Hashing,” International Journal of Software Innovation (IJSI), Volume 5, Issue 3, pp.89–102, June 2017.</li>
+<li>Jun Nakamura, and Haruaki Tamada, “Fast Comparison of Software Birthmarks for Detecting the Theft with the Search Engine,” In Proc. of the 4th International Conference on Applied Computing &amp; Information Technology (ACIT 2016), pp.152–157, December 2016 (UNLV, Las Vegas, NV, USA).</li>
+<li>山本 照明，玉田 春昭，門田 暁人，”大量のプログラムを対象としたファジーハッシュを用いたバースマーク手法”，2015年暗号と情報セキュリティシンポジウム予稿集（SCIS2015），3B4-4，January 2015（福岡，小倉）.</li>
+</ul>
+<h3 id="hahahugoshortcode-s2-hbhb-related-research-topics">🤝
+ Related Research Topics</h3>
+<ul>
+<li><a href="../birthmark_concept">Concept of Software Birthmarks</a></li>
+</ul>
+
+    </div>
+  </article>
+  <div class="row">
+    
+  </div>
+    
+  <div class="row">
+    <ul class="pager">
+      
+      
+      <li><a class="previous" href="/research/identifying_applied_obfuscator/">Identifying the applied obfuscator &raquo;</a></li>
+      
+    </ul>
+  </div>
+</div>
+
+
+<div class="col-md-4 mt20">
+  
+  <h3><a href="/research/">📁 Parent page</a></h3>
+  
+  <div class="post-img">
+    
+      <img width="600" src="/images/research/fast_comparison_of_birthmarks.png" alt="Fast comparisons of the birthmarks">
+    
+  </div>
+
+  <div class="mt10 recent">
+    <h3>Recent articles</h3>
+    <ul>
+      
+      <li>
+        <p><a href="/research/birthmark_fast_comparison/">Fast comparisons of the birthmarks</a><small>&nbsp;&nbsp;February 15, 2020</small></p>
+      </li>
+      
+      <li>
+        <p><a href="/research/identifying_applied_obfuscator/">Identifying the applied obfuscator</a><small>&nbsp;&nbsp;January 27, 2020</small></p>
+      </li>
+      
+      <li>
+        <p><a href="/profile/skills/">💪 Skills</a><small>&nbsp;&nbsp;December 18, 2019</small></p>
+      </li>
+      
+    </ul>
+  </div>
+  
+  <br>
+</div>
+
+
+</div>
+
+
+
+
+      </div>
+    </div>
+    <footer>
+    <div class="container">
+        <div class="row p20">
+            
+                <div class="col-md-4 text-center mt25">All rights reserved by <a target="_blank" href="https://tamada.github.io/">tamada</a></div>
+            
+
+            <div class="col-md-4 text-center mt25" >
+                
+            </div>
+            <div class="col-md-4 text-center mt25">
+               
+               
+               
+                <a target="_blank" href="https://twitter.com/tama5"><li class="social twitter"><i class="fa fa-twitter-square"></i></li></a>
+                
+               
+                <a target="_blank" href="https://github.com/tamada"><li class="social github"><i class="fa fa-github-square"></i></li></a>
+                
+               
+            </div>
+
+        </div> 
+    </div>
+</footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    
+  </body>
+</html>

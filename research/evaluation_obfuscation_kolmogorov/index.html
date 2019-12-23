@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Evaluating obfuscation method by Kolmogorov complexity - Haruaki TAMADA</title>
+    <meta name="description" content="🗣 Overview This paper quantifies the diffuculty of program analysis based on the information theory. The basic idea is to consider that a program ultimately obscated if instructions appear at random; that is (1) all instructions has an equal frequency of appearance, and (2) there is no pattern observed in the instruction sequence. We quantified (1) based on the entropy and (2) based on the Kolmogorov complexity. We evaluated the feasibility of our proposal through a case study."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/research/evaluation_obfuscation_kolmogorov/" />
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="🗣 Overview This paper quantifies the diffuculty of program analysis based on the information theory. The basic idea is to consider that a program ultimately obscated if instructions appear at random; that is (1) all instructions has an equal frequency of appearance, and (2) there is no pattern observed in the instruction sequence. We quantified (1) based on the entropy and (2) based on the Kolmogorov complexity. We evaluated the feasibility of our proposal through a case study." />
+<meta name="twitter:title" content="Evaluating obfuscation method by Kolmogorov complexity - Haruaki TAMADA" />
+<meta name="twitter:site" content="https://twitter.com/tama5" />
+<meta name="twitter:creator" content="https://twitter.com/tama5" />
+
+
+<meta property="og:type" content="article" />
+<meta content="Evaluating obfuscation method by Kolmogorov complexity - Haruaki TAMADA" property="og:title">
+<meta content="🗣 Overview This paper quantifies the diffuculty of program analysis based on the information theory. The basic idea is to consider that a program ultimately obscated if instructions appear at random; that is (1) all instructions has an equal frequency of appearance, and (2) there is no pattern observed in the instruction sequence. We quantified (1) based on the entropy and (2) based on the Kolmogorov complexity. We evaluated the feasibility of our proposal through a case study." property="og:description">
+<meta property="og:url" content="https://tamada.github.io/research/evaluation_obfuscation_kolmogorov/" />
+<meta property="og:site_name" content="Haruaki TAMADA" />
+<meta property="article:section" content="kolmogorov complexity" /><meta property="article:section" content="evaluation of obfuscation" /><meta property="article:section" content="entropy" />
+<meta property="article:published_time" content="2013-09-01 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+<script type="application/ld+json">
+{ 
+    "@context": "http://schema.org", 
+    "@type": "BlogPosting",
+    "headline": "Evaluating obfuscation method by Kolmogorov complexity",
+    "genre": "kolmogorov complexityevaluation of obfuscationentropy",  
+    "url": "https:\/\/tamada.github.io\/research\/evaluation_obfuscation_kolmogorov\/",
+    "datePublished": "2013-09-01 00:00:00 \x2b0000 UTC",
+    "description": "🗣 Overview This paper quantifies the diffuculty of program analysis based on the information theory. The basic idea is to consider that a program ultimately obscated if instructions appear at random; that is (1) all instructions has an equal frequency of appearance, and (2) there is no pattern observed in the instruction sequence. We quantified (1) based on the entropy and (2) based on the Kolmogorov complexity. We evaluated the feasibility of our proposal through a case study.",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    }
+ }
+</script>
+
+
+
+    
+    <link rel="stylesheet" href="/sass/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <script defer type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  </head>
+
+  <body>
+    <header class="site-header">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/"><img src="/images/harry.png" height="64"></a>
+      <a class="navbar-brand" href="/">
+        Haruaki TAMADA
+      </a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/profile">Profile</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+
+    <div class="container">
+      <div class="wrapper">
+        
+<div class="row">
+<div class="col-md-8">
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">Evaluating obfuscation method by Kolmogorov complexity</h1>
+      <p class="post-meta"><time datetime='2013-09-01T00:00:00Z' itemprop="datePublished">September 1, 2013</time></p>
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+      <h3 id="hahahugoshortcode-s0-hbhb-overview">🗣
+ Overview</h3>
+<p>This paper quantifies the diffuculty of program analysis based on the information theory.
+The basic idea is to consider that a program ultimately obscated if instructions appear at random;
+that is (1) all instructions has an equal frequency of appearance,
+and (2) there is no pattern observed in the instruction sequence.
+We quantified (1) based on the entropy and (2) based on the Kolmogorov complexity.
+We evaluated the feasibility of our proposal through a case study.</p>
+<p>(Abstract from Computer Software, Vol.30, No. 3)</p>
+<h3 id="hahahugoshortcode-s1-hbhb-publications">📚
+ Publications</h3>
+<ul>
+<li>二村 阿美，門田 暁人，玉田 春昭，神崎 雄一郎，中村 匡秀，松本 健一，&ldquo;命令のランダム性に基づくプログラム難読化の評価&rdquo;，コンピュータソフトウェア, Vol. 30, No. 3, pp. 18-24, September 2013.</li>
+<li>二村 阿美，門田 暁人，玉田 春昭，神崎 雄一郎，中村 匡秀，松本 健一，&ldquo;命令の乱雑さに基づくプログラム理解性の評価&rdquo;，ソフトウェア工学の基礎XIX，日本ソフトウェア科学会 FOSE2012 (FOSE2012), pp.151–160, December 2012 (Reviewed).</li>
+</ul>
+<h3 id="hahahugoshortcode-s2-hbhb-related-research-topics">🤝
+ Related Research Topics</h3>
+<ul>
+<li><a href="../artificiality_evaluation">Artificiality evaluation of obfuscations</a></li>
+<li><a href="../deobfuscating_identifier_renaming">De-obfuscate IRM (identifier renaming method)</a></li>
+<li><a href="../unreadability_evaluation">Unreadability evaluation of obfuscated programs</a></li>
+</ul>
+
+    </div>
+  </article>
+  <div class="row">
+    
+  </div>
+    
+  <div class="row">
+    <ul class="pager">
+      
+      <li><a class="next" href="/research/characteristics_of_developers/">&laquo; Characteristics of the developers</a></li>
+      
+      
+      <li><a class="previous" href="/research/obfuscation_by_method_folding/">Method folding obfuscation &raquo;</a></li>
+      
+    </ul>
+  </div>
+</div>
+
+
+<div class="col-md-4 mt20">
+  
+  <h3><a href="/research/">📁 Parent page</a></h3>
+  
+  <div class="post-img">
+    
+      <img width="600" src="/images/research/kolmogorov_complexity.png" alt="Evaluating obfuscation method by Kolmogorov complexity">
+    
+  </div>
+
+  <div class="mt10 recent">
+    <h3>Recent articles</h3>
+    <ul>
+      
+      <li>
+        <p><a href="/research/birthmark_fast_comparison/">Fast comparisons of the birthmarks</a><small>&nbsp;&nbsp;February 15, 2020</small></p>
+      </li>
+      
+      <li>
+        <p><a href="/research/identifying_applied_obfuscator/">Identifying the applied obfuscator</a><small>&nbsp;&nbsp;January 27, 2020</small></p>
+      </li>
+      
+      <li>
+        <p><a href="/profile/skills/">💪 Skills</a><small>&nbsp;&nbsp;December 18, 2019</small></p>
+      </li>
+      
+    </ul>
+  </div>
+  
+  <br>
+</div>
+
+
+</div>
+
+
+
+
+      </div>
+    </div>
+    <footer>
+    <div class="container">
+        <div class="row p20">
+            
+                <div class="col-md-4 text-center mt25">All rights reserved by <a target="_blank" href="https://tamada.github.io/">tamada</a></div>
+            
+
+            <div class="col-md-4 text-center mt25" >
+                
+            </div>
+            <div class="col-md-4 text-center mt25">
+               
+               
+               
+                <a target="_blank" href="https://twitter.com/tama5"><li class="social twitter"><i class="fa fa-twitter-square"></i></li></a>
+                
+               
+                <a target="_blank" href="https://github.com/tamada"><li class="social github"><i class="fa fa-github-square"></i></li></a>
+                
+               
+            </div>
+
+        </div> 
+    </div>
+</footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    
+  </body>
+</html>

@@ -6,125 +6,116 @@
     <description>Recent content in Tags on Haruaki TAMADA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 27 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tamada.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>GitHub</title>
-      <link>https://tamada.github.io/tags/github/</link>
-      <pubDate>Sat, 27 Jul 2019 00:00:00 +0000</pubDate>
+      <title>birthmarks</title>
+      <link>https://tamada.github.io/tags/birthmarks/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Homebrew</title>
-      <link>https://tamada.github.io/tags/homebrew/</link>
-      <pubDate>Sat, 27 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/homebrew/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>macOS</title>
-      <link>https://tamada.github.io/tags/macos/</link>
-      <pubDate>Sat, 27 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/macos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>bash/shell</title>
-      <link>https://tamada.github.io/tags/bash/shell/</link>
-      <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/bash/shell/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>csv</title>
-      <link>https://tamada.github.io/tags/csv/</link>
-      <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/csv/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>golang</title>
-      <link>https://tamada.github.io/tags/golang/</link>
-      <pubDate>Wed, 12 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/golang/</guid>
+      <guid>https://tamada.github.io/tags/birthmarks/</guid>
       <description></description>
     </item>
     
     <item>
       <title>git</title>
       <link>https://tamada.github.io/tags/git/</link>
-      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>git repository</title>
-      <link>https://tamada.github.io/tags/git-repository/</link>
-      <pubDate>Fri, 05 Jan 2018 00:00:00 +0000</pubDate>
+      <title>GitHub</title>
+      <link>https://tamada.github.io/tags/github/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/tags/git-repository/</guid>
+      <guid>https://tamada.github.io/tags/github/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>birthmarking</title>
-      <link>https://tamada.github.io/tags/birthmarking/</link>
-      <pubDate>Sat, 27 Aug 2016 00:00:00 +0000</pubDate>
+      <title>homebrew</title>
+      <link>https://tamada.github.io/tags/homebrew/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/tags/birthmarking/</guid>
+      <guid>https://tamada.github.io/tags/homebrew/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>code quality evaluation</title>
-      <link>https://tamada.github.io/tags/code-quality-evaluation/</link>
-      <pubDate>Sat, 27 Aug 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/code-quality-evaluation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Java</title>
+      <title>java</title>
       <link>https://tamada.github.io/tags/java/</link>
-      <pubDate>Sat, 27 Aug 2016 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/tags/java/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>maven</title>
-      <link>https://tamada.github.io/tags/maven/</link>
-      <pubDate>Sat, 27 Aug 2016 00:00:00 +0000</pubDate>
+      <title>macOS</title>
+      <link>https://tamada.github.io/tags/macos/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/tags/maven/</guid>
+      <guid>https://tamada.github.io/tags/macos/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>software theft detection</title>
-      <link>https://tamada.github.io/tags/software-theft-detection/</link>
-      <pubDate>Sat, 27 Aug 2016 00:00:00 +0000</pubDate>
+      <title>theft detection</title>
+      <link>https://tamada.github.io/tags/theft-detection/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/tags/software-theft-detection/</guid>
+      <guid>https://tamada.github.io/tags/theft-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>go</title>
+      <link>https://tamada.github.io/tags/go/</link>
+      <pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kyoto Sangyo University</title>
+      <link>https://tamada.github.io/tags/kyoto-sangyo-university/</link>
+      <pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/kyoto-sangyo-university/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>utility</title>
+      <link>https://tamada.github.io/tags/utility/</link>
+      <pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/utility/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>code quality</title>
+      <link>https://tamada.github.io/tags/code-quality/</link>
+      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/code-quality/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>repository management</title>
+      <link>https://tamada.github.io/tags/repository-management/</link>
+      <pubDate>Sat, 13 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/repository-management/</guid>
       <description></description>
     </item>
     

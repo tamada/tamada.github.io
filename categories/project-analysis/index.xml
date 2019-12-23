@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>project analysis on Haruaki TAMADA</title>
+    <link>https://tamada.github.io/categories/project-analysis/</link>
+    <description>Recent content in project analysis on Haruaki TAMADA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Sep 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tamada.github.io/categories/project-analysis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Project as a City</title>
+      <link>https://tamada.github.io/research/project_as_a_city/</link>
+      <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/project_as_a_city/</guid>
+      <description>🗣 Overview Social coding platforms (SCPs) have realized spontaneous software evolution, where new source code and ideas are spontaneously proposed by altruistic developers. Although there are many projects operated by active communities performing spontaneous evolution, it is yet unclear that how such successful projects and communities have been formed and governed. In this paper, we propose a method that can investigate the history of every project in the SCP. Introducing the concept of project as a city, we consider every project in the SCP as a city, where a government and citizens develop a city through collaborative activities.</description>
+    </item>
+    
+    <item>
+      <title>Characteristics of the developers</title>
+      <link>https://tamada.github.io/research/characteristics_of_developers/</link>
+      <pubDate>Fri, 20 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/characteristics_of_developers/</guid>
+      <description>🗣 Overview In software development, multiple developers compose a team, and perform a development process. To succeed the development, understanding developers&amp;rsquo; characteristics are needed. However, there is no way to measure the characteristics of the developer by quantitative analysis. Therefore, a project manager often assigns team members based on his/her own sense, considering experience year of them.
+This paper proposes a measurement framework for developers&amp;rsquo; characteristics using quantitative historical data. The proposed framework is useful for measuring developers&amp;rsquo; characteristics and building a team based on quantitative analysis.</description>
+    </item>
+    
+  </channel>
+</rss>

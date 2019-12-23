@@ -3,145 +3,493 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://tamada.github.io/hobbies/</loc>
-    <lastmod>2019-07-13T00:00:00+00:00</lastmod>
+    <loc>https://tamada.github.io/research/</loc>
+    <lastmod>2020-02-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tamada.github.io/projects/creations/</loc>
-    <lastmod>2019-07-27T00:00:00+00:00</lastmod>
-    <priority>0.5</priority>
+    <loc>https://tamada.github.io/categories/birthmarks/</loc>
+    <lastmod>2020-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/</loc>
+    <lastmod>2020-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/fast-comparison/</loc>
+    <lastmod>2020-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/research/birthmark_fast_comparison/</loc>
+    <lastmod>2020-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/software-theft/</loc>
+    <lastmod>2020-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/theft-detection/</loc>
+    <lastmod>2020-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/identify/</loc>
+    <lastmod>2020-01-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/research/identifying_applied_obfuscator/</loc>
+    <lastmod>2020-01-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/obfuscator/</loc>
+    <lastmod>2020-01-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/opcodes/</loc>
+    <lastmod>2020-01-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/profile/skills/</loc>
+    <lastmod>2019-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/profile/</loc>
+    <lastmod>2019-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/publications/</loc>
+    <lastmod>2019-12-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/profile/</loc>
+    <lastmod>2019-12-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/profile/education/</loc>
+    <lastmod>2019-12-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/profile/experiences/</loc>
+    <lastmod>2019-12-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/publications/</loc>
+    <lastmod>2019-12-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/work/</loc>
+    <lastmod>2019-12-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/projects/homebrew/</loc>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/contact/</loc>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/projects/</loc>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/tags/birthmarks/</loc>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/tags/git/</loc>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tamada.github.io/tags/github/</loc>
-    <lastmod>2019-07-27T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tamada.github.io/tags/homebrew/</loc>
-    <lastmod>2019-07-27T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tamada.github.io/projects/creations/homebrew-brew/</loc>
-    <lastmod>2019-07-27T00:00:00+00:00</lastmod>
+    <loc>https://tamada.github.io/categories/homebrew/</loc>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/tags/java/</loc>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tamada.github.io/tags/macos/</loc>
-    <lastmod>2019-07-27T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/projects/pochi/</loc>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/projects/</loc>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tamada.github.io/tags/</loc>
-    <lastmod>2019-07-27T00:00:00+00:00</lastmod>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tamada.github.io/activities/</loc>
-    <lastmod>2019-07-13T00:00:00+00:00</lastmod>
-    <priority>1</priority>
+    <loc>https://tamada.github.io/tags/theft-detection/</loc>
+    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/tags/go/</loc>
+    <lastmod>2019-11-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/tags/kyoto-sangyo-university/</loc>
+    <lastmod>2019-11-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/projects/ttt/</loc>
+    <lastmod>2019-11-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/tags/utility/</loc>
+    <lastmod>2019-11-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/projects/9rules/</loc>
+    <lastmod>2019-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/tags/code-quality/</loc>
+    <lastmod>2019-10-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/bot/</loc>
+    <lastmod>2019-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/research/development_support_bot/</loc>
+    <lastmod>2019-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/support-development/</loc>
+    <lastmod>2019-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/github/</loc>
+    <lastmod>2019-09-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/project/</loc>
+    <lastmod>2019-09-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/project-analysis/</loc>
+    <lastmod>2019-09-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/research/project_as_a_city/</loc>
+    <lastmod>2019-09-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/project-metrics/</loc>
+    <lastmod>2019-09-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/smart-city/</loc>
+    <lastmod>2019-09-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/aspect-oriented-programming/</loc>
+    <lastmod>2019-07-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/auto-extraction/</loc>
+    <lastmod>2019-07-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/research/automatic_extraction_of_dynamic_birthmarks/</loc>
+    <lastmod>2019-07-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tamada.github.io/</loc>
     <lastmod>2019-07-13T00:00:00+00:00</lastmod>
-    <priority>1</priority>
   </url>
   
   <url>
-    <loc>https://tamada.github.io/tags/bash/shell/</loc>
-    <lastmod>2019-06-12T00:00:00+00:00</lastmod>
+    <loc>https://tamada.github.io/profile/activities/</loc>
+    <lastmod>2019-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tamada.github.io/tags/csv/</loc>
-    <lastmod>2019-06-12T00:00:00+00:00</lastmod>
+    <loc>https://tamada.github.io/profile/hobbies/</loc>
+    <lastmod>2019-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tamada.github.io/projects/creations/goheatman/</loc>
-    <lastmod>2019-06-12T00:00:00+00:00</lastmod>
+    <loc>https://tamada.github.io/tags/repository-management/</loc>
+    <lastmod>2019-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tamada.github.io/tags/golang/</loc>
-    <lastmod>2019-06-12T00:00:00+00:00</lastmod>
+    <loc>https://tamada.github.io/projects/rrh/</loc>
+    <lastmod>2019-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tamada.github.io/projects/creations/uniq2/</loc>
-    <lastmod>2018-05-09T00:00:00+00:00</lastmod>
+    <loc>https://tamada.github.io/projects/uniq2/</loc>
+    <lastmod>2019-07-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tamada.github.io/tags/git/</loc>
-    <lastmod>2018-01-05T00:00:00+00:00</lastmod>
+    <loc>https://tamada.github.io/projects/heatman/</loc>
+    <lastmod>2019-06-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tamada.github.io/tags/git-repository/</loc>
-    <lastmod>2018-01-05T00:00:00+00:00</lastmod>
+    <loc>https://tamada.github.io/research/deobfuscating_identifier_renaming/</loc>
+    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tamada.github.io/projects/creations/rrh/</loc>
-    <lastmod>2018-01-05T00:00:00+00:00</lastmod>
+    <loc>https://tamada.github.io/categories/de-obfuscation/</loc>
+    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tamada.github.io/projects/creations/9rules/</loc>
-    <lastmod>2016-08-27T00:00:00+00:00</lastmod>
+    <loc>https://tamada.github.io/categories/identifier-renaming/</loc>
+    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tamada.github.io/tags/birthmarking/</loc>
-    <lastmod>2016-08-27T00:00:00+00:00</lastmod>
+    <loc>https://tamada.github.io/categories/obfuscation/</loc>
+    <lastmod>2019-04-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tamada.github.io/tags/code-quality-evaluation/</loc>
-    <lastmod>2016-08-27T00:00:00+00:00</lastmod>
+    <loc>https://tamada.github.io/research/evaluation_programming_course/</loc>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tamada.github.io/tags/java/</loc>
-    <lastmod>2016-08-27T00:00:00+00:00</lastmod>
+    <loc>https://tamada.github.io/categories/programming-course/</loc>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tamada.github.io/tags/maven/</loc>
-    <lastmod>2016-08-27T00:00:00+00:00</lastmod>
+    <loc>https://tamada.github.io/categories/snapshots/</loc>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tamada.github.io/projects/creations/pochi/</loc>
-    <lastmod>2016-08-27T00:00:00+00:00</lastmod>
+    <loc>https://tamada.github.io/categories/mining/</loc>
+    <lastmod>2017-07-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tamada.github.io/tags/software-theft-detection/</loc>
-    <lastmod>2016-08-27T00:00:00+00:00</lastmod>
+    <loc>https://tamada.github.io/research/software_development_with_ai/</loc>
+    <lastmod>2017-07-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tamada.github.io/categories/</loc>
+    <loc>https://tamada.github.io/categories/software-repository/</loc>
+    <lastmod>2017-07-14T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tamada.github.io/projects/</loc>
-    <priority>0.9</priority>
+    <loc>https://tamada.github.io/categories/artificiality/</loc>
+    <lastmod>2017-01-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tamada.github.io/publications/</loc>
-    <priority>0.6</priority>
+    <loc>https://tamada.github.io/research/artificiality_evaluation/</loc>
+    <lastmod>2017-01-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tamada.github.io/search/</loc>
-    <priority>0.1</priority>
+    <loc>https://tamada.github.io/categories/stealthiness/</loc>
+    <lastmod>2017-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/invokedynamic/</loc>
+    <lastmod>2015-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/java-7/</loc>
+    <lastmod>2015-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/research/obfuscation_by_invokedynamic/</loc>
+    <lastmod>2015-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/characteristics-of-developers/</loc>
+    <lastmod>2015-03-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/research/characteristics_of_developers/</loc>
+    <lastmod>2015-03-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/development-history/</loc>
+    <lastmod>2015-03-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/entropy/</loc>
+    <lastmod>2013-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/research/evaluation_obfuscation_kolmogorov/</loc>
+    <lastmod>2013-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/evaluation-of-obfuscation/</loc>
+    <lastmod>2013-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/kolmogorov-complexity/</loc>
+    <lastmod>2013-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/instruction-folding/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/method-folding/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/research/obfuscation_by_method_folding/</loc>
+    <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/mental-simulation/</loc>
+    <lastmod>2012-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/obfuscated-programs/</loc>
+    <lastmod>2012-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/research/unreadability_evaluation/</loc>
+    <lastmod>2012-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/unreadable-evaluation/</loc>
+    <lastmod>2012-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/applications/</loc>
+    <lastmod>2009-08-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/research/birthmark_applications/</loc>
+    <lastmod>2009-08-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/software-birthmarks/</loc>
+    <lastmod>2009-08-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/dynamic-name-resolution/</loc>
+    <lastmod>2008-02-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/research/obfuscation_by_dnr/</loc>
+    <lastmod>2008-02-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/reflection-api/</loc>
+    <lastmod>2008-02-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/research/dynamic_birthmarks/</loc>
+    <lastmod>2006-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/dynamic-birthmarks/</loc>
+    <lastmod>2006-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/method-calls/</loc>
+    <lastmod>2006-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/research/birthmark_concept/</loc>
+    <lastmod>2005-09-01T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dynamic name resolution on Haruaki TAMADA</title>
+    <link>https://tamada.github.io/categories/dynamic-name-resolution/</link>
+    <description>Recent content in dynamic name resolution on Haruaki TAMADA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Feb 2008 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tamada.github.io/categories/dynamic-name-resolution/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Obfuscation by dynamic name resolution</title>
+      <link>https://tamada.github.io/research/obfuscation_by_dnr/</link>
+      <pubDate>Tue, 12 Feb 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/obfuscation_by_dnr/</guid>
+      <description>🗣 Overview Name obfuscation is a software protection technique, which renames identifiers in a given program, to protect the program from illegal cracking. The conventional methods replace names appearing in the declaration part with the meaningless ones. Therefore, the methods cannot be used to obfuscate names declared in system libraries, since changing such system-defined names significantly deteriorates the program portability.
+This paper presents a new name obfuscation method, which can hide appearance of the system-defined names.</description>
+    </item>
+    
+  </channel>
+</rss>

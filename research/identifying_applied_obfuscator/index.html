@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Identifying the applied obfuscator - Haruaki TAMADA</title>
+    <meta name="description" content="🗣 Overview Recently, to prevent cracking, the various protection methods have been proposed. One of the protection methods is the obfuscation method. Obfuscation method changes the program into hard to understand for hiding secret information in the program.
+On the other hand, de-obfuscation is an interesting research topic for protecting the software. Since, though vulnerable protection methods are dangerous, measuring the robustness of the method was not discussed.
+In this paper, we tackle to identify the applied obfuscation methods towards de-obfuscation."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/research/identifying_applied_obfuscator/" />
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="🗣 Overview Recently, to prevent cracking, the various protection methods have been proposed. One of the protection methods is the obfuscation method. Obfuscation method changes the program into hard to understand for hiding secret information in the program.
+On the other hand, de-obfuscation is an interesting research topic for protecting the software. Since, though vulnerable protection methods are dangerous, measuring the robustness of the method was not discussed.
+In this paper, we tackle to identify the applied obfuscation methods towards de-obfuscation." />
+<meta name="twitter:title" content="Identifying the applied obfuscator - Haruaki TAMADA" />
+<meta name="twitter:site" content="https://twitter.com/tama5" />
+<meta name="twitter:creator" content="https://twitter.com/tama5" />
+
+
+<meta property="og:type" content="article" />
+<meta content="Identifying the applied obfuscator - Haruaki TAMADA" property="og:title">
+<meta content="🗣 Overview Recently, to prevent cracking, the various protection methods have been proposed. One of the protection methods is the obfuscation method. Obfuscation method changes the program into hard to understand for hiding secret information in the program.
+On the other hand, de-obfuscation is an interesting research topic for protecting the software. Since, though vulnerable protection methods are dangerous, measuring the robustness of the method was not discussed.
+In this paper, we tackle to identify the applied obfuscation methods towards de-obfuscation." property="og:description">
+<meta property="og:url" content="https://tamada.github.io/research/identifying_applied_obfuscator/" />
+<meta property="og:site_name" content="Haruaki TAMADA" />
+<meta property="article:section" content="identify" /><meta property="article:section" content="obfuscator" /><meta property="article:section" content="opcodes" />
+<meta property="article:published_time" content="2020-01-27 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+<script type="application/ld+json">
+{ 
+    "@context": "http://schema.org", 
+    "@type": "BlogPosting",
+    "headline": "Identifying the applied obfuscator",
+    "genre": "identifyobfuscatoropcodes",  
+    "url": "https:\/\/tamada.github.io\/research\/identifying_applied_obfuscator\/",
+    "datePublished": "2020-01-27 00:00:00 \x2b0000 UTC",
+    "description": "🗣 Overview Recently, to prevent cracking, the various protection methods have been proposed. One of the protection methods is the obfuscation method. Obfuscation method changes the program into hard to understand for hiding secret information in the program.\nOn the other hand, de-obfuscation is an interesting research topic for protecting the software. Since, though vulnerable protection methods are dangerous, measuring the robustness of the method was not discussed.\nIn this paper, we tackle to identify the applied obfuscation methods towards de-obfuscation.",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    }
+ }
+</script>
+
+
+
+    
+    <link rel="stylesheet" href="/sass/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <script defer type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  </head>
+
+  <body>
+    <header class="site-header">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/"><img src="/images/harry.png" height="64"></a>
+      <a class="navbar-brand" href="/">
+        Haruaki TAMADA
+      </a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/profile">Profile</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+
+    <div class="container">
+      <div class="wrapper">
+        
+<div class="row">
+<div class="col-md-8">
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">Identifying the applied obfuscator</h1>
+      <p class="post-meta"><time datetime='2020-01-27T00:00:00Z' itemprop="datePublished">January 27, 2020</time></p>
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+      <h3 id="hahahugoshortcode-s0-hbhb-overview">🗣
+ Overview</h3>
+<p>Recently, to prevent cracking, the various protection methods have been proposed.
+One of the protection methods is the obfuscation method.
+Obfuscation method changes the program into hard to understand for hiding secret information in the program.</p>
+<p>On the other hand, de-obfuscation is an interesting research topic for protecting the software.
+Since, though vulnerable protection methods are dangerous, measuring the robustness of the method was not discussed.</p>
+<p>In this paper, we tackle to identify the applied obfuscation methods towards de-obfuscation.
+To perform de-obfuscation requires a suitable method for each obfuscation method.
+For this, we obfuscated programs by two practical tools and three algorithms from one academic tool.
+Then, we analyzed the programs and extracted characteristics from them based on opcodes.
+By using the proposed method, we could identify the applied obfuscation method.</p>
+<p>(Abstract from ICIS 2016)</p>
+<h3 id="hahahugoshortcode-s1-hbhb-publications">📚
+ Publications</h3>
+<ul>
+<li>大槻 成輝，玉田 春昭，神崎 雄一郎，&ldquo;JVM環境におけるオペコード列と名前に着目した適用難読化ツールの特定&rdquo;，2020年暗号と情報セキュリティシンポジウム予稿集（SCIS 2020），January 2020.</li>
+<li>玉田 春昭，神崎 雄一郎，Javaバイトコードを対象とした命令の頻度解析による適用難読化ツールの特定”，コンピュータセキュリティシンポジウム2019予稿集（CSS 2019），1C1-3，October 2019.</li>
+<li>玉田 春昭，神崎 雄一郎，”オペコードの編集距離を用いたJVM向け難読化ツールの難読化性能の評価”，2019年暗号と情報セキュリティシンポジウム予稿集 (SCIS 2019)，3D2-1，January 2019.（大津，滋賀）</li>
+<li>Hayato Sagisaka, and Haruaki Tamada, “Identifying the Applied Obfuscation Method towards De-obfuscation,” In Proc. 15th IEEE/ACIS International Conference on Computer and Information Science (ICIS 2016), pp.873–878, July 2016 (Oakayama, Japan).</li>
+<li>匂坂 勇仁，玉田 春昭，”適用保護手法特定の試み −不自然さ評価方法を用いて−”，信学技報, Vol. 115, No. 153, SS2015-21, pp. 63-68, July 2015 (札幌).</li>
+</ul>
+<h3 id="hahahugoshortcode-s2-hbhb-related-research-topics">🤝
+ Related Research Topics</h3>
+<ul>
+<li><a href="../deobfuscating_identifier_renaming">De-obfuscate IRM (identifier renaming method)</a></li>
+<li><a href="../artificiality_evaluation">Artificiality evaluation</a></li>
+<li><a href="../evaluation_obfuscation_kolmogorov/">Evaluating obfuscation method by Kolmogorov complexity</a></li>
+<li><a href="../unreadability_evaluation">Unreadability evaluation of obfuscated programs</a></li>
+</ul>
+
+    </div>
+  </article>
+  <div class="row">
+    
+  </div>
+    
+  <div class="row">
+    <ul class="pager">
+      
+      <li><a class="next" href="/research/birthmark_fast_comparison/">&laquo; Fast comparisons of the birthmarks</a></li>
+      
+      
+      <li><a class="previous" href="/profile/skills/">💪 Skills &raquo;</a></li>
+      
+    </ul>
+  </div>
+</div>
+
+
+<div class="col-md-4 mt20">
+  
+  <h3><a href="/research/">📁 Parent page</a></h3>
+  
+  <div class="post-img">
+    
+      <img width="600" src="/images/research/identifying_applied_obfuscator.png" alt="Identifying the applied obfuscator">
+    
+  </div>
+
+  <div class="mt10 recent">
+    <h3>Recent articles</h3>
+    <ul>
+      
+      <li>
+        <p><a href="/research/birthmark_fast_comparison/">Fast comparisons of the birthmarks</a><small>&nbsp;&nbsp;February 15, 2020</small></p>
+      </li>
+      
+      <li>
+        <p><a href="/research/identifying_applied_obfuscator/">Identifying the applied obfuscator</a><small>&nbsp;&nbsp;January 27, 2020</small></p>
+      </li>
+      
+      <li>
+        <p><a href="/profile/skills/">💪 Skills</a><small>&nbsp;&nbsp;December 18, 2019</small></p>
+      </li>
+      
+    </ul>
+  </div>
+  
+  <br>
+</div>
+
+
+</div>
+
+
+
+
+      </div>
+    </div>
+    <footer>
+    <div class="container">
+        <div class="row p20">
+            
+                <div class="col-md-4 text-center mt25">All rights reserved by <a target="_blank" href="https://tamada.github.io/">tamada</a></div>
+            
+
+            <div class="col-md-4 text-center mt25" >
+                
+            </div>
+            <div class="col-md-4 text-center mt25">
+               
+               
+               
+                <a target="_blank" href="https://twitter.com/tama5"><li class="social twitter"><i class="fa fa-twitter-square"></i></li></a>
+                
+               
+                <a target="_blank" href="https://github.com/tamada"><li class="social github"><i class="fa fa-github-square"></i></li></a>
+                
+               
+            </div>
+
+        </div> 
+    </div>
+</footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    
+  </body>
+</html>

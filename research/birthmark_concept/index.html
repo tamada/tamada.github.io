@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Concept of Birthmarks - Haruaki TAMADA</title>
+    <meta name="description" content="🗣 Overview To detect the theft of Java class files efficiently, we propose a concept of Java birthmarks, which are unique and native characteristics of every class file. For a pair of class files $p$ and $q$, if $q$ has the same birthmark as $p$&#39;s, $q$ is suspected as a copy of $p$. Ideally, the birthmarks should satisfy the following properties: (a) preservation &amp;ndash; the birthmarks should be preserved even if the original class file is tampered with, and (b) distinction &amp;ndash; independent class files must be distinguished by completely different birthmarks."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/research/birthmark_concept/" />
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="🗣 Overview To detect the theft of Java class files efficiently, we propose a concept of Java birthmarks, which are unique and native characteristics of every class file. For a pair of class files $p$ and $q$, if $q$ has the same birthmark as $p$&#39;s, $q$ is suspected as a copy of $p$. Ideally, the birthmarks should satisfy the following properties: (a) preservation &amp;ndash; the birthmarks should be preserved even if the original class file is tampered with, and (b) distinction &amp;ndash; independent class files must be distinguished by completely different birthmarks." />
+<meta name="twitter:title" content="Concept of Birthmarks - Haruaki TAMADA" />
+<meta name="twitter:site" content="https://twitter.com/tama5" />
+<meta name="twitter:creator" content="https://twitter.com/tama5" />
+
+
+<meta property="og:type" content="article" />
+<meta content="Concept of Birthmarks - Haruaki TAMADA" property="og:title">
+<meta content="🗣 Overview To detect the theft of Java class files efficiently, we propose a concept of Java birthmarks, which are unique and native characteristics of every class file. For a pair of class files $p$ and $q$, if $q$ has the same birthmark as $p$&#39;s, $q$ is suspected as a copy of $p$. Ideally, the birthmarks should satisfy the following properties: (a) preservation &amp;ndash; the birthmarks should be preserved even if the original class file is tampered with, and (b) distinction &amp;ndash; independent class files must be distinguished by completely different birthmarks." property="og:description">
+<meta property="og:url" content="https://tamada.github.io/research/birthmark_concept/" />
+<meta property="og:site_name" content="Haruaki TAMADA" />
+<meta property="article:section" content="birthmarks" /><meta property="article:section" content="theft detection" /><meta property="article:section" content="software theft" />
+<meta property="article:published_time" content="2005-09-01 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+<script type="application/ld+json">
+{ 
+    "@context": "http://schema.org", 
+    "@type": "BlogPosting",
+    "headline": "Concept of Birthmarks",
+    "genre": "birthmarkstheft detectionsoftware theft",  
+    "url": "https:\/\/tamada.github.io\/research\/birthmark_concept\/",
+    "datePublished": "2005-09-01 00:00:00 \x2b0000 UTC",
+    "description": "🗣 Overview To detect the theft of Java class files efficiently, we propose a concept of Java birthmarks, which are unique and native characteristics of every class file. For a pair of class files $p$ and $q$, if $q$ has the same birthmark as $p$\x27s, $q$ is suspected as a copy of $p$. Ideally, the birthmarks should satisfy the following properties: (a) preservation \x26ndash; the birthmarks should be preserved even if the original class file is tampered with, and (b) distinction \x26ndash; independent class files must be distinguished by completely different birthmarks.",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    }
+ }
+</script>
+
+
+
+    
+    <link rel="stylesheet" href="/sass/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <script defer type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  </head>
+
+  <body>
+    <header class="site-header">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/"><img src="/images/harry.png" height="64"></a>
+      <a class="navbar-brand" href="/">
+        Haruaki TAMADA
+      </a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/profile">Profile</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+
+    <div class="container">
+      <div class="wrapper">
+        
+<div class="row">
+<div class="col-md-8">
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">Concept of Birthmarks</h1>
+      <p class="post-meta"><time datetime='2005-09-01T00:00:00Z' itemprop="datePublished">September 1, 2005</time></p>
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+      <h3 id="hahahugoshortcode-s0-hbhb-overview">🗣
+ Overview</h3>
+<p>To detect the theft of Java class files efficiently, we propose a concept of <em>Java birthmarks</em>, which are unique and native characteristics of every class file.
+For a pair of class files $p$ and $q$, if $q$ has the same birthmark as $p$'s, $q$ is suspected as a <em>copy</em> of $p$.
+Ideally, the birthmarks should satisfy the following properties: (a) <em>preservation</em> &ndash; the birthmarks should be preserved even if the original class file is tampered with, and (b) <em>distinction</em> &ndash; independent class files must be distinguished by completely different birthmarks.
+Taking (a) and (b) into account, we propose four types of birthmarks for Java class files.</p>
+<p>To show the effectiveness of the proposed birthmarks, we conduct three experiments.
+In the first experiment, we demonstrate that the proposed birthmarks are sufficiently robust against automatic program transformation (93.3876% of the birthmarks were preserved).
+The second experiment shows that the proposed birthmarks successfully distinguish non-copied files in a practical Java application (97.8005% of given class files were distinguished).
+In the third experiment, we exploit different Java compilers to confirm that the proposed Java birthmarks are core characteristics independent of compiler-specific issues.</p>
+<p>(Abstract from IEICE 2005)</p>
+<h3 id="hahahugoshortcode-s1-hbhb-publications">📚
+ Publications</h3>
+<ul>
+<li>Haruaki Tamada, Masahide Nakamura, Akito Monden, and Ken-ichi Matsumoto, “Java Birthmarks –Detecting the Software Theft–,” IEICE Transactions on Information and Systems, Vol. E88-D, No. 9, pp. 2148–2158, September 2005.</li>
+<li>Haruaki Tamada, Masahide Nakamura, Akito Monden, and Kenichi Matsumoto, “Design and Evaluation of Birthmarks for Detecting Theft of Java Programs,” In Proc. IASTED International Conference on Software Engineering (IASTED SE 2004), pp. 569-575, 17-19 February 2004. (Innsbruck, Austria)</li>
+<li>Haruaki Tamada, Masahide Nakamura, Akito Monden, and Kenichi Matsumoto, “Detecting the Theft of Programs Using Birthmarks,” Information Science Technical Report, number NAIST-IS-TR2003014, Graduate School of Information Science, November 2003.</li>
+<li>玉田 春昭, 神崎 雄一郎, 中村 匡秀, 門田 暁人, 松本 健一, “Java クラスファイルからプログラム指紋を抽出する方法の提案”, 信学技報 情報セキュリティ研究会, Vol. ISEC2003-29, pp.127-133, July 2003.</li>
+</ul>
+<h3 id="hahahugoshortcode-s2-hbhb-related-research-topics">🤝
+ Related Research Topics</h3>
+<ul>
+<li><a href="../dynamic_birthmarks">Dynamic Birthmarks</a></li>
+</ul>
+
+    </div>
+  </article>
+  <div class="row">
+    
+  </div>
+    
+  <div class="row">
+    <ul class="pager">
+      
+      <li><a class="next" href="/research/dynamic_birthmarks/">&laquo; Dynamic birthmarks</a></li>
+      
+      
+    </ul>
+  </div>
+</div>
+
+
+<div class="col-md-4 mt20">
+  
+  <h3><a href="/research/">📁 Parent page</a></h3>
+  
+  <div class="post-img">
+    
+      <img width="600" src="/images/research/design_birthmarks.png" alt="Concept of Birthmarks">
+    
+  </div>
+
+  <div class="mt10 recent">
+    <h3>Recent articles</h3>
+    <ul>
+      
+      <li>
+        <p><a href="/research/birthmark_fast_comparison/">Fast comparisons of the birthmarks</a><small>&nbsp;&nbsp;February 15, 2020</small></p>
+      </li>
+      
+      <li>
+        <p><a href="/research/identifying_applied_obfuscator/">Identifying the applied obfuscator</a><small>&nbsp;&nbsp;January 27, 2020</small></p>
+      </li>
+      
+      <li>
+        <p><a href="/profile/skills/">💪 Skills</a><small>&nbsp;&nbsp;December 18, 2019</small></p>
+      </li>
+      
+    </ul>
+  </div>
+  
+  <br>
+</div>
+
+
+</div>
+
+
+
+
+      </div>
+    </div>
+    <footer>
+    <div class="container">
+        <div class="row p20">
+            
+                <div class="col-md-4 text-center mt25">All rights reserved by <a target="_blank" href="https://tamada.github.io/">tamada</a></div>
+            
+
+            <div class="col-md-4 text-center mt25" >
+                
+            </div>
+            <div class="col-md-4 text-center mt25">
+               
+               
+               
+                <a target="_blank" href="https://twitter.com/tama5"><li class="social twitter"><i class="fa fa-twitter-square"></i></li></a>
+                
+               
+                <a target="_blank" href="https://github.com/tamada"><li class="social github"><i class="fa fa-github-square"></i></li></a>
+                
+               
+            </div>
+
+        </div> 
+    </div>
+</footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    
+  </body>
+</html>

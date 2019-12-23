@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>projects on Haruaki TAMADA</title>
+    <link>https://tamada.github.io/categories/projects/</link>
+    <description>Recent content in projects on Haruaki TAMADA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tamada.github.io/categories/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>:beers: Homebrew</title>
+      <link>https://tamada.github.io/projects/homebrew/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/projects/homebrew/</guid>
+      <description>🗣 Overview Tamada&#39;s homebrew receipes.
+🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. 🌐 Web pages  :octcat: Project page on GitHub  https://github.com/tamada/homebrew-brew    📜 License Creative Commons Zero v1.0 Universal</description>
+    </item>
+    
+    <item>
+      <title>pochi</title>
+      <link>https://tamada.github.io/projects/pochi/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/projects/pochi/</guid>
+      <description>🗣 Overview pochi is the birthmarking toolkit for the JVM platform. The birthmarks are the native characteristics extracted from executable programs. Then, pochi compares them and computes the similarities. The resultant similarities shows the copy relation possibilities between two program.
+🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. $ brew install pochi 🐳 Docker  tamada/pochi (https://hub.docker.com/r/tamada/pochi)  1.0.0, latest    $ docker run -it --rm -v $PWD:/home/pochi tamada/pochi:latest [OPTIONS] [SCRIPT [ARGUMENTS.</description>
+    </item>
+    
+    <item>
+      <title>ttt</title>
+      <link>https://tamada.github.io/projects/ttt/</link>
+      <pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/projects/ttt/</guid>
+      <description>&lt;h3 id=&#34;hahahugoshortcode-s0-hbhb-overview&#34;&gt;🗣
+ Overview&lt;/h3&gt;
+&lt;p&gt;このツールは，KSU ISEにおける各コースの終了要件を単位取得科目から確認するためのツールです．
+ttt は「単位をたくさん取ろう」の頭文字です．&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>9rules</title>
+      <link>https://tamada.github.io/projects/9rules/</link>
+      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/projects/9rules/</guid>
+      <description>🗣 Overview 9rules evaluates the how to satisfy the 9 rules for the object oriented programming exercise. OOP execise was introduced by the ThoughtWorks Anthology.
+The rules are as follows.
+ Rule # 1. Use one level of indentation per method. Rule # 2. Do not use the else keyword. Rule # 3. Wrap all primitives and Strings. Rule # 4. Use only one dot per line.  Except the following items.</description>
+    </item>
+    
+    <item>
+      <title>rrh</title>
+      <link>https://tamada.github.io/projects/rrh/</link>
+      <pubDate>Sat, 13 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/projects/rrh/</guid>
+      <description>🗣 Overview rrh is a simple git repository manager.
+There are too many repositories. We love programming; however, to manage many repositories is quite hard and bothersome tasks. Therefore, we built a headquarter for managing the git repositories, named rrh. rrh manages repositories by categorizing in groups and execute git command to the groups.
+I know the tool ghq, manages the git repositories. However, I cannot use it for the following reasons.</description>
+    </item>
+    
+    <item>
+      <title>uniq2</title>
+      <link>https://tamada.github.io/projects/uniq2/</link>
+      <pubDate>Sat, 13 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/projects/uniq2/</guid>
+      <description>🗣 Overview uniq2 deletes duplicated lines.
+GNU core utilities have uniq command for deleting duplicate lines. However, uniq command deletes only continuous duplicate lines. When deleting not continuous duplicate lines, we use sort command together, in that case, the order of the list was not kept.
+We want to delete not continuous duplicated lines with remaining the order.
+🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. $ brew install uniq2 🌐 Web pages  Project page on GitHub  https://github.</description>
+    </item>
+    
+    <item>
+      <title>heatman</title>
+      <link>https://tamada.github.io/projects/heatman/</link>
+      <pubDate>Sat, 29 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/projects/heatman/</guid>
+      <description>🗣 Overview Create heat map image from given csv file. Go language implementation of tamada/heatman.
+🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. $ brew install heatman 🌐 Web pages  Project page on GitHub  https://github.com/tamada/goheatman    📜 License Apache 2.0</description>
+    </item>
+    
+  </channel>
+</rss>

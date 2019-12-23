@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bot on Haruaki TAMADA</title>
+    <link>https://tamada.github.io/categories/bot/</link>
+    <description>Recent content in bot on Haruaki TAMADA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tamada.github.io/categories/bot/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Development support bot</title>
+      <link>https://tamada.github.io/research/development_support_bot/</link>
+      <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/development_support_bot/</guid>
+      <description>🗣 Overview This research topic aims to build a helpful bot for the software development. Also, the topic focuses on the bot on the Social Coding Platform in the social network services. The one goal of the topic is to build a bot for gently helping GitHub flow.
+📚 Publications  宮崎 光，玉田 春昭，CUIツールの開発支援サービスとしての再構築手順の提案”，信学技法，Vol.119，No.246, SS2019-14, pp.7–12, October 2019（熊本）. 玉田 春昭，”初学者向けGitHub flow学習支援”，ソフトウェアシンポジウム2019 ワークショップ 討論テーマ（2）実証的ソフトウェア工学によるプログラミング教育とソフトウェア工学教育，August 2019.（東京） Ko Miyazaki, Haruaki Tamada, “Identifying Users in the Bridging Service between Two Different Chat Services using User Icons,” In Proc.</description>
+    </item>
+    
+  </channel>
+</rss>

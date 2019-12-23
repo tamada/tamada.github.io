@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>theft detection on Haruaki TAMADA</title>
+    <link>https://tamada.github.io/tags/theft-detection/</link>
+    <description>Recent content in theft detection on Haruaki TAMADA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 04 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tamada.github.io/tags/theft-detection/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>pochi</title>
+      <link>https://tamada.github.io/projects/pochi/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/projects/pochi/</guid>
+      <description>🗣 Overview pochi is the birthmarking toolkit for the JVM platform. The birthmarks are the native characteristics extracted from executable programs. Then, pochi compares them and computes the similarities. The resultant similarities shows the copy relation possibilities between two program.
+🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. $ brew install pochi 🐳 Docker  tamada/pochi (https://hub.docker.com/r/tamada/pochi)  1.0.0, latest    $ docker run -it --rm -v $PWD:/home/pochi tamada/pochi:latest [OPTIONS] [SCRIPT [ARGUMENTS.</description>
+    </item>
+    
+  </channel>
+</rss>

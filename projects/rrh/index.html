@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>rrh - Haruaki TAMADA</title>
+    <meta name="description" content="🗣 Overview rrh is a simple git repository manager.
+There are too many repositories. We love programming; however, to manage many repositories is quite hard and bothersome tasks. Therefore, we built a headquarter for managing the git repositories, named rrh. rrh manages repositories by categorizing in groups and execute git command to the groups.
+I know the tool ghq, manages the git repositories. However, I cannot use it for the following reasons."/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="/projects/rrh/" />
+
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:description" content="🗣 Overview rrh is a simple git repository manager.
+There are too many repositories. We love programming; however, to manage many repositories is quite hard and bothersome tasks. Therefore, we built a headquarter for managing the git repositories, named rrh. rrh manages repositories by categorizing in groups and execute git command to the groups.
+I know the tool ghq, manages the git repositories. However, I cannot use it for the following reasons." />
+<meta name="twitter:title" content="rrh - Haruaki TAMADA" />
+<meta name="twitter:site" content="https://twitter.com/tama5" />
+<meta name="twitter:creator" content="https://twitter.com/tama5" />
+
+
+<meta property="og:type" content="article" />
+<meta content="rrh - Haruaki TAMADA" property="og:title">
+<meta content="🗣 Overview rrh is a simple git repository manager.
+There are too many repositories. We love programming; however, to manage many repositories is quite hard and bothersome tasks. Therefore, we built a headquarter for managing the git repositories, named rrh. rrh manages repositories by categorizing in groups and execute git command to the groups.
+I know the tool ghq, manages the git repositories. However, I cannot use it for the following reasons." property="og:description">
+<meta property="og:url" content="https://tamada.github.io/projects/rrh/" />
+<meta property="og:site_name" content="Haruaki TAMADA" />
+<meta property="article:section" content="projects" /><meta property="article:section" content="homebrew" />
+<meta property="article:published_time" content="2019-07-13 00:00:00 &#43;0000 UTC" />
+
+
+
+
+
+<script type="application/ld+json">
+{ 
+    "@context": "http://schema.org", 
+    "@type": "BlogPosting",
+    "headline": "rrh",
+    "genre": "projectshomebrew",  
+    "url": "https:\/\/tamada.github.io\/projects\/rrh\/",
+    "datePublished": "2019-07-13 00:00:00 \x2b0000 UTC",
+    "description": "🗣 Overview rrh is a simple git repository manager.\nThere are too many repositories. We love programming; however, to manage many repositories is quite hard and bothersome tasks. Therefore, we built a headquarter for managing the git repositories, named rrh. rrh manages repositories by categorizing in groups and execute git command to the groups.\nI know the tool ghq, manages the git repositories. However, I cannot use it for the following reasons.",
+    "author": {
+        "@type": "Person",
+        "name": ""
+    }
+ }
+</script>
+
+
+
+    
+    <link rel="stylesheet" href="/sass/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <script defer type="text/x-mathjax-config">
+      MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+    </script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+  </head>
+
+  <body>
+    <header class="site-header">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="/"><img src="/images/harry.png" height="64"></a>
+      <a class="navbar-brand" href="/">
+        Haruaki TAMADA
+      </a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/profile">Profile</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+
+    <div class="container">
+      <div class="wrapper">
+        
+<div class="row">
+<div class="col-md-8">
+  <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+    <header class="post-header">
+      <h1 class="post-title" itemprop="name headline">rrh</h1>
+      <p class="post-meta"><time datetime='2019-07-13T00:00:00Z' itemprop="datePublished">July 13, 2019</time></p>
+    </header>
+
+    <div class="post-content" itemprop="articleBody">
+      <h3 id="hahahugoshortcode-s0-hbhb-overview">🗣
+ Overview</h3>
+<p><code>rrh</code> is a simple git repository manager.</p>
+<p>There are too many repositories. We love programming; however, to manage many repositories is quite hard and bothersome tasks. Therefore, we built a headquarter for managing the git repositories, named <code>rrh</code>. <code>rrh</code> manages repositories by categorizing in groups and execute git command to the groups.</p>
+<p>I know the tool <code>ghq</code>, manages the git repositories. However, I cannot use it for the following reasons.</p>
+<p>there are quite many repositories in my home directory.
+To start using <code>ghq</code>, we clone the repositories. However, I did not accept to clone all of the repositories.
+The location of repositories is fixed in the config file and is accepted only one location.
+I decide the directory layout in my home directory.
+Additionally, I edit several repositories in a day, when I work hard. Consequently, the progress of each repository is obscured; I cannot remember a lot of things. Therefore, it is glad to see the last modified date of branches.</p>
+<p><code>rrh</code> is now growing. Please hack <code>rrh</code> itself.</p>
+<p><code>rrh</code> means Remote repositories head, or repositories, ready to hack, is not red riding hood. 👻
+</p>
+<h3 id="hahahugoshortcode-s2-hbhb-install">🍺
+ Install</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">$ brew tap tamada/brew <span style="color:#75715e"># &lt;- the first time only.</span>
+$ brew install rrh
+</code></pre></div><h3 id="hahahugoshortcode-s3-hbhb-web-pages">🌐
+ Web pages</h3>
+<ul>
+<li>Project page on GitHub
+<ul>
+<li><a href="https://github.com/tamada/rrh">https://github.com/tamada/rrh</a></li>
+</ul>
+</li>
+<li>Web page
+<ul>
+<li><a href="https://tamada.github.io/rrh">https://tamada.github.io/rrh</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="hahahugoshortcode-s4-hbhb-license">📜
+ License</h3>
+<p><a href="https://github.com/tamada/rrh/blob/master/LICENSE">Apache 2.0</a></p>
+
+    </div>
+  </article>
+  <div class="row">
+    
+  </div>
+    
+  <div class="row">
+    <ul class="pager">
+      
+      <li><a class="next" href="/profile/hobbies/">&laquo; Hobbies</a></li>
+      
+      
+      <li><a class="previous" href="/projects/uniq2/">uniq2 &raquo;</a></li>
+      
+    </ul>
+  </div>
+</div>
+
+
+<div class="col-md-4 mt20">
+  
+  <h3><a href="/projects/">📁 Parent page</a></h3>
+  
+  <div class="post-img">
+    
+      <img width="600" src="/images/rrh.png" alt="rrh">
+    
+  </div>
+
+  <div class="mt10 recent">
+    <h3>Recent articles</h3>
+    <ul>
+      
+      <li>
+        <p><a href="/research/birthmark_fast_comparison/">Fast comparisons of the birthmarks</a><small>&nbsp;&nbsp;February 15, 2020</small></p>
+      </li>
+      
+      <li>
+        <p><a href="/research/identifying_applied_obfuscator/">Identifying the applied obfuscator</a><small>&nbsp;&nbsp;January 27, 2020</small></p>
+      </li>
+      
+      <li>
+        <p><a href="/profile/skills/">💪 Skills</a><small>&nbsp;&nbsp;December 18, 2019</small></p>
+      </li>
+      
+    </ul>
+  </div>
+  
+  <br>
+</div>
+
+
+</div>
+
+
+
+
+      </div>
+    </div>
+    <footer>
+    <div class="container">
+        <div class="row p20">
+            
+                <div class="col-md-4 text-center mt25">All rights reserved by <a target="_blank" href="https://tamada.github.io/">tamada</a></div>
+            
+
+            <div class="col-md-4 text-center mt25" >
+                
+            </div>
+            <div class="col-md-4 text-center mt25">
+               
+               
+               
+                <a target="_blank" href="https://twitter.com/tama5"><li class="social twitter"><i class="fa fa-twitter-square"></i></li></a>
+                
+               
+                <a target="_blank" href="https://github.com/tamada"><li class="social github"><i class="fa fa-github-square"></i></li></a>
+                
+               
+            </div>
+
+        </div> 
+    </div>
+</footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    
+  </body>
+</html>
