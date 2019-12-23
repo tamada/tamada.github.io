@@ -20,3 +20,9 @@ The one goal of the topic is to build a bot for gently helping GitHub flow.
 * 宮崎 光，玉田 春昭，”異なるチャットシステム間でメッセージ送信可能なシステムの構築”，第17回情報科学技術フォーラム（Forum on Information Technology 2018）(FIT 2018)，September 2018.（福岡）
 * 西尾 泰介，柳川 龍太郎，玉田 春昭，”初学者を対象としたGitHub flow支援ボット”，ソフトウェアシンポジウム2018 ワークショップ 討論テーマ（4）ソーシャルコーディングのための実証的ソフトウェア工学，September 2018.（東京）
 * 玉田 春昭，”ソーシャルコーディングプラットフォーム上のサービス連携のためのメタボット’‘，ウィンターワークショップ2018，January 2018.（広島）
+
+### {{< emoji ":handshake:" >}} Related Research Topics
+
+* [Project as a City](../project_as_a_city)
+* [Mining Software Repository](../software_development_with_ai)
+* [Characteristics of the developers](../characteristics_of_developers)

@@ -30,3 +30,8 @@ As a result, we confirmed coding patterns of novice programmers in case of falli
 * 荻野 晃大，玉田 春昭，上田 博唯，”ロボットをアシスタントとして利用する教育支援システムの研究”，京都産業大学総合学術研究所所報，第6号，pp.45–54, July 2011.
 * 玉田 春昭，荻野 晃大，上田 博唯，”アシスタントロボットを用いたプログラミング教育支援システムの構築”, 信学技報 マルチメディア・仮想環境基礎研究会, Vol.MVE2010-48, pp.143-148, June 2010.
 * Haruaki Tamada, Akihiro Ogino, and Hirotada Ueda, “Robot Helps Teachers for Education of the C Language Beginners,” In Proc. HCI International 2009 (HCII2009), DVD, 19-24 July 2009. (San Diego, CA, USA).
+
+### {{< emoji ":handshake:" >}} Related Research Topics
+
+* [Characteristics of the developers](../characteristics_of_developers)
+

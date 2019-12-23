@@ -37,7 +37,7 @@ $ brew install ttt
     * https://tamada.github.io/ttt/checker.html
         * executing `ttt` online.
 
-### {{< emoji ":handshake:" >}} License
+### {{< emoji ":scroll:" >}} License
 
 [WTFPL](https://github.com/tamada/uniq2/blob/master/LICENSE)
 

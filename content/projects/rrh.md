@@ -39,6 +39,6 @@ $ brew install rrh
 * Web page
     * https://tamada.github.io/rrh
 
-### {{< emoji ":handshake:" >}} License
+### {{< emoji ":scroll:" >}} License
 
 [Apache 2.0](https://github.com/tamada/rrh/blob/master/LICENSE)

@@ -22,7 +22,7 @@ $ brew tap tamada/brew # <- the first time only.
 * {{< emoji ":octcat:" >}} Project page on GitHub
     * https://github.com/tamada/homebrew-brew
 
-### {{< emoji ":handshake:" >}} License
+### {{< emoji ":scroll:" >}} License
 
 [Creative Commons Zero v1.0 Universal](https://github.com/tamada/homebrew-brew/blob/master/LICENSE)
 

@@ -14,8 +14,6 @@ The birthmarks are the native characteristics extracted from executable programs
 Then, pochi compares them and computes the similarities.
 The resultant similarities shows the copy relation possibilities between two program.
 
-<!--more-->
-
 ### {{< emoji ":beer_mug:" >}} Install
 
 ```sh
@@ -40,7 +38,7 @@ $ docker run -it --rm -v $PWD:/home/pochi tamada/pochi:latest [OPTIONS] [SCRIPT 
 * Web page
     * https://tamada.github.io/pochi
 
-### {{< emoji ":handshake:" >}} License
+### {{< emoji ":scroll:" >}} License
 
 [Apache 2.0](https://github.com/tamada/pochi/blob/master/LICENSE)
 

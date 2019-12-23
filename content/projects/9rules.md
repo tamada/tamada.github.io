@@ -12,8 +12,6 @@ date: 2019-10-24
 **9rules** evaluates the how to satisfy the 9 rules for the object oriented programming exercise.
 OOP execise was introduced by the [ThoughtWorks Anthology](http://shop.oreilly.com/product/9781934356142.do).
 
-<!--more-->
-
 The rules are as follows.
 
 * Rule # 1. Use one level of indentation per method.
@@ -60,6 +58,6 @@ $ brew install ninerules
 * Web page
     * https://tamada.github.io/9rules
 
-### {{< emoji ":handshake:" >}} License
+### {{< emoji ":scroll:" >}} License
 
 [Apache 2.0](https://github.com/tamada/9rules/blob/master/LICENSE)

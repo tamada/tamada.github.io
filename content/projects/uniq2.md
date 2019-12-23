@@ -14,8 +14,6 @@ GNU core utilities have `uniq` command for deleting duplicate lines.
 However, `uniq` command deletes only continuous duplicate lines.
 When deleting not continuous duplicate lines, we use sort command together, in that case, the order of the list was not kept.
 
-<!--more-->
-
 We want to delete not continuous duplicated lines with remaining the order.
 
 ### {{< emoji ":beer_mug:" >}} Install
@@ -32,7 +30,7 @@ $ brew install uniq2
 * Web page
     * https://tamada.github.io/uniq2
 
-### {{< emoji ":handshake:" >}} License
+### {{< emoji ":scroll:" >}} License
 
 [WTFPL](https://github.com/tamada/uniq2/blob/master/LICENSE)
 

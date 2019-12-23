@@ -6,12 +6,12 @@ img: harry.png
 
 * [{{< emoji ":bust_in_silhouette:" >}} Profile](profile)
     * Introduce myself.
-* [{{< emoji ":books:" >}} Publications](publications)
-    * Key papers of my publications.
-	The full list is available on [my laboratory page](https://tamadalab.github.io/papers).
-* [{{< emoji ":bulb:" >}} Researches](research)
 * [{{< emoji ":rocket:"  >}} Projects](projects)
     * Project list by myself.  All projects are hosted on [GitHub {{< devicons icon="github" >}}](https://github.com/tamada) 
+* [{{< emoji ":bulb:" >}} Researches](research)
+    * [{{< emoji ":books:" >}} Publications](publications)
+        * Key papers of my publications.
+          The full list is available on [my laboratory page](https://tamadalab.github.io/papers).
 * [{{< emoji ":phone:" >}} Contact](contact)
     * Contact information.
 

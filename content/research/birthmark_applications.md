@@ -18,3 +18,8 @@ Because, we believe that the birthmarks shows the functionalities of the program
 * 玉田 春昭，森崎 修司，門田 暁人，松本 健一，”バースマークを用いたソフトウェア拡張開発での流用度合いの測定”，情報処理学会第70回全国大会，pp.5-399-400, March 2008.
 * Takesi Kakimoto, Akito Monden, Yasutaka Kamei, Haruaki Tamada, Masateru Tsunoda, and Ken-ichi Matsumoto, “Using Software Birthmarks to Identify Similar Classes and Major Functionalities,” In Proc. the 3rd International Workshop on Mining Software Repositories (MSR 2006), pp.171-172, May 2006. (Shanghai, China)
 
+### {{< emoji ":handshake:" >}} Related Research Topics
+
+* [Concept of Software Birthmarks](../birthmark_concept)
+* [Dynamic Software Birthmarks](../dynamic_birthmarks)
+* [Fast comparisons of the birthmarks](../birthmark_fast_comparison)

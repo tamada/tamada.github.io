@@ -31,3 +31,7 @@ As a result, our framework measured developers' characteristics suitability in o
 * 五田 篤志, 山崎 尚, 玉田 春昭, 畑 秀明, 角田 雅照, 井垣 宏, “開発履歴を利用した風林火山モデルに基づく開発者特性の分析”, 研究報告ソフトウェア工学（SE）, volume 2014-SE-185, number 9, July 2014.
 * Masateru Tsunoda, Haruaki Tamada, and Hideaki Hata, “How to Classify Personalities of Team Members on Project-Based Learning,” In Proc. Software Engineering Education Workshop (SEEW 2014), December 2014 (Jeju, Korea).
 * 藤原 新，五田 篤志，玉田 春昭，角田 雅照，畑 秀明，”ソフトウェア開発履歴を利用した風林火山モデルによる開発者の特性診断の試み”，ソフトウェア工学の基礎XX，日本ソフトウェア科学会 FOSE2013 (FOSE2013), pp.295-296, November 2013.
+
+### {{< emoji ":handshake:" >}} Related Research Topics
+
+* [Development support bot](../development_support_bot)

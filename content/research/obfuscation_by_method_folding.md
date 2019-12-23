@@ -24,3 +24,8 @@ Even if an adversary modifies the folded method, the program goes crash because 
 * 大堂 哲也，玉田 春昭，”Javaを対象とした畳込み手法による耐タンパ化の試み”，2013年暗号と情報セキュリティシンポジウム予稿集 (SCIS2013), 2C4-3, January 2013.
 * 玉田 春昭，神崎 雄一郎，門田 暁人，”Java言語を対象とした実行時多様化の試み”, 2012年暗号と情報セキュリティシンポジウム予稿集 (SCIS2012), 4E2-3, January 2012.
 
+
+### {{< emoji ":handshake:" >}} Related Research Topics
+
+* [Obfuscation by `invokedynamic`](../obfuscation_by_invokedynamic)
+* [Obfuscation by dynamic name resolution](../obfuscation_by_dnr)

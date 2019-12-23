@@ -11,9 +11,6 @@ date: 2019-06-29
 
 Create heat map image from given csv file. Go language implementation of tamada/heatman.
 
-<!--more-->
-
-
 ### {{< emoji ":beer_mug:" >}} Install
 
 ```sh
@@ -26,6 +23,6 @@ $ brew install heatman
 * Project page on GitHub
     * https://github.com/tamada/goheatman
 
-### {{< emoji ":handshake:" >}} License
+### {{< emoji ":scroll:" >}} License
 
 [Apache 2.0](https://github.com/tamada/rrh/blob/master/LICENSE)
