@@ -10,8 +10,8 @@ img: harry.png
     * Project list by myself.  All projects are hosted on [GitHub {{< devicons icon="github" >}}](https://github.com/tamada) 
 * [{{< emoji ":bulb:" >}} Researches](research)
     * [{{< emoji ":books:" >}} Publications](publications)
-        * Key papers of my publications.
-          The full list is available on [my laboratory page](https://tamadalab.github.io/papers).
+        * Key papers from my publications.
+          The full list is available on [our laboratory page](https://tamadalab.github.io/papers).
 * [{{< emoji ":phone:" >}} Contact](contact)
     * Contact information.
 
