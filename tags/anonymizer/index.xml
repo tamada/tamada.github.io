@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>anonymizer on Haruaki TAMADA</title>
+    <link>https://tamada.github.io/tags/anonymizer/</link>
+    <description>Recent content in anonymizer on Haruaki TAMADA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tamada.github.io/tags/anonymizer/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>tjdoe</title>
+      <link>https://tamada.github.io/projects/tjdoe/</link>
+      <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/projects/tjdoe/</guid>
+      <description>🗣 Overview tjdoe anonymizes given programs for programming courses and their scores for grades. For this, tjdoe converts names and ids appearing in the programs into anonymized ids.
+tjdoe is abbreviation of &amp;ldquo;to john/jane doe.&amp;rdquo;
+🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. $ brew install tjdoe 🐳 Docker  tamada/tjdoe (https://hub.docker.com/r/tamada/tjdoe)  1.0.0, latest    🌐 Web pages  Project page on GitHub  https://github.</description>
+    </item>
+    
+  </channel>
+</rss>

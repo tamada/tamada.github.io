@@ -6,19 +6,10 @@
     <description>Recent content in software theft on Haruaki TAMADA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tamada.github.io/categories/software-theft/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Fast comparisons of the birthmarks</title>
-      <link>https://tamada.github.io/research/birthmark_fast_comparison/</link>
-      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/research/birthmark_fast_comparison/</guid>
-      <description>🗣 Overview The software birthmarks were proposed for detecting the software theft from a large number of suspected programs. The birthmark is a technique to compare the extracted characteristics as the software birthmarks, and compute similarities between two birthmarks. The conventional birthmarks require a much time by increasing the target programs for comparison. Therefore, it is the bottleneck of the conventional birthmarking technique. In this paper, we propose a method for reducing total processing time by introducing the narrowing phase between conventional extracting and comparison phases.</description>
-    </item>
     
     <item>
       <title>Auto-extraction of Dynamic Birthmarks</title>

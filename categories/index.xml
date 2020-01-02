@@ -6,71 +6,26 @@
     <description>Recent content in Categories on Haruaki TAMADA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tamada.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>birthmarks</title>
-      <link>https://tamada.github.io/categories/birthmarks/</link>
-      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+      <title>homebrew</title>
+      <link>https://tamada.github.io/categories/homebrew/</link>
+      <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/categories/birthmarks/</guid>
+      <guid>https://tamada.github.io/categories/homebrew/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>fast comparison</title>
-      <link>https://tamada.github.io/categories/fast-comparison/</link>
-      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+      <title>projects</title>
+      <link>https://tamada.github.io/categories/projects/</link>
+      <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/categories/fast-comparison/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>software theft</title>
-      <link>https://tamada.github.io/categories/software-theft/</link>
-      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/categories/software-theft/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>theft detection</title>
-      <link>https://tamada.github.io/categories/theft-detection/</link>
-      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/categories/theft-detection/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>identify</title>
-      <link>https://tamada.github.io/categories/identify/</link>
-      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/categories/identify/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>obfuscator</title>
-      <link>https://tamada.github.io/categories/obfuscator/</link>
-      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/categories/obfuscator/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>opcodes</title>
-      <link>https://tamada.github.io/categories/opcodes/</link>
-      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/categories/opcodes/</guid>
+      <guid>https://tamada.github.io/categories/projects/</guid>
       <description></description>
     </item>
     
@@ -98,24 +53,6 @@
       <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/categories/work/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>homebrew</title>
-      <link>https://tamada.github.io/categories/homebrew/</link>
-      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/categories/homebrew/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>projects</title>
-      <link>https://tamada.github.io/categories/projects/</link>
-      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/categories/projects/</guid>
       <description></description>
     </item>
     
@@ -197,6 +134,33 @@
       <pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/categories/auto-extraction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>birthmarks</title>
+      <link>https://tamada.github.io/categories/birthmarks/</link>
+      <pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/birthmarks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>software theft</title>
+      <link>https://tamada.github.io/categories/software-theft/</link>
+      <pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/software-theft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>theft detection</title>
+      <link>https://tamada.github.io/categories/theft-detection/</link>
+      <pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/theft-detection/</guid>
       <description></description>
     </item>
     

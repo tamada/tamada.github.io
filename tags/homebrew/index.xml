@@ -17,8 +17,8 @@
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/projects/homebrew/</guid>
-      <description>🗣 Overview Tamada&#39;s homebrew receipes.
-🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. 🌐 Web pages  :octcat: Project page on GitHub  https://github.com/tamada/homebrew-brew    📜 License Creative Commons Zero v1.0 Universal</description>
+      <description>🗣 Overview Tamada&#39;s homebrew receipes. Following receipes are available.
+ rrh  Git repository manager.   uniq2  Extended uniq.   heatman  Creating heat map from given csv file.   qrg  QR code generator.   9rules (ninerules)  Checking tool of small object programming for the Java language.   ttt  Checking diploma of courses in ISE, KSU.   pochi  Detecting the software theft, the birthmark toolkit for the JVM platform.</description>
     </item>
     
   </channel>
