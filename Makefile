@@ -1,7 +1,5 @@
 PWD := ${CURDIR}
 DOCKER_IMAGE_NAME := wwwtamada
-BASE_URL := https://tamada.github.io/
-HUGO_THEME := hugo-cards
 DOCKER_IMAGE := jojomi/hugo:latest
 
 # from https://github.com/kubernetes-sigs/kind/blob/master/site/Makefile
