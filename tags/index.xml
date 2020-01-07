@@ -6,10 +6,55 @@
     <description>Recent content in Tags on Haruaki TAMADA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tamada.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>anonymizer</title>
+      <link>https://tamada.github.io/tags/anonymizer/</link>
+      <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/anonymizer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GitHub</title>
+      <link>https://tamada.github.io/tags/github/</link>
+      <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>go</title>
+      <link>https://tamada.github.io/tags/go/</link>
+      <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>program</title>
+      <link>https://tamada.github.io/tags/program/</link>
+      <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/program/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>utility</title>
+      <link>https://tamada.github.io/tags/utility/</link>
+      <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/utility/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>birthmarks</title>
@@ -26,15 +71,6 @@
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/tags/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GitHub</title>
-      <link>https://tamada.github.io/tags/github/</link>
-      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/github/</guid>
       <description></description>
     </item>
     
@@ -75,29 +111,11 @@
     </item>
     
     <item>
-      <title>go</title>
-      <link>https://tamada.github.io/tags/go/</link>
-      <pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/go/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Kyoto Sangyo University</title>
       <link>https://tamada.github.io/tags/kyoto-sangyo-university/</link>
       <pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/tags/kyoto-sangyo-university/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>utility</title>
-      <link>https://tamada.github.io/tags/utility/</link>
-      <pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/utility/</guid>
       <description></description>
     </item>
     
