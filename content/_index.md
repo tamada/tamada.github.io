@@ -15,7 +15,6 @@ img: harry.png
 * [{{< emoji ":phone:" >}} Contact](contact)
     * Contact information.
 
-
 {{< linksns href="https://twitter.com/tama5"          icon="twitter-square"   color="#1da1f2" title="Twitter" >}}
 {{< linksns href="https://www.instagram.com/htamada/" icon="instagram"        color="#e4405f" title="Instagram" >}}
 {{< linksns href="https://github.com/tamada"          icon="github-square"    color="#181717" title="GitHub" >}}
