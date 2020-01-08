@@ -2,6 +2,7 @@
 layout: post
 title: uniq2
 categories: ['projects', 'homebrew']
+img: tool.png
 tags: ["GitHub", "go", "utility"]
 date: 2019-07-13
 ---

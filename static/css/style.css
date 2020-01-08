@@ -1,0 +1,15 @@
+.iconify {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+
+.iconify img {
+    display: block;
+    margin: 0 0 3px 0;
+}
+
+.iconify figcaption {
+    font-size: 0.9em;
+    text-align: center;
+}

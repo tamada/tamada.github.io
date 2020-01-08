@@ -42,3 +42,7 @@ $ brew install rrh
 ### {{< emoji ":scroll:" >}} License
 
 [Apache 2.0](https://github.com/tamada/rrh/blob/master/LICENSE)
+
+### Others
+
+{{< iconify src="images/rrh.png" caption="by [iconpon.com](https://www.iconpon.com/)" >}}

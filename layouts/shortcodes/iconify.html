@@ -1,0 +1,11 @@
+{{ $flag := (default false (.Get "href")) }}
+<figure id="{{ .Get "src" }}" class="iconify">
+  {{ if $flag }}
+  <a href="{{ .Site.BaseURL }}{{ .Get "href" }}">
+  {{ end }}
+  <img src="{{ .Site.BaseURL }}{{ .Get "src" }}" alt="icon" width="64">
+  <figcaption>{{ .Get "caption" | markdownify }}</figcaption>
+  {{ if $flag }}
+  </a>
+  {{ end }}
+</figure>

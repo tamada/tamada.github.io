@@ -3,6 +3,7 @@ layout: post
 title: ttt
 categories: ['projects', 'homebrew']
 hasCJKLanguage: true
+img: tool.png
 tags: ["GitHub", "go", "utility", "Kyoto Sangyo University"]
 date: 2019-11-06
 ---
