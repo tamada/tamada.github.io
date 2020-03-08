@@ -3,7 +3,7 @@ layout: post
 title: heatman
 categories: ['projects', 'homebrew']
 img: goheatman.svg
-tags: ["GitHub", "git", "go"]
+tags: ["GitHub", "git", "golang", "heatmap"]
 date: 2019-06-29
 ---
 
@@ -18,11 +18,24 @@ $ brew tap tamada/brew # <- the first time only.
 $ brew install heatman
 ```
 
+### {{< emoji ":spouting_whale:" >}} Docker
+
+* `tamada/heatman` (https://hub.docker.com/r/tamada/heatman)
+    * `1.0.1`, `latest`
+
 ### {{< emoji ":globe_with_meridians:" >}} Web pages
 
 * Project page on GitHub
     * https://github.com/tamada/goheatman
+* Web page
+    * https://tamada.github.com/heatman
 
 ### {{< emoji ":scroll:" >}} License
 
-[Apache 2.0](https://github.com/tamada/rrh/blob/master/LICENSE)
+[WTFPL](https://github.com/tamada/goheatman/blob/master/LICENSE)
+
+* WTFPL permits
+    * {{< emoji ":thumbsup:" >}} Commercial use,
+    * {{< emoji ":thumbsup:" >}} Modification,
+    * {{< emoji ":thumbsup:" >}} Distribution, and
+    * {{< emoji ":thumbsup:" >}} Private use.

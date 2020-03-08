@@ -4,16 +4,14 @@ title: ttt
 categories: ['projects', 'homebrew']
 hasCJKLanguage: true
 img: tool.png
-tags: ["GitHub", "go", "utility", "Kyoto Sangyo University"]
-date: 2019-11-06
+tags: ["GitHub", "golang", "utility", "Kyoto Sangyo University"]
+date: 2019-10-06
 ---
 
 ### {{< emoji ":speaking_head:" >}} Overview
 
 このツールは，KSU ISEにおける各コースの終了要件を単位取得科目から確認するためのツールです．
 ttt は「単位をたくさん取ろう」の頭文字です．
-
-<!--more-->
 
 なお，このツールを使った事による不利益は，いかなる場合であっても一切保証しません．
 

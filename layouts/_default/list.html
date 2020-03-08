@@ -13,9 +13,9 @@
       <a href="{{ .Permalink | relURL }}" class="index-anchor">
         <div class="panel panel-default">
           {{ if .Params.img }}
-            <img width="100%" src="{{ .Site.BaseURL | relURL }}images/{{ .Params.img }}" alt="{{ .Title }}">
+            <img height="256" src="{{ .Site.BaseURL | relURL }}images/{{ .Params.img }}" alt="{{ .Title }}">
           {{ else }}
-            <img width="100%" src="{{ .Site.BaseURL | relURL }}images/{{ .Site.Params.defaultImage }}" alt="{{ .Site.Title }}">
+            <img height="256" src="{{ .Site.BaseURL | relURL }}images/{{ .Site.Params.defaultImage }}" alt="{{ .Site.Title }}">
           {{ end }}
           <div class="panel-body">
             <h3 class="panel-title pull-left">{{ .Title | emojify | truncate 25 }}</h3>

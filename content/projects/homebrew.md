@@ -28,6 +28,8 @@ Following receipes are available.
     * Detecting the software theft, the birthmark toolkit for the JVM platform.
 * [tjdoe](../tjdoe)
     * anonymizing the programs of the assignments in the programming courses and their score for grades.
+* [lioss](../lioss)
+    * License identifying tools for OSS project.
 
 
 ### {{< emoji ":beer_mug:" >}} Install
