@@ -12,11 +12,10 @@
     <div class="col-md-4 card">
       <a href="{{ .Permalink | relURL }}" class="index-anchor">
         <div class="panel panel-default">
-          {{ if .Params.img }}
-            <img height="256" src="{{ .Site.BaseURL | relURL }}images/{{ .Params.img }}" alt="{{ .Title }}">
-          {{ else }}
-            <img height="256" src="{{ .Site.BaseURL | relURL }}images/{{ .Site.Params.defaultImage }}" alt="{{ .Site.Title }}">
-          {{ end }}
+          <div class="cover-image">
+            {{- $coverImage := default (.Site.Params.defaultImage) (.Params.img) -}}
+            <img height="180" src="{{ .Site.BaseURL | relURL }}images/{{ $coverImage }}" class="coverImage" alt="{{ .Title }}">
+          </div>
           <div class="panel-body">
             <h3 class="panel-title pull-left">{{ .Title | emojify | truncate 25 }}</h3>
             <span class="post-meta pull-right">

@@ -4,7 +4,7 @@ title: ":beers: Homebrew"
 categories: ['projects', 'homebrew']
 img: mybrew.svg
 tags: ["macOS", "homebrew"]
-date: 2019-12-04
+date: 2020-03-12
 ---
 
 ### {{< emoji ":speaking_head:" >}} Overview
@@ -18,8 +18,6 @@ Following receipes are available.
     * Extended uniq.
 * [heatman](../heatman)
     * Creating heat map from given csv file.
-* qrg
-    * QR code generator.
 * [9rules](../9rules) (ninerules)
     * Checking tool of small object programming for the Java language.
 * [ttt](../ttt)

@@ -22,7 +22,7 @@ $ brew install lioss
 ### {{< emoji ":spouting_whale:" >}} Docker
 
 * `tamada/lioss` (https://hub.docker.com/r/tamada/lioss)
-    * `1.0.0`, `latest`
+    * `0.9.0`, `latest`
 
 ```sh
 $ docker run -it --rm -v $PWD:/home/lioss tamada/lioss:latest [OPTIONS] [ARGUMENTS...]

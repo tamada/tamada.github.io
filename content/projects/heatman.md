@@ -4,7 +4,7 @@ title: heatman
 categories: ['projects', 'homebrew']
 img: goheatman.svg
 tags: ["GitHub", "git", "golang", "heatmap"]
-date: 2019-06-29
+date: 2020-03-11
 ---
 
 ### {{< emoji ":speaking_head:" >}} Overview

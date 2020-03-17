@@ -4,7 +4,7 @@ title: uniq2
 categories: ['projects', 'homebrew']
 img: tool.png
 tags: ["GitHub", "golang", "utility"]
-date: 2019-07-13
+date: 2020-03-12
 ---
 
 ### {{< emoji ":speaking_head:" >}} Overview
@@ -20,7 +20,8 @@ We want to delete not continuous duplicated lines with remaining the order.
 ### {{< emoji ":spouting_whale:" >}} Docker
 
 * `tamada/uniq2` (https://hub.docker.com/r/tamada/uniq2)
-    * `1.0.3`, `latest`
+    * `1.1.1`, `latest`
+    * `1.0.2`
 
 ### {{< emoji ":beer_mug:" >}} Install
 
