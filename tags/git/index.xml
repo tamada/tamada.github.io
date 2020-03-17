@@ -6,10 +6,21 @@
     <description>Recent content in git on Haruaki TAMADA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tamada.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>heatman</title>
+      <link>https://tamada.github.io/projects/heatman/</link>
+      <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/projects/heatman/</guid>
+      <description>🗣 Overview Create heat map image from given csv file. Go language implementation of tamada/heatman.
+🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. $ brew install heatman 🐳 Docker  tamada/heatman (https://hub.docker.com/r/tamada/heatman)  1.0.1, latest    🌐 Web pages  Project page on GitHub  https://github.com/tamada/goheatman   Web page  https://tamada.github.com/heatman    📜 License WTFPL
+ WTFPL permits  👍 Commercial use, 👍 Modification, 👍 Distribution, and 👍 Private use.</description>
+    </item>
     
     <item>
       <title>pochi</title>
@@ -22,20 +33,9 @@
     </item>
     
     <item>
-      <title>9rules</title>
-      <link>https://tamada.github.io/projects/9rules/</link>
-      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/projects/9rules/</guid>
-      <description>🗣 Overview 9rules evaluates the how to satisfy the 9 rules for the object oriented programming exercise. OOP execise was introduced by the ThoughtWorks Anthology.
-The rules are as follows.
- Rule # 1. Use one level of indentation per method. Rule # 2. Do not use the else keyword. Rule # 3. Wrap all primitives and Strings. Rule # 4. Use only one dot per line.  Except the following items.</description>
-    </item>
-    
-    <item>
       <title>rrh</title>
       <link>https://tamada.github.io/projects/rrh/</link>
-      <pubDate>Sat, 13 Jul 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/projects/rrh/</guid>
       <description>🗣 Overview rrh is a simple git repository manager.
@@ -44,13 +44,14 @@ I know the tool ghq, manages the git repositories. However, I cannot use it for 
     </item>
     
     <item>
-      <title>heatman</title>
-      <link>https://tamada.github.io/projects/heatman/</link>
-      <pubDate>Sat, 29 Jun 2019 00:00:00 +0000</pubDate>
+      <title>9rules</title>
+      <link>https://tamada.github.io/projects/9rules/</link>
+      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/projects/heatman/</guid>
-      <description>🗣 Overview Create heat map image from given csv file. Go language implementation of tamada/heatman.
-🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. $ brew install heatman 🌐 Web pages  Project page on GitHub  https://github.com/tamada/goheatman    📜 License Apache 2.0</description>
+      <guid>https://tamada.github.io/projects/9rules/</guid>
+      <description>🗣 Overview 9rules evaluates the how to satisfy the 9 rules for the object oriented programming exercise. OOP execise was introduced by the ThoughtWorks Anthology.
+The rules are as follows.
+ Rule # 1. Use one level of indentation per method. Rule # 2. Do not use the else keyword. Rule # 3. Wrap all primitives and Strings. Rule # 4. Use only one dot per line.  Except the following items.</description>
     </item>
     
   </channel>

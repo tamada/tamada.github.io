@@ -6,10 +6,100 @@
     <description>Recent content in Tags on Haruaki TAMADA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tamada.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>git</title>
+      <link>https://tamada.github.io/tags/git/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GitHub</title>
+      <link>https://tamada.github.io/tags/github/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>golang</title>
+      <link>https://tamada.github.io/tags/golang/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>homebrew</title>
+      <link>https://tamada.github.io/tags/homebrew/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/homebrew/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>macOS</title>
+      <link>https://tamada.github.io/tags/macos/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/macos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>utility</title>
+      <link>https://tamada.github.io/tags/utility/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/utility/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>heatmap</title>
+      <link>https://tamada.github.io/tags/heatmap/</link>
+      <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/heatmap/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FLOSS</title>
+      <link>https://tamada.github.io/tags/floss/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/floss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>License</title>
+      <link>https://tamada.github.io/tags/license/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/license/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>license identifying</title>
+      <link>https://tamada.github.io/tags/license-identifying/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/license-identifying/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>anonymizer</title>
@@ -17,24 +107,6 @@
       <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/tags/anonymizer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>GitHub</title>
-      <link>https://tamada.github.io/tags/github/</link>
-      <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/github/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>go</title>
-      <link>https://tamada.github.io/tags/go/</link>
-      <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/go/</guid>
       <description></description>
     </item>
     
@@ -48,38 +120,11 @@
     </item>
     
     <item>
-      <title>utility</title>
-      <link>https://tamada.github.io/tags/utility/</link>
-      <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/utility/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>birthmarks</title>
       <link>https://tamada.github.io/tags/birthmarks/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/tags/birthmarks/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>git</title>
-      <link>https://tamada.github.io/tags/git/</link>
-      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>homebrew</title>
-      <link>https://tamada.github.io/tags/homebrew/</link>
-      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/homebrew/</guid>
       <description></description>
     </item>
     
@@ -93,15 +138,6 @@
     </item>
     
     <item>
-      <title>macOS</title>
-      <link>https://tamada.github.io/tags/macos/</link>
-      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/macos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>theft detection</title>
       <link>https://tamada.github.io/tags/theft-detection/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
@@ -111,11 +147,11 @@
     </item>
     
     <item>
-      <title>Kyoto Sangyo University</title>
-      <link>https://tamada.github.io/tags/kyoto-sangyo-university/</link>
-      <pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate>
+      <title>repository management</title>
+      <link>https://tamada.github.io/tags/repository-management/</link>
+      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/tags/kyoto-sangyo-university/</guid>
+      <guid>https://tamada.github.io/tags/repository-management/</guid>
       <description></description>
     </item>
     
@@ -129,11 +165,11 @@
     </item>
     
     <item>
-      <title>repository management</title>
-      <link>https://tamada.github.io/tags/repository-management/</link>
-      <pubDate>Sat, 13 Jul 2019 00:00:00 +0000</pubDate>
+      <title>Kyoto Sangyo University</title>
+      <link>https://tamada.github.io/tags/kyoto-sangyo-university/</link>
+      <pubDate>Sun, 06 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/tags/repository-management/</guid>
+      <guid>https://tamada.github.io/tags/kyoto-sangyo-university/</guid>
       <description></description>
     </item>
     

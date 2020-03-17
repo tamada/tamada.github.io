@@ -13,3 +13,8 @@
     font-size: 0.9em;
     text-align: center;
 }
+
+.panel-default > .cover-image {
+    text-align: center;
+}
+

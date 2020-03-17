@@ -6,10 +6,22 @@
     <description>Recent content in utility on Haruaki TAMADA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tamada.github.io/tags/utility/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>uniq2</title>
+      <link>https://tamada.github.io/projects/uniq2/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/projects/uniq2/</guid>
+      <description>🗣 Overview uniq2 deletes duplicated lines.
+GNU core utilities have uniq command for deleting duplicate lines. However, uniq command deletes only continuous duplicate lines. When deleting not continuous duplicate lines, we use sort command together, in that case, the order of the list was not kept.
+We want to delete not continuous duplicated lines with remaining the order.
+🐳 Docker  tamada/uniq2 (https://hub.docker.com/r/tamada/uniq2)  1.1.1, latest 1.0.2    🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only.</description>
+    </item>
     
     <item>
       <title>tjdoe</title>
@@ -25,25 +37,13 @@ tjdoe is abbreviation of &amp;ldquo;to john/jane doe.&amp;rdquo;
     <item>
       <title>ttt</title>
       <link>https://tamada.github.io/projects/ttt/</link>
-      <pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 06 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/projects/ttt/</guid>
-      <description>&lt;h3 id=&#34;hahahugoshortcode-s0-hbhb-overview&#34;&gt;🗣
- Overview&lt;/h3&gt;
-&lt;p&gt;このツールは，KSU ISEにおける各コースの終了要件を単位取得科目から確認するためのツールです．
-ttt は「単位をたくさん取ろう」の頭文字です．&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>uniq2</title>
-      <link>https://tamada.github.io/projects/uniq2/</link>
-      <pubDate>Sat, 13 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/projects/uniq2/</guid>
-      <description>🗣 Overview uniq2 deletes duplicated lines.
-GNU core utilities have uniq command for deleting duplicate lines. However, uniq command deletes only continuous duplicate lines. When deleting not continuous duplicate lines, we use sort command together, in that case, the order of the list was not kept.
-We want to delete not continuous duplicated lines with remaining the order.
-🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. $ brew install uniq2 🌐 Web pages  Project page on GitHub  https://github.</description>
+      <description>🗣 Overview このツールは，KSU ISEにおける各コースの終了要件を単位取得科目から確認するためのツールです． ttt は「単位をたくさん取ろう」の頭文字です．
+なお，このツールを使った事による不利益は，いかなる場合であっても一切保証しません．
+🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. $ brew install ttt 🐳 Docker  tamada/ttt (https://hub.docker.com/r/tamada/ttt)  1.0.0, latest    🌐 Web pages  Project page on GitHub  https://github.com/tamada/ttt   Web page  https://tamada.github.io/ttt (Only Japanese) https://tamada.github.io/ttt/checker.html  executing ttt online.      📜 License WTFPL
+ WTFPL permits  👍 Commercial use, 👍 Modification, 👍 Distribution, and 👍 Private use.</description>
     </item>
     
   </channel>

@@ -6,10 +6,53 @@
     <description>Recent content in homebrew on Haruaki TAMADA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 26 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tamada.github.io/categories/homebrew/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>:beers: Homebrew</title>
+      <link>https://tamada.github.io/projects/homebrew/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/projects/homebrew/</guid>
+      <description>🗣 Overview Tamada&amp;rsquo;s homebrew receipes. Following receipes are available.
+ rrh  Git repository manager.   uniq2  Extended uniq.   heatman  Creating heat map from given csv file.   9rules (ninerules)  Checking tool of small object programming for the Java language.   ttt  Checking diploma of courses in ISE, KSU.   pochi  Detecting the software theft, the birthmark toolkit for the JVM platform.</description>
+    </item>
+    
+    <item>
+      <title>uniq2</title>
+      <link>https://tamada.github.io/projects/uniq2/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/projects/uniq2/</guid>
+      <description>🗣 Overview uniq2 deletes duplicated lines.
+GNU core utilities have uniq command for deleting duplicate lines. However, uniq command deletes only continuous duplicate lines. When deleting not continuous duplicate lines, we use sort command together, in that case, the order of the list was not kept.
+We want to delete not continuous duplicated lines with remaining the order.
+🐳 Docker  tamada/uniq2 (https://hub.docker.com/r/tamada/uniq2)  1.1.1, latest 1.0.2    🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only.</description>
+    </item>
+    
+    <item>
+      <title>heatman</title>
+      <link>https://tamada.github.io/projects/heatman/</link>
+      <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/projects/heatman/</guid>
+      <description>🗣 Overview Create heat map image from given csv file. Go language implementation of tamada/heatman.
+🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. $ brew install heatman 🐳 Docker  tamada/heatman (https://hub.docker.com/r/tamada/heatman)  1.0.1, latest    🌐 Web pages  Project page on GitHub  https://github.com/tamada/goheatman   Web page  https://tamada.github.com/heatman    📜 License WTFPL
+ WTFPL permits  👍 Commercial use, 👍 Modification, 👍 Distribution, and 👍 Private use.</description>
+    </item>
+    
+    <item>
+      <title>lioss</title>
+      <link>https://tamada.github.io/projects/lioss/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/projects/lioss/</guid>
+      <description>🗣 Overview License identifying tool for OSS projects. This tool has license database, and analyzes given license by $k$-gram, word frequencies, or tfidf algorithm.
+🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. $ brew install lioss 🐳 Docker  tamada/lioss (https://hub.docker.com/r/tamada/lioss)  0.9.0, latest    $ docker run -it --rm -v $PWD:/home/lioss tamada/lioss:latest [OPTIONS] [ARGUMENTS...] 🌐 Web pages  Project page on GitHub  https://github.</description>
+    </item>
     
     <item>
       <title>tjdoe</title>
@@ -23,16 +66,6 @@ tjdoe is abbreviation of &amp;ldquo;to john/jane doe.&amp;rdquo;
     </item>
     
     <item>
-      <title>:beers: Homebrew</title>
-      <link>https://tamada.github.io/projects/homebrew/</link>
-      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/projects/homebrew/</guid>
-      <description>🗣 Overview Tamada&#39;s homebrew receipes. Following receipes are available.
- rrh  Git repository manager.   uniq2  Extended uniq.   heatman  Creating heat map from given csv file.   qrg  QR code generator.   9rules (ninerules)  Checking tool of small object programming for the Java language.   ttt  Checking diploma of courses in ISE, KSU.   pochi  Detecting the software theft, the birthmark toolkit for the JVM platform.</description>
-    </item>
-    
-    <item>
       <title>pochi</title>
       <link>https://tamada.github.io/projects/pochi/</link>
       <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
@@ -43,15 +76,14 @@ tjdoe is abbreviation of &amp;ldquo;to john/jane doe.&amp;rdquo;
     </item>
     
     <item>
-      <title>ttt</title>
-      <link>https://tamada.github.io/projects/ttt/</link>
-      <pubDate>Wed, 06 Nov 2019 00:00:00 +0000</pubDate>
+      <title>rrh</title>
+      <link>https://tamada.github.io/projects/rrh/</link>
+      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/projects/ttt/</guid>
-      <description>&lt;h3 id=&#34;hahahugoshortcode-s0-hbhb-overview&#34;&gt;🗣
- Overview&lt;/h3&gt;
-&lt;p&gt;このツールは，KSU ISEにおける各コースの終了要件を単位取得科目から確認するためのツールです．
-ttt は「単位をたくさん取ろう」の頭文字です．&lt;/p&gt;</description>
+      <guid>https://tamada.github.io/projects/rrh/</guid>
+      <description>🗣 Overview rrh is a simple git repository manager.
+There are too many repositories. We love programming; however, to manage many repositories is quite hard and bothersome tasks. Therefore, we built a headquarter for managing the git repositories, named rrh. rrh manages repositories by categorizing in groups and execute git command to the groups.
+I know the tool ghq, manages the git repositories. However, I cannot use it for the following reasons.</description>
     </item>
     
     <item>
@@ -66,36 +98,15 @@ The rules are as follows.
     </item>
     
     <item>
-      <title>rrh</title>
-      <link>https://tamada.github.io/projects/rrh/</link>
-      <pubDate>Sat, 13 Jul 2019 00:00:00 +0000</pubDate>
+      <title>ttt</title>
+      <link>https://tamada.github.io/projects/ttt/</link>
+      <pubDate>Sun, 06 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/projects/rrh/</guid>
-      <description>🗣 Overview rrh is a simple git repository manager.
-There are too many repositories. We love programming; however, to manage many repositories is quite hard and bothersome tasks. Therefore, we built a headquarter for managing the git repositories, named rrh. rrh manages repositories by categorizing in groups and execute git command to the groups.
-I know the tool ghq, manages the git repositories. However, I cannot use it for the following reasons.</description>
-    </item>
-    
-    <item>
-      <title>uniq2</title>
-      <link>https://tamada.github.io/projects/uniq2/</link>
-      <pubDate>Sat, 13 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/projects/uniq2/</guid>
-      <description>🗣 Overview uniq2 deletes duplicated lines.
-GNU core utilities have uniq command for deleting duplicate lines. However, uniq command deletes only continuous duplicate lines. When deleting not continuous duplicate lines, we use sort command together, in that case, the order of the list was not kept.
-We want to delete not continuous duplicated lines with remaining the order.
-🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. $ brew install uniq2 🌐 Web pages  Project page on GitHub  https://github.</description>
-    </item>
-    
-    <item>
-      <title>heatman</title>
-      <link>https://tamada.github.io/projects/heatman/</link>
-      <pubDate>Sat, 29 Jun 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/projects/heatman/</guid>
-      <description>🗣 Overview Create heat map image from given csv file. Go language implementation of tamada/heatman.
-🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. $ brew install heatman 🌐 Web pages  Project page on GitHub  https://github.com/tamada/goheatman    📜 License Apache 2.0</description>
+      <guid>https://tamada.github.io/projects/ttt/</guid>
+      <description>🗣 Overview このツールは，KSU ISEにおける各コースの終了要件を単位取得科目から確認するためのツールです． ttt は「単位をたくさん取ろう」の頭文字です．
+なお，このツールを使った事による不利益は，いかなる場合であっても一切保証しません．
+🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. $ brew install ttt 🐳 Docker  tamada/ttt (https://hub.docker.com/r/tamada/ttt)  1.0.0, latest    🌐 Web pages  Project page on GitHub  https://github.com/tamada/ttt   Web page  https://tamada.github.io/ttt (Only Japanese) https://tamada.github.io/ttt/checker.html  executing ttt online.      📜 License WTFPL
+ WTFPL permits  👍 Commercial use, 👍 Modification, 👍 Distribution, and 👍 Private use.</description>
     </item>
     
   </channel>
