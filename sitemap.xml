@@ -18,6 +18,11 @@
   </url>
   
   <url>
+    <loc>https://tamada.github.io/tags/git/</loc>
+    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tamada.github.io/tags/github/</loc>
     <lastmod>2020-03-12T00:00:00+00:00</lastmod>
   </url>
@@ -43,6 +48,11 @@
   </url>
   
   <url>
+    <loc>https://tamada.github.io/categories/project/</loc>
+    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tamada.github.io/categories/projects/</loc>
     <lastmod>2020-03-12T00:00:00+00:00</lastmod>
   </url>
@@ -60,11 +70,6 @@
   <url>
     <loc>https://tamada.github.io/tags/utility/</loc>
     <lastmod>2020-03-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/tags/git/</loc>
-    <lastmod>2020-03-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -274,11 +279,6 @@
   
   <url>
     <loc>https://tamada.github.io/categories/github/</loc>
-    <lastmod>2019-09-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/categories/project/</loc>
     <lastmod>2019-09-20T00:00:00+00:00</lastmod>
   </url>
   
