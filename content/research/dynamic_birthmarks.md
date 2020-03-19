@@ -1,7 +1,7 @@
 ---
 title: "Dynamic birthmarks"
 date: 2006-08-01
-img: research/dynamic_birthmarks.png
+image: research/dynamic_birthmarks.png
 categories: ['dynamic birthmarks','theft detection','software theft', 'method calls']
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Evaluating students in programming courses"
 date: 2018-01-15
-img: research/qualitative_analysis.png
+image: research/qualitative_analysis.png
 categories: ['programming course','snapshots']
 ---
 

@@ -1,32 +1,31 @@
-{{ define "main" }}
-<div class="row">
-  <div class="col-md-8">
-    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">{{ .Title | emojify }}</h1>
-        <p class="post-meta"><time datetime='{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}' itemprop="datePublished">{{ .Date.Format "January 2, 2006" }}</time>{{ with .Params.Author }} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ . }}</span></span>{{ end }}</p>
-      </header>
-      <div class="post-content" itemprop="articleBody">
-        {{ .Content }}
-      </div>
-    </article>
-    <div class="row">
-      {{ if .Site.Params.disqus }}
-        {{ partial "disqus.html" . }}
-      {{ end }}
+{{- define "main" }}
+{{- $scratch := newScratch }}
+{{- if isset .Params "image" }}
+  {{- $scratch.Set "image" .Params.image }}
+{{- else }}
+  {{ $scratch.Set "image" "thumbnail.svg" }}
+{{- end }}
+{{- $image := $scratch.Get "image" }}
+{{- $bg := (path.Join "images" $image | absLangURL) }}
+<section class = 'post_header' style = 'background-image:url({{ $bg }});'>
+  <h1 class='post_title'>{{ .Title | emojify }}</h1>
+</section>
+<div class = 'post'>
+  <article class='post_content'>
+    {{- .Content }}
+    <div class = 'post_extra'>
+      {{- partial "copy" . }}
     </div>
-    <div class="row">
-      <ul class="pager">
-        {{ with .NextPage }}
-          <li><a class="next" href="{{ .Permalink | relURL }}">&laquo; {{ .Title | emojify }}</a></li>
-        {{ end }}
-        {{ with .PrevPage }}
-          <li><a class="previous" href="{{ .Permalink | relURL }}">{{ .Title | emojify }} &raquo;</a></li>
-        {{ end }}
-      </ul>
-    </div>
-  </div>
-  {{ partial "sidebar.html" . }}
+    {{- partial "author" . }}
+  </article>
+  {{- if .Site.Params.Staticman }}
+    {{- partial "comments" . }}
+  {{- end }}
+  <aside>
+    {{- partial "aside" . }}
+  </aside>
 </div>
-{{ partial "fb-script.html" . }}
-{{ end }}
+<script src = '{{ absURL "js/autosize.min.js" }}'></script>
+{{- $timeagoScr := resources.Get "js/timeago.js" | resources.ExecuteAsTemplate "js/timeago.js" . }}
+<script src = '{{ $timeagoScr.Permalink }}'></script>
+{{- end }}

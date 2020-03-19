@@ -16,6 +16,8 @@ start:
 stop:
 	docker stop ${DOCKER_IMAGE_NAME}
 
+restart: stop start
+
 pull:
 	cd public ; git pull origin master ; cd -
 

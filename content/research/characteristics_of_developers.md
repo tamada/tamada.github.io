@@ -1,7 +1,7 @@
 ---
 title: "Characteristics of the developers"
 date: 2015-03-20
-img: research/characteristics_of_developers.png
+image: research/characteristics_of_developers.png
 categories: ['characteristics of developers','development history', 'project analysis']
 ---
 

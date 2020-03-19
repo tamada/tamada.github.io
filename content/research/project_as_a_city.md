@@ -1,7 +1,7 @@
 ---
 title: "Project as a City"
 date: 2019-09-20
-img: research/project_as_a_city.png
+image: research/project_as_a_city.png
 categories: ['project','GitHub','project metrics','smart city','project analysis']
 ---
 

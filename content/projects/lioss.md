@@ -2,7 +2,7 @@
 layout: post
 title: lioss
 categories: ['projects', 'homebrew']
-img: lioss.png
+image: lioss.png
 tags: ["FLOSS", "License", "license identifying", "golang"]
 date: 2020-03-08
 ---

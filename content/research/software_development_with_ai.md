@@ -1,7 +1,7 @@
 ---
 title: "Mining Software Repository"
 date: 2017-07-14
-img: research/msr.png
+image: research/msr.png
 categories: ['software repository','mining']
 ---
 

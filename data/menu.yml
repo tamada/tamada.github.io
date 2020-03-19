@@ -1,0 +1,12 @@
+- item: Profile
+  url: profile
+- item: Projects
+  url: projects
+- item: Research
+  url: research
+- item: Contact
+  url: contact
+- item: Categories
+  url: categories
+- item: Tags
+  url: tags

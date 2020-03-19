@@ -1,7 +1,7 @@
 ---
 title: "Artificiality evaluation of obfuscations"
 date: 2017-01-23
-img: research/artificiality_evaluation.png
+image: research/artificiality_evaluation.png
 categories: ['obfuscation', 'stealthiness', 'artificiality']
 ---
 

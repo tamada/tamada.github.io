@@ -1,8 +1,9 @@
 ---
 layout: post
 title: ":beers: Homebrew"
+author: "Haruaki TAMADA"
 categories: ['projects', 'homebrew']
-img: mybrew.svg
+image: mybrew.svg
 tags: ["macOS", "homebrew"]
 date: 2020-03-12
 ---

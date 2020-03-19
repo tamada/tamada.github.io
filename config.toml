@@ -1,19 +1,16 @@
 baseURL = "https://tamada.github.io/"
 languageCode = "en-us"
 title = "Haruaki TAMADA"
-theme = "hugo-cards"
+theme = "hugo-swift-theme"
 paginate = 6
 
 googleAnalytics = "UA-62401730-5"
 
 [params]
-    buildBy = "Haruaki Tamada"
-    defaultimage = "prost.png"
-    avatarIcon = "harry.png"
+    author = "Haruaki Tamada"
+    logo = "harry.png"
+    ga_analytics = "UA-62401730-5"
+    twitter = "tama5"
 
-    twitter = "https://twitter.com/tama5"
-    github = "https://github.com/tamada"
+[params.staticman]
 
-[params.copyright]
-    name = "Haruaki TAMADA"
-    link = "https://tamada.github.io/"

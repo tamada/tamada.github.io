@@ -2,7 +2,7 @@
 layout: post
 title: uniq2
 categories: ['projects', 'homebrew']
-img: tool.png
+image: tool.png
 tags: ["GitHub", "golang", "utility"]
 date: 2020-03-12
 ---

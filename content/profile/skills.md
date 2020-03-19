@@ -1,7 +1,7 @@
 ---
 title: ":muscle: Skills"
 date: 2019-12-18
-img: CM045_L.jpg
+image: CM045_L.jpg
 draft: false
 categories: ['profile']
 ---
@@ -19,5 +19,5 @@ categories: ['profile']
 
 * {{< devicons icon="docker" >}} Docker
 * {{< devicons icon="git" >}} Git
+* {{< devicons icon="hugo" >}} Hugo
 * GitHub flow
-* Hugo

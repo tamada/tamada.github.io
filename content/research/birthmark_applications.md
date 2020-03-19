@@ -1,7 +1,7 @@
 ---
 title: "Applications of software birthmarks"
 date: 2009-08-15
-img: research/birthmark_applications.png
+image: research/birthmark_applications.png
 categories: ['software birthmarks','applications']
 ---
 
