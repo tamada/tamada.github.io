@@ -1,3 +1,42 @@
+.excerpt_date {
+    text-align: right;
+    font-size: 80%;
+}
+
+img.devicon {
+    display: inline;
+    width: auto;
+    height: 18px;
+    margin-right: 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.introduction{
+    padding: 0 30px;
+    display: block;
+    text-align: center;
+}
+
+.introduction > .introduction-block {
+    display: inline-block;
+    width: 80%;
+    text-align: left;
+}
+
+.introduction-block ul,.post_content ul {
+    padding-left: 50px;
+}
+
+.introduction-block li, .post_content li {
+    text-indent: -30px;
+}
+
+.introduction-block li:before, .post_content li:before {
+    content: "🔹";
+    margin-right: 10px;
+}
+
 .iconify {
     display: inline-block;
     text-align: center;
@@ -11,10 +50,6 @@
 
 .iconify figcaption {
     font-size: 0.9em;
-    text-align: center;
-}
-
-.panel-default > .cover-image {
     text-align: center;
 }
 
