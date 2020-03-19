@@ -73,6 +73,16 @@ We want to delete not continuous duplicated lines with remaining the order.
     </item>
     
     <item>
+      <title>:books: Publications</title>
+      <link>https://tamada.github.io/publications/</link>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/publications/</guid>
+      <description>The followings are key papers of my publications. The full list is available on my laboratory page.
+ 中村 潤，玉田 春昭，&amp;lsquo;&amp;lsquo;大量のソフトウェアを対象にしたソフトウェアバースマークによる盗用検出 〜全文検索システムを用いた検査対象の絞り込み手法〜&#39;&#39;，情報処理学会論文誌，Vol.61, No.2, pp.454-–473, Feburary 2020． 横井 昂典，玉田 春昭，&amp;lsquo;&amp;lsquo;単体テストコードとアスペクト指向を用いた動的バースマークの抽出コストの削減&amp;rsquo;&#39;，情報処理学会論文誌，Vol.60, No.7，pp.1247&amp;ndash;1259，July 2019. Koji Toda, Haruaki Tamada, Masahide Nakamura, and Kenichi Matsumoto, &amp;lsquo;&amp;lsquo;Characterizing Project Evolution on a Social Coding Platform,&amp;rsquo;&amp;rsquo; In Proc. 20th ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD 2019), pp.525–532, July 2019 (Toyama, Japan). 磯部 陽介，玉田 春昭，&amp;lsquo;&amp;lsquo;ランダムフォレストを用いた名前難読化の耐タンパ化性能の評価&amp;rsquo;&#39;，情報処理学会論文誌，Vo.</description>
+    </item>
+    
+    <item>
       <title>Fast comparisons of the birthmarks</title>
       <link>https://tamada.github.io/research/birthmark_fast_comparison/</link>
       <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
@@ -110,16 +120,6 @@ tjdoe is abbreviation of &amp;ldquo;to john/jane doe.&amp;rdquo;
       
       <guid>https://tamada.github.io/profile/skills/</guid>
       <description>🍎 Languages  🇯🇵 Japanese 🇺🇸 English Java Go JavaScript C  🔮 Others  Docker Git Hugo GitHub flow  </description>
-    </item>
-    
-    <item>
-      <title>:books: Publications</title>
-      <link>https://tamada.github.io/publications/</link>
-      <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/publications/</guid>
-      <description>The followings are key papers of my publications. The full list is available on my laboratory page.
- 中村 潤，玉田 春昭，&amp;lsquo;&amp;lsquo;大量のソフトウェアを対象にしたソフトウェアバースマークによる盗用検出 〜全文検索システムを用いた検査対象の絞り込み手法〜&#39;&#39;，情報処理学会論文誌，Vol.61, No.2, Feburary 2020（to appear）． 横井 昂典，玉田 春昭，&amp;lsquo;&amp;lsquo;単体テストコードとアスペクト指向を用いた動的バースマークの抽出コストの削減&amp;rsquo;&#39;，情報処理学会論文誌，Vol.60, No.7，pp.1247&amp;ndash;1259，July 2019. Koji Toda, Haruaki Tamada, Masahide Nakamura, and Kenichi Matsumoto, &amp;lsquo;&amp;lsquo;Characterizing Project Evolution on a Social Coding Platform,&amp;rsquo;&amp;rsquo; In Proc. 20th ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD 2019), pp.525–532, July 2019 (Toyama, Japan). 磯部 陽介，玉田 春昭，&amp;lsquo;&amp;lsquo;ランダムフォレストを用いた名前難読化の耐タンパ化性能の評価&amp;rsquo;&#39;，情報処理学会論文誌，Vo.</description>
     </item>
     
     <item>

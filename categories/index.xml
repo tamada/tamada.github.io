@@ -30,18 +30,9 @@
     </item>
     
     <item>
-      <title>profile</title>
-      <link>https://tamada.github.io/categories/profile/</link>
-      <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/categories/profile/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>publications</title>
       <link>https://tamada.github.io/categories/publications/</link>
-      <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/categories/publications/</guid>
       <description></description>
@@ -50,9 +41,18 @@
     <item>
       <title>work</title>
       <link>https://tamada.github.io/categories/work/</link>
-      <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/categories/work/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>profile</title>
+      <link>https://tamada.github.io/categories/profile/</link>
+      <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/categories/profile/</guid>
       <description></description>
     </item>
     
