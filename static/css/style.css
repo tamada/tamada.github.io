@@ -25,15 +25,15 @@ img.devicon {
 }
 
 .introduction-block ul,.post_content ul {
-    padding-left: 30px;
+    padding-left: 50px;
 }
 
 .introduction-block li, .post_content li {
-    text-indent: -15px;
+    text-indent: -30px;
 }
 
 .introduction-block li:before, .post_content li:before {
-    content: "*";
+    content: "🔹";
     margin-right: 10px;
 }
 

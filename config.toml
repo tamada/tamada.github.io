@@ -2,9 +2,11 @@ baseURL = "https://tamada.github.io/"
 languageCode = "en-us"
 title = "Haruaki TAMADA"
 theme = "hugo-swift-theme"
+canonifyurl = true
 paginate = 6
 
-googleAnalytics = "UA-62401730-5"
+pygmentsCodefences = true
+pygmentsCodefencesGuessSyntax = true
 
 [params]
     author = "Haruaki Tamada"
@@ -13,4 +15,11 @@ googleAnalytics = "UA-62401730-5"
     twitter = "tama5"
 
 [params.staticman]
-
+    endpoint = "https://staticman3.herokuapp.com"
+    gitProvider = "github"
+    username = "tamada"
+    repository = "tamada.github.io"
+    branch = "master"
+    [params.staticman.reCaptcha]
+        siteKey = "6Ld0WuIUAAAAAD4Y-TC5PoaiidWvmpu8eMMeWZXa"
+        secret = "TtrcJ68jdqeAVM9ZYRwZX38UwfQsNiBnVBcGCyy+9PSOt8I+bQunrPvxM2lRMAI1BZvRYpUo2y26v3vJWwBRr6tnwoR1hRtVkplnhp4hzY8BfnWIcjbqbxaRcmoo1YYm+SxzYM44U03cahB9wf1oe0kxnrh4zQvG0JLmdzciF+Ld729XlaluhWzgPSHdZf9IaK/bVamIS036VtupnMUTHSfUU+ti4X3ZGJ7Y76ymj1y8bC7L0/nn3wV5eMAqPD+53KXXzs7WsN6TXOVdweFU40l+fhpw3ybVTOwQ0m5DYs9n1raNTaOFePTfg4pGtuU7tpmJffSKLlappz4CQXpNkQ=="
