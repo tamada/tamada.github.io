@@ -22,7 +22,7 @@ pull:
 	cd public ; git pull origin master ; cd -
 
 commit:
-	cd public ; git commit -a -m "update" ; cd -
+	cd public ; git add . ; git commit -a -m "update" ; cd -
 
 push:
 	cd public ; git push origin master ; cd -
