@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>obfuscation on Haruaki TAMADA</title>
+    <link>https://tamada.github.io/tags/obfuscation/</link>
+    <description>Recent content in obfuscation on Haruaki TAMADA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tamada.github.io/tags/obfuscation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>De-obfuscate IRM</title>
+      <link>https://tamada.github.io/research/deobfuscating_identifier_renaming/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/deobfuscating_identifier_renaming/</guid>
+      <description>🗣 Overview The obfuscation methods are often used to hide sensitive information in software. Especially, an identifier renaming method (IRM) is well used because it is easy to implement. IRM is one of the obfuscation methods, and to change the names of function, and variables into meaningless one. However, if we can restore the identifiers to the original names, IRM is invalidated. One of the serious problems about IRM is that the tolerance against de-obfuscation is not discussed.</description>
+    </item>
+    
+    <item>
+      <title>Artificiality evaluation of obfuscations</title>
+      <link>https://tamada.github.io/research/artificiality_evaluation/</link>
+      <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/artificiality_evaluation/</guid>
+      <description>🗣 Overview This research topic tries to evaluate the artificialities of the obfuscated programs. We believe that the obfuscation changes the programs into unordinal ones. This topics evaluates the artificialities by tf-idf and perplexities.
+📚 Publications  横井 昂典，玉田 春昭，”使用クラスに基づいたTF-IDFによる難読化の不自然さ評価”，2017年暗号と情報セキュリティシンポジウム予稿集 (SCIS 2017)，3D1-4，January 2017.（沖縄，那覇） 大滝 隆貴，大堂 哲也，玉田 春昭，神崎 雄一郎，門田 暁人，”Javaバイトコード命令のオペコード、オペランドを用いた難読化手法のステルシネス評価”，2014年暗号と情報セキュリティシンポジウム予稿集 (SCIS2014), 2D2-2, January 2014.  🔎 Related Research Topics  Identifying the applied obfuscator De-obfuscate IRM (identifier renaming method) Evaluating obfuscation method by Kolmogorov complexity Unreadability evaluation of obfuscated programs  🤝 Collaborators  Y.</description>
+    </item>
+    
+    <item>
+      <title>Obfuscation by invokedynamic</title>
+      <link>https://tamada.github.io/research/obfuscation_by_invokedynamic/</link>
+      <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/obfuscation_by_invokedynamic/</guid>
+      <description>🗣 Overview This paper proposes an obfuscation method against illegal analysis. The proposed method tries to build a fake call flow graph from debugging tools. The call flow graph represents relations among methods and helps understanding of a program. The fake call flow graph leads misunderstanding of the program. We focus on a hook mechanism of the method call for changing a callee. We conduct two experiments to evaluate the proposed method.</description>
+    </item>
+    
+    <item>
+      <title>Evaluating obfuscation method by Kolmogorov complexity</title>
+      <link>https://tamada.github.io/research/evaluation_obfuscation_kolmogorov/</link>
+      <pubDate>Sun, 01 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/evaluation_obfuscation_kolmogorov/</guid>
+      <description>🗣 Overview This paper quantifies the diffuculty of program analysis based on the information theory. The basic idea is to consider that a program ultimately obscated if instructions appear at random; that is (1) all instructions has an equal frequency of appearance, and (2) there is no pattern observed in the instruction sequence. We quantified (1) based on the entropy and (2) based on the Kolmogorov complexity. We evaluated the feasibility of our proposal through a case study.</description>
+    </item>
+    
+    <item>
+      <title>Method folding obfuscation</title>
+      <link>https://tamada.github.io/research/obfuscation_by_method_folding/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/obfuscation_by_method_folding/</guid>
+      <description>🗣 Overview To improve tamper resistance of programs against illegal modification, this paper proposes instruction folding applicable to Java platform.
+In the proposed method, at first, similar methods are selected in a Java program. Next, these methods are merged into one method and diffs among these methods are stored in the program. Then, at runtime, when one of the merged methods is executed, diffs are restored by self-modification, which is realized by the Java instrumentation mechanism.</description>
+    </item>
+    
+    <item>
+      <title>Unreadability evaluation by mental simulation model</title>
+      <link>https://tamada.github.io/research/unreadability_evaluation/</link>
+      <pubDate>Mon, 24 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/unreadability_evaluation/</guid>
+      <description>🗣 Overview Obfuscation methods were proposed for protecting programs from cracking. These methods convert program into incomprehensible one, such as change symbol names from meaningful to meaningless. As a result, secret information in the program can be hidden. However, obfuscation methods are not evaluated sufficiently. This paper evaluates incomprehensibility of the obfuscated programs using queue based virtual mental simulation model (VMSM) which is focused on short term memory in program comprehension.</description>
+    </item>
+    
+    <item>
+      <title>Obfuscation by dynamic name resolution</title>
+      <link>https://tamada.github.io/research/obfuscation_by_dnr/</link>
+      <pubDate>Tue, 12 Feb 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/obfuscation_by_dnr/</guid>
+      <description>🗣 Overview Name obfuscation is a software protection technique, which renames identifiers in a given program, to protect the program from illegal cracking. The conventional methods replace names appearing in the declaration part with the meaningless ones. Therefore, the methods cannot be used to obfuscate names declared in system libraries, since changing such system-defined names significantly deteriorates the program portability.
+This paper presents a new name obfuscation method, which can hide appearance of the system-defined names.</description>
+    </item>
+    
+  </channel>
+</rss>

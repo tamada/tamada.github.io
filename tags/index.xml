@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Haruaki TAMADA</title>
+    <title>:label: Tags on Haruaki TAMADA</title>
     <link>https://tamada.github.io/tags/</link>
-    <description>Recent content in Tags on Haruaki TAMADA</description>
+    <description>Recent content in :label: Tags on Haruaki TAMADA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 12 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Mar 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tamada.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>git</title>
-      <link>https://tamada.github.io/tags/git/</link>
-      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      <title>blog</title>
+      <link>https://tamada.github.io/tags/blog/</link>
+      <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/tags/git/</guid>
+      <guid>https://tamada.github.io/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://tamada.github.io/tags/hugo/</link>
+      <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     
@@ -57,6 +66,15 @@
     </item>
     
     <item>
+      <title>recipes</title>
+      <link>https://tamada.github.io/tags/recipes/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/recipes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>utility</title>
       <link>https://tamada.github.io/tags/utility/</link>
       <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
@@ -75,16 +93,7 @@
     </item>
     
     <item>
-      <title>FLOSS</title>
-      <link>https://tamada.github.io/tags/floss/</link>
-      <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/floss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>License</title>
+      <title>license</title>
       <link>https://tamada.github.io/tags/license/</link>
       <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
       
@@ -93,38 +102,101 @@
     </item>
     
     <item>
-      <title>license identifying</title>
-      <link>https://tamada.github.io/tags/license-identifying/</link>
+      <title>OSS</title>
+      <link>https://tamada.github.io/tags/oss/</link>
       <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/tags/license-identifying/</guid>
+      <guid>https://tamada.github.io/tags/oss/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>anonymizer</title>
-      <link>https://tamada.github.io/tags/anonymizer/</link>
-      <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
+      <title>automation</title>
+      <link>https://tamada.github.io/tags/automation/</link>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/tags/anonymizer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>program</title>
-      <link>https://tamada.github.io/tags/program/</link>
-      <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/program/</guid>
+      <guid>https://tamada.github.io/tags/automation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>birthmarks</title>
       <link>https://tamada.github.io/tags/birthmarks/</link>
-      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/tags/birthmarks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>theft detection</title>
+      <link>https://tamada.github.io/tags/theft-detection/</link>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/theft-detection/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>evaluating obfuscation</title>
+      <link>https://tamada.github.io/tags/evaluating-obfuscation/</link>
+      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/evaluating-obfuscation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>identifiers</title>
+      <link>https://tamada.github.io/tags/identifiers/</link>
+      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/identifiers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opcodes</title>
+      <link>https://tamada.github.io/tags/opcodes/</link>
+      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/opcodes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>anonymity</title>
+      <link>https://tamada.github.io/tags/anonymity/</link>
+      <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/anonymity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>profile</title>
+      <link>https://tamada.github.io/tags/profile/</link>
+      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/profile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>work</title>
+      <link>https://tamada.github.io/tags/work/</link>
+      <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/work/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>contact</title>
+      <link>https://tamada.github.io/tags/contact/</link>
+      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/contact/</guid>
       <description></description>
     </item>
     
@@ -138,38 +210,83 @@
     </item>
     
     <item>
-      <title>theft detection</title>
-      <link>https://tamada.github.io/tags/theft-detection/</link>
-      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/theft-detection/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>repository management</title>
-      <link>https://tamada.github.io/tags/repository-management/</link>
-      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/repository-management/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>code quality</title>
-      <link>https://tamada.github.io/tags/code-quality/</link>
+      <title>OOP</title>
+      <link>https://tamada.github.io/tags/oop/</link>
       <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/tags/code-quality/</guid>
+      <guid>https://tamada.github.io/tags/oop/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Kyoto Sangyo University</title>
-      <link>https://tamada.github.io/tags/kyoto-sangyo-university/</link>
-      <pubDate>Sun, 06 Oct 2019 00:00:00 +0000</pubDate>
+      <title>readability</title>
+      <link>https://tamada.github.io/tags/readability/</link>
+      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/tags/kyoto-sangyo-university/</guid>
+      <guid>https://tamada.github.io/tags/readability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>source code analysis</title>
+      <link>https://tamada.github.io/tags/source-code-analysis/</link>
+      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/source-code-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MSR</title>
+      <link>https://tamada.github.io/tags/msr/</link>
+      <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/msr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>project analysis</title>
+      <link>https://tamada.github.io/tags/project-analysis/</link>
+      <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/project-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>aspect oriented programming</title>
+      <link>https://tamada.github.io/tags/aspect-oriented-programming/</link>
+      <pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/aspect-oriented-programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>obfuscation</title>
+      <link>https://tamada.github.io/tags/obfuscation/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/obfuscation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>education</title>
+      <link>https://tamada.github.io/tags/education/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>developer analysis</title>
+      <link>https://tamada.github.io/tags/developer-analysis/</link>
+      <pubDate>Fri, 20 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/developer-analysis/</guid>
       <description></description>
     </item>
     

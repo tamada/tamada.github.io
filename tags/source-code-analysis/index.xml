@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>source code analysis on Haruaki TAMADA</title>
+    <link>https://tamada.github.io/tags/source-code-analysis/</link>
+    <description>Recent content in source code analysis on Haruaki TAMADA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tamada.github.io/tags/source-code-analysis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>9rules</title>
+      <link>https://tamada.github.io/projects/9rules/</link>
+      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/projects/9rules/</guid>
+      <description>🗣 Overview 9rules evaluates the how to satisfy the 9 rules for the object oriented programming exercise. OOP execise was introduced by the ThoughtWorks Anthology.
+The rules are as follows.
+ Rule # 1. Use one level of indentation per method. Rule # 2. Do not use the else keyword. Rule # 3. Wrap all primitives and Strings. Rule # 4. Use only one dot per line.  Except the following items.</description>
+    </item>
+    
+    <item>
+      <title>Evaluating students in programming courses</title>
+      <link>https://tamada.github.io/research/evaluation_programming_course/</link>
+      <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/evaluation_programming_course/</guid>
+      <description>🗣 Overview It is crucial for educators to understand pitfalls for novice programmers in programming education at computer science course. By giving well-timed advice to students who fall into a pitfall, educators are able to achieve efficient teaching and keep up their students&amp;rsquo; motivation. However, so far, it is less well-understood how novice students edit source code and why they fall into a pitfall. In this paper, we analyzed coding patterns of novice students empirically.</description>
+    </item>
+    
+    <item>
+      <title>Unreadability evaluation by mental simulation model</title>
+      <link>https://tamada.github.io/research/unreadability_evaluation/</link>
+      <pubDate>Mon, 24 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/unreadability_evaluation/</guid>
+      <description>🗣 Overview Obfuscation methods were proposed for protecting programs from cracking. These methods convert program into incomprehensible one, such as change symbol names from meaningful to meaningless. As a result, secret information in the program can be hidden. However, obfuscation methods are not evaluated sufficiently. This paper evaluates incomprehensibility of the obfuscated programs using queue based virtual mental simulation model (VMSM) which is focused on short term memory in program comprehension.</description>
+    </item>
+    
+  </channel>
+</rss>

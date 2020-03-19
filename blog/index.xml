@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>:thinking: Blog on Haruaki TAMADA</title>
+    <link>https://tamada.github.io/blog/</link>
+    <description>Recent content in :thinking: Blog on Haruaki TAMADA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tamada.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>新しいデザイン</title>
+      <link>https://tamada.github.io/blog/20200319_new_design/</link>
+      <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/blog/20200319_new_design/</guid>
+      <description>ホームページのデザインを更新した． ふと思い立って，ホームページのデザインを更新してみた． 今までは，hugo-cards を使っていたのをHugo Swift を使うことにした．
+欲しかった要件  config.tomlにごちゃごちゃと書かない． dataでの記述は最小限に． shortcodesにあまり依存しない．  この要件はあくまで好みである．
+困ったこと Hugo などの静的サイトジェネレータでコメント投稿をサポートするために，Staticmanがリリースされている． Hugo SwiftはこのStaticmanを標準でサポートしている． しかし，設定方法にあるように設定して，コメントを投稿しても，500 Internal Server Errorになる． どうも，https://staticman3.herokuapp.com/v3/entry/github/tamada/tamada.github.io/master/comments に投稿しても，Staticman の中から GitHub へのリクエスト URL でリポジトリの情報が失われているっぽい． 設定項目は飛ばしていないつもりだけど，なぜだろう．．．
+Hugo のレイアウトのコツ いくつかのサイトを Hugo で構築して，レイアウトのコツのようなものがわかった．
+生成されたHTML と themes/XXXXXX/layouts/{_default,partials} 以下の内容を確認し，変更したい内容をトップのlayoutsにコピーして編集すると良い．
+雑感 Hugo Swiftには概ね満足なのだが，次の2つの項目を変えたい．
+サイン波のアニメーション トップのサイン波のアニメーションを変更するのが難しい． 変更自体は簡単なんだけど，変更してしまうと，サイトとしてイケてない． かといってそのままだと，デザインそのままな感じがする． とりあえず放置．
+ハンバーガーメニューが気に入らない． 個人的にハンバーガーメニューが気に入らない． 世間的にもハンバーガーメニューはダメだという意見があるようだ．
+ 君たちはそんなにハンバーガーメニューが好きなのかね？ The Hamburger Menu Doesn&amp;rsquo;t Work  これもとりあえずは放置．
+というところでリリースした． Staticmanについてはまた今度挑戦してみる．</description>
+    </item>
+    
+  </channel>
+</rss>

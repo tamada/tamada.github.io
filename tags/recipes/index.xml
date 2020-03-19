@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>recipes on Haruaki TAMADA</title>
+    <link>https://tamada.github.io/tags/recipes/</link>
+    <description>Recent content in recipes on Haruaki TAMADA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tamada.github.io/tags/recipes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>:beers: Homebrew</title>
+      <link>https://tamada.github.io/projects/homebrew/</link>
+      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/projects/homebrew/</guid>
+      <description>🗣 Overview Tamada&amp;rsquo;s homebrew receipes. Following receipes are available.
+ rrh  Git repository manager.   uniq2  Extended uniq.   heatman  Creating heat map from given csv file.   9rules (ninerules)  Checking tool of small object programming for the Java language.   ttt  Checking diploma of courses in ISE, KSU.   pochi  Detecting the software theft, the birthmark toolkit for the JVM platform.</description>
+    </item>
+    
+  </channel>
+</rss>

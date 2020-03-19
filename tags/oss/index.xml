@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>OSS on Haruaki TAMADA</title>
+    <link>https://tamada.github.io/tags/oss/</link>
+    <description>Recent content in OSS on Haruaki TAMADA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tamada.github.io/tags/oss/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>lioss</title>
+      <link>https://tamada.github.io/projects/lioss/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/projects/lioss/</guid>
+      <description>🗣 Overview License identifying tool for OSS projects. This tool has license database, and analyzes given license by $k$-gram, word frequencies, or tfidf algorithm.
+🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. $ brew install lioss 🐳 Docker  tamada/lioss (https://hub.docker.com/r/tamada/lioss)  0.9.0, latest    $ docker run -it --rm -v $PWD:/home/lioss tamada/lioss:latest [OPTIONS] [ARGUMENTS...] 🌐 Web pages  Project page on GitHub  https://github.</description>
+    </item>
+    
+  </channel>
+</rss>

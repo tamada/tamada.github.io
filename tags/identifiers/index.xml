@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>identifiers on Haruaki TAMADA</title>
+    <link>https://tamada.github.io/tags/identifiers/</link>
+    <description>Recent content in identifiers on Haruaki TAMADA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tamada.github.io/tags/identifiers/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Identifying the applied obfuscator</title>
+      <link>https://tamada.github.io/research/identifying_applied_obfuscator/</link>
+      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/identifying_applied_obfuscator/</guid>
+      <description>🗣 Overview Recently, to prevent cracking, the various protection methods have been proposed. One of the protection methods is the obfuscation method. Obfuscation method changes the program into hard to understand for hiding secret information in the program.
+On the other hand, de-obfuscation is an interesting research topic for protecting the software. Since, though vulnerable protection methods are dangerous, measuring the robustness of the method was not discussed.
+In this paper, we tackle to identify the applied obfuscation methods towards de-obfuscation.</description>
+    </item>
+    
+    <item>
+      <title>De-obfuscate IRM</title>
+      <link>https://tamada.github.io/research/deobfuscating_identifier_renaming/</link>
+      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/deobfuscating_identifier_renaming/</guid>
+      <description>🗣 Overview The obfuscation methods are often used to hide sensitive information in software. Especially, an identifier renaming method (IRM) is well used because it is easy to implement. IRM is one of the obfuscation methods, and to change the names of function, and variables into meaningless one. However, if we can restore the identifiers to the original names, IRM is invalidated. One of the serious problems about IRM is that the tolerance against de-obfuscation is not discussed.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -35,6 +35,16 @@ We want to delete not continuous duplicated lines with remaining the order.
     </item>
     
     <item>
+      <title>lioss</title>
+      <link>https://tamada.github.io/projects/lioss/</link>
+      <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/projects/lioss/</guid>
+      <description>🗣 Overview License identifying tool for OSS projects. This tool has license database, and analyzes given license by $k$-gram, word frequencies, or tfidf algorithm.
+🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. $ brew install lioss 🐳 Docker  tamada/lioss (https://hub.docker.com/r/tamada/lioss)  0.9.0, latest    $ docker run -it --rm -v $PWD:/home/lioss tamada/lioss:latest [OPTIONS] [ARGUMENTS...] 🌐 Web pages  Project page on GitHub  https://github.</description>
+    </item>
+    
+    <item>
       <title>tjdoe</title>
       <link>https://tamada.github.io/projects/tjdoe/</link>
       <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
@@ -87,6 +97,15 @@ The rules are as follows.
 なお，このツールを使った事による不利益は，いかなる場合であっても一切保証しません．
 🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. $ brew install ttt 🐳 Docker  tamada/ttt (https://hub.docker.com/r/tamada/ttt)  1.0.0, latest    🌐 Web pages  Project page on GitHub  https://github.com/tamada/ttt   Web page  https://tamada.github.io/ttt (Only Japanese) https://tamada.github.io/ttt/checker.html  executing ttt online.      📜 License WTFPL
  WTFPL permits  👍 Commercial use, 👍 Modification, 👍 Distribution, and 👍 Private use.</description>
+    </item>
+    
+    <item>
+      <title>Project as a City</title>
+      <link>https://tamada.github.io/research/project_as_a_city/</link>
+      <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/project_as_a_city/</guid>
+      <description>🗣 Overview Social coding platforms (SCPs) have realized spontaneous software evolution, where new source code and ideas are spontaneously proposed by altruistic developers. Although there are many projects operated by active communities performing spontaneous evolution, it is yet unclear that how such successful projects and communities have been formed and governed. In this paper, we propose a method that can investigate the history of every project in the SCP. Introducing the concept of project as a city, we consider every project in the SCP as a city, where a government and citizens develop a city through collaborative activities.</description>
     </item>
     
   </channel>
