@@ -4,7 +4,7 @@ title: ":beers: Homebrew"
 author: "Haruaki TAMADA"
 categories: ['projects', 'homebrew']
 image: mybrew.svg
-tags: ["macOS", "homebrew"]
+tags: ["recipes", "homebrew", "macOS"]
 date: 2020-03-12
 ---
 

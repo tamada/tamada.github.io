@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Activities"
-categories: ['profile', 'work']
+tags: ['profile', 'work']
 image: CX198_L.jpg
 date: 2019-07-13
 ---

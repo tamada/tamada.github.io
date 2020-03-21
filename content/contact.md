@@ -1,14 +1,17 @@
 ---
 layout: post
 title: ":phone: Contact me"
-image: contact.svg
+image: harry.png
 date: 2019-12-04
+tags: ['contact']
 ---
 
 ### Some requests to my projects
 
-Please post issues{{< emoji ":speech_balloon:" >}} on [GitHub](https://github.com/tamada/homebrew-brew/issues) {{< devicons icon="github" >}}, or
+Please post issues{{< emoji ":speech_balloon:" >}} on [GitHub](https://github.com/tamada/tamada.github.io/issues) {{< devicons icon="github" >}}, or
 see the [laboratory page](https://tamadalab.github.io/contact) {{< emoji ":microscope:" >}}. 
+
+Do not hesitate to contact me!!
 
 ### Miscellaneous 
 

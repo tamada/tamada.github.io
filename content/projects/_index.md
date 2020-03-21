@@ -1,5 +1,6 @@
 ---
 title: ":rocket: Projects"
+description: "My projects list."
 ---
 
 I created those projects, almost projects wrote by Java {{< devicons icon="java" >}}, ang Go languages {{< devicons icon="go" >}}.

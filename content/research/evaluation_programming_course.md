@@ -2,7 +2,7 @@
 title: "Evaluating students in programming courses"
 date: 2018-01-15
 image: research/qualitative_analysis.png
-categories: ['programming course','snapshots']
+tags: ['education', 'source code analysis']
 ---
 
 ### {{< emoji ":speaking_head:" >}} Overview

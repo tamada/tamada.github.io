@@ -2,7 +2,7 @@
 title: "Development support bot"
 date: 2019-10-20
 image: research/development_support_bot.png
-categories: ['bot','support development']
+tags: ['MSR', 'project analysis']
 ---
 
 ### {{< emoji ":speaking_head:" >}} Overview

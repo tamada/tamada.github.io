@@ -2,11 +2,13 @@
   url: profile
 - item: Projects
   url: projects
-- item: Research
+- item: Research Topics
   url: research
+- item: Publications
+  url: publications
+- item: Blog
+  url: blog
 - item: Contact
   url: contact
-- item: Categories
-  url: categories
 - item: Tags
   url: tags

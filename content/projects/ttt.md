@@ -4,7 +4,7 @@ title: ttt
 categories: ['projects', 'homebrew']
 hasCJKLanguage: true
 image: tool.png
-tags: ["GitHub", "golang", "utility", "Kyoto Sangyo University"]
+tags: ["utility", "GitHub", "golang"]
 date: 2019-10-06
 ---
 

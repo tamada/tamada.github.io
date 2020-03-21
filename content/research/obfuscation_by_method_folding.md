@@ -2,7 +2,7 @@
 title: "Method folding obfuscation"
 date: 2013-07-01
 image: research/method_folding.png
-categories: ['obfuscation','method folding','instruction folding', 'Java 7']
+tags: ['obfuscation','java']
 ---
 
 ### {{< emoji ":speaking_head:" >}} Overview

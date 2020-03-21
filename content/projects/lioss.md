@@ -3,7 +3,7 @@ layout: post
 title: lioss
 categories: ['projects', 'homebrew']
 image: lioss.png
-tags: ["FLOSS", "License", "license identifying", "golang"]
+tags: ["license", "OSS", "GitHub", "golang"]
 date: 2020-03-08
 ---
 

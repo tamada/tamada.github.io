@@ -3,6 +3,7 @@ title: "Hobbies"
 date: 2019-07-13
 draft: false
 image: EC064_L.jpg
+tags: ['profile']
 categories: ['profile']
 ---
 

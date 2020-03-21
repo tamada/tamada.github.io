@@ -2,7 +2,7 @@
 title: "Evaluating obfuscation method by Kolmogorov complexity"
 date: 2013-09-01
 image: research/kolmogorov_complexity.png
-categories: ['kolmogorov complexity','evaluation of obfuscation', 'entropy']
+tags: ['evaluating obfuscation', 'obfuscation']
 ---
 
 ### {{< emoji ":speaking_head:" >}} Overview

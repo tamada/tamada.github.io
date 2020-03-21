@@ -9,6 +9,7 @@
 {{- $bg := (path.Join "images" $image | absLangURL) }}
 <section class = 'post_header' style = 'background-image:url({{ $bg }});'>
   <h1 class='post_title'>{{ .Title | emojify }}</h1>
+  <p class="intro_desc">{{ .Date.Format "January 2, 2006" }}</p>
 </section>
 <div class = 'post'>
   <article class='post_content'>

@@ -2,7 +2,7 @@
 title: "Mining Software Repository"
 date: 2017-07-14
 image: research/msr.png
-categories: ['software repository','mining']
+tags: ['MSR']
 ---
 
 ### {{< emoji ":speaking_head:" >}} Overview

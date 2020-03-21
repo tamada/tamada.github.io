@@ -18,6 +18,9 @@ stop:
 
 restart: stop start
 
+reset:
+	cd public ; git fetch ; git reset --hard origin/master ; cd -
+
 pull:
 	cd public ; git pull origin master ; cd -
 

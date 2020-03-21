@@ -3,7 +3,7 @@ layout: post
 title: Job histories
 date: 2019-12-10
 image: CA006_L.jpg
-categories: ['profile']
+tags: ['profile', 'work']
 ---
 
 ### Associate Professor

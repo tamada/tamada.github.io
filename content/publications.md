@@ -1,14 +1,15 @@
 ---
 title: ":books: Publications"
-date: 2019-12-10
-image: articles.svg
+date: 2020-02-15
+image: documents.jpg
+tags: ['work']
 categories: ['publications', 'work']
 ---
 
 The followings are key papers of my publications.
 The full list is available on [my laboratory page](https://tamadalab.github.io/papers).
 
-* 中村 潤，玉田 春昭，''大量のソフトウェアを対象にしたソフトウェアバースマークによる盗用検出 〜全文検索システムを用いた検査対象の絞り込み手法〜''，情報処理学会論文誌，Vol.61, No.2, Feburary 2020（to appear）．
+* 中村 潤，玉田 春昭，''大量のソフトウェアを対象にしたソフトウェアバースマークによる盗用検出 〜全文検索システムを用いた検査対象の絞り込み手法〜''，情報処理学会論文誌，Vol.61, No.2, pp.454-–473, Feburary 2020．
 * 横井 昂典，玉田 春昭，''単体テストコードとアスペクト指向を用いた動的バースマークの抽出コストの削減''，情報処理学会論文誌，Vol.60, No.7，pp.1247--1259，July 2019.
 * Koji Toda, Haruaki Tamada, Masahide Nakamura, and Kenichi Matsumoto, ''Characterizing Project Evolution on a Social Coding Platform,'' In Proc. 20th ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD 2019), pp.525–532, July 2019 (Toyama, Japan).
 * 磯部 陽介，玉田 春昭，''ランダムフォレストを用いた名前難読化の耐タンパ化性能の評価''，情報処理学会論文誌，Vo.60, No.4, pp. 1063–1074, April 2019 (In Japanese).

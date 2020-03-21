@@ -2,7 +2,7 @@
 title: "Unreadability evaluation by mental simulation model"
 date: 2012-09-24
 image: research/mental_simulation.png
-categories: ['unreadable evaluation','obfuscated programs', 'mental simulation']
+tags: ['source code analysis', 'obfuscation', 'readability']
 ---
 
 ### {{< emoji ":speaking_head:" >}} Overview

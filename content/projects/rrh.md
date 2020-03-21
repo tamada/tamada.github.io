@@ -3,7 +3,7 @@ layout: post
 title: rrh
 categories: ['projects', 'homebrew']
 image: rrh.png
-tags: ["GitHub", "git", "repository management", "golang"]
+tags: ["utility", "GitHub", "golang"]
 date: 2019-11-13
 ---
 

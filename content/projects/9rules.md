@@ -3,7 +3,7 @@ layout: post
 title: 9rules
 categories: ['projects', 'homebrew']
 image: 9rules.svg
-tags: ["GitHub", "git", "java", "code quality"]
+tags: ["source code analysis", "GitHub", "java", 'readability', 'OOP']
 date: 2019-10-24
 ---
 

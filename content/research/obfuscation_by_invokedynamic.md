@@ -2,7 +2,7 @@
 title: "Obfuscation by invokedynamic"
 date: 2015-08-01
 image: research/shuffle_stack_status.png
-categories: ['obfuscation','Java 7','invokedynamic']
+tags: ['obfuscation', 'Java']
 ---
 
 ### {{< emoji ":speaking_head:" >}} Overview

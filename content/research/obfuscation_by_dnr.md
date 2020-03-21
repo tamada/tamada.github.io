@@ -2,7 +2,7 @@
 title: "Obfuscation by dynamic name resolution"
 date: 2008-02-12
 image: research/obfuscation_dnr.png
-categories: ['obfuscation','reflection API', 'dynamic name resolution']
+tags: ['obfuscation','OOP', 'java']
 ---
 
 ### {{< emoji ":speaking_head:" >}} Overview

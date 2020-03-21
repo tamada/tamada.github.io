@@ -2,7 +2,7 @@
 title: "Characteristics of the developers"
 date: 2015-03-20
 image: research/characteristics_of_developers.png
-categories: ['characteristics of developers','development history', 'project analysis']
+tags: ['MSR', 'developer analysis', 'project analysis']
 ---
 
 ### {{< emoji ":speaking_head:" >}} Overview
