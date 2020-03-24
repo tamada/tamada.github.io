@@ -13,17 +13,17 @@
   </url>
   
   <url>
-    <loc>https://tamada.github.io/tags/blog/</loc>
-    <lastmod>2020-03-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tamada.github.io/tags/hugo/</loc>
     <lastmod>2020-03-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tamada.github.io/blog/20200319_new_design/</loc>
+    <lastmod>2020-03-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/tags/theme-swift/</loc>
     <lastmod>2020-03-20T00:00:00+00:00</lastmod>
   </url>
   
