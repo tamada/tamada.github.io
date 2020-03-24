@@ -6,7 +6,7 @@ tags: ['work']
 categories: ['publications', 'work']
 ---
 
-The followings are key papers of my publications.
+The followings are key articles from my publications.
 The full list is available on [my laboratory page](https://tamadalab.github.io/papers).
 
 * 中村 潤，玉田 春昭，''大量のソフトウェアを対象にしたソフトウェアバースマークによる盗用検出 〜全文検索システムを用いた検査対象の絞り込み手法〜''，情報処理学会論文誌，Vol.61, No.2, pp.454-–473, Feburary 2020．

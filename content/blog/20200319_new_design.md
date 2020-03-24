@@ -1,5 +1,5 @@
 ---
-title: '新しいデザイン'
+title: 'Renewed my web site with hugo-theme-swift.'
 date: 2020-03-20
 image: blog.jpg
 tags: ['hugo', 'theme-swift']
