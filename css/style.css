@@ -53,3 +53,7 @@ img.devicon {
     text-align: center;
 }
 
+.link img {
+    display: inline-block;
+    height: 32px;
+}
