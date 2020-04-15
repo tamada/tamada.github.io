@@ -30,7 +30,7 @@ We want to delete not continuous duplicated lines with remaining the order.
       
       <guid>https://tamada.github.io/projects/heatman/</guid>
       <description>🗣 Overview Create heat map image from given csv file. Go language implementation of tamada/heatman.
-🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. $ brew install heatman 🐳 Docker  tamada/heatman (https://hub.docker.com/r/tamada/heatman)  1.0.1, latest    🌐 Web pages  Project page on GitHub  https://github.com/tamada/goheatman   Web page  https://tamada.github.com/heatman    📜 License WTFPL
+🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. $ brew install heatman 🐳 Docker  tamada/heatman (https://hub.docker.com/r/tamada/heatman)  1.0.1, latest    🌐 Web pages  Project page on GitHub  https://github.com/tamada/goheatman   Web page  https://tamada.github.io/goheatman    📜 License WTFPL
  WTFPL permits  👍 Commercial use, 👍 Modification, 👍 Distribution, and 👍 Private use.</description>
     </item>
     
