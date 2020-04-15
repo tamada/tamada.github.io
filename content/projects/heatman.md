@@ -28,7 +28,7 @@ $ brew install heatman
 * Project page on GitHub
     * https://github.com/tamada/goheatman
 * Web page
-    * https://tamada.github.com/heatman
+    * https://tamada.github.io/goheatman
 
 ### {{< emoji ":scroll:" >}} License
 

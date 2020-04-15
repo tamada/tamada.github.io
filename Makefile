@@ -1,6 +1,7 @@
 PWD := ${CURDIR}
 DOCKER_IMAGE_NAME := wwwtamada
-DOCKER_IMAGE := jojomi/hugo:latest
+JOJOMI_VERSION := 0.69.0
+DOCKER_IMAGE := jojomi/hugo:${JOJOMI_VERSION}
 
 # from https://github.com/kubernetes-sigs/kind/blob/master/site/Makefile
 define _docker_run

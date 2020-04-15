@@ -1,11 +1,12 @@
-{{ $flag := (default false (.Get "href")) }}
+{{- $flag := (default false (.Get "href")) }}
+{{- $width := default 248 (.Get "width") }}
 <figure id="{{ .Get "src" }}" class="iconify">
-  {{ if $flag }}
+  {{- if $flag }}
   <a href="{{ .Site.BaseURL }}{{ .Get "href" }}">
-  {{ end }}
-  <img src="{{ .Site.BaseURL }}{{ .Get "src" }}" alt="icon" width="64">
+  {{- end }}
+  <img src="{{ .Site.BaseURL }}{{ .Get "src" }}" alt="icon" width="$width">
   <figcaption>{{ .Get "caption" | markdownify }}</figcaption>
-  {{ if $flag }}
+  {{- if $flag }}
   </a>
-  {{ end }}
+  {{- end }}
 </figure>
