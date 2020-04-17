@@ -1,8 +1,8 @@
 ---
 title: "Applications of software birthmarks"
 date: 2009-08-15
-img: research/birthmark_applications.png
-categories: ['software birthmarks','applications']
+image: research/birthmark_applications.png
+tags: ['birthmarks','project analysis']
 ---
 
 ### {{< emoji ":speaking_head:" >}} Overview

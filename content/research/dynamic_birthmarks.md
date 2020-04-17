@@ -1,8 +1,8 @@
 ---
 title: "Dynamic birthmarks"
 date: 2006-08-01
-img: research/dynamic_birthmarks.png
-categories: ['dynamic birthmarks','theft detection','software theft', 'method calls']
+image: research/dynamic_birthmarks.png
+tags: ['birthmarks', 'theft detection']
 ---
 
 ### {{< emoji ":speaking_head:" >}} Overview

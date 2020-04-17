@@ -1,10 +1,11 @@
 ---
 layout: post
 title: ":beers: Homebrew"
+author: "Haruaki TAMADA"
 categories: ['projects', 'homebrew']
-img: mybrew.svg
-tags: ["macOS", "homebrew"]
-date: 2019-12-04
+image: mybrew.svg
+tags: ["recipes", "homebrew", "macOS"]
+date: 2020-03-12
 ---
 
 ### {{< emoji ":speaking_head:" >}} Overview
@@ -18,8 +19,6 @@ Following receipes are available.
     * Extended uniq.
 * [heatman](../heatman)
     * Creating heat map from given csv file.
-* qrg
-    * QR code generator.
 * [9rules](../9rules) (ninerules)
     * Checking tool of small object programming for the Java language.
 * [ttt](../ttt)
@@ -28,6 +27,8 @@ Following receipes are available.
     * Detecting the software theft, the birthmark toolkit for the JVM platform.
 * [tjdoe](../tjdoe)
     * anonymizing the programs of the assignments in the programming courses and their score for grades.
+* [lioss](../lioss)
+    * License identifying tools for OSS project.
 
 
 ### {{< emoji ":beer_mug:" >}} Install

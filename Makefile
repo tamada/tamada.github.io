@@ -1,6 +1,7 @@
 PWD := ${CURDIR}
 DOCKER_IMAGE_NAME := wwwtamada
-DOCKER_IMAGE := jojomi/hugo:latest
+JOJOMI_VERSION := 0.69.0
+DOCKER_IMAGE := jojomi/hugo:${JOJOMI_VERSION}
 
 # from https://github.com/kubernetes-sigs/kind/blob/master/site/Makefile
 define _docker_run
@@ -16,11 +17,16 @@ start:
 stop:
 	docker stop ${DOCKER_IMAGE_NAME}
 
+restart: stop start
+
+reset:
+	cd public ; git fetch ; git reset --hard origin/master ; cd -
+
 pull:
 	cd public ; git pull origin master ; cd -
 
 commit:
-	cd public ; git commit -a -m "update" ; cd -
+	cd public ; git add . ; git commit -a -m "update" ; cd -
 
 push:
 	cd public ; git push origin master ; cd -

@@ -1,8 +1,8 @@
 ---
 title: "De-obfuscate IRM"
 date: 2019-04-15
-img: research/deobfuscating_irm.png
-categories: ['de-obfuscation','obfuscation','identifier renaming']
+image: research/deobfuscating_irm.png
+tags: ['evaluating obfuscation', 'obfuscation','identifiers']
 ---
 
 ### {{< emoji ":speaking_head:" >}} Overview

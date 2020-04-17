@@ -2,8 +2,8 @@
 layout: post
 title: Job histories
 date: 2019-12-10
-img: CA006_L.jpg
-categories: ['profile']
+image: CA006_L.jpg
+tags: ['profile', 'work']
 ---
 
 ### Associate Professor
@@ -64,8 +64,8 @@ categories: ['profile']
     * Talk about Design Patterns.
     * April 2004 - March 2006
 
-### Developer
+### Software Engineer
 
 * Sumisho Electronics co. ltd.
-    * Developing backend of Web application on the J2EE platform.
+    * Developing backend of Web application with the J2EE platform.
     * April 2001 - March 2003

@@ -1,8 +1,8 @@
 ---
 title: "Concept of Birthmarks"
 date: 2005-09-01
-img: research/design_birthmarks.png
-categories: ['birthmarks','theft detection','software theft']
+image: research/design_birthmarks.png
+tags: ['birthmarks','theft detection']
 ---
 
 ### {{< emoji ":speaking_head:" >}} Overview

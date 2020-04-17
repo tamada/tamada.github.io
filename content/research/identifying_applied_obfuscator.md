@@ -1,8 +1,8 @@
 ---
 title: "Identifying the applied obfuscator"
 date: 2020-01-27
-img: research/identifying_applied_obfuscator.png
-categories: ['identify','obfuscator','opcodes']
+image: research/identifying_applied_obfuscator.png
+tags: ['evaluating obfuscation', 'opcodes', 'identifiers']
 ---
 
 ### {{< emoji ":speaking_head:" >}} Overview

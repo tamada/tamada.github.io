@@ -1,8 +1,8 @@
 ---
 title: "Fast comparisons of the birthmarks"
 date: 2020-02-15
-img: research/fast_comparison_of_birthmarks.png
-categories: ['birthmarks','theft detection','software theft','fast comparison']
+image: research/fast_comparison_of_birthmarks.png
+tags: ['birthmarks','theft detection','automation']
 ---
 
 ### {{< emoji ":speaking_head:" >}} Overview

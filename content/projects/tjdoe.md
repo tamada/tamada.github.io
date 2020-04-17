@@ -2,8 +2,8 @@
 layout: post
 title: tjdoe
 categories: ['projects', 'homebrew']
-img: tjdoe.png
-tags: ["GitHub", "go", "utility", "anonymizer", "program"]
+image: tjdoe.png
+tags: ["anonymity", "utility", "GitHub", "golang"]
 date: 2019-12-26
 ---
 
