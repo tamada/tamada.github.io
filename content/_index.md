@@ -1,5 +1,5 @@
 ---
-title: ":house_with_garden: Haruaki TAMADA"
+title: ":house_with_garden: Home"
 description: "Associate Professor and Programmer, working at Kyoto, Japan"
 date: 2019-07-13
 image: harry.png
