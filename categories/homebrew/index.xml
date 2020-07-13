@@ -12,14 +12,14 @@
     
     
     <item>
-      <title>omelet</title>
-      <link>https://tamada.github.io/projects/omelet/</link>
+      <title>omelette</title>
+      <link>https://tamada.github.io/projects/omelette/</link>
       <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/projects/omelet/</guid>
+      <guid>https://tamada.github.io/projects/omelette/</guid>
       <description>🗣 Overview In the Java platform, we usually run the unit tests through some build tool, such as Maven, Gradle, and so on. However, it is hard to run the unit tests on the cli environment, since it is not clearly to execute them. Also, computing coverage makes us more complicated.
-Then, omelet runs unit tests of given project and compute test coverage by Jacoco.
-🍺 Install $ brew install tamada/brew/omelet 🌐 Web pages  Project page on GitHub  https://github.</description>
+Then, omelette runs unit tests of given project and compute test coverage by Jacoco.
+🍺 Install $ brew install tamada/brew/omelette 🌐 Web pages  Project page on GitHub  https://github.</description>
     </item>
     
     <item>
@@ -29,7 +29,7 @@ Then, omelet runs unit tests of given project and compute test coverage by Jacoc
       
       <guid>https://tamada.github.io/projects/homebrew/</guid>
       <description>🗣 Overview Tamada&amp;rsquo;s homebrew receipes. Following receipes are available.
- rrh  Git repository manager.   uniq2  Extended uniq.   heatman  Creating heat map from given csv file.   9rules (ninerules)  Checking tool of small object programming for the Java language.   ttt  Checking diploma of courses in ISE, KSU.   pochi  Detecting the software theft, the birthmark toolkit for the JVM platform.</description>
+ rrh  Git repository manager. Histories  1.2.0: 2020-04-24, add open subcommand. 1.1.0: 2019-12-18, add group info subcommand. 1.0.4: 2019-07-13, introduce --dry-run option for rrh-new subcommand. 1.0.3: 2019-06-29, print belonging groups on running rrh repository info. 1.0.2: 2019-06-29, introduce rrh-new external subcommand. 1.0.1: 2019-06-26, fixed invalid command results on rrh group. 1.0.0: 2019-06-18, the first public release.     uniq2  Extended uniq.</description>
     </item>
     
     <item>

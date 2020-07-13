@@ -12,14 +12,14 @@
     
     
     <item>
-      <title>omelet</title>
-      <link>https://tamada.github.io/projects/omelet/</link>
+      <title>omelette</title>
+      <link>https://tamada.github.io/projects/omelette/</link>
       <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/projects/omelet/</guid>
+      <guid>https://tamada.github.io/projects/omelette/</guid>
       <description>🗣 Overview In the Java platform, we usually run the unit tests through some build tool, such as Maven, Gradle, and so on. However, it is hard to run the unit tests on the cli environment, since it is not clearly to execute them. Also, computing coverage makes us more complicated.
-Then, omelet runs unit tests of given project and compute test coverage by Jacoco.
-🍺 Install $ brew install tamada/brew/omelet 🌐 Web pages  Project page on GitHub  https://github.</description>
+Then, omelette runs unit tests of given project and compute test coverage by Jacoco.
+🍺 Install $ brew install tamada/brew/omelette 🌐 Web pages  Project page on GitHub  https://github.</description>
     </item>
     
     <item>
