@@ -1,6 +1,6 @@
 ---
 layout: post
-title: omelet
+title: omelette
 categories: ['projects', 'homebrew']
 image: omelette.svg
 tags: ["utility", "Java", "Unit tests", "Coverage"]
@@ -13,25 +13,25 @@ In the Java platform, we usually run the unit tests through some build tool, suc
 However, it is hard to run the unit tests on the cli environment, since it is not clearly to execute them.
 Also, computing coverage makes us more complicated.
 
-Then, `omelet` runs unit tests of given project and compute test coverage by [Jacoco](https://www.eclemma.org/jacoco/).
+Then, `omelette` runs unit tests of given project and compute test coverage by [Jacoco](https://www.eclemma.org/jacoco/).
 
 
 ### {{< emoji ":beer_mug:" >}} Install
 
 ```sh
-$ brew install tamada/brew/omelet
+$ brew install tamada/brew/omelette
 ```
 
 ### {{< emoji ":globe_with_meridians:" >}} Web pages
 
 * Project page on GitHub
-    * https://github.com/tamada/omelet
+    * https://github.com/tamada/omelette
 * Web page
-    * https://tamada.github.io/omelet
+    * https://tamada.github.io/omelette
 
 ### {{< emoji ":scroll:" >}} License
 
-[WTFPL](https://github.com/tamada/omelet/blob/master/LICENSE)
+[WTFPL](https://github.com/tamada/omelette/blob/master/LICENSE)
 
 * WTFPL permits
     * {{< emoji ":thumbsup:" >}} Commercial use,
