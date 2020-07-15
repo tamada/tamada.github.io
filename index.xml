@@ -12,6 +12,19 @@
     
     
     <item>
+      <title>sibling</title>
+      <link>https://tamada.github.io/projects/sibling/</link>
+      <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/projects/sibling/</guid>
+      <description>🗣 Overview When the directory has too may sub directories, we are tiresome to traverse whole of them. Because, we lose where we are. Ideally, we move directory by specifying the next, not directory name.
+The command like following makes us tired :-1:.
+cd ../next_directory_name We should type command like below :+1:.
+cdnext For this, I implemented sibling.
+🍺 Install brew install tamada/brew/sibling 🌐 Web pages  Project page on GitHub  https://github.</description>
+    </item>
+    
+    <item>
       <title>omelette</title>
       <link>https://tamada.github.io/projects/omelette/</link>
       <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>

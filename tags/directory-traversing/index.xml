@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>directory-traversing on Haruaki TAMADA</title>
+    <link>https://tamada.github.io/tags/directory-traversing/</link>
+    <description>Recent content in directory-traversing on Haruaki TAMADA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 15 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tamada.github.io/tags/directory-traversing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>sibling</title>
+      <link>https://tamada.github.io/projects/sibling/</link>
+      <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/projects/sibling/</guid>
+      <description>🗣 Overview When the directory has too may sub directories, we are tiresome to traverse whole of them. Because, we lose where we are. Ideally, we move directory by specifying the next, not directory name.
+The command like following makes us tired :-1:.
+cd ../next_directory_name We should type command like below :+1:.
+cdnext For this, I implemented sibling.
+🍺 Install brew install tamada/brew/sibling 🌐 Web pages  Project page on GitHub  https://github.</description>
+    </item>
+    
+  </channel>
+</rss>

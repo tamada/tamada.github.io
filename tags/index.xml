@@ -6,10 +6,37 @@
     <description>Recent content in :label: Tags on Haruaki TAMADA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tamada.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>directory-traversing</title>
+      <link>https://tamada.github.io/tags/directory-traversing/</link>
+      <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/directory-traversing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shell</title>
+      <link>https://tamada.github.io/tags/shell/</link>
+      <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/shell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>utility</title>
+      <link>https://tamada.github.io/tags/utility/</link>
+      <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/utility/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Coverage</title>
@@ -35,15 +62,6 @@
       <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/tags/unit-tests/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>utility</title>
-      <link>https://tamada.github.io/tags/utility/</link>
-      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/utility/</guid>
       <description></description>
     </item>
     
