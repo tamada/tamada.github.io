@@ -7,7 +7,8 @@ I created those projects, almost projects wrote by Java {{< devicons icon="java"
 
 ### Quick links
 
-{{< iconify src="images/omelette.svg"  caption="omelet"   href="projects/omelet" >}}
+{{< iconify src="images/sibling.svg"   caption="sibling"  href="projects/sibling" >}}
+{{< iconify src="images/omelette.svg"  caption="omelette" href="projects/omelette" >}}
 {{< iconify src="images/mybrew.svg"    caption="Homebrew" href="projects/homebrew" >}}
 {{< iconify src="images/tool.png"      caption="uniq2"    href="projects/uniq2" >}}
 {{< iconify src="images/goheatman.svg" caption="heatman"  href="projects/heatman" >}}
