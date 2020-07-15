@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://tamada.github.io/projects/homebrew/</loc>
+    <lastmod>2020-07-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tamada.github.io/tags/</loc>
     <lastmod>2020-07-15T00:00:00+00:00</lastmod>
   </url>
@@ -23,12 +28,27 @@
   </url>
   
   <url>
+    <loc>https://tamada.github.io/tags/homebrew/</loc>
+    <lastmod>2020-07-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tamada.github.io/categories/homebrew/</loc>
     <lastmod>2020-07-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>https://tamada.github.io/tags/macos/</loc>
+    <lastmod>2020-07-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tamada.github.io/categories/projects/</loc>
+    <lastmod>2020-07-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/tags/recipes/</loc>
     <lastmod>2020-07-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -88,32 +108,12 @@
   </url>
   
   <url>
-    <loc>https://tamada.github.io/projects/homebrew/</loc>
-    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tamada.github.io/tags/github/</loc>
     <lastmod>2020-03-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tamada.github.io/tags/golang/</loc>
-    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/tags/homebrew/</loc>
-    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/tags/macos/</loc>
-    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/tags/recipes/</loc>
     <lastmod>2020-03-12T00:00:00+00:00</lastmod>
   </url>
   

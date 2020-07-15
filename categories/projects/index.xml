@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>:beers: Homebrew</title>
+      <link>https://tamada.github.io/projects/homebrew/</link>
+      <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/projects/homebrew/</guid>
+      <description>🗣 Overview Tamada&amp;rsquo;s homebrew receipes. Following receipes are available.
+ rrh  Git repository manager. Histories  1.2.0: 2020-04-24, add open subcommand. 1.1.0: 2019-12-18, add group info subcommand. 1.0.4: 2019-07-13, introduce --dry-run option for rrh-new subcommand. 1.0.3: 2019-06-29, print belonging groups on running rrh repository info. 1.0.2: 2019-06-29, introduce rrh-new external subcommand. 1.0.1: 2019-06-26, fixed invalid command results on rrh group. 1.0.0: 2019-06-18, the first public release.     uniq2  Extended uniq.</description>
+    </item>
+    
+    <item>
       <title>sibling</title>
       <link>https://tamada.github.io/projects/sibling/</link>
       <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
@@ -33,16 +43,6 @@ cdnext For this, I implemented sibling.
       <description>🗣 Overview In the Java platform, we usually run the unit tests through some build tool, such as Maven, Gradle, and so on. However, it is hard to run the unit tests on the cli environment, since it is not clearly to execute them. Also, computing coverage makes us more complicated.
 Then, omelette runs unit tests of given project and compute test coverage by Jacoco.
 🍺 Install $ brew install tamada/brew/omelette 🌐 Web pages  Project page on GitHub  https://github.</description>
-    </item>
-    
-    <item>
-      <title>:beers: Homebrew</title>
-      <link>https://tamada.github.io/projects/homebrew/</link>
-      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/projects/homebrew/</guid>
-      <description>🗣 Overview Tamada&amp;rsquo;s homebrew receipes. Following receipes are available.
- rrh  Git repository manager. Histories  1.2.0: 2020-04-24, add open subcommand. 1.1.0: 2019-12-18, add group info subcommand. 1.0.4: 2019-07-13, introduce --dry-run option for rrh-new subcommand. 1.0.3: 2019-06-29, print belonging groups on running rrh repository info. 1.0.2: 2019-06-29, introduce rrh-new external subcommand. 1.0.1: 2019-06-26, fixed invalid command results on rrh group. 1.0.0: 2019-06-18, the first public release.     uniq2  Extended uniq.</description>
     </item>
     
     <item>
