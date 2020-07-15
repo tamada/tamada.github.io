@@ -5,7 +5,7 @@ author: "Haruaki TAMADA"
 categories: ['projects', 'homebrew']
 image: mybrew.svg
 tags: ["recipes", "homebrew", "macOS"]
-date: 2020-03-12
+date: 2020-07-15
 ---
 
 ### {{< emoji ":speaking_head:" >}} Overview
@@ -55,7 +55,14 @@ Following receipes are available.
     * License identifying tools for OSS project.
     * Histories
         * [**0.9.0**](https://github.com/tamada/lioss/releases/tag/v0.9.0): 2020-03-09
-
+* [omelette](../omelette)
+    * An agent for running unit tests on the CLI environemnt for the Java platform.
+    * Histories
+        * [**1.1.0**](https://github.com/tamada/omelette/releases/tag/v1.1.0): 2020-07-10
+* [sibling](../sibling)
+    * get next/previous sibling directory name.
+    * Histories
+        * [**1.0.0**](https://github.com/tamada/sibling/releases/tag/v1.0.0): 2020-07-15
 
 ### {{< emoji ":beer_mug:" >}} Install
 
