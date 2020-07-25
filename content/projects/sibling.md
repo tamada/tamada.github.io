@@ -13,13 +13,13 @@ When the directory has too may sub directories, we are tiresome to traverse whol
 Because, we lose where we are.
 Ideally, we move directory by specifying the next, not directory name.
 
-The command like following makes us tired :-1:.
+The command like following makes us tired {{< emoji ":-1:" >}}.
 
 ```sh
 cd ../next_directory_name
 ```
 
-We should type command like below :+1:.
+We should type command like below {{< emoji ":+1:" >}}.
 
 ```sh
 cdnext
