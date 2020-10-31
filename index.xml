@@ -93,7 +93,7 @@ We want to delete not continuous duplicated lines with remaining the order.
       
       <guid>https://tamada.github.io/projects/lioss/</guid>
       <description>🗣 Overview License identifying tool for OSS projects. This tool has license database, and analyzes given license by $k$-gram, word frequencies, or tfidf algorithm.
-🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. $ brew install lioss 🐳 Docker  tamada/lioss (https://hub.docker.com/r/tamada/lioss)  0.9.0, latest    $ docker run -it --rm -v $PWD:/home/lioss tamada/lioss:latest [OPTIONS] [ARGUMENTS...] 🌐 Web pages  Project page on GitHub  https://github.</description>
+🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. $ brew install lioss 🐳 Docker  tamada/lioss (https://hub.docker.com/r/tamada/lioss)  1.0.0, latest 0.9.0    $ docker run -it --rm -v $PWD:/home/lioss tamada/lioss:latest [OPTIONS] [ARGUMENTS...] 🌐 Web pages  Project page on GitHub  https://github.</description>
     </item>
     
     <item>
@@ -257,7 +257,7 @@ The rules are as follows.
       <pubDate>Sat, 13 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/profile/activities/</guid>
-      <description>Program committee  Program committee member, the 21th IEEE/ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD 2020). Program committee member, the 19th IEEE/ACIS International Conference on Computer and Information Science (ICIS 2020). Program committee member, the 1st ACIS International Conference of Artificial Intelligence (AI 2020). Program committee member, the 17th IEEE/ACIS International Conference on Computer and Information Science (ICIS 2019). Program committee member, the 3rd International Conference on Big Data, Cloud Computing, and Data Science Engineering (BCD 2019).</description>
+      <description>Program committee  Program committee member, the 21th IEEE/ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD 2021 Winter). Program committee member, the 21th IEEE/ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD 2020). Program committee member, the 19th IEEE/ACIS International Conference on Computer and Information Science (ICIS 2020). Program committee member, the 1st ACIS International Conference of Artificial Intelligence (AI 2020). Program committee member, the 17th IEEE/ACIS International Conference on Computer and Information Science (ICIS 2019).</description>
     </item>
     
     <item>
