@@ -74,7 +74,7 @@ $ brew tap tamada/brew # <- the first time only.
 
 ### {{< emoji ":globe_with_meridians:" >}} Web pages
 
-* {{< emoji ":octcat:" >}} Project page on GitHub
+* {{< emoji ":octocat:" >}} Project page on GitHub
     * https://github.com/tamada/homebrew-brew
 
 ### {{< emoji ":scroll:" >}} License
