@@ -46,6 +46,7 @@ Following receipes are available.
 * [pochi](../pochi)
     * Detecting the software theft, the birthmark toolkit for the JVM platform.
     * Histories
+        * [**2.0.0**](https://github.com/tamada/pochi/releases/tag/v2.0.0): 2020-10-14
         * [**1.0.0**](https://github.com/tamada/pochi/releases/tag/v1.0.0): 2019-12-03
 * [tjdoe](../tjdoe)
     * anonymizing the programs of the assignments in the programming courses and their score for grades.
@@ -54,6 +55,7 @@ Following receipes are available.
 * [lioss](../lioss)
     * License identifying tools for OSS project.
     * Histories
+        * [**1.0.0**](https://github.com/tamada/lioss/releases/tag/v1.0.0): 2020-10-31
         * [**0.9.0**](https://github.com/tamada/lioss/releases/tag/v0.9.0): 2020-03-09
 * [omelette](../omelette)
     * An agent for running unit tests on the CLI environemnt for the Java platform.

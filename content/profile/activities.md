@@ -8,6 +8,7 @@ date: 2019-07-13
 
 ### Program committee
 
+* Program committee member, the 21th IEEE/ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing ([SNPD 2021 Winter](http://acisinternational.org/conferences/snpd-2021-winter/)).
 * Program committee member, the 21th IEEE/ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing ([SNPD 2020](http://acisinternational.org/conferences/snpd-2020/)).
 * Program committee member, the 19th IEEE/ACIS International Conference on Computer and Information Science ([ICIS 2020](http://www.acisinternational.org/icis2020/)).
 * Program committee member, the 1st ACIS International Conference of Artificial Intelligence ([AI 2020](http://acisinternational.org/conferences/ai-2020/)).
