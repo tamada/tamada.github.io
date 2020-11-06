@@ -5,8 +5,20 @@ date: 2019-07-13
 image: harry.png
 ---
 
-{{< linksns href="https://twitter.com/tama5"          icon="twitter-square"   color="#1da1f2" title="Twitter" >}}
-{{< linksns href="https://www.instagram.com/htamada/" icon="instagram"        color="#e4405f" title="Instagram" >}}
-{{< linksns href="https://github.com/tamada"          icon="github-square"    color="#181717" title="GitHub" >}}
-{{< linksns href="https://bitbucket.org/htamada"      icon="bitbucket-square" color="#0052CC" title="Bitbucket" >}}
-{{< linksns href="https://hub.docker.com/u/tamada/"   icon="docker"           color="#1488c6" type="devicon" title="Docker Hub" >}}
+### :bookmark: Table of Contents
+
+* [:rocket: Projects](projects)
+* [:bulb: Research](research)
+* [:bust_in_silhouette: Profile](profile)
+    * [:muscle: Skills](profile#muscle-skills)
+    * [:necktie: Job histories](profile#necktie-job-histories)
+    * [:school: Degrees](profile#school-degrees)
+    * [:runner: Activities](profile#runner-activities)
+* [:thinking: Blog](blog)
+
+### :telephone_receiver: Some requests to me
+
+Please post issues ":speech_balloon:" on [GitHub](https://github.com/tamada/tamada.github.io/issues) {{< linksns icon="github.svg" >}}, or
+see the [laboratory page](https://tamadalab.github.io/contact) :microscope:. 
+
+Do not hesitate to contact me!!

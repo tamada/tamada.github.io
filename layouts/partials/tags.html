@@ -1,0 +1,8 @@
+{{- if .tags -}}
+<div>
+    {{ ":label:" | emojify }}
+    {{- range $tag := .tags -}}
+    <span class="tag"><a href="/tags/{{ $tag | urlize}} ">{{ $tag }}</a></span>
+    {{- end -}}
+</div>
+{{- end -}}

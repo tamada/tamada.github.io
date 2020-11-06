@@ -5,7 +5,7 @@ image: research/deobfuscating_irm.png
 tags: ['evaluating obfuscation', 'obfuscation','identifiers']
 ---
 
-### {{< emoji ":speaking_head:" >}} Overview
+### :speaking_head: Overview
 
 The obfuscation methods are often used to hide sensitive information in software.
 Especially, an identifier renaming method (IRM) is well used because it is easy to implement.
@@ -19,7 +19,7 @@ Furthermore, focusing on the meanings of verbs, the proposed method recommends t
 
 (Abstract from SNPD 2018)
 
-### {{< emoji ":books:" >}} Publications
+### :books: Publications
 
 * 磯部 陽介，玉田 春昭，”ランダムフォレストを用いた名前難読化の耐タンパ化性能の評価”，情報処理学会論文誌，Vol.60, No.4, pp. 1063–1074, April 2019.
 * Yosuke Isobe, and Haruaki Tamada, “Are Identifier Renaming Methods Secure? –An Evaluation Focuses on Opcodes using Random Forest–,” In Proc. 19th ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD 2018), July 2018 (Busan, Korea).
@@ -27,7 +27,7 @@ Furthermore, focusing on the meanings of verbs, the proposed method recommends t
 * 匂坂 勇仁，玉田 春昭，”命令列に着目した名前難読化の逆変換手法”，2017年暗号と情報セキュリティシンポジウム予稿集 (SCIS 2017)，3D1-5，January 2017. （沖縄，那覇）  Paper3  BibTeX  Like0
 * 磯部 陽介，玉田 春昭，”協調フィルタリングを利用した名前難読化の逆変換”，2017年暗号と情報セキュリティシンポジウム予稿集 (SCIS 2017)，3D1-3，January 2017.（沖縄，那覇）
 
-### {{< emoji ":mag_right:" >}} Related Research Topics
+### :mag_right: Related Research Topics
 
 * [Identifying the applied obfuscator](../identifying_applied_obfuscator/)
 * [Artificiality evaluation](../artificiality_evaluation)

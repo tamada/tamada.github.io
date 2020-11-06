@@ -5,7 +5,7 @@ image: research/design_birthmarks.png
 tags: ['birthmarks','theft detection']
 ---
 
-### {{< emoji ":speaking_head:" >}} Overview
+### :speaking_head: Overview
 
 To detect the theft of Java class files efficiently, we propose a concept of *Java birthmarks*, which are unique and native characteristics of every class file.
 For a pair of class files $p$ and $q$, if $q$ has the same birthmark as $p$'s, $q$ is suspected as a *copy* of $p$.
@@ -20,7 +20,7 @@ In the third experiment, we exploit different Java compilers to confirm that the
 (Abstract from IEICE 2005)
 
 
-### {{< emoji ":books:" >}} Publications
+### :books: Publications
 
 * Haruaki Tamada, Masahide Nakamura, Akito Monden, and Ken-ichi Matsumoto, “Java Birthmarks –Detecting the Software Theft–,” IEICE Transactions on Information and Systems, Vol. E88-D, No. 9, pp. 2148–2158, September 2005.
 * Haruaki Tamada, Masahide Nakamura, Akito Monden, and Kenichi Matsumoto, “Design and Evaluation of Birthmarks for Detecting Theft of Java Programs,” In Proc. IASTED International Conference on Software Engineering (IASTED SE 2004), pp. 569-575, 17-19 February 2004. (Innsbruck, Austria)
@@ -28,11 +28,11 @@ In the third experiment, we exploit different Java compilers to confirm that the
 * 玉田 春昭, 神崎 雄一郎, 中村 匡秀, 門田 暁人, 松本 健一, “Java クラスファイルからプログラム指紋を抽出する方法の提案”, 信学技報 情報セキュリティ研究会, Vol. ISEC2003-29, pp.127-133, July 2003.
 
 
-### {{< emoji ":mag_right:" >}} Related Research Topics
+### :mag_right: Related Research Topics
 
 * [Dynamic Birthmarks](../dynamic_birthmarks)
 
-### {{< emoji ":handshake:" >}} Collaborators
+### :handshake: Collaborators
 
 * [A. Monden](http://digi-ana.sakura.ne.jp/)@[Software mesurement and analytics laboratory](http://analytics.jpn.org/index-e.html), Okayama University
 * [M. Nakamura](http://www27.cs.kobe-u.ac.jp/~masa-n/)@[Kobe University](http://www27.cs.kobe-u.ac.jp/wiki/home/)

@@ -1,0 +1,7 @@
+{{- $label := .Get 0 -}}
+<h4>{{ $label }}</h4>
+<ul>
+    {{- range $item := (after 1 .Params) -}}
+    <li class="tag">{{ $item | markdownify }}</li>
+    {{- end -}}
+</ul>

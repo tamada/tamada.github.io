@@ -5,7 +5,7 @@ image: research/fast_comparison_of_birthmarks.png
 tags: ['birthmarks','theft detection','automation']
 ---
 
-### {{< emoji ":speaking_head:" >}} Overview
+### :speaking_head: Overview
 
 The software birthmarks were proposed for detecting the software theft from a large number of suspected programs.
 The birthmark is a technique to compare the extracted characteristics as the software birthmarks, and compute similarities between two birthmarks.
@@ -26,7 +26,7 @@ In ordinal case, the suitable threshold is $0.6$, however, the proposed method i
 
 (Abstract from IPSJ journal 2019)
 
-### {{< emoji ":books:" >}} Publications
+### :books: Publications
 
 * 中村 潤，玉田 春昭，”大量のソフトウェアを対象にしたソフトウェアバースマークによる盗用検出 〜全文検索システムを用いた検査対象の絞り込み手法〜”，情報処理学会論文誌，Vol.61, No.2, Feburary 2020（採録決定）.
 * Jun Nakamura, Haruaki Tamada, “mituba: Scaling up Software Theft Detection with the Search Engine,” Proc. International Conference on Software Engineering and Information Management (ICSIM 2018), pp.6–10, January 2018 (Casablanca, Morocco).
@@ -35,7 +35,7 @@ In ordinal case, the suitable threshold is $0.6$, however, the proposed method i
 * Jun Nakamura, and Haruaki Tamada, “Fast Comparison of Software Birthmarks for Detecting the Theft with the Search Engine,” In Proc. of the 4th International Conference on Applied Computing & Information Technology (ACIT 2016), pp.152–157, December 2016 (UNLV, Las Vegas, NV, USA).
 * 山本 照明，玉田 春昭，門田 暁人，”大量のプログラムを対象としたファジーハッシュを用いたバースマーク手法”，2015年暗号と情報セキュリティシンポジウム予稿集（SCIS2015），3B4-4，January 2015（福岡，小倉）.
 
-### {{< emoji ":mag_right:" >}} Related Research Topics
+### :mag_right: Related Research Topics
 
 * [Concept of Software Birthmarks](../birthmark_concept)
 

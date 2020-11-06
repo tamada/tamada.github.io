@@ -5,7 +5,7 @@ image: research/qualitative_analysis.png
 tags: ['education', 'source code analysis']
 ---
 
-### {{< emoji ":speaking_head:" >}} Overview
+### :speaking_head: Overview
 
 It is crucial for educators to understand pitfalls for novice programmers in programming education at computer science course.
 By giving well-timed advice to students who fall into a pitfall, educators are able to achieve efficient teaching and keep up their students' motivation.
@@ -18,8 +18,7 @@ As a result, we confirmed coding patterns of novice programmers in case of falli
 
 (Abstract from IWESEP 2012)
 
-
-### {{< emoji ":books:" >}} Publications
+### :books: Publications
 
 * 藤原 賢二，上村 恭平，井垣 宏，吉田 則裕，伏田 享平，玉田 春昭，楠本 真二，飯田 元，”スナップショットを用いたプログラミング演習における行き詰まり箇所の特定”，コンピュータ ソフトウェア, Vol. 35, No. 1, pp.1_3-1_13, January 2018.
 * 藤原 賢二，上村 恭平，井垣 宏，伏田 享平，玉田 春昭，楠本 真二，飯田 元，”スナップショットを用いたプログラミング演習における行き詰まり箇所の特定”，第3回実践的IT教育シンポジウム（rePiT2017）論文集，pp.17–26, January 2017.（大阪，最優秀論文賞）
@@ -31,11 +30,11 @@ As a result, we confirmed coding patterns of novice programmers in case of falli
 * 玉田 春昭，荻野 晃大，上田 博唯，”アシスタントロボットを用いたプログラミング教育支援システムの構築”, 信学技報 マルチメディア・仮想環境基礎研究会, Vol.MVE2010-48, pp.143-148, June 2010.
 * Haruaki Tamada, Akihiro Ogino, and Hirotada Ueda, “Robot Helps Teachers for Education of the C Language Beginners,” In Proc. HCI International 2009 (HCII2009), DVD, 19-24 July 2009. (San Diego, CA, USA).
 
-### {{< emoji ":mag_right:" >}} Related Research Topics
+### :mag_right: Related Research Topics
 
 * [Characteristics of the developers](../characteristics_of_developers)
 
-### {{< emoji ":handshake:" >}} Collaborators
+### :handshake: Collaborators
 
 * [K. Fuijwara](https://researchmap.jp/fujiwara.kenji/?lang=english)@National Institute of Technology, Toyota College
 * [H. Igaki](http://igakilab.github.io/)@Osaka Institute of Technology

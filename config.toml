@@ -1,7 +1,7 @@
 baseURL = "https://tamada.github.io/"
 languageCode = "en-us"
 title = "Haruaki TAMADA"
-theme = "hugo-swift-theme"
+theme = "cayman-hugo-theme"
 canonifyurl = true
 paginate = 6
 
@@ -9,17 +9,30 @@ pygmentsCodefences = true
 pygmentsCodefencesGuessSyntax = true
 
 [params]
-    author = "Haruaki Tamada"
-    logo = "harry.png"
-    ga_analytics = "UA-62401730-5"
-    twitter = "tama5"
+    project_name = "Haruaki TAMADA"
+    project_tagline = "I love software development!"
+    project_logo = "images/harry.png"
+    dateFormat = "Jan 02, 2006"
+    footer = "Made with [Hugo](https://gohugo.io/). Theme by [Cayman](https://github.com/zwbetz-gh/cayman-hugo-theme). Deployed to [GitHub Pages](https://pages.github.com/)."
 
-# [params.staticman]
-#     endpoint = "https://staticman3.herokuapp.com"
-#     gitProvider = "github"
-#     username = "tamada"
-#     repository = "tamada.github.io"
-#     branch = "master"
-#     [params.staticman.reCaptcha]
-#         siteKey = "6Ld0WuIUAAAAAD4Y-TC5PoaiidWvmpu8eMMeWZXa"
-#         secret = "TtrcJ68jdqeAVM9ZYRwZX38UwfQsNiBnVBcGCyy+9PSOt8I+bQunrPvxM2lRMAI1BZvRYpUo2y26v3vJWwBRr6tnwoR1hRtVkplnhp4hzY8BfnWIcjbqbxaRcmoo1YYm+SxzYM44U03cahB9wf1oe0kxnrh4zQvG0JLmdzciF+Ld729XlaluhWzgPSHdZf9IaK/bVamIS036VtupnMUTHSfUU+ti4X3ZGJ7Y76ymj1y8bC7L0/nn3wV5eMAqPD+53KXXzs7WsN6TXOVdweFU40l+fhpw3ybVTOwQ0m5DYs9n1raNTaOFePTfg4pGtuU7tpmJffSKLlappz4CQXpNkQ=="
+[menu]
+    [[menu.nav]]
+        name = ":house: Home"
+        url = "/"
+        weight = 1
+    [[menu.nav]]
+        name = ":rocket: Projects"
+        url = "/projects"
+        weight = 2
+    [[menu.nav]]
+        name = ":bulb: Research"
+        url = "/research"
+        weight = 3
+    [[menu.nav]]
+        name = ":bust_in_silhouette: Profile"
+        url = "/profile"
+        weight = 4
+    [[menu.nav]]
+        name = ":thinking: Blog"
+        url = "/Blog"
+        weight = 5

@@ -1,0 +1,57 @@
+{{- $json := getJSON "data/projects.json" -}}
+{{- $sorted := sort $json "last_update" "desc" -}}
+{{- $dateFormat := $.Site.Params.dateFormat | default "Jan 2, 2006" -}}
+{{- range sort $json "last_update" "desc" -}}
+<div class="panel project">
+    <div class="icon_area">
+        {{- if .github -}}
+        <a href="{{ .github }}"><img class="miniicon" src="/images/icons/github.svg"></a></a>
+        {{- end -}}
+        {{- if .www -}}
+        <a href="{{ .www }}"><img class="miniicon" src="/images/icons/globe.svg"></a></a>
+        {{- end -}}
+        {{- if .docker -}}
+        <a href="{{ .docker }}"><img class="miniicon" src="/images/icons/docker.svg"></a></a>
+        {{- end -}}
+        {{- range $icon := .info_icons -}}
+        <img class="miniicon" src="/images/icons/{{ $icon }}.svg">
+        {{- end -}}
+    </div>
+    {{- if .last_update -}}
+    <div class="date">{{ dateFormat $dateFormat .last_update }}</div>
+    {{- end -}}
+    <div class="iconify centering">
+        {{- if .www -}}
+        <a href="{{ .www }}">
+            {{- end -}}
+            <img src="{{ .project_icon | relURL }}" class="iconify_image">
+            <div class="name">{{ .name }}</div>
+            {{- if .www -}}
+        </a>
+        {{- end -}}
+    </div>
+    <div class="overview_area">
+        <div class="overview indent">:speaking_head: {{ .overview }}</div>
+    </div>
+    <div class="badge_area">
+        {{- if .license }}
+        <a href="{{ .license_href }}" class="badge license">
+            <span class="label">:scroll: License</span><span class="value">{{ .license }}</span>
+        </a>
+        {{- end -}}
+        {{- if .version -}}
+        <a href="{{ .version_href }}" class="badge version">
+            <span class="label">:ant: Version</span><span class="value">{{ .version }}</span>
+        </a>
+        {{- end -}}
+        {{- if .homebrew -}}
+        <div class="badge homebrew">
+            <span class="label">:beer: Homebrew</span><span class="value">{{ .homebrew }}</span>
+        </div>
+        {{- end -}}
+    </div>
+    <div class="tag_area">
+        {{ partial "tags.html" . }}
+    </div>
+</div>
+{{- end -}}
