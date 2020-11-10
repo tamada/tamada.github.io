@@ -12,45 +12,22 @@
     
     
     <item>
-      <title>:beers: Homebrew</title>
-      <link>https://tamada.github.io/projects/homebrew/</link>
-      <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
+      <title>Renewed my web site with cayman-hugo-theme.</title>
+      <link>https://tamada.github.io/blog/20201110_new_design/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/projects/homebrew/</guid>
-      <description>🗣 Overview Tamada&amp;rsquo;s homebrew receipes. Following receipes are available.
- rrh  Git repository manager. Histories  1.2.0: 2020-04-24, add open subcommand. 1.1.0: 2019-12-18, add group info subcommand. 1.0.4: 2019-07-13, introduce --dry-run option for rrh-new subcommand. 1.0.3: 2019-06-29, print belonging groups on running rrh repository info. 1.0.2: 2019-06-29, introduce rrh-new external subcommand. 1.0.1: 2019-06-26, fixed invalid command results on rrh group. 1.0.0: 2019-06-18, the first public release.     uniq2  Extended uniq.</description>
-    </item>
-    
-    <item>
-      <title>sibling</title>
-      <link>https://tamada.github.io/projects/sibling/</link>
-      <pubDate>Wed, 15 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/projects/sibling/</guid>
-      <description>🗣 Overview When the directory has too may sub directories, we are tiresome to traverse whole of them. Because, we lose where we are. Ideally, we move directory by specifying the next, not directory name.
-The command like following makes us tired 👎 .
-cd ../next_directory_name We should type command like below 👍 .
-cdnext For this, I implemented sibling.
-🍺 Install brew install tamada/brew/sibling 🌐 Web pages  Project page on GitHub  https://github.</description>
-    </item>
-    
-    <item>
-      <title>omelette</title>
-      <link>https://tamada.github.io/projects/omelette/</link>
-      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/projects/omelette/</guid>
-      <description>🗣 Overview In the Java platform, we usually run the unit tests through some build tool, such as Maven, Gradle, and so on. However, it is hard to run the unit tests on the cli environment, since it is not clearly to execute them. Also, computing coverage makes us more complicated.
-Then, omelette runs unit tests of given project and compute test coverage by Jacoco.
-🍺 Install $ brew install tamada/brew/omelette 🌐 Web pages  Project page on GitHub  https://github.</description>
+      <guid>https://tamada.github.io/blog/20201110_new_design/</guid>
+      <description>ホームページのデザインを更新した． ふと思い立って，ホームページのデザインを更新してみた． 作成したプロダクトのデザインは cayman-hugo-theme に統一していたので，個人ページも同じテーマを採用してみた．
+雑感 以前使っていたHugo Swiftに対して思っていた要望が解消されたかな？
+ トップのサイン波のアニメーションを変えたい．  -&amp;gt; なくなった．   ハンバーガーメニューが気に入らない．  -&amp;gt; なくなった．    </description>
     </item>
     
     <item>
       <title>Renewed my web site with hugo-theme-swift.</title>
-      <link>https://tamada.github.io/blog/20200319_new_design/</link>
+      <link>https://tamada.github.io/blog/20200320_new_design/</link>
       <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/blog/20200319_new_design/</guid>
+      <guid>https://tamada.github.io/blog/20200320_new_design/</guid>
       <description>ホームページのデザインを更新した． ふと思い立って，ホームページのデザインを更新してみた． 今までは，hugo-cards を使っていたのをHugo Swift を使うことにした．
 欲しかった要件  config.tomlにごちゃごちゃと書かない． dataでの記述は最小限に． shortcodesにあまり依存しない．  この要件はあくまで好みである．
 困ったこと Hugo などの静的サイトジェネレータでコメント投稿をサポートするために，Staticmanがリリースされている． Hugo SwiftはこのStaticmanを標準でサポートしている． しかし，設定方法にあるように設定して，コメントを投稿しても，500 Internal Server Errorになる． どうも，https://staticman3.herokuapp.com/v3/entry/github/tamada/tamada.github.io/master/comments に投稿しても，Staticman の中から GitHub へのリクエスト URL でリポジトリの情報が失われているっぽい． 設定項目は飛ばしていないつもりだけど，なぜだろう．．．
@@ -64,55 +41,12 @@ Hugo のレイアウトのコツ いくつかのサイトを Hugo で構築し�
     </item>
     
     <item>
-      <title>uniq2</title>
-      <link>https://tamada.github.io/projects/uniq2/</link>
-      <pubDate>Thu, 12 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/projects/uniq2/</guid>
-      <description>🗣 Overview uniq2 deletes duplicated lines.
-GNU core utilities have uniq command for deleting duplicate lines. However, uniq command deletes only continuous duplicate lines. When deleting not continuous duplicate lines, we use sort command together, in that case, the order of the list was not kept.
-We want to delete not continuous duplicated lines with remaining the order.
-🐳 Docker  tamada/uniq2 (https://hub.docker.com/r/tamada/uniq2)  1.1.1, latest 1.0.2    🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only.</description>
-    </item>
-    
-    <item>
-      <title>heatman</title>
-      <link>https://tamada.github.io/projects/heatman/</link>
-      <pubDate>Wed, 11 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/projects/heatman/</guid>
-      <description>🗣 Overview Create heat map image from given csv file. Go language implementation of tamada/heatman.
-🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. $ brew install heatman 🐳 Docker  tamada/heatman (https://hub.docker.com/r/tamada/heatman)  1.0.1, latest    🌐 Web pages  Project page on GitHub  https://github.com/tamada/goheatman   Web page  https://tamada.github.io/goheatman    📜 License WTFPL
- WTFPL permits  👍 Commercial use, 👍 Modification, 👍 Distribution, and 👍 Private use.</description>
-    </item>
-    
-    <item>
-      <title>lioss</title>
-      <link>https://tamada.github.io/projects/lioss/</link>
-      <pubDate>Sun, 08 Mar 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/projects/lioss/</guid>
-      <description>🗣 Overview License identifying tool for OSS projects. This tool has license database, and analyzes given license by $k$-gram, word frequencies, or tfidf algorithm.
-🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. $ brew install lioss 🐳 Docker  tamada/lioss (https://hub.docker.com/r/tamada/lioss)  1.0.0, latest 0.9.0    $ docker run -it --rm -v $PWD:/home/lioss tamada/lioss:latest [OPTIONS] [ARGUMENTS...] 🌐 Web pages  Project page on GitHub  https://github.</description>
-    </item>
-    
-    <item>
-      <title>:books: Publications</title>
-      <link>https://tamada.github.io/publications/</link>
-      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/publications/</guid>
-      <description>The followings are key articles from my publications. The full list is available on my laboratory page.
- 中村 潤，玉田 春昭，&amp;lsquo;&amp;lsquo;大量のソフトウェアを対象にしたソフトウェアバースマークによる盗用検出 〜全文検索システムを用いた検査対象の絞り込み手法〜&#39;&#39;，情報処理学会論文誌，Vol.61, No.2, pp.454-–473, Feburary 2020． 横井 昂典，玉田 春昭，&amp;lsquo;&amp;lsquo;単体テストコードとアスペクト指向を用いた動的バースマークの抽出コストの削減&amp;rsquo;&#39;，情報処理学会論文誌，Vol.60, No.7，pp.1247&amp;ndash;1259，July 2019. Koji Toda, Haruaki Tamada, Masahide Nakamura, and Kenichi Matsumoto, &amp;lsquo;&amp;lsquo;Characterizing Project Evolution on a Social Coding Platform,&amp;rsquo;&amp;rsquo; In Proc. 20th ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD 2019), pp.525–532, July 2019 (Toyama, Japan). 磯部 陽介，玉田 春昭，&amp;lsquo;&amp;lsquo;ランダムフォレストを用いた名前難読化の耐タンパ化性能の評価&amp;rsquo;&#39;，情報処理学会論文誌，Vo.</description>
-    </item>
-    
-    <item>
       <title>Fast comparisons of the birthmarks</title>
       <link>https://tamada.github.io/research/birthmark_fast_comparison/</link>
       <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/research/birthmark_fast_comparison/</guid>
-      <description>🗣 Overview The software birthmarks were proposed for detecting the software theft from a large number of suspected programs. The birthmark is a technique to compare the extracted characteristics as the software birthmarks, and compute similarities between two birthmarks. The conventional birthmarks require a much time by increasing the target programs for comparison. Therefore, it is the bottleneck of the conventional birthmarking technique. In this paper, we propose a method for reducing total processing time by introducing the narrowing phase between conventional extracting and comparison phases.</description>
+      <description>:speaking_head: Overview The software birthmarks were proposed for detecting the software theft from a large number of suspected programs. The birthmark is a technique to compare the extracted characteristics as the software birthmarks, and compute similarities between two birthmarks. The conventional birthmarks require a much time by increasing the target programs for comparison. Therefore, it is the bottleneck of the conventional birthmarking technique. In this paper, we propose a method for reducing total processing time by introducing the narrowing phase between conventional extracting and comparison phases.</description>
     </item>
     
     <item>
@@ -121,94 +55,9 @@ We want to delete not continuous duplicated lines with remaining the order.
       <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/research/identifying_applied_obfuscator/</guid>
-      <description>🗣 Overview Recently, to prevent cracking, the various protection methods have been proposed. One of the protection methods is the obfuscation method. Obfuscation method changes the program into hard to understand for hiding secret information in the program.
+      <description>:speaking_head: Overview Recently, to prevent cracking, the various protection methods have been proposed. One of the protection methods is the obfuscation method. Obfuscation method changes the program into hard to understand for hiding secret information in the program.
 On the other hand, de-obfuscation is an interesting research topic for protecting the software. Since, though vulnerable protection methods are dangerous, measuring the robustness of the method was not discussed.
 In this paper, we tackle to identify the applied obfuscation methods towards de-obfuscation.</description>
-    </item>
-    
-    <item>
-      <title>tjdoe</title>
-      <link>https://tamada.github.io/projects/tjdoe/</link>
-      <pubDate>Thu, 26 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/projects/tjdoe/</guid>
-      <description>🗣 Overview tjdoe anonymizes given programs for programming courses and their scores for grades. For this, tjdoe converts names and ids appearing in the programs into anonymized ids.
-tjdoe is abbreviation of &amp;ldquo;to john/jane doe.&amp;rdquo;
-🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. $ brew install tjdoe 🐳 Docker  tamada/tjdoe (https://hub.docker.com/r/tamada/tjdoe)  1.0.0, latest    🌐 Web pages  Project page on GitHub  https://github.</description>
-    </item>
-    
-    <item>
-      <title>:muscle: Skills</title>
-      <link>https://tamada.github.io/profile/skills/</link>
-      <pubDate>Wed, 18 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/profile/skills/</guid>
-      <description>🍎 Languages  🇯🇵 Japanese 🇺🇸 English Java Go JavaScript C  🔮 Others  Docker Git Hugo GitHub flow  </description>
-    </item>
-    
-    <item>
-      <title>:mortar_board: Education</title>
-      <link>https://tamada.github.io/profile/education/</link>
-      <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/profile/education/</guid>
-      <description>DOCTOR OF ENGINEERING.  Graduate School of Information Science, Nara Institute of Science and Technology (NAIST)  Software Engineering, Doctoral thesis  Software Protection by Birthmark and Dynamic Name Resolution.   April 2003 - March 2006.    MASTER OF INFORMATION, COMMUNICATION AND ENGINEERING.  Graduate School of Kyoto Sangyo University.  Computer Science. April 1999 - March 2001.    BACHELOR OF INFORMATION, COMMUNICATION AND ENGINEERING.  Faculty of Information and Communication Technology, Kyoto Sangyo University.</description>
-    </item>
-    
-    <item>
-      <title>Job histories</title>
-      <link>https://tamada.github.io/profile/experiences/</link>
-      <pubDate>Tue, 10 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/profile/experiences/</guid>
-      <description>Associate Professor  Faculty of information science and engineering, Kyoto Sangyo University.  reorganized faculty (computer science and engineering to information science and engineering). April 2018 - Present    Part-time Lecturer  School of Engineering science, Osaka University.  AiBiC Spiral 2017 - Present    Part-time Lecturer  Faculty of Engineering, Okayama University.  Talk about UML, Design Pattern, Software Architecture, MVC and etc. in software design class (The third semester).</description>
-    </item>
-    
-    <item>
-      <title>:phone: Contact me</title>
-      <link>https://tamada.github.io/contact/</link>
-      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/contact/</guid>
-      <description>Some requests to my projects Please post issues💬 on GitHub , or see the laboratory page 🔬 .
-Do not hesitate to contact me!!
-Miscellaneous  E-mail 📧 , or Twitter .  Please replace __f@ke__ to atmark (@) on my email address.    SNS links tama5
-htamada
-tamada
-htamada
-tamada</description>
-    </item>
-    
-    <item>
-      <title>pochi</title>
-      <link>https://tamada.github.io/projects/pochi/</link>
-      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/projects/pochi/</guid>
-      <description>🗣 Overview pochi is the birthmarking toolkit for the JVM platform. The birthmarks are the native characteristics extracted from executable programs. Then, pochi compares them and computes the similarities. The resultant similarities shows the copy relation possibilities between two program.
-🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. $ brew install pochi 🐳 Docker  tamada/pochi (https://hub.docker.com/r/tamada/pochi)  1.0.0, latest    $ docker run -it --rm -v $PWD:/home/pochi tamada/pochi:latest [OPTIONS] [SCRIPT [ARGUMENTS.</description>
-    </item>
-    
-    <item>
-      <title>rrh</title>
-      <link>https://tamada.github.io/projects/rrh/</link>
-      <pubDate>Wed, 13 Nov 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/projects/rrh/</guid>
-      <description>🗣 Overview rrh is a simple git repository manager.
-There are too many repositories. We love programming; however, to manage many repositories is quite hard and bothersome tasks. Therefore, we built a headquarter for managing the git repositories, named rrh. rrh manages repositories by categorizing in groups and execute git command to the groups.
-I know the tool ghq, manages the git repositories. However, I cannot use it for the following reasons.</description>
-    </item>
-    
-    <item>
-      <title>9rules</title>
-      <link>https://tamada.github.io/projects/9rules/</link>
-      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/projects/9rules/</guid>
-      <description>🗣 Overview 9rules evaluates the how to satisfy the 9 rules for the object oriented programming exercise. OOP execise was introduced by the ThoughtWorks Anthology.
-The rules are as follows.
- Rule # 1. Use one level of indentation per method. Rule # 2. Do not use the else keyword. Rule # 3. Wrap all primitives and Strings. Rule # 4. Use only one dot per line.  Except the following items.</description>
     </item>
     
     <item>
@@ -217,20 +66,8 @@ The rules are as follows.
       <pubDate>Sun, 20 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/research/development_support_bot/</guid>
-      <description>🗣 Overview This research topic aims to build a helpful bot for the software development. Also, the topic focuses on the bot on the Social Coding Platform in the social network services. The one goal of the topic is to build a bot for gently helping GitHub flow.
-📚 Publications  宮崎 光，玉田 春昭，CUIツールの開発支援サービスとしての再構築手順の提案”，信学技法，Vol.119，No.246, SS2019-14, pp.7–12, October 2019（熊本）. 玉田 春昭，”初学者向けGitHub flow学習支援”，ソフトウェアシンポジウム2019 ワークショップ 討論テーマ（2）実証的ソフトウェア工学によるプログラミング教育とソフトウェア工学教育，August 2019.（東京） Ko Miyazaki, Haruaki Tamada, “Identifying Users in the Bridging Service between Two Different Chat Services using User Icons,” In Proc.</description>
-    </item>
-    
-    <item>
-      <title>ttt</title>
-      <link>https://tamada.github.io/projects/ttt/</link>
-      <pubDate>Sun, 06 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/projects/ttt/</guid>
-      <description>🗣 Overview このツールは，KSU ISEにおける各コースの終了要件を単位取得科目から確認するためのツールです． ttt は「単位をたくさん取ろう」の頭文字です．
-なお，このツールを使った事による不利益は，いかなる場合であっても一切保証しません．
-🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. $ brew install ttt 🐳 Docker  tamada/ttt (https://hub.docker.com/r/tamada/ttt)  1.0.0, latest    🌐 Web pages  Project page on GitHub  https://github.com/tamada/ttt   Web page  https://tamada.github.io/ttt (Only Japanese) https://tamada.github.io/ttt/checker.html  executing ttt online.      📜 License WTFPL
- WTFPL permits  👍 Commercial use, 👍 Modification, 👍 Distribution, and 👍 Private use.</description>
+      <description>:speaking_head: Overview This research topic aims to build a helpful bot for the software development. Also, the topic focuses on the bot on the Social Coding Platform in the social network services. The one goal of the topic is to build a bot for gently helping GitHub flow.
+:books: Publications  宮崎 光，玉田 春昭，CUIツールの開発支援サービスとしての再構築手順の提案”，信学技法，Vol.119，No.246, SS2019-14, pp.7–12, October 2019（熊本）. 玉田 春昭，”初学者向けGitHub flow学習支援”，ソフトウェアシンポジウム2019 ワークショップ 討論テーマ（2）実証的ソフトウェア工学によるプログラミング教育とソフトウェア工学教育，August 2019.（東京） Ko Miyazaki, Haruaki Tamada, “Identifying Users in the Bridging Service between Two Different Chat Services using User Icons,” In Proc.</description>
     </item>
     
     <item>
@@ -239,7 +76,7 @@ The rules are as follows.
       <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/research/project_as_a_city/</guid>
-      <description>🗣 Overview Social coding platforms (SCPs) have realized spontaneous software evolution, where new source code and ideas are spontaneously proposed by altruistic developers. Although there are many projects operated by active communities performing spontaneous evolution, it is yet unclear that how such successful projects and communities have been formed and governed. In this paper, we propose a method that can investigate the history of every project in the SCP. Introducing the concept of project as a city, we consider every project in the SCP as a city, where a government and citizens develop a city through collaborative activities.</description>
+      <description>:speaking_head: Overview Social coding platforms (SCPs) have realized spontaneous software evolution, where new source code and ideas are spontaneously proposed by altruistic developers. Although there are many projects operated by active communities performing spontaneous evolution, it is yet unclear that how such successful projects and communities have been formed and governed. In this paper, we propose a method that can investigate the history of every project in the SCP. Introducing the concept of project as a city, we consider every project in the SCP as a city, where a government and citizens develop a city through collaborative activities.</description>
     </item>
     
     <item>
@@ -248,31 +85,7 @@ The rules are as follows.
       <pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/research/automatic_extraction_of_dynamic_birthmarks/</guid>
-      <description>🗣 Overview The software birthmark methods are proposed to find the stolen software from the huge number of suspects. The software birthmark methods are classified into two manners, static and dynamic manners. Different from the static birthmarks, dynamic birthmarks require inputs since they base on runtime behaviors. Also, the dynamic birthmark varies depending on the inputs, therefore, it is difficult to extract beforehand. Hence the extraction cost of the dynamic birthmarks is generally high than the static birthmarks.</description>
-    </item>
-    
-    <item>
-      <title>Activities</title>
-      <link>https://tamada.github.io/profile/activities/</link>
-      <pubDate>Sat, 13 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/profile/activities/</guid>
-      <description>Program committee  Program committee member, the 21th IEEE/ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD 2021 Winter). Program committee member, the 21th IEEE/ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD 2020). Program committee member, the 19th IEEE/ACIS International Conference on Computer and Information Science (ICIS 2020). Program committee member, the 1st ACIS International Conference of Artificial Intelligence (AI 2020). Program committee member, the 17th IEEE/ACIS International Conference on Computer and Information Science (ICIS 2019).</description>
-    </item>
-    
-    <item>
-      <title>Hobbies</title>
-      <link>https://tamada.github.io/profile/hobbies/</link>
-      <pubDate>Sat, 13 Jul 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/profile/hobbies/</guid>
-      <description>My hobbies are:
- 🍺 Drinking Beer, 🏝 Taking vacation on Okinawa islands, 💻 Programming, and Trekking.  Drinking Beer I love craft beers, especially stout beer. I dream to brew own beer.
-Taking vacation on Okinawa islands 沖縄の本島，離島でのんびりするのも好きです． 最近は1年に1度は沖縄に行っている気がします．
-Programming I love programming, my favorit languages are: Go-lang , JavaScript , and Java .
-何かツールを作ろうと思い立ったら１〜３週間程度で作り上げている気がします． コマンドラインのツールがほとんどですが，多くは GitHub にて公開しています． 主に Java を使って書いています．最近は JavaScript も面白いと思っています．
-ただ，途中で放り投げたものもいくつかあります．
-Trekking 山歩きも好きです． 本格的な山登りとは違い，のんびりと歩き回ります．</description>
+      <description>:speaking_head: Overview The software birthmark methods are proposed to find the stolen software from the huge number of suspects. The software birthmark methods are classified into two manners, static and dynamic manners. Different from the static birthmarks, dynamic birthmarks require inputs since they base on runtime behaviors. Also, the dynamic birthmark varies depending on the inputs, therefore, it is difficult to extract beforehand. Hence the extraction cost of the dynamic birthmarks is generally high than the static birthmarks.</description>
     </item>
     
     <item>
@@ -281,7 +94,7 @@ Trekking 山歩きも好きです． 本格的な山登りとは違い，のん�
       <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/research/deobfuscating_identifier_renaming/</guid>
-      <description>🗣 Overview The obfuscation methods are often used to hide sensitive information in software. Especially, an identifier renaming method (IRM) is well used because it is easy to implement. IRM is one of the obfuscation methods, and to change the names of function, and variables into meaningless one. However, if we can restore the identifiers to the original names, IRM is invalidated. One of the serious problems about IRM is that the tolerance against de-obfuscation is not discussed.</description>
+      <description>:speaking_head: Overview The obfuscation methods are often used to hide sensitive information in software. Especially, an identifier renaming method (IRM) is well used because it is easy to implement. IRM is one of the obfuscation methods, and to change the names of function, and variables into meaningless one. However, if we can restore the identifiers to the original names, IRM is invalidated. One of the serious problems about IRM is that the tolerance against de-obfuscation is not discussed.</description>
     </item>
     
     <item>
@@ -290,7 +103,7 @@ Trekking 山歩きも好きです． 本格的な山登りとは違い，のん�
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/research/evaluation_programming_course/</guid>
-      <description>🗣 Overview It is crucial for educators to understand pitfalls for novice programmers in programming education at computer science course. By giving well-timed advice to students who fall into a pitfall, educators are able to achieve efficient teaching and keep up their students&amp;rsquo; motivation. However, so far, it is less well-understood how novice students edit source code and why they fall into a pitfall. In this paper, we analyzed coding patterns of novice students empirically.</description>
+      <description>:speaking_head: Overview It is crucial for educators to understand pitfalls for novice programmers in programming education at computer science course. By giving well-timed advice to students who fall into a pitfall, educators are able to achieve efficient teaching and keep up their students&amp;rsquo; motivation. However, so far, it is less well-understood how novice students edit source code and why they fall into a pitfall. In this paper, we analyzed coding patterns of novice students empirically.</description>
     </item>
     
     <item>
@@ -299,8 +112,8 @@ Trekking 山歩きも好きです． 本格的な山登りとは違い，のん�
       <pubDate>Fri, 14 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/research/software_development_with_ai/</guid>
-      <description>🗣 Overview This topic is for mining software repositories. The following surveys were done.
- why do the developers update the build files in the project, and how to build the obliging bots for supporting next action.  📚 Publications  鐘ヶ江 由佳，玉田 春昭，畑 秀明，”GitHubにおける言語ごとのビルドファイルの更新理由調査”， 研究報告ソフトウェア工学（SE）, Vol. 2017-SE-196, No.28, July 2017. Akira Inokuchi, Haruaki Tamada, Hideaki Hata, and Masateru Tsunoda, &amp;ldquo;Toward Obliging Bots for Supporting Next Actions,&amp;rdquo; In Proc. of the 4th International Conference on Applied Computing &amp;amp; Information Technology (ACIT 2016), pp.</description>
+      <description>:speaking_head: Overview This topic is for mining software repositories. The following surveys were done.
+ why do the developers update the build files in the project, and how to build the obliging bots for supporting next action.  :books: Publications  鐘ヶ江 由佳，玉田 春昭，畑 秀明，”GitHubにおける言語ごとのビルドファイルの更新理由調査”， 研究報告ソフトウェア工学（SE）, Vol. 2017-SE-196, No.28, July 2017. Akira Inokuchi, Haruaki Tamada, Hideaki Hata, and Masateru Tsunoda, &amp;ldquo;Toward Obliging Bots for Supporting Next Actions,&amp;rdquo; In Proc. of the 4th International Conference on Applied Computing &amp;amp; Information Technology (ACIT 2016), pp.</description>
     </item>
     
     <item>
@@ -309,8 +122,8 @@ Trekking 山歩きも好きです． 本格的な山登りとは違い，のん�
       <pubDate>Mon, 23 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/research/artificiality_evaluation/</guid>
-      <description>🗣 Overview This research topic tries to evaluate the artificialities of the obfuscated programs. We believe that the obfuscation changes the programs into unordinal ones. This topics evaluates the artificialities by tf-idf and perplexities.
-📚 Publications  横井 昂典，玉田 春昭，”使用クラスに基づいたTF-IDFによる難読化の不自然さ評価”，2017年暗号と情報セキュリティシンポジウム予稿集 (SCIS 2017)，3D1-4，January 2017.（沖縄，那覇） 大滝 隆貴，大堂 哲也，玉田 春昭，神崎 雄一郎，門田 暁人，”Javaバイトコード命令のオペコード、オペランドを用いた難読化手法のステルシネス評価”，2014年暗号と情報セキュリティシンポジウム予稿集 (SCIS2014), 2D2-2, January 2014.  🔎 Related Research Topics  Identifying the applied obfuscator De-obfuscate IRM (identifier renaming method) Evaluating obfuscation method by Kolmogorov complexity Unreadability evaluation of obfuscated programs  🤝 Collaborators  Y.</description>
+      <description>:speaking_head: Overview This research topic tries to evaluate the artificialities of the obfuscated programs. We believe that the obfuscation changes the programs into unordinal ones. This topics evaluates the artificialities by tf-idf and perplexities.
+:books: Publications  横井 昂典，玉田 春昭，”使用クラスに基づいたTF-IDFによる難読化の不自然さ評価”，2017年暗号と情報セキュリティシンポジウム予稿集 (SCIS 2017)，3D1-4，January 2017.（沖縄，那覇） 大滝 隆貴，大堂 哲也，玉田 春昭，神崎 雄一郎，門田 暁人，”Javaバイトコード命令のオペコード、オペランドを用いた難読化手法のステルシネス評価”，2014年暗号と情報セキュリティシンポジウム予稿集 (SCIS2014), 2D2-2, January 2014.  :mag_right: Related Research Topics  Identifying the applied obfuscator De-obfuscate IRM (identifier renaming method) Evaluating obfuscation method by Kolmogorov complexity Unreadability evaluation of obfuscated programs  :handshake: Collaborators  Y.</description>
     </item>
     
     <item>
@@ -319,7 +132,7 @@ Trekking 山歩きも好きです． 本格的な山登りとは違い，のん�
       <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/research/obfuscation_by_invokedynamic/</guid>
-      <description>🗣 Overview This paper proposes an obfuscation method against illegal analysis. The proposed method tries to build a fake call flow graph from debugging tools. The call flow graph represents relations among methods and helps understanding of a program. The fake call flow graph leads misunderstanding of the program. We focus on a hook mechanism of the method call for changing a callee. We conduct two experiments to evaluate the proposed method.</description>
+      <description>:speaking_head: Overview This paper proposes an obfuscation method against illegal analysis. The proposed method tries to build a fake call flow graph from debugging tools. The call flow graph represents relations among methods and helps understanding of a program. The fake call flow graph leads misunderstanding of the program. We focus on a hook mechanism of the method call for changing a callee. We conduct two experiments to evaluate the proposed method.</description>
     </item>
     
     <item>
@@ -328,7 +141,7 @@ Trekking 山歩きも好きです． 本格的な山登りとは違い，のん�
       <pubDate>Fri, 20 Mar 2015 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/research/characteristics_of_developers/</guid>
-      <description>🗣 Overview In software development, multiple developers compose a team, and perform a development process. To succeed the development, understanding developers&amp;rsquo; characteristics are needed. However, there is no way to measure the characteristics of the developer by quantitative analysis. Therefore, a project manager often assigns team members based on his/her own sense, considering experience year of them.
+      <description>:speaking_head: Overview In software development, multiple developers compose a team, and perform a development process. To succeed the development, understanding developers&amp;rsquo; characteristics are needed. However, there is no way to measure the characteristics of the developer by quantitative analysis. Therefore, a project manager often assigns team members based on his/her own sense, considering experience year of them.
 This paper proposes a measurement framework for developers&amp;rsquo; characteristics using quantitative historical data. The proposed framework is useful for measuring developers&amp;rsquo; characteristics and building a team based on quantitative analysis.</description>
     </item>
     
@@ -338,7 +151,7 @@ This paper proposes a measurement framework for developers&amp;rsquo; characteri
       <pubDate>Sun, 01 Sep 2013 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/research/evaluation_obfuscation_kolmogorov/</guid>
-      <description>🗣 Overview This paper quantifies the diffuculty of program analysis based on the information theory. The basic idea is to consider that a program ultimately obscated if instructions appear at random; that is (1) all instructions has an equal frequency of appearance, and (2) there is no pattern observed in the instruction sequence. We quantified (1) based on the entropy and (2) based on the Kolmogorov complexity. We evaluated the feasibility of our proposal through a case study.</description>
+      <description>:speaking_head: Overview This paper quantifies the diffuculty of program analysis based on the information theory. The basic idea is to consider that a program ultimately obscated if instructions appear at random; that is (1) all instructions has an equal frequency of appearance, and (2) there is no pattern observed in the instruction sequence. We quantified (1) based on the entropy and (2) based on the Kolmogorov complexity. We evaluated the feasibility of our proposal through a case study.</description>
     </item>
     
     <item>
@@ -347,7 +160,7 @@ This paper proposes a measurement framework for developers&amp;rsquo; characteri
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/research/obfuscation_by_method_folding/</guid>
-      <description>🗣 Overview To improve tamper resistance of programs against illegal modification, this paper proposes instruction folding applicable to Java platform.
+      <description>:speaking_head: Overview To improve tamper resistance of programs against illegal modification, this paper proposes instruction folding applicable to Java platform.
 In the proposed method, at first, similar methods are selected in a Java program. Next, these methods are merged into one method and diffs among these methods are stored in the program. Then, at runtime, when one of the merged methods is executed, diffs are restored by self-modification, which is realized by the Java instrumentation mechanism.</description>
     </item>
     
@@ -357,7 +170,7 @@ In the proposed method, at first, similar methods are selected in a Java program
       <pubDate>Mon, 24 Sep 2012 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/research/unreadability_evaluation/</guid>
-      <description>🗣 Overview Obfuscation methods were proposed for protecting programs from cracking. These methods convert program into incomprehensible one, such as change symbol names from meaningful to meaningless. As a result, secret information in the program can be hidden. However, obfuscation methods are not evaluated sufficiently. This paper evaluates incomprehensibility of the obfuscated programs using queue based virtual mental simulation model (VMSM) which is focused on short term memory in program comprehension.</description>
+      <description>:speaking_head: Overview Obfuscation methods were proposed for protecting programs from cracking. These methods convert program into incomprehensible one, such as change symbol names from meaningful to meaningless. As a result, secret information in the program can be hidden. However, obfuscation methods are not evaluated sufficiently. This paper evaluates incomprehensibility of the obfuscated programs using queue based virtual mental simulation model (VMSM) which is focused on short term memory in program comprehension.</description>
     </item>
     
     <item>
@@ -366,8 +179,8 @@ In the proposed method, at first, similar methods are selected in a Java program
       <pubDate>Sat, 15 Aug 2009 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/research/birthmark_applications/</guid>
-      <description>🗣 Overview This research topics shows applications of software birthmarks. In our publications, we try to classify the programs using extracted software birthmarks. Because, we believe that the birthmarks shows the functionalities of the programs.
-📚 Publications  牛窓 朋義, 門田 暁人, 玉田 春昭, 松本 健一, “使用クラスに基づくソフトウェアの機能面からの分類”, 信学技報 ソフトウェアサイエンス研究会, Vol.SS2009-17, pp.31-36, August 2009. 玉田 春昭，森崎 修司，門田 暁人，松本 健一，”バースマークを用いたソフトウェア拡張開発での流用度合いの測定”，情報処理学会第70回全国大会，pp.5-399-400, March 2008. Takesi Kakimoto, Akito Monden, Yasutaka Kamei, Haruaki Tamada, Masateru Tsunoda, and Ken-ichi Matsumoto, “Using Software Birthmarks to Identify Similar Classes and Major Functionalities,” In Proc.</description>
+      <description>:speaking_head: Overview This research topics shows applications of software birthmarks. In our publications, we try to classify the programs using extracted software birthmarks. Because, we believe that the birthmarks shows the functionalities of the programs.
+:books: Publications  牛窓 朋義, 門田 暁人, 玉田 春昭, 松本 健一, “使用クラスに基づくソフトウェアの機能面からの分類”, 信学技報 ソフトウェアサイエンス研究会, Vol.SS2009-17, pp.31-36, August 2009. 玉田 春昭，森崎 修司，門田 暁人，松本 健一，”バースマークを用いたソフトウェア拡張開発での流用度合いの測定”，情報処理学会第70回全国大会，pp.5-399-400, March 2008. Takesi Kakimoto, Akito Monden, Yasutaka Kamei, Haruaki Tamada, Masateru Tsunoda, and Ken-ichi Matsumoto, “Using Software Birthmarks to Identify Similar Classes and Major Functionalities,” In Proc.</description>
     </item>
     
     <item>
@@ -376,7 +189,7 @@ In the proposed method, at first, similar methods are selected in a Java program
       <pubDate>Tue, 12 Feb 2008 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/research/obfuscation_by_dnr/</guid>
-      <description>🗣 Overview Name obfuscation is a software protection technique, which renames identifiers in a given program, to protect the program from illegal cracking. The conventional methods replace names appearing in the declaration part with the meaningless ones. Therefore, the methods cannot be used to obfuscate names declared in system libraries, since changing such system-defined names significantly deteriorates the program portability.
+      <description>:speaking_head: Overview Name obfuscation is a software protection technique, which renames identifiers in a given program, to protect the program from illegal cracking. The conventional methods replace names appearing in the declaration part with the meaningless ones. Therefore, the methods cannot be used to obfuscate names declared in system libraries, since changing such system-defined names significantly deteriorates the program portability.
 This paper presents a new name obfuscation method, which can hide appearance of the system-defined names.</description>
     </item>
     
@@ -386,7 +199,7 @@ This paper presents a new name obfuscation method, which can hide appearance of 
       <pubDate>Tue, 01 Aug 2006 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/research/dynamic_birthmarks/</guid>
-      <description>🗣 Overview This paper presents a technique of dynamic software birthmarks to support efficient detection of software theft. A dynamic birthmark $f(p, I)$ is a set of unique and native characteristics of a program $p$, obtained by executing $p$ with a given input $I$. For a pair of software $p$ and $q$, if $f(p, I) = f(q, I)$ holds, $q$ is suspected as a copy of $p$. In this paper, we propose two kinds of dynamic birthmarks, EXESEQ and EXEFREQ which use execution order and frequency distribution of runtime API Calls.</description>
+      <description>:speaking_head: Overview This paper presents a technique of dynamic software birthmarks to support efficient detection of software theft. A dynamic birthmark $f(p, I)$ is a set of unique and native characteristics of a program $p$, obtained by executing $p$ with a given input $I$. For a pair of software $p$ and $q$, if $f(p, I) = f(q, I)$ holds, $q$ is suspected as a copy of $p$. In this paper, we propose two kinds of dynamic birthmarks, EXESEQ and EXEFREQ which use execution order and frequency distribution of runtime API Calls.</description>
     </item>
     
     <item>
@@ -395,7 +208,26 @@ This paper presents a new name obfuscation method, which can hide appearance of 
       <pubDate>Thu, 01 Sep 2005 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/research/birthmark_concept/</guid>
-      <description>🗣 Overview To detect the theft of Java class files efficiently, we propose a concept of Java birthmarks, which are unique and native characteristics of every class file. For a pair of class files $p$ and $q$, if $q$ has the same birthmark as $p$&#39;s, $q$ is suspected as a copy of $p$. Ideally, the birthmarks should satisfy the following properties: (a) preservation &amp;ndash; the birthmarks should be preserved even if the original class file is tampered with, and (b) distinction &amp;ndash; independent class files must be distinguished by completely different birthmarks.</description>
+      <description>:speaking_head: Overview To detect the theft of Java class files efficiently, we propose a concept of Java birthmarks, which are unique and native characteristics of every class file. For a pair of class files $p$ and $q$, if $q$ has the same birthmark as $p$&#39;s, $q$ is suspected as a copy of $p$. Ideally, the birthmarks should satisfy the following properties: (a) preservation &amp;ndash; the birthmarks should be preserved even if the original class file is tampered with, and (b) distinction &amp;ndash; independent class files must be distinguished by completely different birthmarks.</description>
+    </item>
+    
+    <item>
+      <title>:bust_in_silhouette: Profile</title>
+      <link>https://tamada.github.io/profile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/profile/</guid>
+      <description>Associate Professor, Faculty of Information Science and Engineering, Kyoto Sangyo University.  Doctor of Engineering Motoyama, Kamigamo, Kita-ku, Kyoto-pref, Kyoto, Japan, Postal Code 603-8555.   Programmer/Software Engineer  SNS General SNS     Developer&amp;#39;s SNS     Researcher&amp;#39;s SNS      Research Topics Software BirthmarksProgram ObfuscationEvaluating ObfuscationDeveloper AnalysisProject AnalysisProgram Readability :muscle: Skills 🇯🇵Japanese  90  Native! macOS  80  Using as the main operating system.</description>
+    </item>
+    
+    <item>
+      <title>:rocket: Projects</title>
+      <link>https://tamada.github.io/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/projects/</guid>
+      <description>I created those projects, almost projects wrote by Java , ang Go languages.
+Links Languages Nov 03, 2020rrh :speaking_head: Remote Repositories Head/Repositories Ready to Hack  :scroll: LicenseApache-2.0 :ant: Version1.2.0 :beer: Homebrewtamada/brew/rrh   🏷️gitrepository-management  Links Languages Oct 31, 2020Homebrew-brew :speaking_head: Tamada&amp;#39;s homebrew recipes.  :scroll: LicenseCC0-1.0   🏷️homebrewmacOS  Links Languages Oct 31, 2020lioss :speaking_head: Identifying OSS license names from LICENSE files  :scroll: LicenseMIT :ant: Version1.0.0 :beer: Homebrewtamada/brew/lioss   🏷️CLIOSSLicenses  Links Languages Oct 14, 2020pochi :speaking_head: Java birthmark toolkit, detecting the software theft by native characteristics of the programs.</description>
     </item>
     
   </channel>

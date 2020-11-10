@@ -17,7 +17,7 @@
       <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/research/birthmark_fast_comparison/</guid>
-      <description>🗣 Overview The software birthmarks were proposed for detecting the software theft from a large number of suspected programs. The birthmark is a technique to compare the extracted characteristics as the software birthmarks, and compute similarities between two birthmarks. The conventional birthmarks require a much time by increasing the target programs for comparison. Therefore, it is the bottleneck of the conventional birthmarking technique. In this paper, we propose a method for reducing total processing time by introducing the narrowing phase between conventional extracting and comparison phases.</description>
+      <description>:speaking_head: Overview The software birthmarks were proposed for detecting the software theft from a large number of suspected programs. The birthmark is a technique to compare the extracted characteristics as the software birthmarks, and compute similarities between two birthmarks. The conventional birthmarks require a much time by increasing the target programs for comparison. Therefore, it is the bottleneck of the conventional birthmarking technique. In this paper, we propose a method for reducing total processing time by introducing the narrowing phase between conventional extracting and comparison phases.</description>
     </item>
     
     <item>
@@ -26,7 +26,7 @@
       <pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/research/automatic_extraction_of_dynamic_birthmarks/</guid>
-      <description>🗣 Overview The software birthmark methods are proposed to find the stolen software from the huge number of suspects. The software birthmark methods are classified into two manners, static and dynamic manners. Different from the static birthmarks, dynamic birthmarks require inputs since they base on runtime behaviors. Also, the dynamic birthmark varies depending on the inputs, therefore, it is difficult to extract beforehand. Hence the extraction cost of the dynamic birthmarks is generally high than the static birthmarks.</description>
+      <description>:speaking_head: Overview The software birthmark methods are proposed to find the stolen software from the huge number of suspects. The software birthmark methods are classified into two manners, static and dynamic manners. Different from the static birthmarks, dynamic birthmarks require inputs since they base on runtime behaviors. Also, the dynamic birthmark varies depending on the inputs, therefore, it is difficult to extract beforehand. Hence the extraction cost of the dynamic birthmarks is generally high than the static birthmarks.</description>
     </item>
     
   </channel>

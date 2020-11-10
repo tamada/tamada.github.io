@@ -6,42 +6,10 @@
     <description>Recent content in java on Haruaki TAMADA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2015 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tamada.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>omelette</title>
-      <link>https://tamada.github.io/projects/omelette/</link>
-      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/projects/omelette/</guid>
-      <description>🗣 Overview In the Java platform, we usually run the unit tests through some build tool, such as Maven, Gradle, and so on. However, it is hard to run the unit tests on the cli environment, since it is not clearly to execute them. Also, computing coverage makes us more complicated.
-Then, omelette runs unit tests of given project and compute test coverage by Jacoco.
-🍺 Install $ brew install tamada/brew/omelette 🌐 Web pages  Project page on GitHub  https://github.</description>
-    </item>
-    
-    <item>
-      <title>pochi</title>
-      <link>https://tamada.github.io/projects/pochi/</link>
-      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/projects/pochi/</guid>
-      <description>🗣 Overview pochi is the birthmarking toolkit for the JVM platform. The birthmarks are the native characteristics extracted from executable programs. Then, pochi compares them and computes the similarities. The resultant similarities shows the copy relation possibilities between two program.
-🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. $ brew install pochi 🐳 Docker  tamada/pochi (https://hub.docker.com/r/tamada/pochi)  1.0.0, latest    $ docker run -it --rm -v $PWD:/home/pochi tamada/pochi:latest [OPTIONS] [SCRIPT [ARGUMENTS.</description>
-    </item>
-    
-    <item>
-      <title>9rules</title>
-      <link>https://tamada.github.io/projects/9rules/</link>
-      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/projects/9rules/</guid>
-      <description>🗣 Overview 9rules evaluates the how to satisfy the 9 rules for the object oriented programming exercise. OOP execise was introduced by the ThoughtWorks Anthology.
-The rules are as follows.
- Rule # 1. Use one level of indentation per method. Rule # 2. Do not use the else keyword. Rule # 3. Wrap all primitives and Strings. Rule # 4. Use only one dot per line.  Except the following items.</description>
-    </item>
     
     <item>
       <title>Obfuscation by invokedynamic</title>
@@ -49,7 +17,7 @@ The rules are as follows.
       <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/research/obfuscation_by_invokedynamic/</guid>
-      <description>🗣 Overview This paper proposes an obfuscation method against illegal analysis. The proposed method tries to build a fake call flow graph from debugging tools. The call flow graph represents relations among methods and helps understanding of a program. The fake call flow graph leads misunderstanding of the program. We focus on a hook mechanism of the method call for changing a callee. We conduct two experiments to evaluate the proposed method.</description>
+      <description>:speaking_head: Overview This paper proposes an obfuscation method against illegal analysis. The proposed method tries to build a fake call flow graph from debugging tools. The call flow graph represents relations among methods and helps understanding of a program. The fake call flow graph leads misunderstanding of the program. We focus on a hook mechanism of the method call for changing a callee. We conduct two experiments to evaluate the proposed method.</description>
     </item>
     
     <item>
@@ -58,7 +26,7 @@ The rules are as follows.
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/research/obfuscation_by_method_folding/</guid>
-      <description>🗣 Overview To improve tamper resistance of programs against illegal modification, this paper proposes instruction folding applicable to Java platform.
+      <description>:speaking_head: Overview To improve tamper resistance of programs against illegal modification, this paper proposes instruction folding applicable to Java platform.
 In the proposed method, at first, similar methods are selected in a Java program. Next, these methods are merged into one method and diffs among these methods are stored in the program. Then, at runtime, when one of the merged methods is executed, diffs are restored by self-modification, which is realized by the Java instrumentation mechanism.</description>
     </item>
     
@@ -68,7 +36,7 @@ In the proposed method, at first, similar methods are selected in a Java program
       <pubDate>Tue, 12 Feb 2008 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/research/obfuscation_by_dnr/</guid>
-      <description>🗣 Overview Name obfuscation is a software protection technique, which renames identifiers in a given program, to protect the program from illegal cracking. The conventional methods replace names appearing in the declaration part with the meaningless ones. Therefore, the methods cannot be used to obfuscate names declared in system libraries, since changing such system-defined names significantly deteriorates the program portability.
+      <description>:speaking_head: Overview Name obfuscation is a software protection technique, which renames identifiers in a given program, to protect the program from illegal cracking. The conventional methods replace names appearing in the declaration part with the meaningless ones. Therefore, the methods cannot be used to obfuscate names declared in system libraries, since changing such system-defined names significantly deteriorates the program portability.
 This paper presents a new name obfuscation method, which can hide appearance of the system-defined names.</description>
     </item>
     

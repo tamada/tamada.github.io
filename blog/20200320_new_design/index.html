@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Hugo 0.69.0" />
+  <link rel="stylesheet" href="https://tamada.github.io/css/normalize.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  
+  
+  
+  <link rel="stylesheet" href="https://tamada.github.io/css/cayman.ea0e967413f3851071cc8ace3621bc4205fe8fa79b2abe3d7bf94ff2841f0d47.css">
+  
+  
+  <link rel="stylesheet" href="https://tamada.github.io/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+<script src="https://unpkg.com/mermaid@8.4.2/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="https://tamada.github.io/images/harry.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://tamada.github.io/images/harry.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://tamada.github.io/images/harry.png">
+  
+  <title>Renewed my web site with hugo-theme-swift. | Haruaki TAMADA</title>
+</head>
+<body>
+  <section class="page-header">
+  <div class="navigation"><a href="/tags">🏷️ Tags</a></div>
+  
+  <img src="https://tamada.github.io/images/harry.png" class="avatar" alt="project_logo">
+  
+  <h1 class="project-name">
+    Haruaki TAMADA
+  </h1>
+  <h2 class="project-tagline">
+    Researcher of Software Protectoin, and Developer!
+  </h2>
+  <nav>
+    
+    
+    
+    
+    
+    
+    <a href="/" class="btn">🏠 Home</a>
+    
+    
+    
+    
+    
+    <a href="/projects" class="btn">🚀 Projects</a>
+    
+    
+    
+    
+    
+    <a href="/research" class="btn">💡 Research</a>
+    
+    
+    
+    
+    
+    <a href="/profile" class="btn">👤 Profile</a>
+    
+    
+    
+    
+    
+    <a href="/blog" class="btn">🤔 Blog</a>
+    
+  </nav>
+</section>
+  <section class="main-content">
+    <div class="date">Mar 20, 2020</div><h1>Renewed my web site with hugo-theme-swift.</h1><img src="/images//covers/20200320.png" class="eyecatch"><h2 id="ホームページのデザインを更新した">ホームページのデザインを更新した．</h2>
+<p>ふと思い立って，ホームページのデザインを更新してみた．
+今までは，<a href="https://hugo-cards-site.netlify.com/">hugo-cards</a> を使っていたのを<a href="https://neuralvibes.com/">Hugo Swift</a> を使うことにした．</p>
+<h3 id="欲しかった要件">欲しかった要件</h3>
+<ul>
+<li><code>config.toml</code>にごちゃごちゃと書かない．</li>
+<li><code>data</code>での記述は最小限に．</li>
+<li><code>shortcodes</code>にあまり依存しない．</li>
+</ul>
+<p>この要件はあくまで好みである．</p>
+<h3 id="困ったこと">困ったこと</h3>
+<p><a href="https://gohugo.io/">Hugo</a> などの静的サイトジェネレータでコメント投稿をサポートするために，<a href="https://staticman.net/">Staticman</a>がリリースされている．
+<a href="https://neuralvibes.com/">Hugo Swift</a>はこの<a href="https://staticman.net/">Staticman</a>を標準でサポートしている．
+しかし，<a href="https://github.com/pacollins/hugo-future-imperfect-slim/wiki/Staticman-config">設定方法</a>にあるように設定して，コメントを投稿しても，500 Internal Server Errorになる．
+どうも，<code>https://staticman3.herokuapp.com/v3/entry/github/tamada/tamada.github.io/master/comments</code> に投稿しても，Staticman の中から GitHub へのリクエスト URL でリポジトリの情報が失われているっぽい．
+設定項目は飛ばしていないつもりだけど，なぜだろう．．．</p>
+<h3 id="hugo-のレイアウトのコツ">Hugo のレイアウトのコツ</h3>
+<p>いくつかのサイトを Hugo で構築して，レイアウトのコツのようなものがわかった．</p>
+<p>生成されたHTML と <code>themes/XXXXXX/layouts/{_default,partials}</code> 以下の内容を確認し，変更したい内容をトップの<code>layouts</code>にコピーして編集すると良い．</p>
+<h3 id="雑感">雑感</h3>
+<p><a href="https://neuralvibes.com/">Hugo Swift</a>には概ね満足なのだが，次の2つの項目を変えたい．</p>
+<h4 id="サイン波のアニメーション">サイン波のアニメーション</h4>
+<p>トップのサイン波のアニメーションを変更するのが難しい．
+変更自体は簡単なんだけど，変更してしまうと，サイトとしてイケてない．
+かといってそのままだと，デザインそのままな感じがする．
+とりあえず放置．</p>
+<h4 id="ハンバーガーメニューが気に入らない">ハンバーガーメニューが気に入らない．</h4>
+<p>個人的にハンバーガーメニューが気に入らない．
+世間的にもハンバーガーメニューはダメだという意見があるようだ．</p>
+<ul>
+<li><a href="https://qiita.com/usagimaru/items/930de80062bdae880630">君たちはそんなにハンバーガーメニューが好きなのかね？</a></li>
+<li><a href="http://deep.design/the-hamburger-menu/">The Hamburger Menu Doesn&rsquo;t Work</a></li>
+</ul>
+<p>これもとりあえずは放置．</p>
+<p>というところでリリースした．
+<a href="https://staticman.net/">Staticman</a>についてはまた今度挑戦してみる．</p>
+
+
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "htamada" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    <footer class="site-footer">
+  <span class="site-footer-credits">
+    Made with <a href="https://gohugo.io/">Hugo</a>. Theme by <a href="https://github.com/zwbetz-gh/cayman-hugo-theme">Cayman</a>. Deployed to <a href="https://pages.github.com/">GitHub Pages</a>.
+  </span>
+</footer>
+
+  </section>
+  
+  
+
+</body>
+</html>

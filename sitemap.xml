@@ -3,153 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://tamada.github.io/projects/homebrew/</loc>
-    <lastmod>2020-07-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tamada.github.io/tags/</loc>
-    <lastmod>2020-07-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/projects/</loc>
-    <lastmod>2020-07-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/categories/</loc>
-    <lastmod>2020-07-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/tags/directory-traversing/</loc>
-    <lastmod>2020-07-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/tags/homebrew/</loc>
-    <lastmod>2020-07-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/categories/homebrew/</loc>
-    <lastmod>2020-07-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/tags/macos/</loc>
-    <lastmod>2020-07-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/categories/projects/</loc>
-    <lastmod>2020-07-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/tags/recipes/</loc>
-    <lastmod>2020-07-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/tags/shell/</loc>
-    <lastmod>2020-07-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/projects/sibling/</loc>
-    <lastmod>2020-07-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/tags/utility/</loc>
-    <lastmod>2020-07-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/tags/coverage/</loc>
-    <lastmod>2020-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/tags/java/</loc>
-    <lastmod>2020-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/projects/omelette/</loc>
-    <lastmod>2020-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/tags/unit-tests/</loc>
-    <lastmod>2020-04-24T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tamada.github.io/blog/</loc>
-    <lastmod>2020-03-20T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tamada.github.io/tags/hugo/</loc>
-    <lastmod>2020-03-20T00:00:00+00:00</lastmod>
+    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tamada.github.io/blog/20200319_new_design/</loc>
-    <lastmod>2020-03-20T00:00:00+00:00</lastmod>
+    <loc>https://tamada.github.io/blog/20201110_new_design/</loc>
+    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tamada.github.io/tags/theme-swift/</loc>
+    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/blog/20200320_new_design/</loc>
     <lastmod>2020-03-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/tags/github/</loc>
-    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/tags/golang/</loc>
-    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/projects/uniq2/</loc>
-    <lastmod>2020-03-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/projects/heatman/</loc>
-    <lastmod>2020-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/tags/heatmap/</loc>
-    <lastmod>2020-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/tags/license/</loc>
-    <lastmod>2020-03-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/projects/lioss/</loc>
-    <lastmod>2020-03-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/tags/oss/</loc>
-    <lastmod>2020-03-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/publications/</loc>
-    <lastmod>2020-02-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -173,22 +53,7 @@
   </url>
   
   <url>
-    <loc>https://tamada.github.io/categories/publications/</loc>
-    <lastmod>2020-02-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tamada.github.io/tags/theft-detection/</loc>
-    <lastmod>2020-02-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/tags/work/</loc>
-    <lastmod>2020-02-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/categories/work/</loc>
     <lastmod>2020-02-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -213,86 +78,6 @@
   </url>
   
   <url>
-    <loc>https://tamada.github.io/tags/anonymity/</loc>
-    <lastmod>2019-12-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/projects/tjdoe/</loc>
-    <lastmod>2019-12-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/profile/skills/</loc>
-    <lastmod>2019-12-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/tags/profile/</loc>
-    <lastmod>2019-12-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/profile/</loc>
-    <lastmod>2019-12-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/profile/education/</loc>
-    <lastmod>2019-12-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/profile/experiences/</loc>
-    <lastmod>2019-12-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/categories/profile/</loc>
-    <lastmod>2019-12-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/contact/</loc>
-    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/tags/contact/</loc>
-    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/projects/pochi/</loc>
-    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/projects/rrh/</loc>
-    <lastmod>2019-11-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/projects/9rules/</loc>
-    <lastmod>2019-10-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/tags/oop/</loc>
-    <lastmod>2019-10-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/tags/readability/</loc>
-    <lastmod>2019-10-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/tags/source-code-analysis/</loc>
-    <lastmod>2019-10-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tamada.github.io/research/development_support_bot/</loc>
     <lastmod>2019-10-20T00:00:00+00:00</lastmod>
   </url>
@@ -308,8 +93,8 @@
   </url>
   
   <url>
-    <loc>https://tamada.github.io/projects/ttt/</loc>
-    <lastmod>2019-10-06T00:00:00+00:00</lastmod>
+    <loc>https://tamada.github.io/tags/github/</loc>
+    <lastmod>2019-09-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -329,16 +114,6 @@
   
   <url>
     <loc>https://tamada.github.io/</loc>
-    <lastmod>2019-07-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/profile/activities/</loc>
-    <lastmod>2019-07-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/profile/hobbies/</loc>
     <lastmod>2019-07-13T00:00:00+00:00</lastmod>
   </url>
   
@@ -363,6 +138,11 @@
   </url>
   
   <url>
+    <loc>https://tamada.github.io/tags/source-code-analysis/</loc>
+    <lastmod>2018-01-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tamada.github.io/research/software_development_with_ai/</loc>
     <lastmod>2017-07-14T00:00:00+00:00</lastmod>
   </url>
@@ -370,6 +150,11 @@
   <url>
     <loc>https://tamada.github.io/research/artificiality_evaluation/</loc>
     <lastmod>2017-01-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/tags/java/</loc>
+    <lastmod>2015-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -398,6 +183,11 @@
   </url>
   
   <url>
+    <loc>https://tamada.github.io/tags/readability/</loc>
+    <lastmod>2012-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tamada.github.io/research/unreadability_evaluation/</loc>
     <lastmod>2012-09-24T00:00:00+00:00</lastmod>
   </url>
@@ -413,6 +203,11 @@
   </url>
   
   <url>
+    <loc>https://tamada.github.io/tags/oop/</loc>
+    <lastmod>2008-02-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tamada.github.io/research/dynamic_birthmarks/</loc>
     <lastmod>2006-08-01T00:00:00+00:00</lastmod>
   </url>
@@ -420,6 +215,18 @@
   <url>
     <loc>https://tamada.github.io/research/birthmark_concept/</loc>
     <lastmod>2005-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/profile/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/projects/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/categories/</loc>
   </url>
   
 </urlset>

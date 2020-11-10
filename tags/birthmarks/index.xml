@@ -17,17 +17,7 @@
       <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/research/birthmark_fast_comparison/</guid>
-      <description>🗣 Overview The software birthmarks were proposed for detecting the software theft from a large number of suspected programs. The birthmark is a technique to compare the extracted characteristics as the software birthmarks, and compute similarities between two birthmarks. The conventional birthmarks require a much time by increasing the target programs for comparison. Therefore, it is the bottleneck of the conventional birthmarking technique. In this paper, we propose a method for reducing total processing time by introducing the narrowing phase between conventional extracting and comparison phases.</description>
-    </item>
-    
-    <item>
-      <title>pochi</title>
-      <link>https://tamada.github.io/projects/pochi/</link>
-      <pubDate>Wed, 04 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/projects/pochi/</guid>
-      <description>🗣 Overview pochi is the birthmarking toolkit for the JVM platform. The birthmarks are the native characteristics extracted from executable programs. Then, pochi compares them and computes the similarities. The resultant similarities shows the copy relation possibilities between two program.
-🍺 Install $ brew tap tamada/brew # &amp;lt;- the first time only. $ brew install pochi 🐳 Docker  tamada/pochi (https://hub.docker.com/r/tamada/pochi)  1.0.0, latest    $ docker run -it --rm -v $PWD:/home/pochi tamada/pochi:latest [OPTIONS] [SCRIPT [ARGUMENTS.</description>
+      <description>:speaking_head: Overview The software birthmarks were proposed for detecting the software theft from a large number of suspected programs. The birthmark is a technique to compare the extracted characteristics as the software birthmarks, and compute similarities between two birthmarks. The conventional birthmarks require a much time by increasing the target programs for comparison. Therefore, it is the bottleneck of the conventional birthmarking technique. In this paper, we propose a method for reducing total processing time by introducing the narrowing phase between conventional extracting and comparison phases.</description>
     </item>
     
     <item>
@@ -36,7 +26,7 @@
       <pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/research/automatic_extraction_of_dynamic_birthmarks/</guid>
-      <description>🗣 Overview The software birthmark methods are proposed to find the stolen software from the huge number of suspects. The software birthmark methods are classified into two manners, static and dynamic manners. Different from the static birthmarks, dynamic birthmarks require inputs since they base on runtime behaviors. Also, the dynamic birthmark varies depending on the inputs, therefore, it is difficult to extract beforehand. Hence the extraction cost of the dynamic birthmarks is generally high than the static birthmarks.</description>
+      <description>:speaking_head: Overview The software birthmark methods are proposed to find the stolen software from the huge number of suspects. The software birthmark methods are classified into two manners, static and dynamic manners. Different from the static birthmarks, dynamic birthmarks require inputs since they base on runtime behaviors. Also, the dynamic birthmark varies depending on the inputs, therefore, it is difficult to extract beforehand. Hence the extraction cost of the dynamic birthmarks is generally high than the static birthmarks.</description>
     </item>
     
     <item>
@@ -45,8 +35,8 @@
       <pubDate>Sat, 15 Aug 2009 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/research/birthmark_applications/</guid>
-      <description>🗣 Overview This research topics shows applications of software birthmarks. In our publications, we try to classify the programs using extracted software birthmarks. Because, we believe that the birthmarks shows the functionalities of the programs.
-📚 Publications  牛窓 朋義, 門田 暁人, 玉田 春昭, 松本 健一, “使用クラスに基づくソフトウェアの機能面からの分類”, 信学技報 ソフトウェアサイエンス研究会, Vol.SS2009-17, pp.31-36, August 2009. 玉田 春昭，森崎 修司，門田 暁人，松本 健一，”バースマークを用いたソフトウェア拡張開発での流用度合いの測定”，情報処理学会第70回全国大会，pp.5-399-400, March 2008. Takesi Kakimoto, Akito Monden, Yasutaka Kamei, Haruaki Tamada, Masateru Tsunoda, and Ken-ichi Matsumoto, “Using Software Birthmarks to Identify Similar Classes and Major Functionalities,” In Proc.</description>
+      <description>:speaking_head: Overview This research topics shows applications of software birthmarks. In our publications, we try to classify the programs using extracted software birthmarks. Because, we believe that the birthmarks shows the functionalities of the programs.
+:books: Publications  牛窓 朋義, 門田 暁人, 玉田 春昭, 松本 健一, “使用クラスに基づくソフトウェアの機能面からの分類”, 信学技報 ソフトウェアサイエンス研究会, Vol.SS2009-17, pp.31-36, August 2009. 玉田 春昭，森崎 修司，門田 暁人，松本 健一，”バースマークを用いたソフトウェア拡張開発での流用度合いの測定”，情報処理学会第70回全国大会，pp.5-399-400, March 2008. Takesi Kakimoto, Akito Monden, Yasutaka Kamei, Haruaki Tamada, Masateru Tsunoda, and Ken-ichi Matsumoto, “Using Software Birthmarks to Identify Similar Classes and Major Functionalities,” In Proc.</description>
     </item>
     
     <item>
@@ -55,7 +45,7 @@
       <pubDate>Tue, 01 Aug 2006 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/research/dynamic_birthmarks/</guid>
-      <description>🗣 Overview This paper presents a technique of dynamic software birthmarks to support efficient detection of software theft. A dynamic birthmark $f(p, I)$ is a set of unique and native characteristics of a program $p$, obtained by executing $p$ with a given input $I$. For a pair of software $p$ and $q$, if $f(p, I) = f(q, I)$ holds, $q$ is suspected as a copy of $p$. In this paper, we propose two kinds of dynamic birthmarks, EXESEQ and EXEFREQ which use execution order and frequency distribution of runtime API Calls.</description>
+      <description>:speaking_head: Overview This paper presents a technique of dynamic software birthmarks to support efficient detection of software theft. A dynamic birthmark $f(p, I)$ is a set of unique and native characteristics of a program $p$, obtained by executing $p$ with a given input $I$. For a pair of software $p$ and $q$, if $f(p, I) = f(q, I)$ holds, $q$ is suspected as a copy of $p$. In this paper, we propose two kinds of dynamic birthmarks, EXESEQ and EXEFREQ which use execution order and frequency distribution of runtime API Calls.</description>
     </item>
     
     <item>
@@ -64,7 +54,7 @@
       <pubDate>Thu, 01 Sep 2005 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/research/birthmark_concept/</guid>
-      <description>🗣 Overview To detect the theft of Java class files efficiently, we propose a concept of Java birthmarks, which are unique and native characteristics of every class file. For a pair of class files $p$ and $q$, if $q$ has the same birthmark as $p$&#39;s, $q$ is suspected as a copy of $p$. Ideally, the birthmarks should satisfy the following properties: (a) preservation &amp;ndash; the birthmarks should be preserved even if the original class file is tampered with, and (b) distinction &amp;ndash; independent class files must be distinguished by completely different birthmarks.</description>
+      <description>:speaking_head: Overview To detect the theft of Java class files efficiently, we propose a concept of Java birthmarks, which are unique and native characteristics of every class file. For a pair of class files $p$ and $q$, if $q$ has the same birthmark as $p$&#39;s, $q$ is suspected as a copy of $p$. Ideally, the birthmarks should satisfy the following properties: (a) preservation &amp;ndash; the birthmarks should be preserved even if the original class file is tampered with, and (b) distinction &amp;ndash; independent class files must be distinguished by completely different birthmarks.</description>
     </item>
     
   </channel>

@@ -6,17 +6,28 @@
     <description>Recent content in hugo on Haruaki TAMADA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tamada.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Renewed my web site with cayman-hugo-theme.</title>
+      <link>https://tamada.github.io/blog/20201110_new_design/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/blog/20201110_new_design/</guid>
+      <description>ホームページのデザインを更新した． ふと思い立って，ホームページのデザインを更新してみた． 作成したプロダクトのデザインは cayman-hugo-theme に統一していたので，個人ページも同じテーマを採用してみた．
+雑感 以前使っていたHugo Swiftに対して思っていた要望が解消されたかな？
+ トップのサイン波のアニメーションを変えたい．  -&amp;gt; なくなった．   ハンバーガーメニューが気に入らない．  -&amp;gt; なくなった．    </description>
+    </item>
+    
+    <item>
       <title>Renewed my web site with hugo-theme-swift.</title>
-      <link>https://tamada.github.io/blog/20200319_new_design/</link>
+      <link>https://tamada.github.io/blog/20200320_new_design/</link>
       <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/blog/20200319_new_design/</guid>
+      <guid>https://tamada.github.io/blog/20200320_new_design/</guid>
       <description>ホームページのデザインを更新した． ふと思い立って，ホームページのデザインを更新してみた． 今までは，hugo-cards を使っていたのをHugo Swift を使うことにした．
 欲しかった要件  config.tomlにごちゃごちゃと書かない． dataでの記述は最小限に． shortcodesにあまり依存しない．  この要件はあくまで好みである．
 困ったこと Hugo などの静的サイトジェネレータでコメント投稿をサポートするために，Staticmanがリリースされている． Hugo SwiftはこのStaticmanを標準でサポートしている． しかし，設定方法にあるように設定して，コメントを投稿しても，500 Internal Server Errorになる． どうも，https://staticman3.herokuapp.com/v3/entry/github/tamada/tamada.github.io/master/comments に投稿しても，Staticman の中から GitHub へのリクエスト URL でリポジトリの情報が失われているっぽい． 設定項目は飛ばしていないつもりだけど，なぜだろう．．．
