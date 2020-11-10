@@ -1,0 +1,5 @@
+{{- $link := (.Get "href") -}}
+{{- $url := urls.Parse $link }}
+<a href="{{ $link }}">
+    <span class="badge link"><span class="label">:link: Link</span><span class="value">{{ $url.Host }}</span></span>
+</a>

@@ -11,7 +11,7 @@ pygmentsCodefencesGuessSyntax = true
 
 [params]
     project_name = "Haruaki TAMADA"
-    project_tagline = "I love software development!"
+    project_tagline = "Researcher of Software Protectoin, and Developer!"
     project_logo = "images/harry.png"
     dateFormat = "Jan 02, 2006"
     footer = "Made with [Hugo](https://gohugo.io/). Theme by [Cayman](https://github.com/zwbetz-gh/cayman-hugo-theme). Deployed to [GitHub Pages](https://pages.github.com/)."

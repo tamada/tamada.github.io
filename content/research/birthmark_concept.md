@@ -22,9 +22,9 @@ In the third experiment, we exploit different Java compilers to confirm that the
 
 ### :books: Publications
 
-* Haruaki Tamada, Masahide Nakamura, Akito Monden, and Ken-ichi Matsumoto, “Java Birthmarks –Detecting the Software Theft–,” IEICE Transactions on Information and Systems, Vol. E88-D, No. 9, pp. 2148–2158, September 2005.
+* Haruaki Tamada, Masahide Nakamura, Akito Monden, and Ken-ichi Matsumoto, “Java Birthmarks –Detecting the Software Theft–,” IEICE Transactions on Information and Systems, Vol. E88-D, No. 9, pp. 2148–2158, September 2005. {{< link href="https://search.ieice.org/bin/summary.php?id=e88-d_9_2148" >}}
 * Haruaki Tamada, Masahide Nakamura, Akito Monden, and Kenichi Matsumoto, “Design and Evaluation of Birthmarks for Detecting Theft of Java Programs,” In Proc. IASTED International Conference on Software Engineering (IASTED SE 2004), pp. 569-575, 17-19 February 2004. (Innsbruck, Austria)
-* Haruaki Tamada, Masahide Nakamura, Akito Monden, and Kenichi Matsumoto, “Detecting the Theft of Programs Using Birthmarks,” Information Science Technical Report, number NAIST-IS-TR2003014, Graduate School of Information Science, November 2003.
+* Haruaki Tamada, Masahide Nakamura, Akito Monden, and Kenichi Matsumoto, “Detecting the Theft of Programs Using Birthmarks,” Information Science Technical Report, number NAIST-IS-TR2003014, Graduate School of Information Science, November 2003. {{< link href="http://isw3.naist.jp/IS/TechReport/report/2003013.pdf" >}}
 * 玉田 春昭, 神崎 雄一郎, 中村 匡秀, 門田 暁人, 松本 健一, “Java クラスファイルからプログラム指紋を抽出する方法の提案”, 信学技報 情報セキュリティ研究会, Vol. ISEC2003-29, pp.127-133, July 2003.
 
 

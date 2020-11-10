@@ -21,8 +21,8 @@ In the cost evaluation, the proposed method can reduce the extraction cost of dy
 
 ### :books: Publications
 
-* 横井 昂典，玉田 春昭，"単体テストコードとアスペクト指向を用いた動的バースマークの抽出コストの削減"，情報処理学会論文誌，Vol.60, No.7，pp.1247–1259，July 2019.
-* Takanori Yokoi, and Haruaki Tamada, “A Beforehand Extraction Method for Dynamic Software Birthmarks using Unit Test Codes,” In Proc. 19th ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD 2018), July 2018 (Busan, Korea).
+* 横井 昂典，玉田 春昭，"単体テストコードとアスペクト指向を用いた動的バースマークの抽出コストの削減"，情報処理学会論文誌，Vol.60, No.7，pp.1247–1259，July 2019. {{< link href="http://id.nii.ac.jp/1001/00198225/" >}}
+* Takanori Yokoi, and Haruaki Tamada, "A Beforehand Extraction Method for Dynamic Software Birthmarks using Unit Test Codes," In Proc. 19th ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD 2018), July 2018 (Busan, Korea). {{< link href="https://ieeexplore.ieee.org/document/8441058" >}}
 * 横井 昂典，玉田 春昭，"単体テストコードを利用した動的バースマークの抽出"，コンピュータセキュリティシンポジウム2017（CSS 2017），pp.1288–1294 (3C3-4)，October 2017（山形）.
 
 ### :mag_right: Related Research Topics
