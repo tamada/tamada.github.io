@@ -24,6 +24,7 @@
     width: 45%;
     padding: 5px;
     margin: 0 10px 25px 0;
+    min-width: 280px;
 }
 
 .support_info {
@@ -33,7 +34,7 @@
     color: darkgray;
 }
 
-.panel .date {
+.date {
     display: inline-block;
     text-align: right;
     font-size: 70%;
@@ -111,7 +112,7 @@
 }
 
 .overview {
-    font-size: 0.8em;
+    font-size: 0.8rem;
 }
 
 .badge_area {
@@ -130,7 +131,7 @@
 
 .badge {
     display: inline;
-    font-size: 0.7em;
+    font-size: 0.7rem;
     color: #fff;
     display: inline-block;
     text-align: center;
@@ -167,7 +168,7 @@
 
 .tag {
     margin: 0 10px 0 0;
-    font-size: 0.7em;
+    font-size: 0.7rem;
     color: #fff;
     display: inline-block;
     padding: 3px 6px 3px 6px;
@@ -256,5 +257,23 @@
 }
 
 .secondary {
+    font-size: 70%;
+}
+
+.titled_box {
+    position: relative;
+    margin: 5px;
+    padding: 25px 10px 2px ;
+    display: inline-block;
+}
+
+.titled_box .box_title {
+    position: absolute;
+    display: inline-block;
+    top: -2px;
+    left: -2px;
+    padding: 0px;
+    height: 25px;
+    line-height: 25px;
     font-size: 70%;
 }

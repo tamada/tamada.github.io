@@ -18,7 +18,14 @@ image: harry.png
 
 ### :telephone_receiver: Some requests to me
 
-Please post issues ":speech_balloon:" on [GitHub](https://github.com/tamada/tamada.github.io/issues) {{< linksns icon="github.svg" >}}, or
+Please post issues :speech_balloon: on [GitHub](https://github.com/tamada/tamada.github.io/issues) {{< linksns icon="github.svg" >}}, or
 see the [laboratory page](https://tamadalab.github.io/contact) :microscope:. 
 
 Do not hesitate to contact me!!
+
+### :megaphone: Copyright notice
+
+I have the copyrights for the contents in this site.
+You can use the contents in this site obey the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+[![CC BY 4.0](/images/cc-by-4.0.png)](https://creativecommons.org/licenses/by/4.0/)

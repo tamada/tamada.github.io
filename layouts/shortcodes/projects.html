@@ -4,18 +4,24 @@
 {{- range sort $json "last_update" "desc" -}}
 <div class="panel project">
     <div class="icon_area">
-        {{- if .github -}}
-        <a href="{{ .github }}"><img class="miniicon" src="/images/icons/github.svg"></a></a>
-        {{- end -}}
-        {{- if .www -}}
-        <a href="{{ .www }}"><img class="miniicon" src="/images/icons/globe.svg"></a></a>
-        {{- end -}}
-        {{- if .docker -}}
-        <a href="{{ .docker }}"><img class="miniicon" src="/images/icons/docker.svg"></a></a>
-        {{- end -}}
-        {{- range $icon := .info_icons -}}
-        <img class="miniicon" src="/images/icons/{{ $icon }}.svg">
-        {{- end -}}
+        <div class="titled_box">
+            <span class="box_title">Links</span>
+            {{- if .github -}}
+            <a href="{{ .github }}"><img class="miniicon" src="/images/icons/github.svg"></a></a>
+            {{- end -}}
+            {{- if .www -}}
+            <a href="{{ .www }}"><img class="miniicon" src="/images/icons/globe.svg"></a></a>
+            {{- end -}}
+            {{- if .docker -}}
+            <a href="{{ .docker }}"><img class="miniicon" src="/images/icons/docker.svg"></a></a>
+            {{- end -}}
+        </div>
+        <div class="titled_box">
+            <span class="box_title">Languages</span>
+            {{- range $icon := .info_icons -}}
+            <img class="miniicon" src="/images/icons/{{ $icon }}.svg">
+            {{- end -}}
+        </div>
     </div>
     {{- if .last_update -}}
     <div class="date">{{ dateFormat $dateFormat .last_update }}</div>

@@ -1,5 +1,6 @@
 ---
 title: ':thinking: Blog'
-description: 'たまにっき (tamanikki means diary of TAMADA)'
+description: 'たまにっき TamaNikki (means diary of TAMADA)'
 ---
 
+たまにっき TamaNikki (means diary of TAMADA)

@@ -4,6 +4,7 @@ title = "Haruaki TAMADA"
 theme = "cayman-hugo-theme"
 canonifyurl = true
 paginate = 6
+disqusShortname = "htamada"
 
 pygmentsCodefences = true
 pygmentsCodefencesGuessSyntax = true

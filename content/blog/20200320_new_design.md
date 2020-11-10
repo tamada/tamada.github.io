@@ -1,7 +1,7 @@
 ---
 title: 'Renewed my web site with hugo-theme-swift.'
 date: 2020-03-20
-image: blog.jpg
+image: covers/20200320.png
 tags: ['hugo', 'theme-swift']
 ---
 
