@@ -5,13 +5,13 @@ image: research/development_support_bot.png
 tags: ['MSR', 'project analysis']
 ---
 
-### {{< emoji ":speaking_head:" >}} Overview
+### :speaking_head: Overview
 
 This research topic aims to build a helpful bot for the software development.
 Also, the topic focuses on the bot on the Social Coding Platform in the social network services.
 The one goal of the topic is to build a bot for gently helping GitHub flow.
 
-### {{< emoji ":books:" >}} Publications
+### :books: Publications
 
 * 宮崎 光，玉田 春昭，CUIツールの開発支援サービスとしての再構築手順の提案”，信学技法，Vol.119，No.246, SS2019-14, pp.7–12, October 2019（熊本）.
 * 玉田 春昭，”初学者向けGitHub flow学習支援”，ソフトウェアシンポジウム2019 ワークショップ 討論テーマ（2）実証的ソフトウェア工学によるプログラミング教育とソフトウェア工学教育，August 2019.（東京）
@@ -21,13 +21,13 @@ The one goal of the topic is to build a bot for gently helping GitHub flow.
 * 西尾 泰介，柳川 龍太郎，玉田 春昭，”初学者を対象としたGitHub flow支援ボット”，ソフトウェアシンポジウム2018 ワークショップ 討論テーマ（4）ソーシャルコーディングのための実証的ソフトウェア工学，September 2018.（東京）
 * 玉田 春昭，”ソーシャルコーディングプラットフォーム上のサービス連携のためのメタボット’‘，ウィンターワークショップ2018，January 2018.（広島）
 
-### {{< emoji ":mag_right:" >}} Related Research Topics
+### :mag_right: Related Research Topics
 
 * [Project as a City](../project_as_a_city)
 * [Mining Software Repository](../software_development_with_ai)
 * [Characteristics of the developers](../characteristics_of_developers)
 
-### {{< emoji ":handshake:" >}} Collaborators
+### :handshake: Collaborators
 
 * [K. Matsumoto](https://se-naist.jp)@NAIST
 

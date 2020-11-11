@@ -1,0 +1,92 @@
+[
+    {
+        "skill": "Japanese",
+        "icon": ":jp:",
+        "description": "Native!",
+        "level": 90
+    },
+    {
+        "skill": "English",
+        "icon": ":us:",
+        "description": "Fine, thank you!",
+        "level": 70
+    },
+    {
+        "skill": "bash",
+        "icon": "bash.svg",
+        "description": "I live on bash!, zsh?, fish? I don't know!",
+        "level": 70
+    },
+    {
+        "skill": "Go lang",
+        "icon": "go.svg",
+        "description": "Using as the main language for development.",
+        "level": 70
+    },
+    {
+        "skill": "Java",
+        "icon": "java.svg",
+        "description": "Before using the Go language, this is the main language for development.",
+        "level": 80
+    },
+    {
+        "skill": "JavaScript",
+        "icon": "javascript.svg",
+        "description": "Writing the web applications, JavaScript is the key language. Recently, interested in TypeScript.",
+        "level": 70
+    },
+    {
+        "skill": "Docker",
+        "icon": "docker.svg",
+        "description": "Providing the most of my products as dockerized containers.",
+        "level": 60
+    },
+    {
+        "skill": "git",
+        "icon": "git.svg",
+        "description": "Of course, I can use it, because I usually use GitHub.",
+        "level": 70
+    },
+    {
+        "skill": "GitHub",
+        "icon": "github.svg",
+        "description": "Completely depends on GitHub for my products and papers.",
+        "level": 70
+    },
+    {
+        "skill": "C",
+        "icon": "c.svg",
+        "description": "My first acquired programming language. However, not use in profession.",
+        "level": 70
+    },
+    {
+        "skill": "macOS",
+        "icon": "apple.svg",
+        "description": "Using as the main operating system.",
+        "level": 80
+    },
+    {
+        "skill": "Hugo",
+        "icon": "hugo.svg",
+        "description": "Using for personal, and official web sites, and product web sites.",
+        "level": 60
+    },
+    {
+        "skill": "Cloud Computing",
+        "icon": ":cloud:",
+        "description": "Studying AWS, Azure, Firebase, and Heroku, now!",
+        "level": 40
+    },
+    {
+        "skill": "Rust",
+        "icon": "rust.svg",
+        "description": "Studying now on [`tamada/rust_practice`](https://github.com/tamada/rust_practice)!",
+        "level": 20
+    },
+    {
+        "skill": "Kubernetes",
+        "icon": "kubernetes.svg",
+        "description": "Studying now!",
+        "level": 30
+    }
+]

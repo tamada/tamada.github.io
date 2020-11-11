@@ -1,0 +1,18 @@
+{{- $json := getJSON "data/skills.json" -}}
+
+{{- range sort $json "level" "desc" -}}
+<div class="panel skill">
+    <h4 class="title">
+        {{- if and (hasPrefix .icon ":") (strings.HasSuffix .icon ":") -}}
+        <span class="devicon">{{ .icon | emojify }}</span>
+        {{- else -}}
+        <img src="/images/icons/{{ .icon }}" class="devicon">
+        {{- end -}}
+        {{ .skill }}
+    </h4>
+    <div class="graph">
+        <span class="bar" style="width: {{ .level }}%">{{ .level }}</span>
+    </div>
+    <span class="secondary">{{ .description | markdownify }}</span>
+</div>
+{{- end -}}

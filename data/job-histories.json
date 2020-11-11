@@ -1,0 +1,77 @@
+[
+    {
+        "from": "April 2018",
+        "to": "Present",
+        "as": "Associate Professor",
+        "at": "Faculty of information science and engineering, Kyoto Sangyo University.",
+        "note": "reorganized faculty."
+    },
+    {
+        "from": "April 2017",
+        "to": "Present",
+        "as": "Part-time Lecturer",
+        "at": "School of Engineering science, Osaka University.",
+        "note": "[AiBiC Spiral](https://aibic-spiral.enpit.jp/)"
+    },
+    {
+        "from": "2016",
+        "to": "Present",
+        "as": "Part-time Lecturer",
+        "at": "Faculty of Engineering, Okayama University.",
+        "note": "Talk about UML, Design Pattern, Software Architecture, MVC and etc. in software design class (The third semester)."
+    },
+    {
+        "as": "Guest Associate Professor",
+        "at": "Graduate school of information science and technology, Osaka University.",
+        "note": "[Cloud Spiral](http://cloud-spiral.enpit.jp/)",
+        "from": "April 2017",
+        "to": "March 2018"
+    },
+    {
+        "as": "Associate Professor",
+        "at": "Faculty of computer science and engineering, Kyoto Sangyo University.",
+        "from": "April 2013",
+        "to": "March 2018"
+    },
+    {
+        "as": "Part-time Lecturer",
+        "at": "Graduate school of information science and technology, Osaka University.",
+        "note": "[Cloud Spiral](http://cloud-spiral.enpit.jp/)",
+        "from": "April 2013",
+        "to": "March 2018"
+    },
+    {
+        "as": "Assistant Professor",
+        "at": "Faculty of computer science and engineering, Kyoto Sangyo Unviersity.",
+        "from": "April 2008",
+        "to": "March 2013"
+    },
+    {
+        "as": "Part-time Lecturer",
+        "at": "Faculty of science and engineering, Kindai University.",
+        "note": "Talk about Design Patterns.",
+        "from": "April 2008",
+        "to": "March 2010"
+    },
+    {
+        "as": "Researcher/Assistant Professor",
+        "at": "Nara institute science and technology (NAIST).",
+        "note": "EASE Project",
+        "from": "April 2006",
+        "to": "March 2008"
+    },
+    {
+        "as": "Part-time Lecturer",
+        "at": "Faculty of science and engineering, Kindai University.",
+        "note": "Talk about Design Patterns.",
+        "from": "April 2004",
+        "to": "March 2006"
+    },
+    {
+        "as": "Software Engineer",
+        "at": "Sumisho Electronics co. ltd.",
+        "note": "Developing backend of Web application with the J2EE platform.",
+        "from": "April 2001",
+        "to": "March 2003"
+    }
+]

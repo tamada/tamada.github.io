@@ -1,0 +1,17 @@
+{{- $degrees := getJSON "data/degrees.json" -}}
+
+{{- range $degree := $degrees -}}
+<div class="panel degree">
+    <div class="support_info">{{ $degree.from }}-{{ $degree.to }}</div>
+    <h5>{{ $degree.title }}</h5>
+    <div class="primary indent">{{ ":school:" | emojify }} {{ $degree.school }}</div>
+    {{- if $degree.dissertation }}
+    <div class="secondary indent">{{ ":seedling:" | emojify }} <strong>Dissertation:</strong>
+        {{ $degree.dissertation }}
+        {{- if $degree.href -}}
+        <a href="{{ $degree.href }}"><img src="/images/external-link.svg" height="12pt"></a>
+        {{- end -}}
+    </div>
+    {{- end -}}
+</div>
+{{- end -}}

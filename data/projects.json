@@ -1,0 +1,220 @@
+[
+  {
+    "name": "Homebrew-brew",
+    "overview": "Tamada's homebrew recipes.",
+    "license": "CC0-1.0",
+    "license_href": "https://github.com/tamada/homebrew-brew/blob/master/LICENSE",
+    "github": "https://github.com/tamada/homebrew-brew",
+    "project_icon": "images/mybrew.svg",
+    "info_icons": [
+      "ruby"
+    ],
+    "tags": [
+      "homebrew",
+      "macOS"
+    ],
+    "last_update": "2020-10-31"
+  },
+  {
+    "name": "lioss",
+    "overview": "Identifying OSS license names from LICENSE files",
+    "version": "1.0.0",
+    "version_href": "https://github.com/tamada/lioss/releases/tag/v1.0.0",
+    "license": "MIT",
+    "homebrew": "tamada/brew/lioss",
+    "license_href": "https://github.com/tamada/lioss/blob/master/LICENSE",
+    "github": "https://github.com/tamada/lioss",
+    "docker": "https://hub.docker.com/r/tamada/lioss",
+    "www": "https://tamada.github.io/lioss",
+    "project_icon": "images/lioss.png",
+    "info_icons": [
+      "go"
+    ],
+    "tags": [
+      "CLI",
+      "OSS",
+      "Licenses"
+    ],
+    "last_update": "2020-10-31"
+  },
+  {
+    "name": "pochi",
+    "overview": "Java birthmark toolkit, detecting the software theft by native characteristics of the programs.",
+    "version": "2.0.0",
+    "version_href": "https://github.com/tamada/pochi/releases/tag/v2.0.0",
+    "license": "Apache-2.0",
+    "license_href": "https://github.com/tamada/pochi/blob/master/LICENSE",
+    "github": "https://github.com/tamada/pochi",
+    "docker": "https://hub.docker.com/r/tamada/pochi",
+    "homebrew": "tamada/brew/pochi",
+    "www": "https://tamada.github.io/pochi",
+    "project_icon": "images/pochi.png",
+    "info_icons": [
+      "java",
+      "groovy",
+      "go"
+    ],
+    "tags": [
+      "birthmarks",
+      "plagiarism-detection",
+      "software-theft-detection",
+      "java9module",
+      "birthmark-toolkit"
+    ],
+    "last_update": "2020-10-14"
+  },
+  {
+    "name": "sibling",
+    "overview": "get next/previous sibling directory name.",
+    "version": "1.0.0",
+    "version_href": "https://github.com/tamada/sibling/releases/tag/v1.0.0",
+    "license": "WTFPL",
+    "license_href": "https://github.com/tamada/sibling/blob/master/LICENSE",
+    "www": "https://tamada.github.io/sibling",
+    "github": "https://github.com/tamada/sibling",
+    "homebrew": "tamada/brew/sibling",
+    "project_icon": "images/sibling.svg",
+    "info_icons": [
+      "go"
+    ],
+    "tags": [
+      "shell",
+      "utility",
+      "directory-traversal"
+    ],
+    "last_update": "2020-07-15"
+  },
+  {
+    "name": "omelette",
+    "overview": "An agent for running unit tests on the CLI environemnt for the Java platform.",
+    "version": "1.1.1",
+    "version_href": "https://github.com/tamada/omelette/releases/tag/v1.1.1",
+    "license": "WTFPL",
+    "license_href": "https://github.com/tamada/omelette/blob/master/LICENSE",
+    "www": "https://tamada.github.io/omelette",
+    "github": "https://github.com/tamada/omelette",
+    "homebrew": "tamada/brew/omelette",
+    "project_icon": "images/omelette.svg",
+    "info_icons": [
+      "go",
+      "java"
+    ],
+    "tags": [
+      "unit-test",
+      "junit4",
+      "coverage",
+      "jacoco"
+    ],
+    "last_update": "2020-07-17"
+  },
+  {
+    "name": "uniq2",
+    "overview": "Eliminating duplicate lines from file.",
+    "www": "https://tamada.github.io/uniq2",
+    "github": "https://github.com/tamada/uniq2",
+    "docker": "https://hub.docker.com/r/tamada/uniq2",
+    "homebrew": "tamada/brew/uniq2",
+    "version": "1.1.1",
+    "version_href": "https://github.com/tamada/uniq2/releases/tag/v1.1.1",
+    "license": "WTFPL",
+    "license_href": "https://github.com/tamada/uniq2/blob/master/LICENSE",
+    "project_icon": "images/tool.png",
+    "info_icons": [
+      "go"
+    ],
+    "tags": [
+      "shell",
+      "CLI",
+      "utility"
+    ],
+    "last_update": "2020-04-15"
+  },
+  {
+    "name": "goheatman",
+    "overview": "A tool for creating heat map from given csv file.",
+    "www": "https://tamada.github.io/goheatman",
+    "github": "https://github.com/tamada/goheatman",
+    "docker": "https://hub.docker.com/r/tamada/heatman",
+    "homebrew": "tamada/brew/heatman",
+    "version": "1.0.1",
+    "version_href": "https://github.com/tamada/goheatman/releases/tag/v1.0.1",
+    "license": "WTFPL",
+    "license_href": "https://github.com/tamada/goheatman/blob/master/LICENSE",
+    "project_icon": "images/goheatman.svg",
+    "info_icons": [
+      "go"
+    ],
+    "tags": [
+      "shell",
+      "utility",
+      "CLI",
+      "heatmap"
+    ],
+    "last_update": "2020-04-15"
+  },
+  {
+    "name": "tjdoe",
+    "overview": "anonymizes the programs of the assignments in the programming courses and their score for grades.",
+    "project_icon": "images/tjdoe.png",
+    "www": "https://tamada.github.io/tjdoe",
+    "github": "https://github.com/tamada/tjdoe",
+    "docker": "https://hub.docker.com/r/tamada/tjdoe",
+    "homebrew": "tamada/brew/tjdoe",
+    "license": "Apache-2.0",
+    "license_href": "https://github.com/tamada/tjdoe/blob/master/LICENSE",
+    "version": "1.0.0",
+    "version_href": "https://github.com/tamada/tjdoe/releases/tag/v1.0.0",
+    "info_icons": [
+      "go"
+    ],
+    "tags": [
+      "anonymity",
+      "shell"
+    ],
+    "last_update": "2020-01-07"
+  },
+  {
+    "name": "rrh",
+    "overview": "Remote Repositories Head/Repositories Ready to Hack",
+    "project_icon": "images/rrh.png",
+    "www": "https://tamada.github.io/rrh",
+    "github": "https://github.com/tamada/rrh",
+    "homebrew": "tamada/brew/rrh",
+    "version": "1.2.0",
+    "version_href": "https://github.com/tamada/rrh/releases/tag/v1.2.0",
+    "license": "Apache-2.0",
+    "license_href": "https://github.com/tamada/rrh/blob/master/LICENSE",
+    "tags": [
+      "git",
+      "repository-management"
+    ],
+    "info_icons": [
+      "git",
+      "go"
+    ],
+    "last_update": "2020-11-03"
+  },
+  {
+    "name": "9rules",
+    "overview": "Small Object Programming Checker.",
+    "project_icon": "images/9rules.svg",
+    "www": "https://tamada.github.io/9rules",
+    "github": "https://github.com/tamada/9rules",
+    "docker": "https://hub.docker.com/r/tamada/9rules",
+    "homebrew": "tamada/brew/ninerules",
+    "version": "1.1.1",
+    "version_href": "https://github.com/tamada/9rules/releases/tag/v1.1.1",
+    "license": "Apache-2.0",
+    "license_href": "https://github.com/tamada/9rules/blob/master/LICENSE",
+    "info_icons": [
+      "java"
+    ],
+    "tags": [
+      "code-analysis",
+      "java8",
+      "code-review",
+      "code-quality"
+    ],
+    "last_update": "2020-10-13"
+  }
+]

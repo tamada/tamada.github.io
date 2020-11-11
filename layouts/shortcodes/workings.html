@@ -1,0 +1,11 @@
+{{- $jobHistories := getJSON "data/job-histories.json" -}}
+{{- range $job := $jobHistories -}}
+<div class="job panel">
+    <div class="support_info">{{ $job.from }}-{{ $job.to }}</div>
+    <h5>{{ $job.as }}</h5>
+    <div class="primary indent">{{ ":office:" | emojify }}{{ $job.at | markdownify }}</div>
+    {{- if $job.note }}
+    <div class="secondary indent">{{ ":pencil2:" | emojify }} {{ $job.note | markdownify }}</div>
+    {{- end -}}
+</div>
+{{- end -}}

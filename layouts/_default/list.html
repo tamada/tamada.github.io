@@ -1,9 +1,30 @@
-{{- define "main" }}
-  {{- partial "intro" . }}
-  <section class="introduction">
-    <div class="introduction-block">
-      {{ .Content }}
+{{- define "main" -}}
+<h1>{{ .Title | emojify }}</h1>
+{{ .Content | emojify }}
+
+{{- $base := "/" -}}
+{{- with .File -}}{{- $base = trim .Dir "/" -}}{{- end -}}
+{{- $dateFormat := $.Site.Params.dateFormat | default "Jan 2, 2006" -}}
+
+{{- range .Paginator.Pages -}}
+<div class="panel list_content">
+  <div class="block">
+    <div class="date">{{ .PublishDate.Format $dateFormat }}</div>
+  </div>
+  <a href="{{ .Permalink }}" class="block">
+    <div>
+      {{- if .Params.image -}}
+      <img src="/images/{{ .Params.image | relURL }}" class="thumbnail">
+      {{- end -}}
+      <div>
+        {{ .Title | emojify }}
+      </div>
     </div>
-  </section>
-  {{- partial "archive" . }}
-{{- end }}
+  </a>
+  {{ partial "tags.html" .Params }}
+</div>
+{{- end -}}
+
+{{ template "_internal/pagination.html" . }}
+
+{{- end -}}
