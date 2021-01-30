@@ -6,10 +6,21 @@
     <description>Recent content in theme-swift on Haruaki TAMADA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tamada.github.io/tags/theme-swift/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Renewed my web site with cayman-hugo-theme.</title>
+      <link>https://tamada.github.io/blog/20201110_new_design/</link>
+      <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/blog/20201110_new_design/</guid>
+      <description>ホームページのデザインを更新した． ふと思い立って，ホームページのデザインを更新してみた． 作成したプロダクトのデザインは cayman-hugo-theme に統一していたので，個人ページも同じテーマを採用してみた．
+雑感 以前使っていたHugo Swiftに対して思っていた要望が解消されたかな？
+ トップのサイン波のアニメーションを変えたい．  -&amp;gt; なくなった．   ハンバーガーメニューが気に入らない．  -&amp;gt; なくなった．    </description>
+    </item>
     
     <item>
       <title>Renewed my web site with hugo-theme-swift.</title>

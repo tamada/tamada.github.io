@@ -13,11 +13,6 @@
   </url>
   
   <url>
-    <loc>https://tamada.github.io/tags/cayman-hugo-theme/</loc>
-    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://tamada.github.io/tags/hugo/</loc>
     <lastmod>2020-11-10T00:00:00+00:00</lastmod>
   </url>
@@ -28,12 +23,12 @@
   </url>
   
   <url>
-    <loc>https://tamada.github.io/blog/20200320_new_design/</loc>
-    <lastmod>2020-03-20T00:00:00+00:00</lastmod>
+    <loc>https://tamada.github.io/tags/theme-swift/</loc>
+    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://tamada.github.io/tags/theme-swift/</loc>
+    <loc>https://tamada.github.io/blog/20200320_new_design/</loc>
     <lastmod>2020-03-20T00:00:00+00:00</lastmod>
   </url>
   
