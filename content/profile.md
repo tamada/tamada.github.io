@@ -55,7 +55,10 @@ title: ":bust_in_silhouette: Profile"
 
 ### :runner: Activities
 
-{{< badges "Program Committee Members" 
+{{< badges "Program Committee Members"
+"[ICIS 2021-Fall](http://acisinternational.org/conferences/icis-2021-fall/)"
+"[ICIS 2021-Summer](http://acisinternational.org/conferences/icis-2021/)"
+"[BCD 2021](http://acisinternational.org/conferences/bcd-2021/)"
 "[SNPD 2021 Winter](http://acisinternational.org/conferences/snpd-2021-winter/)"
 "[SNPD 2020](http://acisinternational.org/conferences/snpd-2020/)"
 "[ICIS 2020](http://www.acisinternational.org/icis2020/)"
