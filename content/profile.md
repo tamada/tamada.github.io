@@ -9,24 +9,23 @@ title: ":bust_in_silhouette: Profile"
 
 ### SNS
 
-{{< titledBox title="General SNS" >}}
-{{< linksns icon="twitter.svg"      href="https://twitter.com/tama5" >}}
-{{< linksns icon="instagram.svg"    href="https://instagram.com/htamada" >}}
-{{< linksns icon="linkedin.svg"     href="https://www.linkedin.com/in/htamada" >}}
-{{< /titledBox >}}
+[![Twitter](https://img.shields.io/badge/Twitter-%40tama5-1DA1F2?logo=twitter)](https://twitter.com/tama5)
+[![Instagram](https://img.shields.io/badge/Instagram-htamada-E4405F?logo=instagram)](https://instagram.com/htamada)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-htamada-0A66C2?logo=linkedin)](https://www.linkedin.com/in/htamada)
+[![Facebook](https://img.shields.io/badge/Facebook-haruaki.tamada-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/haruaki.tamada)
+[![Reddit](https://img.shields.io/badge/Reddit-u/tamada3-FF4500?logo=reddit)](https://www.reddit.com/user/tamada3)
 
-{{< titledBox title="Developer's SNS" >}}
-{{< linksns icon="github.svg"       href="https://github.com/tamada" >}}
-{{< linksns icon="bitbucket.svg"    href="https://bitbucket.org/htamada/" >}}
-{{< linksns icon="docker.svg"       href="https://hub.docker.com/u/tamada/" >}}
-{{< /titledBox >}}
+[![GitHub](https://img.shields.io/badge/GitHub-tamada-181717?logo=github)](https://github.com/tamada)
+[![Docker Hub](https://img.shields.io/badge/Docker%20Hub-tamada-2496ED?logo=docker&logoColor=white)](https://hub.docker.com/u/tamada/)
+[![Bitbucket](https://img.shields.io/badge/Bitbucket-htamada-0052CC?logo=bitbucket)](https://bitbucket.org/htamada/)
+[![GitLab](https://img.shields.io/badge/GitLab-htamada-FCA121?logo=gitlab)](https://gitlab.com/htamada)
 
-{{< titledBox title="Researcher's SNS" >}}
-{{< linksns icon="googlescholar.svg" href="https://scholar.google.co.jp/citations?user=Qbslp6UAAAAJ" >}}
-{{< linksns icon="orcid.svg"         href="https://orcid.org/0000-0003-1838-9184" >}}
-{{< linksns icon="academia.svg"      href="https://kyoto-su.academia.edu/HTamada" >}}
-{{< linksns icon="researchgate.svg"  href="https://www.researchgate.net/profile/Haruaki_Tamada" >}}
-{{< /titledBox >}}
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-H.%20Tamada-4285F4?logo=google%20scholar&logoColor=white)](https://scholar.google.co.jp/citations?user=Qbslp6UAAAAJ)
+[![ORCID](https://img.shields.io/badge/ORCID-H.%20Tamada-A6CE39?logo=orcid)](https://orcid.org/0000-0003-1838-9184)
+[![Academia.edu](https://img.shields.io/badge/Academia-H.%20Tamada-41454A?logo=academia)](https://kyoto-su.academia.edu/HTamada)
+[![Research Gate](https://img.shields.io/badge/Research%20Gate-H.%20Tamada-00CCBB?logo=researchgate)](https://www.researchgate.net/profile/Haruaki_Tamada)
+
+[![Homebrew](https://img.shields.io/badge/Homebrew-tamada/brew-FBB040?logo=homebrew)](https://github.com/tamada/homebrew-brew)
 
 {{< commentout >}}
 {{< linksns icon="arxiv.svg"        href="https://arxiv.org/user/" >}}
@@ -39,6 +38,7 @@ title: ":bust_in_silhouette: Profile"
 "[Developer Analysis](/tags/developer-analysis)"
 "[Project Analysis](/tags/project-analysis)"
 "[Program Readability](/tags/readability)"
+
 >}}
 
 ### :muscle: Skills
@@ -56,6 +56,7 @@ title: ":bust_in_silhouette: Profile"
 ### :runner: Activities
 
 {{< badges "Program Committee Members" 
+"[ICIS 2021 Fall](http://acisinternational.org/conferences/icis-2021/)"
 "[SNPD 2021 Winter](http://acisinternational.org/conferences/snpd-2021-winter/)"
 "[SNPD 2020](http://acisinternational.org/conferences/snpd-2020/)"
 "[ICIS 2020](http://www.acisinternational.org/icis2020/)"
@@ -68,5 +69,5 @@ title: ":bust_in_silhouette: Profile"
 "[BCD 2017](http://www.acisinternational.org/bcd2017/)"
 "[ICIS 2017](http://www.acisinternational.org/icis2017/)"
 "[ICIS 2016](http://www.acisinternational.org/icis2016/)"
-"[MENSURA2011](http://mensura.wordpress.com/organization/)"
+"[MENSURA 2011](http://mensura.wordpress.com/organization/)"
 >}}

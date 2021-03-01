@@ -18,7 +18,7 @@ image: harry.png
 
 ### :telephone_receiver: Some requests to me
 
-Please post issues :speech_balloon: on [GitHub](https://github.com/tamada/tamada.github.io/issues) {{< linksns icon="github.svg" >}}, or
+Please post comments :speech_balloon: on [Discussions on GitHub](https://github.com/tamada/tamada.github.io/discussions) {{< linksns icon="github.svg" >}}, or
 see the [laboratory page](https://tamadalab.github.io/contact) :microscope:. 
 
 Do not hesitate to contact me!!

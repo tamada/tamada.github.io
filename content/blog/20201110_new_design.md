@@ -2,7 +2,7 @@
 title: 'Renewed my web site with cayman-hugo-theme.'
 date: 2020-11-10
 image: covers/20201110.png
-tags: ['hugo', 'theme-swift']
+tags: ['hugo', 'cayman-hugo-theme']
 ---
 
 ## ホームページのデザインを更新した．

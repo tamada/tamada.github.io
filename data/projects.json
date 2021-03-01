@@ -6,6 +6,7 @@
     "license_href": "https://github.com/tamada/homebrew-brew/blob/master/LICENSE",
     "github": "https://github.com/tamada/homebrew-brew",
     "project_icon": "images/mybrew.svg",
+    "www": "https://github.com/tamada/homebrew-brew",
     "info_icons": [
       "ruby"
     ],
@@ -38,10 +39,32 @@
     "last_update": "2020-10-31"
   },
   {
+    "name": "wildcat",
+    "overview": "Another implementation of wc command",
+    "version": "1.0.2",
+    "version_href": "https://github.com/tamada/wildcat/releases/tag/v1.0.2",
+    "license": "Apache 2.0",
+    "homebrew": "tamada/brew/wildcat",
+    "license_href": "https://github.com/tamada/wildcat/blob/main/LICENSE",
+    "github": "https://github.com/tamada/wildcat",
+    "docker": "https://github.com/users/tamada/packages/container/package/wildcat",
+    "www": "https://tamada.github.io/wildcat",
+    "project_icon": "images/wildcat.svg",
+    "info_icons": [
+      "go"
+    ],
+    "tags": [
+      "CLI",
+      "OSS",
+      "wc"
+    ],
+    "last_update": "2021-02-24"
+  },
+  {
     "name": "pochi",
     "overview": "Java birthmark toolkit, detecting the software theft by native characteristics of the programs.",
-    "version": "2.0.0",
-    "version_href": "https://github.com/tamada/pochi/releases/tag/v2.0.0",
+    "version": "2.2.0",
+    "version_href": "https://github.com/tamada/pochi/releases/tag/v2.2.0",
     "license": "Apache-2.0",
     "license_href": "https://github.com/tamada/pochi/blob/master/LICENSE",
     "github": "https://github.com/tamada/pochi",
@@ -61,7 +84,7 @@
       "java9module",
       "birthmark-toolkit"
     ],
-    "last_update": "2020-10-14"
+    "last_update": "2021-01-02"
   },
   {
     "name": "sibling",

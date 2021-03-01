@@ -10,6 +10,7 @@ endef
 
 build:
 	@$(call _docker_run,${DOCKER_IMAGE_NAME}_build,--tty,--buildFuture)
+	rm public/apple-touch-icon.png public/favicon*
 
 start:
 	@$(call _docker_run,${DOCKER_IMAGE_NAME},-d --publish 1313:1313,server --bind="0.0.0.0" --buildFuture)
