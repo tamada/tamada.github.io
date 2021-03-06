@@ -41,7 +41,7 @@
   {
     "name": "wildcat",
     "overview": "Another implementation of wc command",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "version_href": "https://github.com/tamada/wildcat/releases/tag/v1.0.2",
     "license": "Apache 2.0",
     "homebrew": "tamada/brew/wildcat",
@@ -58,7 +58,7 @@
       "OSS",
       "wc"
     ],
-    "last_update": "2021-02-24"
+    "last_update": "2021-03-05"
   },
   {
     "name": "pochi",
@@ -150,7 +150,7 @@
       "CLI",
       "utility"
     ],
-    "last_update": "2020-04-15"
+    "last_update": "2020-03-11"
   },
   {
     "name": "goheatman",
@@ -194,7 +194,7 @@
       "anonymity",
       "shell"
     ],
-    "last_update": "2020-01-07"
+    "last_update": "2019-12-26"
   },
   {
     "name": "rrh",
@@ -215,7 +215,7 @@
       "git",
       "go"
     ],
-    "last_update": "2020-11-03"
+    "last_update": "2020-04-24"
   },
   {
     "name": "9rules",
@@ -238,6 +238,6 @@
       "code-review",
       "code-quality"
     ],
-    "last_update": "2020-10-13"
+    "last_update": "2020-09-23"
   }
 ]

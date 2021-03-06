@@ -26,6 +26,7 @@ title: ":bust_in_silhouette: Profile"
 [![Research Gate](https://img.shields.io/badge/Research%20Gate-H.%20Tamada-00CCBB?logo=researchgate)](https://www.researchgate.net/profile/Haruaki_Tamada)
 
 [![Homebrew](https://img.shields.io/badge/Homebrew-tamada/brew-FBB040?logo=homebrew)](https://github.com/tamada/homebrew-brew)
+[![buy me a coffee](https://img.shields.io/badge/Buy%20me-a%20coffee!-ffdd00?logo=buy%20me%20a%20coffee)](https://www.buymeacoffee.com/KP27ij5)
 
 {{< commentout >}}
 {{< linksns icon="arxiv.svg"        href="https://arxiv.org/user/" >}}
