@@ -220,7 +220,7 @@ This paper presents a new name obfuscation method, which can hide appearance of 
       <description>Associate Professor, Faculty of Information Science and Engineering, Kyoto Sangyo University.  Doctor of Engineering Motoyama, Kamigamo, Kita-ku, Kyoto-pref, Kyoto, Japan, Postal Code 603-8555.   Programmer/Software Engineer  SNS     
    
    
-
+ 
 Research Topics Software BirthmarksProgram ObfuscationEvaluating ObfuscationDeveloper AnalysisProject AnalysisProgram Readability :muscle: Skills 🇯🇵Japanese  90  Native! macOS  80  Using as the main operating system.</description>
     </item>
     
@@ -231,7 +231,7 @@ Research Topics Software BirthmarksProgram ObfuscationEvaluating ObfuscationDeve
       
       <guid>https://tamada.github.io/projects/</guid>
       <description>I created those projects, almost projects wrote by Java , ang Go languages.
-Links Languages Feb 24, 2021wildcat :speaking_head: Another implementation of wc command  :scroll: LicenseApache 2.0 :ant: Version1.0.2 :beer: Homebrewtamada/brew/wildcat   🏷️CLIOSSwc  Links Languages Jan 02, 2021pochi :speaking_head: Java birthmark toolkit, detecting the software theft by native characteristics of the programs.  :scroll: LicenseApache-2.0 :ant: Version2.2.0 :beer: Homebrewtamada/brew/pochi   🏷️birthmarksplagiarism-detectionsoftware-theft-detectionjava9modulebirthmark-toolkit  Links Languages Nov 03, 2020rrh :speaking_head: Remote Repositories Head/Repositories Ready to Hack  :scroll: LicenseApache-2.</description>
+Links Languages Mar 05, 2021wildcat :speaking_head: Another implementation of wc command  :scroll: LicenseApache 2.0 :ant: Version1.0.3 :beer: Homebrewtamada/brew/wildcat   🏷️CLIOSSwc  Links Languages Jan 02, 2021pochi :speaking_head: Java birthmark toolkit, detecting the software theft by native characteristics of the programs.  :scroll: LicenseApache-2.0 :ant: Version2.2.0 :beer: Homebrewtamada/brew/pochi   🏷️birthmarksplagiarism-detectionsoftware-theft-detectionjava9modulebirthmark-toolkit  Links Languages Oct 31, 2020Homebrew-brew :speaking_head: Tamada&amp;#39;s homebrew recipes.</description>
     </item>
     
   </channel>
