@@ -81,7 +81,7 @@
         "skill": "Rust",
         "icon": "rust.svg",
         "description": "Studying now on [`tamada/rustnovice`](https://github.com/tamada/rustnovice)!",
-        "level": 20
+        "level": 50
     },
     {
         "skill": "Kubernetes",

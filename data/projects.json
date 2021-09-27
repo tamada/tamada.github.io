@@ -14,7 +14,7 @@
       "homebrew",
       "macOS"
     ],
-    "last_update": "2020-10-31"
+    "last_update": "2021-09-14"
   },
   {
     "name": "lioss",
@@ -63,19 +63,18 @@
   {
     "name": "pochi",
     "overview": "Java birthmark toolkit, detecting the software theft by native characteristics of the programs.",
-    "version": "2.2.0",
-    "version_href": "https://github.com/tamada/pochi/releases/tag/v2.2.0",
+    "version": "2.5.2",
+    "version_href": "https://github.com/tamada/pochi/releases/tag/v2.5.2",
     "license": "Apache-2.0",
     "license_href": "https://github.com/tamada/pochi/blob/master/LICENSE",
     "github": "https://github.com/tamada/pochi",
-    "docker": "https://hub.docker.com/r/tamada/pochi",
+    "docker": "https://github.com/tamada/pochi/pkgs/container/pochi",
     "homebrew": "tamada/brew/pochi",
     "www": "https://tamada.github.io/pochi",
     "project_icon": "images/pochi.png",
     "info_icons": [
       "java",
-      "groovy",
-      "go"
+      "groovy"
     ],
     "tags": [
       "birthmarks",
@@ -84,7 +83,7 @@
       "java9module",
       "birthmark-toolkit"
     ],
-    "last_update": "2021-01-02"
+    "last_update": "2021-09-14"
   },
   {
     "name": "sibling",
