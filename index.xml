@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>Git/GitHub Operation Support for Novice Programmers</title>
+      <link>https://tamada.github.io/research/git_operation_supports/</link>
+      <pubDate>Fri, 27 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/git_operation_supports/</guid>
+      <description>:speaking_head: Overview Learning the git and GitHub operation is difficult for novice programmers. Since even programming is a pretty complicated task, it becomes challenging to consider various kinds of operation except programming, for example, good commit, pull requests, and etc. However, the recent development process ordinary manages product versions with SCM such as git. Therefore, it requires the novices should learn them as soon as possible.
+Then, we focus on the commits&amp;rsquo; timing, and the proposed system recommends commit at the suitable timing.</description>
+    </item>
+    
+    <item>
       <title>Renewed my web site with cayman-hugo-theme.</title>
       <link>https://tamada.github.io/blog/20201110_new_design/</link>
       <pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate>
@@ -231,7 +241,7 @@ Research Topics Software BirthmarksProgram ObfuscationEvaluating ObfuscationDeve
       
       <guid>https://tamada.github.io/projects/</guid>
       <description>I created those projects, almost projects wrote by Java , ang Go languages.
-Links Languages Mar 05, 2021wildcat :speaking_head: Another implementation of wc command  :scroll: LicenseApache 2.0 :ant: Version1.0.3 :beer: Homebrewtamada/brew/wildcat   🏷️CLIOSSwc  Links Languages Jan 02, 2021pochi :speaking_head: Java birthmark toolkit, detecting the software theft by native characteristics of the programs.  :scroll: LicenseApache-2.0 :ant: Version2.2.0 :beer: Homebrewtamada/brew/pochi   🏷️birthmarksplagiarism-detectionsoftware-theft-detectionjava9modulebirthmark-toolkit  Links Languages Oct 31, 2020Homebrew-brew :speaking_head: Tamada&amp;#39;s homebrew recipes.</description>
+Links Languages Sep 14, 2021Homebrew-brew :speaking_head: Tamada&amp;#39;s homebrew recipes.  :scroll: LicenseCC0-1.0   🏷️homebrewmacOS  Links Languages Sep 14, 2021pochi :speaking_head: Java birthmark toolkit, detecting the software theft by native characteristics of the programs.  :scroll: LicenseApache-2.0 :ant: Version2.5.2 :beer: Homebrewtamada/brew/pochi   🏷️birthmarksplagiarism-detectionsoftware-theft-detectionjava9modulebirthmark-toolkit  Links Languages Mar 05, 2021wildcat :speaking_head: Another implementation of wc command  :scroll: LicenseApache 2.</description>
     </item>
     
   </channel>

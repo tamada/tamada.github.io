@@ -3,8 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://tamada.github.io/research/</loc>
+    <lastmod>2021-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://tamada.github.io/tags/</loc>
-    <lastmod>2020-11-10T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/tags/git/</loc>
+    <lastmod>2021-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/research/git_operation_supports/</loc>
+    <lastmod>2021-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/tags/github/</loc>
+    <lastmod>2021-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/tags/novices/</loc>
+    <lastmod>2021-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/tags/operation-recommendation/</loc>
+    <lastmod>2021-08-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/tags/operation-supports/</loc>
+    <lastmod>2021-08-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -35,11 +70,6 @@
   <url>
     <loc>https://tamada.github.io/tags/theme-swift/</loc>
     <lastmod>2020-03-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/research/</loc>
-    <lastmod>2020-02-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -95,11 +125,6 @@
   <url>
     <loc>https://tamada.github.io/tags/project-analysis/</loc>
     <lastmod>2019-10-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://tamada.github.io/tags/github/</loc>
-    <lastmod>2019-09-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>novices on Haruaki TAMADA</title>
+    <link>https://tamada.github.io/tags/novices/</link>
+    <description>Recent content in novices on Haruaki TAMADA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 27 Aug 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tamada.github.io/tags/novices/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Git/GitHub Operation Support for Novice Programmers</title>
+      <link>https://tamada.github.io/research/git_operation_supports/</link>
+      <pubDate>Fri, 27 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/git_operation_supports/</guid>
+      <description>:speaking_head: Overview Learning the git and GitHub operation is difficult for novice programmers. Since even programming is a pretty complicated task, it becomes challenging to consider various kinds of operation except programming, for example, good commit, pull requests, and etc. However, the recent development process ordinary manages product versions with SCM such as git. Therefore, it requires the novices should learn them as soon as possible.
+Then, we focus on the commits&amp;rsquo; timing, and the proposed system recommends commit at the suitable timing.</description>
+    </item>
+    
+  </channel>
+</rss>
