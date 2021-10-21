@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>Programming Languages</title>
+      <link>https://tamada.github.io/blog/20211021_programming_languages/</link>
+      <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/blog/20211021_programming_languages/</guid>
+      <description>とあるユーティリティプログラムを作成しようと思ったものの，どのような言語で作成しようかと悩み中． 希望としては，ワンバイナリが生成可能，ジェネリクスあり，ストリーム処理，あたりが扱えると嬉しい． また，クロスコンパイルしたいし，書きやすい（EtoW; Easy to Write）言語であると嬉しい．
+   Language One Binary Generics Stream Cross Compile EtoW     Java GraalVM OK OK Hard OK   Go OK 1.17- No OK OK   Rust OK? OK ??? OK? No   Node.js ??? ??? OK N/A OK   Python ??? OK? ??? ??? OK   Kotlin OK? OK OK OK ???    Java は GraalVM を使うとバイナリを作成できるけど，面倒． GraalVM を使ってもクロスコンパイルは難しいんじゃないかな．</description>
+    </item>
+    
+    <item>
       <title>Git/GitHub Operation Support for Novice Programmers</title>
       <link>https://tamada.github.io/research/git_operation_supports/</link>
       <pubDate>Fri, 27 Aug 2021 00:00:00 +0000</pubDate>
@@ -240,8 +250,8 @@ Research Topics Software BirthmarksProgram ObfuscationEvaluating ObfuscationDeve
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/projects/</guid>
-      <description>I created those projects, almost projects wrote by Java , ang Go languages.
-Links Languages Sep 14, 2021Homebrew-brew :speaking_head: Tamada&amp;#39;s homebrew recipes.  :scroll: LicenseCC0-1.0   🏷️homebrewmacOS  Links Languages Sep 14, 2021pochi :speaking_head: Java birthmark toolkit, detecting the software theft by native characteristics of the programs.  :scroll: LicenseApache-2.0 :ant: Version2.5.2 :beer: Homebrewtamada/brew/pochi   🏷️birthmarksplagiarism-detectionsoftware-theft-detectionjava9modulebirthmark-toolkit  Links Languages Mar 05, 2021wildcat :speaking_head: Another implementation of wc command  :scroll: LicenseApache 2.</description>
+      <description>:rocket: Active Projects :hatching_chick: Incubation Projects :seedling: Planning Projects :put_litter_in_its_place: Retiered Projects  I created those projects, almost projects wrote by Java , ang Go languages.
+:rocket: Active Projects Links Languages Sep 14, 2021Homebrew-brew :speaking_head: Tamada&amp;#39;s homebrew recipes.  :scroll: LicenseCC0-1.0   🏷️homebrewmacOS  Links Languages Sep 14, 2021pochi :speaking_head: Java birthmark toolkit, detecting the software theft by native characteristics of the programs.  :scroll: LicenseApache-2.0 :ant: Version2.5.2 :beer: Homebrewtamada/brew/pochi   🏷️birthmarksplagiarism-detectionsoftware-theft-detectionjava9modulebirthmark-toolkit  Links Languages Mar 05, 2021wildcat :speaking_head: Another implementation of wc command  :scroll: LicenseApache 2.</description>
     </item>
     
   </channel>

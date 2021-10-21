@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>languages on Haruaki TAMADA</title>
+    <link>https://tamada.github.io/tags/languages/</link>
+    <description>Recent content in languages on Haruaki TAMADA</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 21 Oct 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tamada.github.io/tags/languages/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Programming Languages</title>
+      <link>https://tamada.github.io/blog/20211021_programming_languages/</link>
+      <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/blog/20211021_programming_languages/</guid>
+      <description>とあるユーティリティプログラムを作成しようと思ったものの，どのような言語で作成しようかと悩み中． 希望としては，ワンバイナリが生成可能，ジェネリクスあり，ストリーム処理，あたりが扱えると嬉しい． また，クロスコンパイルしたいし，書きやすい（EtoW; Easy to Write）言語であると嬉しい．
+   Language One Binary Generics Stream Cross Compile EtoW     Java GraalVM OK OK Hard OK   Go OK 1.17- No OK OK   Rust OK? OK ??? OK? No   Node.js ??? ??? OK N/A OK   Python ??? OK? ??? ??? OK   Kotlin OK? OK OK OK ???    Java は GraalVM を使うとバイナリを作成できるけど，面倒． GraalVM を使ってもクロスコンパイルは難しいんじゃないかな．</description>
+    </item>
+    
+  </channel>
+</rss>

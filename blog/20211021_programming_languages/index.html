@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Hugo 0.69.0" />
+  <link rel="stylesheet" href="https://tamada.github.io/css/normalize.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  
+  
+  
+  <link rel="stylesheet" href="https://tamada.github.io/css/cayman.ea0e967413f3851071cc8ace3621bc4205fe8fa79b2abe3d7bf94ff2841f0d47.css">
+  
+  
+  <link rel="stylesheet" href="https://tamada.github.io/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+<script src="https://unpkg.com/mermaid@8.4.2/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="https://tamada.github.io/images/harry.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://tamada.github.io/images/harry.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://tamada.github.io/images/harry.png">
+  
+  <title>Programming Languages | Haruaki TAMADA</title>
+</head>
+<body>
+  <section class="page-header">
+  <div class="navigation"><a href="/tags">🏷️ Tags</a></div>
+  
+  <img src="https://tamada.github.io/images/harry.png" class="avatar" alt="project_logo">
+  
+  <h1 class="project-name">
+    Haruaki TAMADA
+  </h1>
+  <h2 class="project-tagline">
+    Researcher of Software Protectoin, and Developer!
+  </h2>
+  <nav>
+    
+    
+    
+    
+    
+    
+    <a href="/" class="btn">🏠 Home</a>
+    
+    
+    
+    
+    
+    <a href="/projects" class="btn">🚀 Projects</a>
+    
+    
+    
+    
+    
+    <a href="/research" class="btn">💡 Research</a>
+    
+    
+    
+    
+    
+    <a href="/profile" class="btn">👤 Profile</a>
+    
+    
+    
+    
+    
+    <a href="/blog" class="btn">🤔 Blog</a>
+    
+  </nav>
+</section>
+  <section class="main-content">
+    <div class="date">Oct 21, 2021</div><h1>Programming Languages</h1><img src="/images//covers/20211021.png" class="eyecatch"><p>とあるユーティリティプログラムを作成しようと思ったものの，どのような言語で作成しようかと悩み中．
+希望としては，ワンバイナリが生成可能，ジェネリクスあり，ストリーム処理，あたりが扱えると嬉しい．
+また，クロスコンパイルしたいし，書きやすい（EtoW; Easy to Write）言語であると嬉しい．</p>
+<table>
+<thead>
+<tr>
+<th>Language</th>
+<th>One Binary</th>
+<th>Generics</th>
+<th>Stream</th>
+<th>Cross Compile</th>
+<th>EtoW</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Java</td>
+<td>GraalVM</td>
+<td>OK</td>
+<td>OK</td>
+<td>Hard</td>
+<td>OK</td>
+</tr>
+<tr>
+<td>Go</td>
+<td>OK</td>
+<td>1.17-</td>
+<td>No</td>
+<td>OK</td>
+<td>OK</td>
+</tr>
+<tr>
+<td>Rust</td>
+<td>OK?</td>
+<td>OK</td>
+<td>???</td>
+<td>OK?</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Node.js</td>
+<td>???</td>
+<td>???</td>
+<td>OK</td>
+<td>N/A</td>
+<td>OK</td>
+</tr>
+<tr>
+<td>Python</td>
+<td>???</td>
+<td>OK?</td>
+<td>???</td>
+<td>???</td>
+<td>OK</td>
+</tr>
+<tr>
+<td>Kotlin</td>
+<td>OK?</td>
+<td>OK</td>
+<td>OK</td>
+<td>OK</td>
+<td>???</td>
+</tr>
+</tbody>
+</table>
+<p>Java は GraalVM を使うとバイナリを作成できるけど，面倒．
+GraalVM を使ってもクロスコンパイルは難しいんじゃないかな．</p>
+<p>Go は概ね良いのだけど，ストリーム処理が行えないのが悩みどころ．
+ジェネリクスも出たばかりであまり書き慣れていない．
+例外処理はなくてもいいや．</p>
+<p>Rust も良いのだけど，コンパイルを通すのに一苦労な点で，簡単なユーティリティを書くのにはそぐわない気がする．</p>
+<p>Node.js，Python はよく知らない．</p>
+<p>ちょっと調べてみると <a href="https://kotlinlang.org/docs/native-overview.html">Kotlin がネイティブコードを生成できるらしい</a>
+これまでに書いたことないけど，書いてみようかな．</p>
+<h3 id="参考資料">参考資料</h3>
+<ul>
+<li><a href="https://youta1119.github.io/post/2018/12/24/about-kotlin-native-stdlib/">Kotlin/Native の標準ライブラリの実装を追いかける</a> (2018-12-24)</li>
+</ul>
+
+
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "htamada" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    <footer class="site-footer">
+  <span class="site-footer-credits">
+    Made with <a href="https://gohugo.io/">Hugo</a>. Theme by <a href="https://github.com/zwbetz-gh/cayman-hugo-theme">Cayman</a>. Deployed to <a href="https://pages.github.com/">GitHub Pages</a>.
+  </span>
+</footer>
+
+  </section>
+  
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-62401730-5', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
+</body>
+</html>
