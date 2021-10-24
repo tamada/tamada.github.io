@@ -17,28 +17,6 @@
     "last_update": "2021-09-14"
   },
   {
-    "name": "lioss",
-    "overview": "Identifying OSS license names from LICENSE files",
-    "version": "1.0.0",
-    "version_href": "https://github.com/tamada/lioss/releases/tag/v1.0.0",
-    "license": "MIT",
-    "homebrew": "tamada/brew/lioss",
-    "license_href": "https://github.com/tamada/lioss/blob/master/LICENSE",
-    "github": "https://github.com/tamada/lioss",
-    "docker": "https://hub.docker.com/r/tamada/lioss",
-    "www": "https://tamada.github.io/lioss",
-    "project_icon": "images/lioss.png",
-    "info_icons": [
-      "go"
-    ],
-    "tags": [
-      "CLI",
-      "OSS",
-      "Licenses"
-    ],
-    "last_update": "2020-10-31"
-  },
-  {
     "name": "wildcat",
     "overview": "Another implementation of wc command",
     "version": "1.0.3",
