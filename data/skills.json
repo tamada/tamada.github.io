@@ -84,6 +84,12 @@
         "level": 50
     },
     {
+        "skill": "Windows",
+        "icon": "windows.svg",
+        "description": "I used to use as the main OS before using macOS. Currently, I do not use as the main OS, however, Windows PC is prepared.",
+        "level": 50
+    },
+    {
         "skill": "Kubernetes",
         "icon": "kubernetes.svg",
         "description": "Studying now!",

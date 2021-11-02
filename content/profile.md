@@ -2,10 +2,10 @@
 title: ":bust_in_silhouette: Profile"
 ---
 
-* Associate Professor, Faculty of Information Science and Engineering, Kyoto Sangyo University.
-    * Doctor of Engineering
-    * Motoyama, Kamigamo, Kita-ku, Kyoto-pref, Kyoto, Japan, Postal Code 603-8555.
-* Programmer/Software Engineer
+- Associate Professor, Faculty of Information Science and Engineering, Kyoto Sangyo University.
+  - Doctor of Engineering
+  - Motoyama, Kamigamo, Kita-ku, Kyoto-pref, Kyoto, Japan, Postal Code 603-8555.
+- Programmer/Software Engineer
 
 ### SNS
 
@@ -32,15 +32,16 @@ title: ":bust_in_silhouette: Profile"
 {{< linksns icon="arxiv.svg"        href="https://arxiv.org/user/" >}}
 {{< /commentout >}}
 
-{{< badges "Research Topics" 
+{{< badges "Research Topics"
 "[Software Birthmarks](/tags/birthmarks)"
 "[Program Obfuscation](/tags/obfuscation)"
 "[Evaluating Obfuscation](/tags/evaluating-obfuscation)"
 "[Developer Analysis](/tags/developer-analysis)"
 "[Project Analysis](/tags/project-analysis)"
-"[Program Readability](/tags/readability)"
+"[Program Readability Analysis](/tags/readability)"
+"[Git/GitHub Operation Support](/tags/git-for-novices)"
 
->}}
+> }}
 
 ### :muscle: Skills
 
@@ -56,7 +57,7 @@ title: ":bust_in_silhouette: Profile"
 
 ### :runner: Activities
 
-{{< badges "Program Committee Members" 
+{{< badges "Program Committee Members"
 "[ICIS 2021-Fall](http://acisinternational.org/conferences/icis-2021-fall/)"
 "[ICIS 2021-Summer](http://acisinternational.org/conferences/icis-2021/)"
 "[BCD 2021](http://acisinternational.org/conferences/bcd-2021/)"
@@ -73,4 +74,5 @@ title: ":bust_in_silhouette: Profile"
 "[ICIS 2017](http://www.acisinternational.org/icis2017/)"
 "[ICIS 2016](http://www.acisinternational.org/icis2016/)"
 "[MENSURA 2011](http://mensura.wordpress.com/organization/)"
->}}
+
+> }}

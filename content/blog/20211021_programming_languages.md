@@ -9,6 +9,8 @@ tags: ["program", "languages"]
 希望としては，ワンバイナリが生成可能，ジェネリクスあり，ストリーム処理，あたりが扱えると嬉しい．
 また，クロスコンパイルしたいし，書きやすい（EtoW; Easy to Write）言語であると嬉しい．
 
+で，まとめてみた．
+
 | Language | One Binary | Generics | Stream | Cross Compile | EtoW |
 | -------- | ---------- | -------- | ------ | ------------- | ---- |
 | Java     | GraalVM    | OK       | OK     | Hard          | OK   |
@@ -20,6 +22,7 @@ tags: ["program", "languages"]
 
 Java は GraalVM を使うとバイナリを作成できるけど，面倒．
 GraalVM を使ってもクロスコンパイルは難しいんじゃないかな．
+GitHub Actions などを使えばクロスコンパイルはできそうだけど，面倒だなぁ．
 
 Go は概ね良いのだけど，ストリーム処理が行えないのが悩みどころ．
 ジェネリクスも出たばかりであまり書き慣れていない．
