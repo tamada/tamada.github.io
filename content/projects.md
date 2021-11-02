@@ -22,11 +22,16 @@ I created those projects, almost projects wrote by Java {{< linksns icon="java.s
 - [fritter](https://github.com/tamada/fritter)
   - **What**: Analyzing Java source code and raise the warnings based on some rules.
   - **Why**: Replace [9rules](https://github.com/tamada/9rules)
+- [vhc](https://github.com/tamada/vhc)
+  - **What**: Obtaining git histories (date, size, creator, ...) from the specified repositories.
+  - **Why**: For my research.
 
 ## :seedling: Planning Projects
 
 - Rusk
   - **What**: Dynamic Birthmark Extracting Framework based on [the papers](https://tamadalab.github.io/publications/?filter=yokoi).
+- thesis-template-generator
+  - **What**: generating bachelor and master thesis template for TeX, HTML, and etc.
 
 ## :put_litter_in_its_place: Retiered Projects
 

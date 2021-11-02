@@ -58,6 +58,7 @@ title: ":bust_in_silhouette: Profile"
 ### :runner: Activities
 
 {{< badges "Program Committee Members"
+"[ICEIS 2022](https://iceis.scitevents.org/)"
 "[ICIS 2021-Fall](http://acisinternational.org/conferences/icis-2021-fall/)"
 "[ICIS 2021-Summer](http://acisinternational.org/conferences/icis-2021/)"
 "[BCD 2021](http://acisinternational.org/conferences/bcd-2021/)"
@@ -74,5 +75,4 @@ title: ":bust_in_silhouette: Profile"
 "[ICIS 2017](http://www.acisinternational.org/icis2017/)"
 "[ICIS 2016](http://www.acisinternational.org/icis2016/)"
 "[MENSURA 2011](http://mensura.wordpress.com/organization/)"
-
 > }}
