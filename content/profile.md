@@ -40,8 +40,7 @@ title: ":bust_in_silhouette: Profile"
 "[Project Analysis](/tags/project-analysis)"
 "[Program Readability Analysis](/tags/readability)"
 "[Git/GitHub Operation Support](/tags/git-for-novices)"
-
-> }}
+>}}
 
 ### :muscle: Skills
 
@@ -75,4 +74,4 @@ title: ":bust_in_silhouette: Profile"
 "[ICIS 2017](http://www.acisinternational.org/icis2017/)"
 "[ICIS 2016](http://www.acisinternational.org/icis2016/)"
 "[MENSURA 2011](http://mensura.wordpress.com/organization/)"
-> }}
+>}}
