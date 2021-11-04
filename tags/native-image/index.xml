@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>program on Haruaki TAMADA</title>
-    <link>https://tamada.github.io/tags/program/</link>
-    <description>Recent content in program on Haruaki TAMADA</description>
+    <title>native-image on Haruaki TAMADA</title>
+    <link>https://tamada.github.io/tags/native-image/</link>
+    <description>Recent content in native-image on Haruaki TAMADA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 04 Nov 2021 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://tamada.github.io/tags/program/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tamada.github.io/tags/native-image/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -22,17 +22,6 @@
 次の4つの方法に分類できる．
  Constant: 自分でバージョンの文字列をString型リテラルとしてソースコードに書き込む． Property: src/main/resourcesにプロパティファイルとしてバージョン情報を置いておく． Package: MANIFEST.MFに書かれている Implementation-VersionやSpecification-Versionのいずれかを利用する． Module: ModuleDescriptorのversionメソッドから利用する．  それぞれの分類を独断と偏見で４段階で評価してみた（1が良くて，４が悪い）．
     Constant Property Package Module     わかりやすさ 1 2 3 4   取得のしやすさ 1 2 2 2   自動化 3 2 1 3    分かりやすさはバージョン番号取得ルーチンをみたときのわかりやすさ．Constantは単なる変数参照なので一番わかりやすいであろう．Propertyはプロパティファイルを探し，読み込み，エントリを取得する，という３段階が必要となる．</description>
-    </item>
-    
-    <item>
-      <title>Programming Languages</title>
-      <link>https://tamada.github.io/blog/20211021_programming_languages/</link>
-      <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/blog/20211021_programming_languages/</guid>
-      <description>とあるユーティリティプログラムを作成しようと思ったものの，どのような言語で作成しようかと悩み中． 希望としては，ワンバイナリが生成可能，ジェネリクスあり，ストリーム処理，あたりが扱えると嬉しい． また，クロスコンパイルしたいし，書きやすい（EtoW; Easy to Write）言語であると嬉しい．
-で，まとめてみた．
-   Language One Binary Generics Stream Cross Compile EtoW     Java GraalVM OK OK Hard OK   Go OK 1.17- No OK OK   Rust OK? OK ??? OK? No   Node.js ??? ??? OK N/A OK   Python ??? OK? ??? ??? OK   Kotlin OK? OK OK OK ???    Java は GraalVM を使うとバイナリを作成できるけど，面倒． GraalVM を使ってもクロスコンパイルは難しいんじゃないかな． GitHub Actions などを使えばクロスコンパイルはできそうだけど，面倒だなぁ．</description>
     </item>
     
   </channel>

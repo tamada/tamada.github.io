@@ -18,7 +18,8 @@
       
       <guid>https://tamada.github.io/blog/20211021_programming_languages/</guid>
       <description>とあるユーティリティプログラムを作成しようと思ったものの，どのような言語で作成しようかと悩み中． 希望としては，ワンバイナリが生成可能，ジェネリクスあり，ストリーム処理，あたりが扱えると嬉しい． また，クロスコンパイルしたいし，書きやすい（EtoW; Easy to Write）言語であると嬉しい．
-   Language One Binary Generics Stream Cross Compile EtoW     Java GraalVM OK OK Hard OK   Go OK 1.17- No OK OK   Rust OK? OK ??? OK? No   Node.js ??? ??? OK N/A OK   Python ??? OK? ??? ??? OK   Kotlin OK? OK OK OK ???    Java は GraalVM を使うとバイナリを作成できるけど，面倒． GraalVM を使ってもクロスコンパイルは難しいんじゃないかな．</description>
+で，まとめてみた．
+   Language One Binary Generics Stream Cross Compile EtoW     Java GraalVM OK OK Hard OK   Go OK 1.17- No OK OK   Rust OK? OK ??? OK? No   Node.js ??? ??? OK N/A OK   Python ??? OK? ??? ??? OK   Kotlin OK? OK OK OK ???    Java は GraalVM を使うとバイナリを作成できるけど，面倒． GraalVM を使ってもクロスコンパイルは難しいんじゃないかな． GitHub Actions などを使えばクロスコンパイルはできそうだけど，面倒だなぁ．</description>
     </item>
     
   </channel>

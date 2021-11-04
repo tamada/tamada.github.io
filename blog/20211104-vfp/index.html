@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Hugo 0.69.0" />
+  <link rel="stylesheet" href="https://tamada.github.io/css/normalize.css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  
+  
+  
+  <link rel="stylesheet" href="https://tamada.github.io/css/cayman.ea0e967413f3851071cc8ace3621bc4205fe8fa79b2abe3d7bf94ff2841f0d47.css">
+  
+  
+  <link rel="stylesheet" href="https://tamada.github.io/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+
+<script src="https://unpkg.com/mermaid@8.4.2/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({startOnLoad:true});</script>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="https://tamada.github.io/images/harry.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://tamada.github.io/images/harry.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://tamada.github.io/images/harry.png">
+  
+  <title>How to get version defined in pom.xml | Haruaki TAMADA</title>
+</head>
+<body>
+  <section class="page-header">
+  <div class="navigation"><a href="/tags">🏷️ Tags</a></div>
+  
+  <img src="https://tamada.github.io/images/harry.png" class="avatar" alt="project_logo">
+  
+  <h1 class="project-name">
+    Haruaki TAMADA
+  </h1>
+  <h2 class="project-tagline">
+    Researcher of Software Protectoin, and Developer!
+  </h2>
+  <nav>
+    
+    
+    
+    
+    
+    
+    <a href="/" class="btn">🏠 Home</a>
+    
+    
+    
+    
+    
+    <a href="/projects" class="btn">🚀 Projects</a>
+    
+    
+    
+    
+    
+    <a href="/research" class="btn">💡 Research</a>
+    
+    
+    
+    
+    
+    <a href="/profile" class="btn">👤 Profile</a>
+    
+    
+    
+    
+    
+    <a href="/blog" class="btn">🤔 Blog</a>
+    
+  </nav>
+</section>
+  <section class="main-content">
+    <div class="date">Nov 04, 2021</div><h1>How to get version defined in pom.xml</h1><img src="/images//covers/48889569966_77ebd7368a_c.jpg" class="eyecatch"><ul>
+<li><a href="#getting-ways-of-the-version-defined-in-pomxml">Getting ways of the version defined in <code>pom.xml</code></a>
+<ul>
+<li><a href="#constant">Constant</a></li>
+<li><a href="#property">Property</a></li>
+<li><a href="#package">Package</a></li>
+<li><a href="#module">Module</a></li>
+</ul>
+</li>
+<li><a href="#what-the-case-in-the-use-of-native-image">What the case in the use of <code>native-image</code>?</a>
+<ul>
+<li><a href="#result-of-measurements">Result of Measurements</a></li>
+</ul>
+</li>
+<li><a href="#summary">Summary</a></li>
+<li><a href="#references">References</a></li>
+</ul>
+<h2 id="getting-ways-of-the-version-defined-in-pomxml">Getting ways of the version defined in <code>pom.xml</code></h2>
+<p>Java 17が出たことだし，いい加減に Java のモジュールシステムを本格的に使いだそうとしている．
+最近のJavaの自作ツールは一応モジュール対応にしたつもり（<a href="https://github.com/tamada/pochi">pochi</a>，<a href="https://github.com/tamada/vhc">vhc</a>など）．</p>
+<p>で，ビルドツールは <a href="https://maven.apache.org">Maven</a> を使うことが多いのだけど，<code>pom.xml</code> で設定したバージョン情報をアプリケーションからどんな情報で取得できるかを確認してみた．</p>
+<p>次の4つの方法に分類できる．</p>
+<ol>
+<li><strong>Constant</strong>: 自分でバージョンの文字列を<code>String</code>型リテラルとしてソースコードに書き込む．</li>
+<li><strong>Property</strong>: <code>src/main/resources</code>にプロパティファイルとしてバージョン情報を置いておく．</li>
+<li><strong>Package</strong>: <code>MANIFEST.MF</code>に書かれている <code>Implementation-Version</code>や<code>Specification-Version</code>のいずれかを利用する．</li>
+<li><strong>Module</strong>: <code>ModuleDescriptor</code>の<code>version</code>メソッドから利用する．</li>
+</ol>
+<p>それぞれの分類を独断と偏見で４段階で評価してみた（1が良くて，４が悪い）．</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Constant</th>
+<th>Property</th>
+<th>Package</th>
+<th>Module</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>わかりやすさ</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+</tr>
+<tr>
+<td>取得のしやすさ</td>
+<td>1</td>
+<td>2</td>
+<td>2</td>
+<td>2</td>
+</tr>
+<tr>
+<td>自動化</td>
+<td>3</td>
+<td>2</td>
+<td>1</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<p>分かりやすさはバージョン番号取得ルーチンをみたときのわかりやすさ．<strong>Constant</strong>は単なる変数参照なので一番わかりやすいであろう．<strong>Property</strong>はプロパティファイルを探し，読み込み，エントリを取得する，という３段階が必要となる．</p>
+<p><strong>Package</strong>はバージョン番号取得の処理自体はそれほど難しくはない．ただし，なぜそのように取得できるのか，どうやればそのように取得できるようにするのかに対して，jarファイル，MANIFESTファイルなどの知識が必要になるため <strong>Property</strong>よりも難しいと判断している．</p>
+<p>同様に<strong>Module</strong>もバージョン番号取得の処理自体は<strong>Package</strong>と同様であるが，やはりモジュールシステムに対する理解が多少なりとも必要であるため，<strong>Package</strong>よりも難しいと判断した．</p>
+<h3 id="constant">Constant</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">VersionProvider</span> <span style="color:#f92672">{</span>
+  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String VERSION <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;1.0.0&#34;</span><span style="color:#f92672">;</span>
+  <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">version</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+    <span style="color:#66d9ef">return</span> VERSION<span style="color:#f92672">;</span>
+  <span style="color:#f92672">}</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p>みたいな感じ．設定は分かりやすいし，参照もしやすい．けれど自動化のためには別途スクリプトなどが必要となろう．Mavenの<a href="https://stackoverflow.com/questions/4106171/filtering-source-code-in-maven"><code>templating-maven-plugin</code>を使う方法もあろう</a>．</p>
+<h3 id="property">Property</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">VersionProvider</span> <span style="color:#f92672">{</span>
+  <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">version</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+    URL url <span style="color:#f92672">=</span> getClass<span style="color:#f92672">().</span><span style="color:#a6e22e">getResource</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;/resources/version.properties&#34;</span><span style="color:#f92672">);</span>
+    <span style="color:#66d9ef">try</span><span style="color:#f92672">(</span>InputStream in <span style="color:#f92672">=</span> url<span style="color:#f92672">.</span><span style="color:#a6e22e">openStream</span><span style="color:#f92672">())</span> <span style="color:#f92672">{</span>
+      Properties p <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Properties<span style="color:#f92672">();</span>
+      p<span style="color:#f92672">.</span><span style="color:#a6e22e">load</span><span style="color:#f92672">(</span>in<span style="color:#f92672">);</span>
+      <span style="color:#66d9ef">return</span> p<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperty</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;someapp.version&#34;</span><span style="color:#f92672">);</span>
+    <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span><span style="color:#f92672">(</span>IOException e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+      <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> InternalError<span style="color:#f92672">(</span>e<span style="color:#f92672">);</span>
+      <span style="color:#75715e">// IOExceptionが発生するということはプログラムの何かがおかしいため，
+</span><span style="color:#75715e"></span>      <span style="color:#75715e">// アプリケーション自体を終了させる．
+</span><span style="color:#75715e"></span>    <span style="color:#f92672">}</span>
+  <span style="color:#f92672">}</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><h4 id="srcmainresourcesresourcesversionproperties"><code>src/main/resources/resources/version.properties</code></h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">someapp.version=${project.version}
+</code></pre></div><p>こんな感じ．<code>pom.xml</code> に次のようなエントリを入れておくと上記の<code>${project.version}</code>を自動的に<code>version</code>タグの内容に置き換えてくれる．</p>
+<p>一度設定すると取得できなくなることはあまり考えられないが，万が一バージョン情報が取得できなくなった場合，速やかに対応しないといけないため，取得できなかった場合に<code>InternalError</code>で終了するようにしている．</p>
+<h4 id="pomxml"><code>pom.xml</code></h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml">...
+  <span style="color:#f92672">&lt;build&gt;</span>
+    ...
+    <span style="color:#f92672">&lt;resources&gt;</span>
+      <span style="color:#f92672">&lt;resource&gt;</span>
+        <span style="color:#f92672">&lt;directory&gt;</span>src/main/resources<span style="color:#f92672">&lt;/directory&gt;</span>
+        <span style="color:#f92672">&lt;filtering&gt;</span>true<span style="color:#f92672">&lt;/filtering&gt;</span>
+      <span style="color:#f92672">&lt;/resource&gt;</span>
+    <span style="color:#f92672">&lt;/resources&gt;</span>
+    ...
+  <span style="color:#f92672">&lt;/build&gt;</span>
+...
+</code></pre></div><h3 id="package">Package</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">VersionProvider</span> <span style="color:#f92672">{</span>
+  <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">version</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+    <span style="color:#66d9ef">return</span> getClass<span style="color:#f92672">().</span><span style="color:#a6e22e">getPackage</span><span style="color:#f92672">()</span>
+      <span style="color:#f92672">.</span><span style="color:#a6e22e">getImplementationVersion</span><span style="color:#f92672">();</span>
+  <span style="color:#f92672">}</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p>これはjarファイル内の<code>META-INF/MANIFEST.MF</code>に書かれているエントリを読んで出力している．このエントリを追加するには，<code>pom.xml</code>に次のようなエントリを入れておくと良い．</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml">  ...
+  <span style="color:#f92672">&lt;build&gt;</span>
+    ...
+    <span style="color:#f92672">&lt;plugins&gt;</span>
+      ...
+      <span style="color:#f92672">&lt;plugin&gt;</span>
+        <span style="color:#f92672">&lt;groupId&gt;</span>org.apache.maven.plugins<span style="color:#f92672">&lt;/groupId&gt;</span>
+        <span style="color:#f92672">&lt;artifactId&gt;</span>maven-jar-plugin<span style="color:#f92672">&lt;/artifactId&gt;</span>
+        <span style="color:#f92672">&lt;version&gt;</span>3.1.2<span style="color:#f92672">&lt;/version&gt;</span>
+        <span style="color:#f92672">&lt;configuration&gt;</span>
+          <span style="color:#f92672">&lt;archive&gt;</span>
+            <span style="color:#f92672">&lt;manifest&gt;</span>
+              <span style="color:#f92672">&lt;addDefaultImplementationEntries&gt;</span>true<span style="color:#f92672">&lt;/addDefaultImplementationEntries&gt;</span>
+            <span style="color:#f92672">&lt;/manifest&gt;</span>
+          <span style="color:#f92672">&lt;/archive&gt;</span>
+        <span style="color:#f92672">&lt;/configuration&gt;</span>
+      <span style="color:#f92672">&lt;/plugin&gt;</span>
+      ...
+    <span style="color:#f92672">&lt;/plugins&gt;</span>
+    ...
+  <span style="color:#f92672">&lt;/build&gt;</span>
+...
+</code></pre></div><h3 id="module">Module</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">VersionProvider</span> <span style="color:#f92672">{</span>
+  <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">version</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+    <span style="color:#66d9ef">return</span> getClass<span style="color:#f92672">().</span><span style="color:#a6e22e">getModule</span><span style="color:#f92672">()</span>
+      <span style="color:#f92672">.</span><span style="color:#a6e22e">getDescriptor</span><span style="color:#f92672">()</span>
+      <span style="color:#f92672">.</span><span style="color:#a6e22e">version</span><span style="color:#f92672">().</span><span style="color:#a6e22e">toString</span><span style="color:#f92672">();</span>
+  <span style="color:#f92672">}</span>
+<span style="color:#f92672">}</span>
+</code></pre></div><p>これで取得できるはず．<code>module-info.java</code>でバージョンを設定する箇所はないため，jarファイルでは設定できないと思われる．</p>
+<p>jmodファイルを作成する<code>jmod</code>コマンドに<a href="https://docs.oracle.com/javase/jp/11/tools/jmod.html"><code>--module-version</code>オプションがある</a>ため，これを利用して指定するのであろう．</p>
+<h2 id="what-the-case-in-the-use-of-native-image">What the case in the use of <code>native-image</code>?</h2>
+<p>で，ここからが本番．<a href="https://www.graalvm.org/">GraalVM</a> を使ってネイティブイメージを作成したときにバージョン情報を取得できなくなっているのはいただけない．</p>
+<p>ということで，次のプログラムを用意した．プログラムの全貌は <a href="https://github.com/tamada/version_from_pom">tamada/version_from_pom</a>にあるので参照されたい．なお，どれくらい差が出るかはわからないが時間も計測してみた．</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">interface</span> <span style="color:#a6e22e">VersionProvider</span> <span style="color:#66d9ef">extends</span> Supplier<span style="color:#f92672">&lt;</span>Pair<span style="color:#f92672">&lt;</span>Version<span style="color:#f92672">,</span> String<span style="color:#f92672">&gt;&gt;</span> <span style="color:#f92672">{</span>
+        <span style="color:#75715e">// 読み込んだバージョン番号とどこから読み込んだかを返す．
+</span><span style="color:#75715e"></span>        Pair<span style="color:#f92672">&lt;</span>Version<span style="color:#f92672">,</span> String<span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">get</span><span style="color:#f92672">();</span>
+    <span style="color:#f92672">}</span>
+    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">perform</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+        Stream<span style="color:#f92672">.</span><span style="color:#a6e22e">of</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> ConstantVersionProvider<span style="color:#f92672">(),</span> <span style="color:#66d9ef">new</span> PropertyVersionProvider<span style="color:#f92672">(),</span>
+                        <span style="color:#66d9ef">new</span> PackageVersionProvider<span style="color:#f92672">(),</span> <span style="color:#66d9ef">new</span> ModuleVersionProvider<span style="color:#f92672">())</span>
+                <span style="color:#f92672">.</span><span style="color:#a6e22e">forEach</span><span style="color:#f92672">(</span>provider <span style="color:#f92672">-&gt;</span> printResult<span style="color:#f92672">(</span>provider<span style="color:#f92672">));</span>
+    <span style="color:#f92672">}</span>
+    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">printResult</span><span style="color:#f92672">(</span>VersionProvider provider<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+        var result <span style="color:#f92672">=</span> measure<span style="color:#f92672">(()</span> <span style="color:#f92672">-&gt;</span> provider<span style="color:#f92672">.</span><span style="color:#a6e22e">get</span><span style="color:#f92672">());</span>
+        Pair<span style="color:#f92672">&lt;</span>Version<span style="color:#f92672">,</span> String<span style="color:#f92672">&gt;</span> pair <span style="color:#f92672">=</span> result<span style="color:#f92672">.</span><span style="color:#a6e22e">right</span><span style="color:#f92672">();</span>
+        String version <span style="color:#f92672">=</span> String<span style="color:#f92672">.</span><span style="color:#a6e22e">valueOf</span><span style="color:#f92672">(</span>pair<span style="color:#f92672">.</span><span style="color:#a6e22e">left</span><span style="color:#f92672">());</span>
+        <span style="color:#66d9ef">long</span> time <span style="color:#f92672">=</span> result<span style="color:#f92672">.</span><span style="color:#a6e22e">left</span><span style="color:#f92672">();</span>
+        System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">printf</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;%5s,%10d nano sec,%s%n&#34;</span><span style="color:#f92672">,</span> version<span style="color:#f92672">,</span> time<span style="color:#f92672">,</span> pair<span style="color:#f92672">.</span><span style="color:#a6e22e">right</span><span style="color:#f92672">());</span>
+    <span style="color:#f92672">}</span>
+    <span style="color:#66d9ef">private</span> <span style="color:#f92672">&lt;</span>R<span style="color:#f92672">&gt;</span> Pair<span style="color:#f92672">&lt;</span>Long<span style="color:#f92672">,</span> R<span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">measure</span><span style="color:#f92672">(</span>Supplier<span style="color:#f92672">&lt;</span>R<span style="color:#f92672">&gt;</span> supplier<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+        <span style="color:#66d9ef">long</span> from <span style="color:#f92672">=</span> System<span style="color:#f92672">.</span><span style="color:#a6e22e">nanoTime</span><span style="color:#f92672">();</span>
+        R result <span style="color:#f92672">=</span> supplier<span style="color:#f92672">.</span><span style="color:#a6e22e">get</span><span style="color:#f92672">();</span>
+        <span style="color:#66d9ef">return</span> Pair<span style="color:#f92672">.</span><span style="color:#a6e22e">of</span><span style="color:#f92672">(</span>System<span style="color:#f92672">.</span><span style="color:#a6e22e">nanoTime</span><span style="color:#f92672">()</span> <span style="color:#f92672">-</span> from<span style="color:#f92672">,</span> result<span style="color:#f92672">);</span>
+    <span style="color:#f92672">}</span>
+    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ConstantVersionProvider</span> <span style="color:#66d9ef">implements</span> VersionProvider <span style="color:#f92672">{</span>
+      <span style="color:#f92672">...</span> <span style="color:#75715e">// 上記の Constant とほぼ同じ
+</span><span style="color:#75715e"></span>    <span style="color:#f92672">}</span>
+    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">PropertyVersionProvider</span> <span style="color:#66d9ef">implements</span> VersionProvider <span style="color:#f92672">{</span>
+      <span style="color:#f92672">...</span> <span style="color:#75715e">// 上記の Property とほぼ同じ
+</span><span style="color:#75715e"></span>    <span style="color:#f92672">}</span>
+    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">PackageVersionProvider</span> <span style="color:#66d9ef">implements</span> VersionProvider <span style="color:#f92672">{</span>
+      <span style="color:#f92672">...</span> <span style="color:#75715e">// 上記の Package とほぼ同じ
+</span><span style="color:#75715e"></span>    <span style="color:#f92672">}</span>
+    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ModuleVersionProvider</span> <span style="color:#66d9ef">implements</span> VersionProvider <span style="color:#f92672">{</span>
+      <span style="color:#f92672">...</span> <span style="color:#75715e">// 上記の Module とほぼ同じ
+</span><span style="color:#75715e"></span>    <span style="color:#f92672">}</span>
+</code></pre></div><p>このプログラムを次の5つの方法で実行した結果を示す．</p>
+<ul>
+<li><strong>Plain</strong>: <code>java -cp target/classes jp.cafebabe.vfp.Main</code>
+<ul>
+<li>jarにまとめないまま実行する方法．</li>
+</ul>
+</li>
+<li><strong>Jar</strong>: <code>java -jar target/mods/vfp-1.0.0.jar</code>
+<ul>
+<li>Java 8以前の普通の実行方法，</li>
+</ul>
+</li>
+<li><strong>Module</strong>: <code>java --module-path target/mods --module jp.cafebabe.vfp/jp.cafebabe.vfp.Main</code>
+<ul>
+<li>Modular jar として実行する．</li>
+</ul>
+</li>
+<li><strong>Native-Jar</strong>: <code>native-image -jar target/mods/vfp-1.0.0.jar vfp-jar</code>
+<ul>
+<li><code>native-image</code> でjarを渡して実行ファイルを作成して，作成された実行ファイルを実行する．</li>
+</ul>
+</li>
+<li><strong>Native-Module</strong>: <code>native-image --module-path target/mods --module jp.cafebabe.vfp/jp.cafebabe.vfp.Main vfp-module</code>
+<ul>
+<li><code>native-image</code>にmodular jar を指定して実行ファイルを作成する．そして，作成された実行ファイルを実行する．</li>
+</ul>
+</li>
+</ul>
+<p><a href="https://docs.oracle.com/javase/jp/14/docs/specs/man/jmod.html"><code>jmod</code>コマンド</a>で作成された jmod ファイルは<a href="https://docs.oracle.com/javase/jp/11/tools/jmod.html">実行できない</a>．ただし，<code>jmod</code>コマンドではバージョンの指定が行える（<code>--module-version</code>オプションで指定できる）．では，<code>jmod</code>コマンドで作成された jmod ファイルの中から <code>module-info.class</code> を取り出し，元の<code>module-info.class</code> を置き換えて<code>classes2</code>に置く．そして，<code>classes2</code>から新たにjarファイルを作成してみた．<code>mods2/vfp2-1.0.0.jar</code> とする．これでも実行してみる．</p>
+<ul>
+<li><strong>Plain2</strong>: <code>java -cp classes2 jp.cafebabe.vfp.Main</code></li>
+<li><strong>Jar2</strong>: <code>java -jar target/mods2/vfp2-1.0.0.jar</code></li>
+<li><strong>Native-Jar2</strong>: <code>native-image -jar target/mods2/vfp2-1.0.0.jar vfp2-jar</code></li>
+<li><strong>Native-Module2</strong>: <code>native-image --module-path target/mods2 --module jp.cafebabe.vfp/jp.cafebabe.vfp.Main vfp2-module</code></li>
+</ul>
+<h3 id="result-of-measurements">Result of Measurements</h3>
+<p>結果を以下に示す．列がバージョン番号の取得方法，行が実行方法を表している．実行環境は macOS Big Sur (11.6)，チップ Apple M1, メモリ 16GB，graalvm64-17.0.1である．</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th align="right">Constant</th>
+<th align="right">Property</th>
+<th align="right">Package</th>
+<th align="right">Module</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Plain</td>
+<td align="right">563,500 nsec</td>
+<td align="right">7,336,375 nsec</td>
+<td align="right">null</td>
+<td align="right">Exception</td>
+</tr>
+<tr>
+<td>Jar</td>
+<td align="right">3,145,250 nsec</td>
+<td align="right">29,883,833 nsec</td>
+<td align="right">25,667 nsec</td>
+<td align="right">Exception</td>
+</tr>
+<tr>
+<td>Module</td>
+<td align="right">179,583 nsec</td>
+<td align="right">9,867,208 nsec</td>
+<td align="right">null</td>
+<td align="right">null</td>
+</tr>
+<tr>
+<td>Native-Jar</td>
+<td align="right">35,791 nsec</td>
+<td align="right">Exception</td>
+<td align="right">1,442,458 nsec</td>
+<td align="right">Exception</td>
+</tr>
+<tr>
+<td>Native-Module</td>
+<td align="right">113,875 nsec</td>
+<td align="right">Exception</td>
+<td align="right">null</td>
+<td align="right">null</td>
+</tr>
+<tr>
+<td>Plain2</td>
+<td align="right">396,000 nsec</td>
+<td align="right">12,512,417 nsec</td>
+<td align="right">null</td>
+<td align="right">Exception</td>
+</tr>
+<tr>
+<td>Jar2</td>
+<td align="right">556,750 nsec</td>
+<td align="right">40,243,417 nsec</td>
+<td align="right">57,875 nsec</td>
+<td align="right">Exception</td>
+</tr>
+<tr>
+<td>Module2</td>
+<td align="right">145,708 nsec</td>
+<td align="right">19,945,375 nsec</td>
+<td align="right">null</td>
+<td align="right">38,522,208 nsec</td>
+</tr>
+<tr>
+<td>Native-Jar2</td>
+<td align="right">41,583 nsec</td>
+<td align="right">Exception</td>
+<td align="right">1,448,750 nsec</td>
+<td align="right">Exception</td>
+</tr>
+<tr>
+<td>Native-Module2</td>
+<td align="right">94,125 nsec</td>
+<td align="right">Exception</td>
+<td align="right">null</td>
+<td align="right">193,166 nsec</td>
+</tr>
+</tbody>
+</table>
+<p>表からわかるように，一番簡単で高速なのは<strong>Constant</strong> であるが，自動化しておかなければ実際のバージョンと表示されるバージョンに差が出る可能性がある．</p>
+<p>ネイティブコードでない場合は，<strong>Property</strong> が安定して取得できるものの，遅い．実行方法によって，<strong>Package</strong>，<strong>Module</strong>で取得できるか否かが決められる．て言うかなんでネイティブコードにすると取得できなくなるんだよう．</p>
+<p>なお，<strong>Module</strong>からバージョンを取得するためには，<code>module-info.class</code>にバージョン情報を加える必要がある．そのためには，<code>jmod</code>コマンドでバージョンを指定したjmodファイルを作成し，そこから<code>module-info.class</code>をコピーしてjarファイルなどを作成し直す必要がある（めんどくせ．．．）．</p>
+<p>加えて，<code>native-image</code>の実行オプションで取得できる情報が異なるのは注意が必要であろう．</p>
+<p>一番安定して取得できるのが<strong>Constant</strong>なのは意外でもなんでもなくその通りなのだが，あまり面白くない結果だな．</p>
+<p><strong>Module</strong> でバージョン番号を取得できるのは良いとして，準備が大変．もっと簡易にできる方法はないのかな？？？</p>
+<p>ネイティブコードを作成するときのオプション（<code>-jar</code>と<code>-module</code>）で変数の参照の実行時間に大きな差が出るのはなんでだろう．</p>
+<h2 id="summary">Summary</h2>
+<p>結局のところ，バージョン番号は定数として扱うのが簡単で，どのような形態で実行されようが同様に取得できる．このことから定数として扱うのが一番良いように思う．ただし，定数として扱う場合，バージョン番号を更新したときに自動的に定数の値も更新されるような仕組みを導入しておかなければ定義と出力に差異が生じる．</p>
+<p>次に<strong>Package</strong>もしくは<strong>Module</strong>で取得するのが良いが，native-image でビルドするときのオプションに注意しないといけない．注意しないといけないと書いている次点でダメだけど．</p>
+<p><strong>Property</strong>はネイティブイメージにする必要がない場合はOKだが，そうでない場合やめた方が良い．予想外のエラーで悩まされる可能性があるためである．</p>
+<p>実行時間はいずれの方法でも誤差の範囲であろう．バージョン番号取得のみの時間で見るとそれぞれが大きな差のように思えるが，実際のアプリケーションの場合，バージョン番号取得以外にも様々な処理が行われる．そのような様々な処理の中から見るとバージョン番号取得の時間短縮に気を配るよりも他の処理の短縮に気を配る方が建設的であるためである．</p>
+<h2 id="references">References</h2>
+<ul>
+<li><a href="https://tyablog.net/2020/04/05/java-how-different-jmod-and-jar">Java JMODファイルとは、JARファイルとの違い。</a></li>
+</ul>
+
+
+<div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "htamada" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+    <footer class="site-footer">
+  <span class="site-footer-credits">
+    Made with <a href="https://gohugo.io/">Hugo</a>. Theme by <a href="https://github.com/zwbetz-gh/cayman-hugo-theme">Cayman</a>. Deployed to <a href="https://pages.github.com/">GitHub Pages</a>.
+  </span>
+</footer>
+
+  </section>
+  
+  
+  <script>
+  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+  ga('create', 'UA-62401730-5', 'auto');
+  ga('send', 'pageview');
+  </script>
+  <script async src='https://www.google-analytics.com/analytics.js'></script>
+  
+
+</body>
+</html>
