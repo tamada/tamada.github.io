@@ -94,7 +94,7 @@
 <h2 id="overview">Overview</h2>
 <p>Java 17 が出たことだし，いい加減に Java のモジュールシステムを本格的に使いだそうとしている．
 最近の Java の自作ツールは一応モジュール対応にしたつもり（<a href="https://github.com/tamada/pochi">pochi</a>，<a href="https://github.com/tamada/vhc">vhc</a>など）．
-さらに，GraalVM を使ってネイティブイメージも作成できるそうなので色々とやってみたい．</p>
+さらに，<a href="https://www.graalvm.org/">GraalVM</a> を使ってネイティブイメージも作成できるそうなので色々とやってみたい．</p>
 <p>で，アプリを作るときにバージョン情報を取得したいことがある．
 そして，具体的なバージョン番号は，ビルドツールのプロジェクトディスクリプタ（Maven なら<code>pom.xml</code>，Gradle なら<code>build.gradle</code>?）に書くことが多い．
 バージョン番号が複数箇所に書かれていると，更新ミスでバージョンのミスマッチが起こるので，バージョン番号は一箇所で管理したいのが人情である．
@@ -314,70 +314,70 @@ Gradle の場合でもバージョン番号を埋め込む方法に多少の違�
 </thead>
 <tbody>
 <tr>
-<td>Plain</td>
+<td><strong>Plain</strong></td>
 <td align="right">563,500 nsec</td>
 <td align="right">7,336,375 nsec</td>
 <td align="right">null</td>
 <td align="right">Exception</td>
 </tr>
 <tr>
-<td>Jar</td>
+<td><strong>Jar</strong></td>
 <td align="right">3,145,250 nsec</td>
 <td align="right">29,883,833 nsec</td>
 <td align="right">25,667 nsec</td>
 <td align="right">Exception</td>
 </tr>
 <tr>
-<td>Module</td>
+<td><strong>Module</strong></td>
 <td align="right">179,583 nsec</td>
 <td align="right">9,867,208 nsec</td>
 <td align="right">null</td>
 <td align="right">null</td>
 </tr>
 <tr>
-<td>Native-Jar</td>
+<td><strong>Native-Jar</strong></td>
 <td align="right">35,791 nsec</td>
 <td align="right">Exception</td>
 <td align="right">1,442,458 nsec</td>
 <td align="right">Exception</td>
 </tr>
 <tr>
-<td>Native-Module</td>
+<td><strong>Native-Module</strong></td>
 <td align="right">113,875 nsec</td>
 <td align="right">Exception</td>
 <td align="right">null</td>
 <td align="right">null</td>
 </tr>
 <tr>
-<td>Plain2</td>
+<td><strong>Plain2</strong></td>
 <td align="right">396,000 nsec</td>
 <td align="right">12,512,417 nsec</td>
 <td align="right">null</td>
 <td align="right">Exception</td>
 </tr>
 <tr>
-<td>Jar2</td>
+<td><strong>Jar2</strong></td>
 <td align="right">556,750 nsec</td>
 <td align="right">40,243,417 nsec</td>
 <td align="right">57,875 nsec</td>
 <td align="right">Exception</td>
 </tr>
 <tr>
-<td>Module2</td>
+<td><strong>Module2</strong></td>
 <td align="right">145,708 nsec</td>
 <td align="right">19,945,375 nsec</td>
 <td align="right">null</td>
 <td align="right">38,522,208 nsec</td>
 </tr>
 <tr>
-<td>Native-Jar2</td>
+<td><strong>Native-Jar2</strong></td>
 <td align="right">41,583 nsec</td>
 <td align="right">Exception</td>
 <td align="right">1,448,750 nsec</td>
 <td align="right">Exception</td>
 </tr>
 <tr>
-<td>Native-Module2</td>
+<td><strong>Native-Module2</strong></td>
 <td align="right">94,125 nsec</td>
 <td align="right">Exception</td>
 <td align="right">null</td>
@@ -387,15 +387,15 @@ Gradle の場合でもバージョン番号を埋め込む方法に多少の違�
 </table>
 <p>表からわかるように，一番簡単で高速なのは<strong>Constant</strong> であるが，自動化しておかなければ実際のバージョンと表示されるバージョンに差が出る可能性がある．</p>
 <p>ネイティブコードでない場合は，<strong>Property</strong> が安定して取得できるものの，遅い．実行方法によって，<strong>Package</strong>，<strong>Module</strong>で取得できるか否かが決められる．て言うかなんでネイティブコードにすると取得できなくなるんだよう．</p>
-<p>なお，<strong>Module</strong>からバージョンを取得するためには，<code>module-info.class</code>にバージョン情報を加える必要がある．そのためには，<code>jmod</code>コマンドでバージョンを指定した jmod ファイルを作成し，そこから<code>module-info.class</code>をコピーして jar ファイルなどを作成し直す必要がある（めんどくせ．．．）．</p>
-<p>加えて，<code>native-image</code>の実行オプションで取得できる情報が異なるのは注意が必要であろう．</p>
-<p>一番安定して取得できるのが<strong>Constant</strong>なのは意外でもなんでもなくその通りなのだが，あまり面白くない結果だな．</p>
-<p><strong>Module</strong> でバージョン番号を取得できるのは良いとして，準備が大変．もっと簡易にできる方法はないのかな？？？</p>
+<p>なお，<strong>Module</strong>からバージョンを取得するためには，上でも述べたように<code>module-info.class</code>にバージョン情報を加える必要がある．そのためには，<code>jmod</code>コマンドでバージョンを指定した jmod ファイルを作成し，そこから<code>module-info.class</code>をコピーして jar ファイルなどを作成し直す必要がある（めんどくせ．．．）．</p>
+<p>加えて，<code>native-image</code>の実行オプションで取得できる情報が異なるのは注意が必要であろう．
+一番安定して取得できるのが<strong>Constant</strong>なのは意外でもなんでもなくその通りなのだが，あまり面白くない結果だな．
+<strong>Module</strong> でバージョン番号を取得できるのは良いとして，準備が大変．もっと簡易にできる方法はないのかな？？？</p>
 <p>ネイティブコードを作成するときのオプション（<code>-jar</code>と<code>-module</code>）で変数の参照の実行時間に大きな差が出るのはなんでだろう．</p>
 <h2 id="summary">Summary</h2>
 <p>結局のところ，バージョン番号は定数として扱うのが簡単で，どのような形態で実行されようが同様に取得できる．このことから定数として扱うのが一番良いように思う．ただし，定数として扱う場合，バージョン番号を更新したときに自動的に定数の値も更新されるような仕組みを導入しておかなければ定義と出力に差異が生じる．</p>
-<p>次に<strong>Package</strong>もしくは<strong>Module</strong>で取得するのが良いが，native-image でビルドするときのオプションに注意しないといけない．注意しないといけないと書いている次点でダメだけど．</p>
-<p><strong>Property</strong>はネイティブイメージにする必要がない場合は OK だが，そうでない場合やめた方が良い．予想外のエラーで悩まされる可能性があるためである．</p>
+<p>次に<strong>Package</strong>もしくは<strong>Module</strong>で取得するのが良いが，native-image でビルドするときのオプションに注意しないといけない．注意しないといけないと書いている時点でダメだけど．
+<strong>Property</strong>はネイティブイメージにする必要がない場合は OK だが，そうでない場合やめた方が良い．予想外のエラーで悩まされる可能性があるためである．</p>
 <p>実行時間はいずれの方法でも誤差の範囲であろう．バージョン番号取得のみの時間で見るとそれぞれが大きな差のように思えるが，実際のアプリケーションの場合，バージョン番号取得以外にも様々な処理が行われる．そのような様々な処理の中から見るとバージョン番号取得の時間短縮に気を配るよりも他の処理の短縮に気を配る方が建設的であるためである．</p>
 <h2 id="references">References</h2>
 <ul>
