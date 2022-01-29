@@ -6,17 +6,31 @@
     <description>Recent content in :thinking: Blog on Haruaki TAMADA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Jan 2022 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://tamada.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>:coffee: GoLand with asdf on macOS</title>
+      <link>https://tamada.github.io/blog/20220129_goland_with_asdf/</link>
+      <pubDate>Sat, 29 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/blog/20220129_goland_with_asdf/</guid>
+      <description>asdf で Go の環境を構築していると GoLand が動かない．．． GoやJavaの環境を切り替えるための環境切り替えツールを jenvから asdfに変えた． で，GoLand を動かすと，import fmt もエラーが表示される． Cannot resolve symbol だと．
+なぜだと調べてみると，Preferences -&amp;gt; GOROOT を見てみると真っ白． asdf でインストールされた Go のパスが見つからないみたい．
+早速 GOROOTを設定しようと設定ボタンを押すと，ファイル選択ダイアログが出てくる． asdf での GOROOT は ~/.asdf/installs/golang/1.17.5/go であるので，選択しようとすると隠しファイルが出てこない．．． .asdf は隠しフォルダであるため，ファイル選択ダイアログから選択できない．
+解決策 直接設定ファイルを修正する． ~/Library/Application Support/JetBrains/GoLand2021.3/options/go.sdk.xml を開いて，次のような XML の option タグの value を適切なパスに修正すると良い． 修正できれば GoLand の再起動で OK のはず．
+&amp;lt;application&amp;gt; &amp;lt;component name=&amp;#34;GoSdkList&amp;#34;&amp;gt; &amp;lt;sdk-url&amp;gt; &amp;lt;set&amp;gt; &amp;lt;option value=&amp;#34;file://$USER_HOME$/.asdf/installs/golang/1.17.5/go&amp;#34; /&amp;gt; &amp;lt;/set&amp;gt; &amp;lt;/sdk-url&amp;gt; &amp;lt;/component&amp;gt; &amp;lt;/application&amp;gt; もし，サードパーティ製のライブラリが参照できない場合は， ~/Library/Application Support/JetBrains/GoLand2021.3/options/goLibraries.xml で GOPATH を以下のように設定すると良い．
+&amp;lt;application&amp;gt; &amp;lt;component name=&amp;#34;GoLibraries&amp;#34;&amp;gt; &amp;lt;option name=&amp;#34;urls&amp;#34;&amp;gt; &amp;lt;list&amp;gt; &amp;lt;option value=&amp;#34;file://$USER_HOME$/.</description>
+    </item>
+    
+    <item>
       <title>:coffee: How to get the version defined in pom.xml</title>
-      <link>https://tamada.github.io/blog/20211104-vfp/</link>
+      <link>https://tamada.github.io/blog/20211104_vfp/</link>
       <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/blog/20211104-vfp/</guid>
+      <guid>https://tamada.github.io/blog/20211104_vfp/</guid>
       <description>Overview Getting ways of the version defined in pom.xml  Constant Property Package Module   What the case in the use of native-image?  Result of Measurements   Summary References  Overview Java 17 が出たことだし，いい加減に Java のモジュールシステムを本格的に使いだそうとしている． 最近の Java の自作ツールは一応モジュール対応にしたつもり（pochi，vhcなど）． さらに，GraalVM を使ってネイティブイメージも作成できるそうなので色々とやってみたい．
 で，アプリを作るときにバージョン情報を取得したいことがある． そして，具体的なバージョン番号は，ビルドツールのプロジェクトディスクリプタ（Maven ならpom.xml，Gradle ならbuild.gradle?）に書くことが多い． バージョン番号が複数箇所に書かれていると，更新ミスでバージョンのミスマッチが起こるので，バージョン番号は一箇所で管理したいのが人情である． となると，どのような方法でバージョン番号を取得すれば良いのだろうと思い，調べてみた． これまでは特に意識せずプロパティから読み込んだり，Packageクラスを使ったりしていた． しかし，実行方法（-jarや--module）の違いやパッケージングの方法の違いで，取得できないことがあるのかを調べてみた．
 私がよく使うビルドツールは Maven であるので，pom.xml で設定したバージョン情報をアプリケーションからどんな情報で取得できるかを確認してみた． Gradle の場合でもバージョン番号を埋め込む方法に多少の違いがあるだけで，大きな違いはない．

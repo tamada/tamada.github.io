@@ -3,17 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://tamada.github.io/blog/20211104-vfp/</loc>
-    <lastmod>2021-11-04T00:00:00+00:00</lastmod>
+    <loc>https://tamada.github.io/blog/20220129_goland_with_asdf/</loc>
+    <lastmod>2022-01-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tamada.github.io/tags/</loc>
-    <lastmod>2021-11-04T00:00:00+00:00</lastmod>
+    <lastmod>2022-01-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://tamada.github.io/blog/</loc>
+    <lastmod>2022-01-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/tags/asdf/</loc>
+    <lastmod>2022-01-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/tags/goland/</loc>
+    <lastmod>2022-01-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://tamada.github.io/blog/20211104_vfp/</loc>
     <lastmod>2021-11-04T00:00:00+00:00</lastmod>
   </url>
   
