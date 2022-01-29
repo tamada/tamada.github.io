@@ -12,7 +12,7 @@
     
     
     <item>
-      <title>:coffee: GoLand with asdf on macOS</title>
+      <title>:bulb: GoLand with asdf on macOS</title>
       <link>https://tamada.github.io/blog/20220129_goland_with_asdf/</link>
       <pubDate>Sat, 29 Jan 2022 00:00:00 +0000</pubDate>
       
@@ -23,6 +23,15 @@
 解決策 直接設定ファイルを修正する． ~/Library/Application Support/JetBrains/GoLand2021.3/options/go.sdk.xml を開いて，次のような XML の option タグの value を適切なパスに修正すると良い． 修正できれば GoLand の再起動で OK のはず．
 &amp;lt;application&amp;gt; &amp;lt;component name=&amp;#34;GoSdkList&amp;#34;&amp;gt; &amp;lt;sdk-url&amp;gt; &amp;lt;set&amp;gt; &amp;lt;option value=&amp;#34;file://$USER_HOME$/.asdf/installs/golang/1.17.5/go&amp;#34; /&amp;gt; &amp;lt;/set&amp;gt; &amp;lt;/sdk-url&amp;gt; &amp;lt;/component&amp;gt; &amp;lt;/application&amp;gt; もし，サードパーティ製のライブラリが参照できない場合は， ~/Library/Application Support/JetBrains/GoLand2021.3/options/goLibraries.xml で GOPATH を以下のように設定すると良い．
 &amp;lt;application&amp;gt; &amp;lt;component name=&amp;#34;GoLibraries&amp;#34;&amp;gt; &amp;lt;option name=&amp;#34;urls&amp;#34;&amp;gt; &amp;lt;list&amp;gt; &amp;lt;option value=&amp;#34;file://$USER_HOME$/.</description>
+    </item>
+    
+    <item>
+      <title>De-obfuscate DNR</title>
+      <link>https://tamada.github.io/research/deobfuscating_dnr/</link>
+      <pubDate>Sun, 23 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/deobfuscating_dnr/</guid>
+      <description>:speaking_head: Overview Using unevaluated obfuscation methods has a significant risk since the methods might have some vulnerabilities. One evaluation for obfuscation is de-obfuscation which discloses the hidden information by the obfuscation. This paper proposed the de-obfuscation method against for DNR (dynamic name resolution) obfuscation method. DNR hides system-defined names by encrypting them and resolves names dynamically during runtime. This paper clarifies the steps of de-obfuscation and proposes static and dynamic manners to de-obfuscate DNR.</description>
     </item>
     
     <item>

@@ -30,6 +30,42 @@
     </item>
     
     <item>
+      <title>dynamic name resolution</title>
+      <link>https://tamada.github.io/tags/dynamic-name-resolution/</link>
+      <pubDate>Sun, 23 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/dynamic-name-resolution/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>evaluating obfuscation</title>
+      <link>https://tamada.github.io/tags/evaluating-obfuscation/</link>
+      <pubDate>Sun, 23 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/evaluating-obfuscation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>identifiers</title>
+      <link>https://tamada.github.io/tags/identifiers/</link>
+      <pubDate>Sun, 23 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/identifiers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>obfuscation</title>
+      <link>https://tamada.github.io/tags/obfuscation/</link>
+      <pubDate>Sun, 23 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/obfuscation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>examine</title>
       <link>https://tamada.github.io/tags/examine/</link>
       <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
@@ -183,24 +219,6 @@
     </item>
     
     <item>
-      <title>evaluating obfuscation</title>
-      <link>https://tamada.github.io/tags/evaluating-obfuscation/</link>
-      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/evaluating-obfuscation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>identifiers</title>
-      <link>https://tamada.github.io/tags/identifiers/</link>
-      <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/identifiers/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>opcodes</title>
       <link>https://tamada.github.io/tags/opcodes/</link>
       <pubDate>Mon, 27 Jan 2020 00:00:00 +0000</pubDate>
@@ -233,15 +251,6 @@
       <pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/tags/aspect-oriented-programming/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>obfuscation</title>
-      <link>https://tamada.github.io/tags/obfuscation/</link>
-      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/obfuscation/</guid>
       <description></description>
     </item>
     
