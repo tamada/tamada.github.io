@@ -19,10 +19,9 @@
       <guid>https://tamada.github.io/blog/20220129_goland_with_asdf/</guid>
       <description>asdf で Go の環境を構築していると GoLand が動かない．．． GoやJavaの環境を切り替えるための環境切り替えツールを jenvから asdfに変えた． で，GoLand を動かすと，import fmt もエラーが表示される． Cannot resolve symbol だと．
 なぜだと調べてみると，Preferences -&amp;gt; GOROOT を見てみると真っ白． asdf でインストールされた Go のパスが見つからないみたい．
-早速 GOROOTを設定しようと設定ボタンを押すと，ファイル選択ダイアログが出てくる． asdf での GOROOT は ~/.asdf/installs/golang/1.17.5/go であるので，選択しようとすると隠しファイルが出てこない．．． .asdf は隠しフォルダであるため，ファイル選択ダイアログから選択できない．
+早速 GOROOTを設定しようとAdd SDK...ボタンを押すと，ファイル選択ダイアログが出てくる． asdf での GOROOT は ~/.asdf/installs/golang/1.17.5/go であるので，選択しようとすると隠しファイルが出てこない．．． .asdf は隠しフォルダであるため，ファイル選択ダイアログから選択できない．
 解決策 直接設定ファイルを修正する． ~/Library/Application Support/JetBrains/GoLand2021.3/options/go.sdk.xml を開いて，次のような XML の option タグの value を適切なパスに修正すると良い． 修正できれば GoLand の再起動で OK のはず．
-&amp;lt;application&amp;gt; &amp;lt;component name=&amp;#34;GoSdkList&amp;#34;&amp;gt; &amp;lt;sdk-url&amp;gt; &amp;lt;set&amp;gt; &amp;lt;option value=&amp;#34;file://$USER_HOME$/.asdf/installs/golang/1.17.5/go&amp;#34; /&amp;gt; &amp;lt;/set&amp;gt; &amp;lt;/sdk-url&amp;gt; &amp;lt;/component&amp;gt; &amp;lt;/application&amp;gt; もし，サードパーティ製のライブラリが参照できない場合は， ~/Library/Application Support/JetBrains/GoLand2021.3/options/goLibraries.xml で GOPATH を以下のように設定すると良い．
-&amp;lt;application&amp;gt; &amp;lt;component name=&amp;#34;GoLibraries&amp;#34;&amp;gt; &amp;lt;option name=&amp;#34;urls&amp;#34;&amp;gt; &amp;lt;list&amp;gt; &amp;lt;option value=&amp;#34;file://$USER_HOME$/.</description>
+&amp;lt;application&amp;gt; &amp;lt;component name=&amp;#34;GoSdkList&amp;#34;&amp;gt; &amp;lt;sdk-url&amp;gt; &amp;lt;set&amp;gt; &amp;lt;option value=&amp;#34;file://$USER_HOME$/.asdf/installs/golang/1.17.5/go&amp;#34; /&amp;gt; &amp;lt;/set&amp;gt; &amp;lt;/sdk-url&amp;gt; &amp;lt;/component&amp;gt; &amp;lt;/application&amp;gt; もし，サードパーティ製のライブラリが参照できない場合は， ~/Library/Application Support/JetBrains/GoLand2021.3/options/goLibraries.xml で GOPATH を以下のように設定すると良い．</description>
     </item>
     
   </channel>
