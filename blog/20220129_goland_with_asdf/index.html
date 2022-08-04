@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Hugo 0.69.0" />
+  <meta name="generator" content="Hugo 0.95.0" />
   <link rel="stylesheet" href="https://tamada.github.io/css/normalize.css">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
   
@@ -88,33 +88,38 @@ Cannot resolve symbol だと．</p>
 <p>直接設定ファイルを修正する．
 <code>~/Library/Application Support/JetBrains/GoLand2021.3/options/go.sdk.xml</code> を開いて，次のような XML の <code>option</code> タグの <code>value</code> を適切なパスに修正すると良い．
 修正できれば GoLand の再起動で OK のはず．</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#f92672">&lt;application&gt;</span>
-  <span style="color:#f92672">&lt;component</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;GoSdkList&#34;</span><span style="color:#f92672">&gt;</span>
-    <span style="color:#f92672">&lt;sdk-url&gt;</span>
-      <span style="color:#f92672">&lt;set&gt;</span>
-        <span style="color:#f92672">&lt;option</span> <span style="color:#a6e22e">value=</span><span style="color:#e6db74">&#34;file://$USER_HOME$/.asdf/installs/golang/1.17.5/go&#34;</span> <span style="color:#f92672">/&gt;</span>
-      <span style="color:#f92672">&lt;/set&gt;</span>
-    <span style="color:#f92672">&lt;/sdk-url&gt;</span>
-  <span style="color:#f92672">&lt;/component&gt;</span>
-<span style="color:#f92672">&lt;/application&gt;</span>
-</code></pre></div><p>もし，サードパーティ製のライブラリが参照できない場合は，
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-xml" data-lang="xml"><span style="display:flex;"><span><span style="color:#f92672">&lt;application&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;component</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;GoSdkList&#34;</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;sdk-url&gt;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&lt;set&gt;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&lt;option</span> <span style="color:#a6e22e">value=</span><span style="color:#e6db74">&#34;file://$USER_HOME$/.asdf/installs/golang/1.17.5/go&#34;</span> <span style="color:#f92672">/&gt;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&lt;/set&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;/sdk-url&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;/component&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&lt;/application&gt;</span>
+</span></span></code></pre></div><p>もし，サードパーティ製のライブラリが参照できない場合は，
 <code>~/Library/Application Support/JetBrains/GoLand2021.3/options/goLibraries.xml</code> で <code>GOPATH</code> を以下のように設定すると良い．</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml"><span style="color:#f92672">&lt;application&gt;</span>
-  <span style="color:#f92672">&lt;component</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;GoLibraries&#34;</span><span style="color:#f92672">&gt;</span>
-    <span style="color:#f92672">&lt;option</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;urls&#34;</span><span style="color:#f92672">&gt;</span>
-      <span style="color:#f92672">&lt;list&gt;</span>
-        <span style="color:#f92672">&lt;option</span> <span style="color:#a6e22e">value=</span><span style="color:#e6db74">&#34;file://$USER_HOME$/.asdf/installs/golang/1.17.5/packages&#34;</span> <span style="color:#f92672">/&gt;</span>
-      <span style="color:#f92672">&lt;/list&gt;</span>
-    <span style="color:#f92672">&lt;/option&gt;</span>
-  <span style="color:#f92672">&lt;/component&gt;</span>
-<span style="color:#f92672">&lt;/application&gt;</span>
-</code></pre></div><p>修正後，GoLand を再起動すると OK．</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-xml" data-lang="xml"><span style="display:flex;"><span><span style="color:#f92672">&lt;application&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;component</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;GoLibraries&#34;</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;option</span> <span style="color:#a6e22e">name=</span><span style="color:#e6db74">&#34;urls&#34;</span><span style="color:#f92672">&gt;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&lt;list&gt;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&lt;option</span> <span style="color:#a6e22e">value=</span><span style="color:#e6db74">&#34;file://$USER_HOME$/.asdf/installs/golang/1.17.5/packages&#34;</span> <span style="color:#f92672">/&gt;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&lt;/list&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;/option&gt;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;/component&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">&lt;/application&gt;</span>
+</span></span></code></pre></div><p>修正後，GoLand を再起動すると OK．</p>
 <p>環境変数などを参照してくれると良いのだけど．．．</p>
+<h2 id="2022-02-15-追記">2022-02-15 追記．</h2>
+<p>macOSのファイル選択ダイアログで隠しファイルを表示するには，<a href="https://wayohoo.com/article/4878">Cmd+Shift+. を押せば良いらしい</a>．
+このショートカットキーは知らなんだ．</p>
+<p>こんなまどろっこしいことせずに済んだ．
+IntelliJ IDEA Ultimate に GoLang Plugins を入れて同じ問題を解決するときに使った．</p>
 
 
 <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     

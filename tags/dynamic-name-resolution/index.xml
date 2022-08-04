@@ -6,11 +6,7 @@
     <description>Recent content in dynamic name resolution on Haruaki TAMADA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Jan 2022 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://tamada.github.io/tags/dynamic-name-resolution/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 23 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/dynamic-name-resolution/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>De-obfuscate DNR</title>
       <link>https://tamada.github.io/research/deobfuscating_dnr/</link>

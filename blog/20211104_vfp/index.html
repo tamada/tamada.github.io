@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Hugo 0.69.0" />
+  <meta name="generator" content="Hugo 0.95.0" />
   <link rel="stylesheet" href="https://tamada.github.io/css/normalize.css">
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
   
@@ -150,122 +150,122 @@ Gradle の場合でもバージョン番号を埋め込む方法に多少の違�
 <p><strong>Package</strong>はバージョン番号取得の処理自体はそれほど難しくはない．ただし，なぜそのように取得できるのか，どうやればそのように取得できるようにするのかに対して，jar ファイル，MANIFEST ファイルなどの知識が必要になるため <strong>Property</strong>よりも難しいと判断している．</p>
 <p>同様に<strong>Module</strong>もバージョン番号取得の処理自体は<strong>Package</strong>と同様であるが，やはりモジュールシステムに対する理解が多少なりとも必要であるため，<strong>Package</strong>よりも難しいと判断した．</p>
 <h3 id="constant">Constant</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">VersionProvider</span> <span style="color:#f92672">{</span>
-  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String VERSION <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;1.0.0&#34;</span><span style="color:#f92672">;</span>
-  <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">version</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
-    <span style="color:#66d9ef">return</span> VERSION<span style="color:#f92672">;</span>
-  <span style="color:#f92672">}</span>
-<span style="color:#f92672">}</span>
-</code></pre></div><p>みたいな感じ．設定は分かりやすいし，参照もしやすい．けれど自動化のためには別途スクリプトなどが必要となろう．Maven の<a href="https://stackoverflow.com/questions/4106171/filtering-source-code-in-maven"><code>templating-maven-plugin</code>を使う方法もあろう</a>．</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">VersionProvider</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">final</span> String VERSION <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;1.0.0&#34;</span><span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">version</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> VERSION<span style="color:#f92672">;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>みたいな感じ．設定は分かりやすいし，参照もしやすい．けれど自動化のためには別途スクリプトなどが必要となろう．Maven の<a href="https://stackoverflow.com/questions/4106171/filtering-source-code-in-maven"><code>templating-maven-plugin</code>を使う方法もあろう</a>．</p>
 <h3 id="property">Property</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">VersionProvider</span> <span style="color:#f92672">{</span>
-  <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">version</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
-    URL url <span style="color:#f92672">=</span> getClass<span style="color:#f92672">().</span><span style="color:#a6e22e">getResource</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;/resources/version.properties&#34;</span><span style="color:#f92672">);</span>
-    <span style="color:#66d9ef">try</span><span style="color:#f92672">(</span>InputStream in <span style="color:#f92672">=</span> url<span style="color:#f92672">.</span><span style="color:#a6e22e">openStream</span><span style="color:#f92672">())</span> <span style="color:#f92672">{</span>
-      Properties p <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Properties<span style="color:#f92672">();</span>
-      p<span style="color:#f92672">.</span><span style="color:#a6e22e">load</span><span style="color:#f92672">(</span>in<span style="color:#f92672">);</span>
-      <span style="color:#66d9ef">return</span> p<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperty</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;someapp.version&#34;</span><span style="color:#f92672">);</span>
-    <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span><span style="color:#f92672">(</span>IOException e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-      <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> InternalError<span style="color:#f92672">(</span>e<span style="color:#f92672">);</span>
-      <span style="color:#75715e">// IOExceptionが発生するということはプログラムの何かがおかしいため，
-</span><span style="color:#75715e"></span>      <span style="color:#75715e">// アプリケーション自体を終了させる．
-</span><span style="color:#75715e"></span>    <span style="color:#f92672">}</span>
-  <span style="color:#f92672">}</span>
-<span style="color:#f92672">}</span>
-</code></pre></div><h4 id="srcmainresourcesresourcesversionproperties"><code>src/main/resources/resources/version.properties</code></h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-fallback" data-lang="fallback">someapp.version=${project.version}
-</code></pre></div><p>こんな感じ．<code>pom.xml</code> に次のようなエントリを入れておくと上記の<code>${project.version}</code>を自動的に<code>version</code>タグの内容に置き換えてくれる．</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">VersionProvider</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">version</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    URL url <span style="color:#f92672">=</span> getClass<span style="color:#f92672">().</span><span style="color:#a6e22e">getResource</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;/resources/version.properties&#34;</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">try</span><span style="color:#f92672">(</span>InputStream in <span style="color:#f92672">=</span> url<span style="color:#f92672">.</span><span style="color:#a6e22e">openStream</span><span style="color:#f92672">())</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>      Properties p <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> Properties<span style="color:#f92672">();</span>
+</span></span><span style="display:flex;"><span>      p<span style="color:#f92672">.</span><span style="color:#a6e22e">load</span><span style="color:#f92672">(</span>in<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">return</span> p<span style="color:#f92672">.</span><span style="color:#a6e22e">getProperty</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;someapp.version&#34;</span><span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span> <span style="color:#66d9ef">catch</span><span style="color:#f92672">(</span>IOException e<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#66d9ef">throw</span> <span style="color:#66d9ef">new</span> InternalError<span style="color:#f92672">(</span>e<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#75715e">// IOExceptionが発生するということはプログラムの何かがおかしいため，
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>      <span style="color:#75715e">// アプリケーション自体を終了させる．
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><h4 id="srcmainresourcesresourcesversionproperties"><code>src/main/resources/resources/version.properties</code></h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"><span style="display:flex;"><span>someapp.version=${project.version}
+</span></span></code></pre></div><p>こんな感じ．<code>pom.xml</code> に次のようなエントリを入れておくと上記の<code>${project.version}</code>を自動的に<code>version</code>タグの内容に置き換えてくれる．</p>
 <p>一度設定すると取得できなくなることはあまり考えられないが，万が一バージョン情報が取得できなくなった場合，速やかに対応しないといけないため，取得できなかった場合に<code>InternalError</code>で終了するようにしている．</p>
 <h4 id="pomxml"><code>pom.xml</code></h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml">...
-  <span style="color:#f92672">&lt;build&gt;</span>
-    ...
-    <span style="color:#f92672">&lt;resources&gt;</span>
-      <span style="color:#f92672">&lt;resource&gt;</span>
-        <span style="color:#f92672">&lt;directory&gt;</span>src/main/resources<span style="color:#f92672">&lt;/directory&gt;</span>
-        <span style="color:#f92672">&lt;filtering&gt;</span>true<span style="color:#f92672">&lt;/filtering&gt;</span>
-      <span style="color:#f92672">&lt;/resource&gt;</span>
-    <span style="color:#f92672">&lt;/resources&gt;</span>
-    ...
-  <span style="color:#f92672">&lt;/build&gt;</span>
-...
-</code></pre></div><h3 id="package">Package</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">VersionProvider</span> <span style="color:#f92672">{</span>
-  <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">version</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
-    <span style="color:#66d9ef">return</span> getClass<span style="color:#f92672">().</span><span style="color:#a6e22e">getPackage</span><span style="color:#f92672">()</span>
-      <span style="color:#f92672">.</span><span style="color:#a6e22e">getImplementationVersion</span><span style="color:#f92672">();</span>
-  <span style="color:#f92672">}</span>
-<span style="color:#f92672">}</span>
-</code></pre></div><p>これは jar ファイル内の<code>META-INF/MANIFEST.MF</code>に書かれているエントリを読んで出力している．このエントリを追加するには，<code>pom.xml</code>に次のようなエントリを入れておくと良い．</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-xml" data-lang="xml">  ...
-  <span style="color:#f92672">&lt;build&gt;</span>
-    ...
-    <span style="color:#f92672">&lt;plugins&gt;</span>
-      ...
-      <span style="color:#f92672">&lt;plugin&gt;</span>
-        <span style="color:#f92672">&lt;groupId&gt;</span>org.apache.maven.plugins<span style="color:#f92672">&lt;/groupId&gt;</span>
-        <span style="color:#f92672">&lt;artifactId&gt;</span>maven-jar-plugin<span style="color:#f92672">&lt;/artifactId&gt;</span>
-        <span style="color:#f92672">&lt;version&gt;</span>3.1.2<span style="color:#f92672">&lt;/version&gt;</span>
-        <span style="color:#f92672">&lt;configuration&gt;</span>
-          <span style="color:#f92672">&lt;archive&gt;</span>
-            <span style="color:#f92672">&lt;manifest&gt;</span>
-              <span style="color:#f92672">&lt;addDefaultImplementationEntries&gt;</span>true<span style="color:#f92672">&lt;/addDefaultImplementationEntries&gt;</span>
-            <span style="color:#f92672">&lt;/manifest&gt;</span>
-          <span style="color:#f92672">&lt;/archive&gt;</span>
-        <span style="color:#f92672">&lt;/configuration&gt;</span>
-      <span style="color:#f92672">&lt;/plugin&gt;</span>
-      ...
-    <span style="color:#f92672">&lt;/plugins&gt;</span>
-    ...
-  <span style="color:#f92672">&lt;/build&gt;</span>
-...
-</code></pre></div><h3 id="module">Module</h3>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">VersionProvider</span> <span style="color:#f92672">{</span>
-  <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">version</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
-    <span style="color:#66d9ef">return</span> getClass<span style="color:#f92672">().</span><span style="color:#a6e22e">getModule</span><span style="color:#f92672">()</span>
-      <span style="color:#f92672">.</span><span style="color:#a6e22e">getDescriptor</span><span style="color:#f92672">()</span>
-      <span style="color:#f92672">.</span><span style="color:#a6e22e">version</span><span style="color:#f92672">().</span><span style="color:#a6e22e">toString</span><span style="color:#f92672">();</span>
-  <span style="color:#f92672">}</span>
-<span style="color:#f92672">}</span>
-</code></pre></div><p>これで取得できるはず．<code>module-info.java</code>でバージョンを設定する箇所はないため，jar ファイルでは設定できないと思われる．</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-xml" data-lang="xml"><span style="display:flex;"><span>...
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;build&gt;</span>
+</span></span><span style="display:flex;"><span>    ...
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;resources&gt;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&lt;resource&gt;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&lt;directory&gt;</span>src/main/resources<span style="color:#f92672">&lt;/directory&gt;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&lt;filtering&gt;</span>true<span style="color:#f92672">&lt;/filtering&gt;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&lt;/resource&gt;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;/resources&gt;</span>
+</span></span><span style="display:flex;"><span>    ...
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;/build&gt;</span>
+</span></span><span style="display:flex;"><span>...
+</span></span></code></pre></div><h3 id="package">Package</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">VersionProvider</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">version</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> getClass<span style="color:#f92672">().</span><span style="color:#a6e22e">getPackage</span><span style="color:#f92672">()</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">.</span><span style="color:#a6e22e">getImplementationVersion</span><span style="color:#f92672">();</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>これは jar ファイル内の<code>META-INF/MANIFEST.MF</code>に書かれているエントリを読んで出力している．このエントリを追加するには，<code>pom.xml</code>に次のようなエントリを入れておくと良い．</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-xml" data-lang="xml"><span style="display:flex;"><span>  ...
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;build&gt;</span>
+</span></span><span style="display:flex;"><span>    ...
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;plugins&gt;</span>
+</span></span><span style="display:flex;"><span>      ...
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&lt;plugin&gt;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&lt;groupId&gt;</span>org.apache.maven.plugins<span style="color:#f92672">&lt;/groupId&gt;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&lt;artifactId&gt;</span>maven-jar-plugin<span style="color:#f92672">&lt;/artifactId&gt;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&lt;version&gt;</span>3.1.2<span style="color:#f92672">&lt;/version&gt;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&lt;configuration&gt;</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">&lt;archive&gt;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&lt;manifest&gt;</span>
+</span></span><span style="display:flex;"><span>              <span style="color:#f92672">&lt;addDefaultImplementationEntries&gt;</span>true<span style="color:#f92672">&lt;/addDefaultImplementationEntries&gt;</span>
+</span></span><span style="display:flex;"><span>            <span style="color:#f92672">&lt;/manifest&gt;</span>
+</span></span><span style="display:flex;"><span>          <span style="color:#f92672">&lt;/archive&gt;</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">&lt;/configuration&gt;</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">&lt;/plugin&gt;</span>
+</span></span><span style="display:flex;"><span>      ...
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">&lt;/plugins&gt;</span>
+</span></span><span style="display:flex;"><span>    ...
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">&lt;/build&gt;</span>
+</span></span><span style="display:flex;"><span>...
+</span></span></code></pre></div><h3 id="module">Module</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#66d9ef">public</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">VersionProvider</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">public</span> String <span style="color:#a6e22e">version</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> getClass<span style="color:#f92672">().</span><span style="color:#a6e22e">getModule</span><span style="color:#f92672">()</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">.</span><span style="color:#a6e22e">getDescriptor</span><span style="color:#f92672">()</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">.</span><span style="color:#a6e22e">version</span><span style="color:#f92672">().</span><span style="color:#a6e22e">toString</span><span style="color:#f92672">();</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>これで取得できるはず．<code>module-info.java</code>でバージョンを設定する箇所はないため，jar ファイルでは設定できないと思われる．</p>
 <p>jmod ファイルを作成する<code>jmod</code>コマンドに<a href="https://docs.oracle.com/javase/jp/11/tools/jmod.html"><code>--module-version</code>オプションがある</a>ため，これを利用して指定するのであろう．</p>
 <h2 id="what-the-case-in-the-use-of-native-image">What the case in the use of <code>native-image</code>?</h2>
 <p>で，ここからが本番．<a href="https://www.graalvm.org/">GraalVM</a> を使ってネイティブイメージを作成したときにバージョン情報を取得できなくなっているのはいただけない．</p>
 <p>ということで，次のプログラムを用意した．プログラムの全貌は <a href="https://github.com/tamada/version_from_pom">tamada/version_from_pom</a>にあるので参照されたい．なお，どれくらい差が出るかはわからないが時間も計測してみた．</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">interface</span> <span style="color:#a6e22e">VersionProvider</span> <span style="color:#66d9ef">extends</span> Supplier<span style="color:#f92672">&lt;</span>Pair<span style="color:#f92672">&lt;</span>Version<span style="color:#f92672">,</span> String<span style="color:#f92672">&gt;&gt;</span> <span style="color:#f92672">{</span>
-        <span style="color:#75715e">// 読み込んだバージョン番号とどこから読み込んだかを返す．
-</span><span style="color:#75715e"></span>        Pair<span style="color:#f92672">&lt;</span>Version<span style="color:#f92672">,</span> String<span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">get</span><span style="color:#f92672">();</span>
-    <span style="color:#f92672">}</span>
-    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">perform</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
-        Stream<span style="color:#f92672">.</span><span style="color:#a6e22e">of</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> ConstantVersionProvider<span style="color:#f92672">(),</span> <span style="color:#66d9ef">new</span> PropertyVersionProvider<span style="color:#f92672">(),</span>
-                        <span style="color:#66d9ef">new</span> PackageVersionProvider<span style="color:#f92672">(),</span> <span style="color:#66d9ef">new</span> ModuleVersionProvider<span style="color:#f92672">())</span>
-                <span style="color:#f92672">.</span><span style="color:#a6e22e">forEach</span><span style="color:#f92672">(</span>provider <span style="color:#f92672">-&gt;</span> printResult<span style="color:#f92672">(</span>provider<span style="color:#f92672">));</span>
-    <span style="color:#f92672">}</span>
-    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">printResult</span><span style="color:#f92672">(</span>VersionProvider provider<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-        var result <span style="color:#f92672">=</span> measure<span style="color:#f92672">(()</span> <span style="color:#f92672">-&gt;</span> provider<span style="color:#f92672">.</span><span style="color:#a6e22e">get</span><span style="color:#f92672">());</span>
-        Pair<span style="color:#f92672">&lt;</span>Version<span style="color:#f92672">,</span> String<span style="color:#f92672">&gt;</span> pair <span style="color:#f92672">=</span> result<span style="color:#f92672">.</span><span style="color:#a6e22e">right</span><span style="color:#f92672">();</span>
-        String version <span style="color:#f92672">=</span> String<span style="color:#f92672">.</span><span style="color:#a6e22e">valueOf</span><span style="color:#f92672">(</span>pair<span style="color:#f92672">.</span><span style="color:#a6e22e">left</span><span style="color:#f92672">());</span>
-        <span style="color:#66d9ef">long</span> time <span style="color:#f92672">=</span> result<span style="color:#f92672">.</span><span style="color:#a6e22e">left</span><span style="color:#f92672">();</span>
-        System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">printf</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;%5s,%10d nano sec,%s%n&#34;</span><span style="color:#f92672">,</span> version<span style="color:#f92672">,</span> time<span style="color:#f92672">,</span> pair<span style="color:#f92672">.</span><span style="color:#a6e22e">right</span><span style="color:#f92672">());</span>
-    <span style="color:#f92672">}</span>
-    <span style="color:#66d9ef">private</span> <span style="color:#f92672">&lt;</span>R<span style="color:#f92672">&gt;</span> Pair<span style="color:#f92672">&lt;</span>Long<span style="color:#f92672">,</span> R<span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">measure</span><span style="color:#f92672">(</span>Supplier<span style="color:#f92672">&lt;</span>R<span style="color:#f92672">&gt;</span> supplier<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-        <span style="color:#66d9ef">long</span> from <span style="color:#f92672">=</span> System<span style="color:#f92672">.</span><span style="color:#a6e22e">nanoTime</span><span style="color:#f92672">();</span>
-        R result <span style="color:#f92672">=</span> supplier<span style="color:#f92672">.</span><span style="color:#a6e22e">get</span><span style="color:#f92672">();</span>
-        <span style="color:#66d9ef">return</span> Pair<span style="color:#f92672">.</span><span style="color:#a6e22e">of</span><span style="color:#f92672">(</span>System<span style="color:#f92672">.</span><span style="color:#a6e22e">nanoTime</span><span style="color:#f92672">()</span> <span style="color:#f92672">-</span> from<span style="color:#f92672">,</span> result<span style="color:#f92672">);</span>
-    <span style="color:#f92672">}</span>
-    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ConstantVersionProvider</span> <span style="color:#66d9ef">implements</span> VersionProvider <span style="color:#f92672">{</span>
-      <span style="color:#f92672">...</span> <span style="color:#75715e">// 上記の Constant とほぼ同じ
-</span><span style="color:#75715e"></span>    <span style="color:#f92672">}</span>
-    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">PropertyVersionProvider</span> <span style="color:#66d9ef">implements</span> VersionProvider <span style="color:#f92672">{</span>
-      <span style="color:#f92672">...</span> <span style="color:#75715e">// 上記の Property とほぼ同じ
-</span><span style="color:#75715e"></span>    <span style="color:#f92672">}</span>
-    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">PackageVersionProvider</span> <span style="color:#66d9ef">implements</span> VersionProvider <span style="color:#f92672">{</span>
-      <span style="color:#f92672">...</span> <span style="color:#75715e">// 上記の Package とほぼ同じ
-</span><span style="color:#75715e"></span>    <span style="color:#f92672">}</span>
-    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ModuleVersionProvider</span> <span style="color:#66d9ef">implements</span> VersionProvider <span style="color:#f92672">{</span>
-      <span style="color:#f92672">...</span> <span style="color:#75715e">// 上記の Module とほぼ同じ
-</span><span style="color:#75715e"></span>    <span style="color:#f92672">}</span>
-</code></pre></div><p>このプログラムを次の 5 つの方法で実行した結果を示す．</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">interface</span> <span style="color:#a6e22e">VersionProvider</span> <span style="color:#66d9ef">extends</span> Supplier<span style="color:#f92672">&lt;</span>Pair<span style="color:#f92672">&lt;</span>Version<span style="color:#f92672">,</span> String<span style="color:#f92672">&gt;&gt;</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#75715e">// 読み込んだバージョン番号とどこから読み込んだかを返す．
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        Pair<span style="color:#f92672">&lt;</span>Version<span style="color:#f92672">,</span> String<span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">get</span><span style="color:#f92672">();</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">perform</span><span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>        Stream<span style="color:#f92672">.</span><span style="color:#a6e22e">of</span><span style="color:#f92672">(</span><span style="color:#66d9ef">new</span> ConstantVersionProvider<span style="color:#f92672">(),</span> <span style="color:#66d9ef">new</span> PropertyVersionProvider<span style="color:#f92672">(),</span>
+</span></span><span style="display:flex;"><span>                        <span style="color:#66d9ef">new</span> PackageVersionProvider<span style="color:#f92672">(),</span> <span style="color:#66d9ef">new</span> ModuleVersionProvider<span style="color:#f92672">())</span>
+</span></span><span style="display:flex;"><span>                <span style="color:#f92672">.</span><span style="color:#a6e22e">forEach</span><span style="color:#f92672">(</span>provider <span style="color:#f92672">-&gt;</span> printResult<span style="color:#f92672">(</span>provider<span style="color:#f92672">));</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">printResult</span><span style="color:#f92672">(</span>VersionProvider provider<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>        var result <span style="color:#f92672">=</span> measure<span style="color:#f92672">(()</span> <span style="color:#f92672">-&gt;</span> provider<span style="color:#f92672">.</span><span style="color:#a6e22e">get</span><span style="color:#f92672">());</span>
+</span></span><span style="display:flex;"><span>        Pair<span style="color:#f92672">&lt;</span>Version<span style="color:#f92672">,</span> String<span style="color:#f92672">&gt;</span> pair <span style="color:#f92672">=</span> result<span style="color:#f92672">.</span><span style="color:#a6e22e">right</span><span style="color:#f92672">();</span>
+</span></span><span style="display:flex;"><span>        String version <span style="color:#f92672">=</span> String<span style="color:#f92672">.</span><span style="color:#a6e22e">valueOf</span><span style="color:#f92672">(</span>pair<span style="color:#f92672">.</span><span style="color:#a6e22e">left</span><span style="color:#f92672">());</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">long</span> time <span style="color:#f92672">=</span> result<span style="color:#f92672">.</span><span style="color:#a6e22e">left</span><span style="color:#f92672">();</span>
+</span></span><span style="display:flex;"><span>        System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">printf</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;%5s,%10d nano sec,%s%n&#34;</span><span style="color:#f92672">,</span> version<span style="color:#f92672">,</span> time<span style="color:#f92672">,</span> pair<span style="color:#f92672">.</span><span style="color:#a6e22e">right</span><span style="color:#f92672">());</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">private</span> <span style="color:#f92672">&lt;</span>R<span style="color:#f92672">&gt;</span> Pair<span style="color:#f92672">&lt;</span>Long<span style="color:#f92672">,</span> R<span style="color:#f92672">&gt;</span> <span style="color:#a6e22e">measure</span><span style="color:#f92672">(</span>Supplier<span style="color:#f92672">&lt;</span>R<span style="color:#f92672">&gt;</span> supplier<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">long</span> from <span style="color:#f92672">=</span> System<span style="color:#f92672">.</span><span style="color:#a6e22e">nanoTime</span><span style="color:#f92672">();</span>
+</span></span><span style="display:flex;"><span>        R result <span style="color:#f92672">=</span> supplier<span style="color:#f92672">.</span><span style="color:#a6e22e">get</span><span style="color:#f92672">();</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> Pair<span style="color:#f92672">.</span><span style="color:#a6e22e">of</span><span style="color:#f92672">(</span>System<span style="color:#f92672">.</span><span style="color:#a6e22e">nanoTime</span><span style="color:#f92672">()</span> <span style="color:#f92672">-</span> from<span style="color:#f92672">,</span> result<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ConstantVersionProvider</span> <span style="color:#66d9ef">implements</span> VersionProvider <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">...</span> <span style="color:#75715e">// 上記の Constant とほぼ同じ
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">PropertyVersionProvider</span> <span style="color:#66d9ef">implements</span> VersionProvider <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">...</span> <span style="color:#75715e">// 上記の Property とほぼ同じ
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">PackageVersionProvider</span> <span style="color:#66d9ef">implements</span> VersionProvider <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">...</span> <span style="color:#75715e">// 上記の Package とほぼ同じ
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">ModuleVersionProvider</span> <span style="color:#66d9ef">implements</span> VersionProvider <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>      <span style="color:#f92672">...</span> <span style="color:#75715e">// 上記の Module とほぼ同じ
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#f92672">}</span>
+</span></span></code></pre></div><p>このプログラムを次の 5 つの方法で実行した結果を示す．</p>
 <ul>
 <li><strong>Plain</strong>: <code>java -cp target/classes jp.cafebabe.vfp.Main</code>
 <ul>
@@ -306,82 +306,82 @@ Gradle の場合でもバージョン番号を埋め込む方法に多少の違�
 <thead>
 <tr>
 <th></th>
-<th align="right">Constant</th>
-<th align="right">Property</th>
-<th align="right">Package</th>
-<th align="right">Module</th>
+<th style="text-align:right">Constant</th>
+<th style="text-align:right">Property</th>
+<th style="text-align:right">Package</th>
+<th style="text-align:right">Module</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><strong>Plain</strong></td>
-<td align="right">563,500 nsec</td>
-<td align="right">7,336,375 nsec</td>
-<td align="right">null</td>
-<td align="right">Exception</td>
+<td style="text-align:right">563,500 nsec</td>
+<td style="text-align:right">7,336,375 nsec</td>
+<td style="text-align:right">null</td>
+<td style="text-align:right">Exception</td>
 </tr>
 <tr>
 <td><strong>Jar</strong></td>
-<td align="right">3,145,250 nsec</td>
-<td align="right">29,883,833 nsec</td>
-<td align="right">25,667 nsec</td>
-<td align="right">Exception</td>
+<td style="text-align:right">3,145,250 nsec</td>
+<td style="text-align:right">29,883,833 nsec</td>
+<td style="text-align:right">25,667 nsec</td>
+<td style="text-align:right">Exception</td>
 </tr>
 <tr>
 <td><strong>Module</strong></td>
-<td align="right">179,583 nsec</td>
-<td align="right">9,867,208 nsec</td>
-<td align="right">null</td>
-<td align="right">null</td>
+<td style="text-align:right">179,583 nsec</td>
+<td style="text-align:right">9,867,208 nsec</td>
+<td style="text-align:right">null</td>
+<td style="text-align:right">null</td>
 </tr>
 <tr>
 <td><strong>Native-Jar</strong></td>
-<td align="right">35,791 nsec</td>
-<td align="right">Exception</td>
-<td align="right">1,442,458 nsec</td>
-<td align="right">Exception</td>
+<td style="text-align:right">35,791 nsec</td>
+<td style="text-align:right">Exception</td>
+<td style="text-align:right">1,442,458 nsec</td>
+<td style="text-align:right">Exception</td>
 </tr>
 <tr>
 <td><strong>Native-Module</strong></td>
-<td align="right">113,875 nsec</td>
-<td align="right">Exception</td>
-<td align="right">null</td>
-<td align="right">null</td>
+<td style="text-align:right">113,875 nsec</td>
+<td style="text-align:right">Exception</td>
+<td style="text-align:right">null</td>
+<td style="text-align:right">null</td>
 </tr>
 <tr>
 <td><strong>Plain2</strong></td>
-<td align="right">396,000 nsec</td>
-<td align="right">12,512,417 nsec</td>
-<td align="right">null</td>
-<td align="right">Exception</td>
+<td style="text-align:right">396,000 nsec</td>
+<td style="text-align:right">12,512,417 nsec</td>
+<td style="text-align:right">null</td>
+<td style="text-align:right">Exception</td>
 </tr>
 <tr>
 <td><strong>Jar2</strong></td>
-<td align="right">556,750 nsec</td>
-<td align="right">40,243,417 nsec</td>
-<td align="right">57,875 nsec</td>
-<td align="right">Exception</td>
+<td style="text-align:right">556,750 nsec</td>
+<td style="text-align:right">40,243,417 nsec</td>
+<td style="text-align:right">57,875 nsec</td>
+<td style="text-align:right">Exception</td>
 </tr>
 <tr>
 <td><strong>Module2</strong></td>
-<td align="right">145,708 nsec</td>
-<td align="right">19,945,375 nsec</td>
-<td align="right">null</td>
-<td align="right">38,522,208 nsec</td>
+<td style="text-align:right">145,708 nsec</td>
+<td style="text-align:right">19,945,375 nsec</td>
+<td style="text-align:right">null</td>
+<td style="text-align:right">38,522,208 nsec</td>
 </tr>
 <tr>
 <td><strong>Native-Jar2</strong></td>
-<td align="right">41,583 nsec</td>
-<td align="right">Exception</td>
-<td align="right">1,448,750 nsec</td>
-<td align="right">Exception</td>
+<td style="text-align:right">41,583 nsec</td>
+<td style="text-align:right">Exception</td>
+<td style="text-align:right">1,448,750 nsec</td>
+<td style="text-align:right">Exception</td>
 </tr>
 <tr>
 <td><strong>Native-Module2</strong></td>
-<td align="right">94,125 nsec</td>
-<td align="right">Exception</td>
-<td align="right">null</td>
-<td align="right">193,166 nsec</td>
+<td style="text-align:right">94,125 nsec</td>
+<td style="text-align:right">Exception</td>
+<td style="text-align:right">null</td>
+<td style="text-align:right">193,166 nsec</td>
 </tr>
 </tbody>
 </table>
@@ -406,7 +406,7 @@ Gradle の場合でもバージョン番号を埋め込む方法に多少の違�
 
 <div id="disqus_thread"></div>
 <script type="application/javascript">
-    var disqus_config = function () {
+    window.disqus_config = function () {
     
     
     

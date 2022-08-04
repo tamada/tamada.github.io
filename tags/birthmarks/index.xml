@@ -6,11 +6,7 @@
     <description>Recent content in birthmarks on Haruaki TAMADA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Feb 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://tamada.github.io/tags/birthmarks/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 15 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/birthmarks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fast comparisons of the birthmarks</title>
       <link>https://tamada.github.io/research/birthmark_fast_comparison/</link>
@@ -54,7 +50,7 @@
       <pubDate>Thu, 01 Sep 2005 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/research/birthmark_concept/</guid>
-      <description>:speaking_head: Overview To detect the theft of Java class files efficiently, we propose a concept of Java birthmarks, which are unique and native characteristics of every class file. For a pair of class files $p$ and $q$, if $q$ has the same birthmark as $p$&#39;s, $q$ is suspected as a copy of $p$. Ideally, the birthmarks should satisfy the following properties: (a) preservation &amp;ndash; the birthmarks should be preserved even if the original class file is tampered with, and (b) distinction &amp;ndash; independent class files must be distinguished by completely different birthmarks.</description>
+      <description>:speaking_head: Overview To detect the theft of Java class files efficiently, we propose a concept of Java birthmarks, which are unique and native characteristics of every class file. For a pair of class files $p$ and $q$, if $q$ has the same birthmark as $p$&amp;rsquo;s, $q$ is suspected as a copy of $p$. Ideally, the birthmarks should satisfy the following properties: (a) preservation &amp;ndash; the birthmarks should be preserved even if the original class file is tampered with, and (b) distinction &amp;ndash; independent class files must be distinguished by completely different birthmarks.</description>
     </item>
     
   </channel>

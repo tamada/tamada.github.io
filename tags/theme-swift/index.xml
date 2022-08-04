@@ -6,11 +6,7 @@
     <description>Recent content in theme-swift on Haruaki TAMADA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Mar 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://tamada.github.io/tags/theme-swift/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 20 Mar 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/theme-swift/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Renewed my web site with hugo-theme-swift.</title>
       <link>https://tamada.github.io/blog/20200320_new_design/</link>

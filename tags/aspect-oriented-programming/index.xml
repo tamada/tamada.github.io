@@ -6,11 +6,7 @@
     <description>Recent content in aspect oriented programming on Haruaki TAMADA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 15 Jul 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://tamada.github.io/tags/aspect-oriented-programming/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 15 Jul 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/aspect-oriented-programming/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Auto-extraction of Dynamic Birthmarks</title>
       <link>https://tamada.github.io/research/automatic_extraction_of_dynamic_birthmarks/</link>

@@ -6,11 +6,7 @@
     <description>Recent content in :house_with_garden: Home on Haruaki TAMADA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Jul 2019 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://tamada.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 13 Jul 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>:bulb: GoLand with asdf on macOS</title>
       <link>https://tamada.github.io/blog/20220129_goland_with_asdf/</link>
@@ -21,7 +17,7 @@
 なぜだと調べてみると，Preferences -&amp;gt; GOROOT を見てみると真っ白． asdf でインストールされた Go のパスが見つからないみたい．
 早速 GOROOTを設定しようとAdd SDK...ボタンを押すと，ファイル選択ダイアログが出てくる． asdf での GOROOT は ~/.asdf/installs/golang/1.17.5/go であるので，選択しようとすると隠しファイルが出てこない．．． .asdf は隠しフォルダであるため，ファイル選択ダイアログから選択できない．
 解決策 直接設定ファイルを修正する． ~/Library/Application Support/JetBrains/GoLand2021.3/options/go.sdk.xml を開いて，次のような XML の option タグの value を適切なパスに修正すると良い． 修正できれば GoLand の再起動で OK のはず．
-&amp;lt;application&amp;gt; &amp;lt;component name=&amp;#34;GoSdkList&amp;#34;&amp;gt; &amp;lt;sdk-url&amp;gt; &amp;lt;set&amp;gt; &amp;lt;option value=&amp;#34;file://$USER_HOME$/.asdf/installs/golang/1.17.5/go&amp;#34; /&amp;gt; &amp;lt;/set&amp;gt; &amp;lt;/sdk-url&amp;gt; &amp;lt;/component&amp;gt; &amp;lt;/application&amp;gt; もし，サードパーティ製のライブラリが参照できない場合は， ~/Library/Application Support/JetBrains/GoLand2021.3/options/goLibraries.xml で GOPATH を以下のように設定すると良い．</description>
+&amp;lt;application&amp;gt;  &amp;lt;component name=&amp;#34;GoSdkList&amp;#34;&amp;gt;  &amp;lt;sdk-url&amp;gt;  &amp;lt;set&amp;gt;  &amp;lt;option value=&amp;#34;file://$USER_HOME$/.asdf/installs/golang/1.17.5/go&amp;#34; /&amp;gt;  &amp;lt;/set&amp;gt;  &amp;lt;/sdk-url&amp;gt;  &amp;lt;/component&amp;gt; &amp;lt;/application&amp;gt; もし，サードパーティ製のライブラリが参照できない場合は， ~/Library/Application Support/JetBrains/GoLand2021.</description>
     </item>
     
     <item>
@@ -263,7 +259,7 @@ This paper presents a new name obfuscation method, which can hide appearance of 
       <pubDate>Thu, 01 Sep 2005 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/research/birthmark_concept/</guid>
-      <description>:speaking_head: Overview To detect the theft of Java class files efficiently, we propose a concept of Java birthmarks, which are unique and native characteristics of every class file. For a pair of class files $p$ and $q$, if $q$ has the same birthmark as $p$&#39;s, $q$ is suspected as a copy of $p$. Ideally, the birthmarks should satisfy the following properties: (a) preservation &amp;ndash; the birthmarks should be preserved even if the original class file is tampered with, and (b) distinction &amp;ndash; independent class files must be distinguished by completely different birthmarks.</description>
+      <description>:speaking_head: Overview To detect the theft of Java class files efficiently, we propose a concept of Java birthmarks, which are unique and native characteristics of every class file. For a pair of class files $p$ and $q$, if $q$ has the same birthmark as $p$&amp;rsquo;s, $q$ is suspected as a copy of $p$. Ideally, the birthmarks should satisfy the following properties: (a) preservation &amp;ndash; the birthmarks should be preserved even if the original class file is tampered with, and (b) distinction &amp;ndash; independent class files must be distinguished by completely different birthmarks.</description>
     </item>
     
     <item>
