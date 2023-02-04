@@ -23,8 +23,19 @@
   <link rel="icon" type="image/png" sizes="32x32" href="https://tamada.github.io/images/harry.png">
   <link rel="icon" type="image/png" sizes="16x16" href="https://tamada.github.io/images/harry.png">
   
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3TW3Z9FJB6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-3TW3Z9FJB6');
+</script>
+
   <title>☕ How to get the version defined in pom.xml | Haruaki TAMADA</title>
 </head>
+
 <body>
   <section class="page-header">
   <div class="navigation"><a href="/tags">🏷️ Tags</a></div>
@@ -89,6 +100,7 @@
 </ul>
 </li>
 <li><a href="#summary">Summary</a></li>
+<li><a href="#appendix">Appendix</a> (2023-01-09追記)</li>
 <li><a href="#references">References</a></li>
 </ul>
 <h2 id="overview">Overview</h2>
@@ -397,6 +409,96 @@ Gradle の場合でもバージョン番号を埋め込む方法に多少の違�
 <p>次に<strong>Package</strong>もしくは<strong>Module</strong>で取得するのが良いが，native-image でビルドするときのオプションに注意しないといけない．注意しないといけないと書いている時点でダメだけど．
 <strong>Property</strong>はネイティブイメージにする必要がない場合は OK だが，そうでない場合やめた方が良い．予想外のエラーで悩まされる可能性があるためである．</p>
 <p>実行時間はいずれの方法でも誤差の範囲であろう．バージョン番号取得のみの時間で見るとそれぞれが大きな差のように思えるが，実際のアプリケーションの場合，バージョン番号取得以外にも様々な処理が行われる．そのような様々な処理の中から見るとバージョン番号取得の時間短縮に気を配るよりも他の処理の短縮に気を配る方が建設的であるためである．</p>
+<h2 id="appendix">Appendix</h2>
+<p>(2023-01-09追記)</p>
+<p>native-image でプロパティファイルを読ませるようにするにはオプションで指定しないといけないらしい．
+で，指定するようにして再実験してみた．</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align:right">Constant</th>
+<th style="text-align:right">Property</th>
+<th style="text-align:right">Package</th>
+<th style="text-align:right">Module</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Plain</strong></td>
+<td style="text-align:right">114,458 nsec</td>
+<td style="text-align:right">1,285,834 nsec</td>
+<td style="text-align:right">null</td>
+<td style="text-align:right">Exception</td>
+</tr>
+<tr>
+<td><strong>Jar</strong></td>
+<td style="text-align:right">118,083 nsec</td>
+<td style="text-align:right">1,944,208 nsec</td>
+<td style="text-align:right">16,792 nsec</td>
+<td style="text-align:right">Exception</td>
+</tr>
+<tr>
+<td><strong>Module</strong></td>
+<td style="text-align:right">89,375 nsec</td>
+<td style="text-align:right">1,056,292 nsec</td>
+<td style="text-align:right">null</td>
+<td style="text-align:right">null</td>
+</tr>
+<tr>
+<td><strong>Native-Jar</strong></td>
+<td style="text-align:right">42 nsec</td>
+<td style="text-align:right">27,833 nsec</td>
+<td style="text-align:right">4,250 nsec</td>
+<td style="text-align:right">Exception</td>
+</tr>
+<tr>
+<td><strong>Native-Module</strong></td>
+<td style="text-align:right">125 nsec</td>
+<td style="text-align:right">20,250 nsec</td>
+<td style="text-align:right">null</td>
+<td style="text-align:right">null</td>
+</tr>
+<tr>
+<td><strong>Plain2</strong></td>
+<td style="text-align:right">123,375 nsec</td>
+<td style="text-align:right">1,187,500 nsec</td>
+<td style="text-align:right">null</td>
+<td style="text-align:right">Exception</td>
+</tr>
+<tr>
+<td><strong>Jar2</strong></td>
+<td style="text-align:right">117,291 nsec</td>
+<td style="text-align:right">1,414,125 nsec</td>
+<td style="text-align:right">13,417 nsec</td>
+<td style="text-align:right">Exception</td>
+</tr>
+<tr>
+<td><strong>Module2</strong></td>
+<td style="text-align:right">88,250 nsec</td>
+<td style="text-align:right">1,025,292 nsec</td>
+<td style="text-align:right">null</td>
+<td style="text-align:right">566,417 nsec</td>
+</tr>
+<tr>
+<td><strong>Native-Jar2</strong></td>
+<td style="text-align:right">83 nsec</td>
+<td style="text-align:right">20,084 nsec</td>
+<td style="text-align:right">2,791 nsec</td>
+<td style="text-align:right">Exception</td>
+</tr>
+<tr>
+<td><strong>Native-Module2</strong></td>
+<td style="text-align:right">42 nsec</td>
+<td style="text-align:right">15,958 nsec</td>
+<td style="text-align:right">null</td>
+<td style="text-align:right">792 nsec</td>
+</tr>
+</tbody>
+</table>
+<p>PCが変わって全体的に速くなった．
+プロパティから読み込むのは，nativeイメージにしたとしても，定数値やPackage，Moduleから読み込むのに比べると遅い．
+nativeイメージにすると，意外と Module から読み込むのが早い．</p>
 <h2 id="references">References</h2>
 <ul>
 <li><a href="https://tyablog.net/2020/04/05/java-how-different-jmod-and-jar">Java JMOD ファイルとは、JAR ファイルとの違い。</a></li>
@@ -433,13 +535,6 @@ Gradle の場合でもバージョン番号を埋め込む方法に多少の違�
 
   </section>
   
-  
-  <script>
-  window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-  ga('create', 'UA-62401730-5', 'auto');
-  ga('send', 'pageview');
-  </script>
-  <script async src='https://www.google-analytics.com/analytics.js'></script>
   
 
 </body>

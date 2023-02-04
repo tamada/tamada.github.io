@@ -13,7 +13,7 @@
       <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/blog/20211104_vfp/</guid>
-      <description>Overview Getting ways of the version defined in pom.xml  Constant Property Package Module   What the case in the use of native-image?  Result of Measurements   Summary References  Overview Java 17 が出たことだし，いい加減に Java のモジュールシステムを本格的に使いだそうとしている． 最近の Java の自作ツールは一応モジュール対応にしたつもり（pochi，vhcなど）． さらに，GraalVM を使ってネイティブイメージも作成できるそうなので色々とやってみたい．
+      <description>Overview Getting ways of the version defined in pom.xml  Constant Property Package Module   What the case in the use of native-image?  Result of Measurements   Summary Appendix (2023-01-09追記) References  Overview Java 17 が出たことだし，いい加減に Java のモジュールシステムを本格的に使いだそうとしている． 最近の Java の自作ツールは一応モジュール対応にしたつもり（pochi，vhcなど）． さらに，GraalVM を使ってネイティブイメージも作成できるそうなので色々とやってみたい．
 で，アプリを作るときにバージョン情報を取得したいことがある． そして，具体的なバージョン番号は，ビルドツールのプロジェクトディスクリプタ（Maven ならpom.xml，Gradle ならbuild.gradle?）に書くことが多い． バージョン番号が複数箇所に書かれていると，更新ミスでバージョンのミスマッチが起こるので，バージョン番号は一箇所で管理したいのが人情である． となると，どのような方法でバージョン番号を取得すれば良いのだろうと思い，調べてみた． これまでは特に意識せずプロパティから読み込んだり，Packageクラスを使ったりしていた． しかし，実行方法（-jarや--module）の違いやパッケージングの方法の違いで，取得できないことがあるのかを調べてみた．
 私がよく使うビルドツールは Maven であるので，pom.xml で設定したバージョン情報をアプリケーションからどんな情報で取得できるかを確認してみた． Gradle の場合でもバージョン番号を埋め込む方法に多少の違いがあるだけで，大きな違いはない．
 Getting ways of the version defined in pom.xml バージョン番号を取得する方法は，次の 4 つの方法に分類できる．</description>
