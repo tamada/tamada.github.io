@@ -6,16 +6,7 @@
     <description>Recent content in :bulb: Research Topics on Haruaki TAMADA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/research/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>De-obfuscate DNR</title>
-      <link>https://tamada.github.io/research/deobfuscating_dnr/</link>
-      <pubDate>Sun, 23 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/research/deobfuscating_dnr/</guid>
-      <description>:speaking_head: Overview Using unevaluated obfuscation methods has a significant risk since the methods might have some vulnerabilities. One evaluation for obfuscation is de-obfuscation which discloses the hidden information by the obfuscation. This paper proposed the de-obfuscation method against for DNR (dynamic name resolution) obfuscation method. DNR hides system-defined names by encrypting them and resolves names dynamically during runtime. This paper clarifies the steps of de-obfuscation and proposes static and dynamic manners to de-obfuscate DNR.</description>
-    </item>
-    
+    <lastBuildDate>Fri, 27 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git/GitHub Operation Support for Novice Programmers</title>
       <link>https://tamada.github.io/research/git_operation_supports/</link>
@@ -53,7 +44,7 @@ In this paper, we tackle to identify the applied obfuscation methods towards de-
       
       <guid>https://tamada.github.io/research/development_support_bot/</guid>
       <description>:speaking_head: Overview This research topic aims to build a helpful bot for the software development. Also, the topic focuses on the bot on the Social Coding Platform in the social network services. The one goal of the topic is to build a bot for gently helping GitHub flow.
-:books: Publications  宮崎 光，玉田 春昭，CUIツールの開発支援サービスとしての再構築手順の提案”，信学技法，Vol.119，No.246, SS2019-14, pp.7–12, October 2019（熊本）. 玉田 春昭，”初学者向けGitHub flow学習支援”，ソフトウェアシンポジウム2019 ワークショップ 討論テーマ（2）実証的ソフトウェア工学によるプログラミング教育とソフトウェア工学教育，August 2019.（東京） Ko Miyazaki, Haruaki Tamada, “Identifying Users in the Bridging Service between Two Different Chat Services using User Icons,” In Proc.</description>
+:books: Publications 宮崎 光，玉田 春昭，CUIツールの開発支援サービスとしての再構築手順の提案”，信学技法，Vol.119，No.246, SS2019-14, pp.7–12, October 2019（熊本）. 玉田 春昭，”初学者向けGitHub flow学習支援”，ソフトウェアシンポジウム2019 ワークショップ 討論テーマ（2）実証的ソフトウェア工学によるプログラミング教育とソフトウェア工学教育，August 2019.（東京） Ko Miyazaki, Haruaki Tamada, “Identifying Users in the Bridging Service between Two Different Chat Services using User Icons,” In Proc.</description>
     </item>
     
     <item>
@@ -99,7 +90,7 @@ In this paper, we tackle to identify the applied obfuscation methods towards de-
       
       <guid>https://tamada.github.io/research/software_development_with_ai/</guid>
       <description>:speaking_head: Overview This topic is for mining software repositories. The following surveys were done.
- why do the developers update the build files in the project, and how to build the obliging bots for supporting next action.  :books: Publications  鐘ヶ江 由佳，玉田 春昭，畑 秀明，”GitHubにおける言語ごとのビルドファイルの更新理由調査”， 研究報告ソフトウェア工学（SE）, Vol. 2017-SE-196, No.28, July 2017. Akira Inokuchi, Haruaki Tamada, Hideaki Hata, and Masateru Tsunoda, &amp;ldquo;Toward Obliging Bots for Supporting Next Actions,&amp;rdquo; In Proc. of the 4th International Conference on Applied Computing &amp;amp; Information Technology (ACIT 2016), pp.</description>
+why do the developers update the build files in the project, and how to build the obliging bots for supporting next action. :books: Publications 鐘ヶ江 由佳，玉田 春昭，畑 秀明，”GitHubにおける言語ごとのビルドファイルの更新理由調査”， 研究報告ソフトウェア工学（SE）, Vol. 2017-SE-196, No.28, July 2017. Akira Inokuchi, Haruaki Tamada, Hideaki Hata, and Masateru Tsunoda, &amp;ldquo;Toward Obliging Bots for Supporting Next Actions,&amp;rdquo; In Proc. of the 4th International Conference on Applied Computing &amp;amp; Information Technology (ACIT 2016), pp.</description>
     </item>
     
     <item>
@@ -109,7 +100,7 @@ In this paper, we tackle to identify the applied obfuscation methods towards de-
       
       <guid>https://tamada.github.io/research/artificiality_evaluation/</guid>
       <description>:speaking_head: Overview This research topic tries to evaluate the artificialities of the obfuscated programs. We believe that the obfuscation changes the programs into unordinal ones. This topics evaluates the artificialities by tf-idf and perplexities.
-:books: Publications  横井 昂典，玉田 春昭，”使用クラスに基づいたTF-IDFによる難読化の不自然さ評価”，2017年暗号と情報セキュリティシンポジウム予稿集 (SCIS 2017)，3D1-4，January 2017.（沖縄，那覇） 大滝 隆貴，大堂 哲也，玉田 春昭，神崎 雄一郎，門田 暁人，”Javaバイトコード命令のオペコード、オペランドを用いた難読化手法のステルシネス評価”，2014年暗号と情報セキュリティシンポジウム予稿集 (SCIS2014), 2D2-2, January 2014.  :mag_right: Related Research Topics  Identifying the applied obfuscator De-obfuscate IRM (identifier renaming method) Evaluating obfuscation method by Kolmogorov complexity Unreadability evaluation of obfuscated programs  :handshake: Collaborators  Y.</description>
+:books: Publications 横井 昂典，玉田 春昭，”使用クラスに基づいたTF-IDFによる難読化の不自然さ評価”，2017年暗号と情報セキュリティシンポジウム予稿集 (SCIS 2017)，3D1-4，January 2017.（沖縄，那覇） 大滝 隆貴，大堂 哲也，玉田 春昭，神崎 雄一郎，門田 暁人，”Javaバイトコード命令のオペコード、オペランドを用いた難読化手法のステルシネス評価”，2014年暗号と情報セキュリティシンポジウム予稿集 (SCIS2014), 2D2-2, January 2014. :mag_right: Related Research Topics Identifying the applied obfuscator De-obfuscate IRM (identifier renaming method) Evaluating obfuscation method by Kolmogorov complexity Unreadability evaluation of obfuscated programs :handshake: Collaborators Y.</description>
     </item>
     
     <item>
@@ -166,7 +157,7 @@ In the proposed method, at first, similar methods are selected in a Java program
       
       <guid>https://tamada.github.io/research/birthmark_applications/</guid>
       <description>:speaking_head: Overview This research topics shows applications of software birthmarks. In our publications, we try to classify the programs using extracted software birthmarks. Because, we believe that the birthmarks shows the functionalities of the programs.
-:books: Publications  牛窓 朋義, 門田 暁人, 玉田 春昭, 松本 健一, “使用クラスに基づくソフトウェアの機能面からの分類”, 信学技報 ソフトウェアサイエンス研究会, Vol.SS2009-17, pp.31-36, August 2009. 玉田 春昭，森崎 修司，門田 暁人，松本 健一，”バースマークを用いたソフトウェア拡張開発での流用度合いの測定”，情報処理学会第70回全国大会，pp.5-399-400, March 2008. Takesi Kakimoto, Akito Monden, Yasutaka Kamei, Haruaki Tamada, Masateru Tsunoda, and Ken-ichi Matsumoto, “Using Software Birthmarks to Identify Similar Classes and Major Functionalities,” In Proc.</description>
+:books: Publications 牛窓 朋義, 門田 暁人, 玉田 春昭, 松本 健一, “使用クラスに基づくソフトウェアの機能面からの分類”, 信学技報 ソフトウェアサイエンス研究会, Vol.SS2009-17, pp.31-36, August 2009. 玉田 春昭，森崎 修司，門田 暁人，松本 健一，”バースマークを用いたソフトウェア拡張開発での流用度合いの測定”，情報処理学会第70回全国大会，pp.5-399-400, March 2008. Takesi Kakimoto, Akito Monden, Yasutaka Kamei, Haruaki Tamada, Masateru Tsunoda, and Ken-ichi Matsumoto, “Using Software Birthmarks to Identify Similar Classes and Major Functionalities,” In Proc.</description>
     </item>
     
     <item>

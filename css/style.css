@@ -55,9 +55,7 @@
 }
 
 .thumbnail {
-    width: 90%;
-    height: 180px;
-    object-fit: cover;
+    width: 80%;
 }
 
 .devicon {
@@ -264,7 +262,6 @@
 
 .secondary {
     font-size: 70%;
-    margin: 5px;
 }
 
 .titled_box {

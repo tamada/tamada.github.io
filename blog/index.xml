@@ -6,30 +6,18 @@
     <description>Recent content in :thinking: Blog on Haruaki TAMADA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>:bulb: GoLand with asdf on macOS</title>
-      <link>https://tamada.github.io/blog/20220129_goland_with_asdf/</link>
-      <pubDate>Sat, 29 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/blog/20220129_goland_with_asdf/</guid>
-      <description>asdf で Go の環境を構築していると GoLand が動かない．．． GoやJavaの環境を切り替えるための環境切り替えツールを jenvから asdfに変えた． で，GoLand を動かすと，import fmt もエラーが表示される． Cannot resolve symbol だと．
-なぜだと調べてみると，Preferences -&amp;gt; GOROOT を見てみると真っ白． asdf でインストールされた Go のパスが見つからないみたい．
-早速 GOROOTを設定しようとAdd SDK...ボタンを押すと，ファイル選択ダイアログが出てくる． asdf での GOROOT は ~/.asdf/installs/golang/1.17.5/go であるので，選択しようとすると隠しファイルが出てこない．．． .asdf は隠しフォルダであるため，ファイル選択ダイアログから選択できない．
-解決策 直接設定ファイルを修正する． ~/Library/Application Support/JetBrains/GoLand2021.3/options/go.sdk.xml を開いて，次のような XML の option タグの value を適切なパスに修正すると良い． 修正できれば GoLand の再起動で OK のはず．
-&amp;lt;application&amp;gt;  &amp;lt;component name=&amp;#34;GoSdkList&amp;#34;&amp;gt;  &amp;lt;sdk-url&amp;gt;  &amp;lt;set&amp;gt;  &amp;lt;option value=&amp;#34;file://$USER_HOME$/.asdf/installs/golang/1.17.5/go&amp;#34; /&amp;gt;  &amp;lt;/set&amp;gt;  &amp;lt;/sdk-url&amp;gt;  &amp;lt;/component&amp;gt; &amp;lt;/application&amp;gt; もし，サードパーティ製のライブラリが参照できない場合は， ~/Library/Application Support/JetBrains/GoLand2021.</description>
-    </item>
-    
-    <item>
-      <title>:coffee: How to get the version defined in pom.xml</title>
-      <link>https://tamada.github.io/blog/20211104_vfp/</link>
+      <title>How to get version defined in pom.xml</title>
+      <link>https://tamada.github.io/blog/20211104-vfp/</link>
       <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/blog/20211104_vfp/</guid>
-      <description>Overview Getting ways of the version defined in pom.xml  Constant Property Package Module   What the case in the use of native-image?  Result of Measurements   Summary Appendix (2023-01-09追記) References  Overview Java 17 が出たことだし，いい加減に Java のモジュールシステムを本格的に使いだそうとしている． 最近の Java の自作ツールは一応モジュール対応にしたつもり（pochi，vhcなど）． さらに，GraalVM を使ってネイティブイメージも作成できるそうなので色々とやってみたい．
-で，アプリを作るときにバージョン情報を取得したいことがある． そして，具体的なバージョン番号は，ビルドツールのプロジェクトディスクリプタ（Maven ならpom.xml，Gradle ならbuild.gradle?）に書くことが多い． バージョン番号が複数箇所に書かれていると，更新ミスでバージョンのミスマッチが起こるので，バージョン番号は一箇所で管理したいのが人情である． となると，どのような方法でバージョン番号を取得すれば良いのだろうと思い，調べてみた． これまでは特に意識せずプロパティから読み込んだり，Packageクラスを使ったりしていた． しかし，実行方法（-jarや--module）の違いやパッケージングの方法の違いで，取得できないことがあるのかを調べてみた．
-私がよく使うビルドツールは Maven であるので，pom.xml で設定したバージョン情報をアプリケーションからどんな情報で取得できるかを確認してみた． Gradle の場合でもバージョン番号を埋め込む方法に多少の違いがあるだけで，大きな違いはない．
-Getting ways of the version defined in pom.xml バージョン番号を取得する方法は，次の 4 つの方法に分類できる．</description>
+      <guid>https://tamada.github.io/blog/20211104-vfp/</guid>
+      <description>Getting ways of the version defined in pom.xml Constant Property Package Module What the case in the use of native-image? Result of Measurements Summary References Getting ways of the version defined in pom.xml Java 17が出たことだし，いい加減に Java のモジュールシステムを本格的に使いだそうとしている． 最近のJavaの自作ツールは一応モジュール対応にしたつもり（pochi，vhcなど）．
+で，ビルドツールは Maven を使うことが多いのだけど，pom.xml で設定したバージョン情報をアプリケーションからどんな情報で取得できるかを確認してみた．
+次の4つの方法に分類できる．
+Constant: 自分でバージョンの文字列をString型リテラルとしてソースコードに書き込む． Property: src/main/resourcesにプロパティファイルとしてバージョン情報を置いておく． Package: MANIFEST.MFに書かれている Implementation-VersionやSpecification-Versionのいずれかを利用する． Module: ModuleDescriptorのversionメソッドから利用する． それぞれの分類を独断と偏見で４段階で評価してみた（1が良くて，４が悪い）．
+Constant Property Package Module わかりやすさ 1 2 3 4 取得のしやすさ 1 2 2 2 自動化 3 2 1 3 分かりやすさはバージョン番号取得ルーチンをみたときのわかりやすさ．Constantは単なる変数参照なので一番わかりやすいであろう．Propertyはプロパティファイルを探し，読み込み，エントリを取得する，という３段階が必要となる．</description>
     </item>
     
     <item>
@@ -40,7 +28,11 @@ Getting ways of the version defined in pom.xml バージョン番号を取得す
       <guid>https://tamada.github.io/blog/20211021_programming_languages/</guid>
       <description>とあるユーティリティプログラムを作成しようと思ったものの，どのような言語で作成しようかと悩み中． 希望としては，ワンバイナリが生成可能，ジェネリクスあり，ストリーム処理，あたりが扱えると嬉しい． また，クロスコンパイルしたいし，書きやすい（EtoW; Easy to Write）言語であると嬉しい．
 で，まとめてみた．
-   Language One Binary Generics Stream Cross Compile EtoW     Java GraalVM OK OK Hard OK   Go OK 1.17- No OK OK   Rust OK? OK ??? OK? No   Node.js ??? ??? OK N/A OK   Python ??? OK? ??? ??? OK   Kotlin OK? OK OK OK ???    Java は GraalVM を使うとバイナリを作成できるけど，面倒． GraalVM を使ってもクロスコンパイルは難しいんじゃないかな． GitHub Actions などを使えばクロスコンパイルはできそうだけど，面倒だなぁ．</description>
+Language One Binary Generics Stream Cross Compile EtoW Java GraalVM OK OK Hard OK Go OK 1.17- No OK OK Rust OK? OK ??? OK? No Node.js ??? ??? OK N/A OK Python ??? OK? ??? ??? OK Kotlin OK? OK OK OK ??? Java は GraalVM を使うとバイナリを作成できるけど，面倒． GraalVM を使ってもクロスコンパイルは難しいんじゃないかな． GitHub Actions などを使えばクロスコンパイルはできそうだけど，面倒だなぁ．
+Go は概ね良いのだけど，ストリーム処理が行えないのが悩みどころ． ジェネリクスも出たばかりであまり書き慣れていない． 例外処理はなくてもいいや．
+Rust も良いのだけど，コンパイルを通すのに一苦労な点で，簡単なユーティリティを書くのにはそぐわない気がする．
+Node.js，Python はよく知らない．
+ちょっと調べてみると Kotlin がネイティブコードを生成できるらしい Kotlin も結局は Java バイトコードに変換するはずだから， GraalVM と何が違うのかはよく分からないし，これまでに書いたことないけど，書いてみようかな．</description>
     </item>
     
     <item>
@@ -51,7 +43,7 @@ Getting ways of the version defined in pom.xml バージョン番号を取得す
       <guid>https://tamada.github.io/blog/20201110_new_design/</guid>
       <description>ホームページのデザインを更新した． ふと思い立って，ホームページのデザインを更新してみた． 作成したプロダクトのデザインは cayman-hugo-theme に統一していたので，個人ページも同じテーマを採用してみた．
 雑感 以前使っていたHugo Swiftに対して思っていた要望が解消されたかな？
- トップのサイン波のアニメーションを変えたい．  -&amp;gt; なくなった．   ハンバーガーメニューが気に入らない．  -&amp;gt; なくなった．    </description>
+トップのサイン波のアニメーションを変えたい． -&amp;gt; なくなった． ハンバーガーメニューが気に入らない． -&amp;gt; なくなった． </description>
     </item>
     
     <item>
@@ -61,14 +53,14 @@ Getting ways of the version defined in pom.xml バージョン番号を取得す
       
       <guid>https://tamada.github.io/blog/20200320_new_design/</guid>
       <description>ホームページのデザインを更新した． ふと思い立って，ホームページのデザインを更新してみた． 今までは，hugo-cards を使っていたのをHugo Swift を使うことにした．
-欲しかった要件  config.tomlにごちゃごちゃと書かない． dataでの記述は最小限に． shortcodesにあまり依存しない．  この要件はあくまで好みである．
+欲しかった要件 config.tomlにごちゃごちゃと書かない． dataでの記述は最小限に． shortcodesにあまり依存しない． この要件はあくまで好みである．
 困ったこと Hugo などの静的サイトジェネレータでコメント投稿をサポートするために，Staticmanがリリースされている． Hugo SwiftはこのStaticmanを標準でサポートしている． しかし，設定方法にあるように設定して，コメントを投稿しても，500 Internal Server Errorになる． どうも，https://staticman3.herokuapp.com/v3/entry/github/tamada/tamada.github.io/master/comments に投稿しても，Staticman の中から GitHub へのリクエスト URL でリポジトリの情報が失われているっぽい． 設定項目は飛ばしていないつもりだけど，なぜだろう．．．
 Hugo のレイアウトのコツ いくつかのサイトを Hugo で構築して，レイアウトのコツのようなものがわかった．
 生成されたHTML と themes/XXXXXX/layouts/{_default,partials} 以下の内容を確認し，変更したい内容をトップのlayoutsにコピーして編集すると良い．
 雑感 Hugo Swiftには概ね満足なのだが，次の2つの項目を変えたい．
 サイン波のアニメーション トップのサイン波のアニメーションを変更するのが難しい． 変更自体は簡単なんだけど，変更してしまうと，サイトとしてイケてない． かといってそのままだと，デザインそのままな感じがする． とりあえず放置．
 ハンバーガーメニューが気に入らない． 個人的にハンバーガーメニューが気に入らない． 世間的にもハンバーガーメニューはダメだという意見があるようだ．
- 君たちはそんなにハンバーガーメニューが好きなのかね？ The Hamburger Menu Doesn&amp;rsquo;t Work  これもとりあえずは放置．
+君たちはそんなにハンバーガーメニューが好きなのかね？ The Hamburger Menu Doesn&amp;rsquo;t Work これもとりあえずは放置．
 というところでリリースした． Staticmanについてはまた今度挑戦してみる．</description>
     </item>
     

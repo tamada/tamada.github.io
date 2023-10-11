@@ -14,7 +14,7 @@
       
       <guid>https://tamada.github.io/research/development_support_bot/</guid>
       <description>:speaking_head: Overview This research topic aims to build a helpful bot for the software development. Also, the topic focuses on the bot on the Social Coding Platform in the social network services. The one goal of the topic is to build a bot for gently helping GitHub flow.
-:books: Publications  宮崎 光，玉田 春昭，CUIツールの開発支援サービスとしての再構築手順の提案”，信学技法，Vol.119，No.246, SS2019-14, pp.7–12, October 2019（熊本）. 玉田 春昭，”初学者向けGitHub flow学習支援”，ソフトウェアシンポジウム2019 ワークショップ 討論テーマ（2）実証的ソフトウェア工学によるプログラミング教育とソフトウェア工学教育，August 2019.（東京） Ko Miyazaki, Haruaki Tamada, “Identifying Users in the Bridging Service between Two Different Chat Services using User Icons,” In Proc.</description>
+:books: Publications 宮崎 光，玉田 春昭，CUIツールの開発支援サービスとしての再構築手順の提案”，信学技法，Vol.119，No.246, SS2019-14, pp.7–12, October 2019（熊本）. 玉田 春昭，”初学者向けGitHub flow学習支援”，ソフトウェアシンポジウム2019 ワークショップ 討論テーマ（2）実証的ソフトウェア工学によるプログラミング教育とソフトウェア工学教育，August 2019.（東京） Ko Miyazaki, Haruaki Tamada, “Identifying Users in the Bridging Service between Two Different Chat Services using User Icons,” In Proc.</description>
     </item>
     
     <item>
@@ -43,7 +43,7 @@ This paper proposes a measurement framework for developers&amp;rsquo; characteri
       
       <guid>https://tamada.github.io/research/birthmark_applications/</guid>
       <description>:speaking_head: Overview This research topics shows applications of software birthmarks. In our publications, we try to classify the programs using extracted software birthmarks. Because, we believe that the birthmarks shows the functionalities of the programs.
-:books: Publications  牛窓 朋義, 門田 暁人, 玉田 春昭, 松本 健一, “使用クラスに基づくソフトウェアの機能面からの分類”, 信学技報 ソフトウェアサイエンス研究会, Vol.SS2009-17, pp.31-36, August 2009. 玉田 春昭，森崎 修司，門田 暁人，松本 健一，”バースマークを用いたソフトウェア拡張開発での流用度合いの測定”，情報処理学会第70回全国大会，pp.5-399-400, March 2008. Takesi Kakimoto, Akito Monden, Yasutaka Kamei, Haruaki Tamada, Masateru Tsunoda, and Ken-ichi Matsumoto, “Using Software Birthmarks to Identify Similar Classes and Major Functionalities,” In Proc.</description>
+:books: Publications 牛窓 朋義, 門田 暁人, 玉田 春昭, 松本 健一, “使用クラスに基づくソフトウェアの機能面からの分類”, 信学技報 ソフトウェアサイエンス研究会, Vol.SS2009-17, pp.31-36, August 2009. 玉田 春昭，森崎 修司，門田 暁人，松本 健一，”バースマークを用いたソフトウェア拡張開発での流用度合いの測定”，情報処理学会第70回全国大会，pp.5-399-400, March 2008. Takesi Kakimoto, Akito Monden, Yasutaka Kamei, Haruaki Tamada, Masateru Tsunoda, and Ken-ichi Matsumoto, “Using Software Birthmarks to Identify Similar Classes and Major Functionalities,” In Proc.</description>
     </item>
     
   </channel>
