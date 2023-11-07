@@ -6,7 +6,11 @@
     <description>Recent content in opcodes on Haruaki TAMADA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 27 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/opcodes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tamada.github.io/tags/opcodes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Identifying the applied obfuscator</title>
       <link>https://tamada.github.io/research/identifying_applied_obfuscator/</link>

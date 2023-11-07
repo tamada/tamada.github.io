@@ -6,7 +6,11 @@
     <description>Recent content in MSR on Haruaki TAMADA</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/msr/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Oct 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://tamada.github.io/tags/msr/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Development support bot</title>
       <link>https://tamada.github.io/research/development_support_bot/</link>
@@ -14,7 +18,7 @@
       
       <guid>https://tamada.github.io/research/development_support_bot/</guid>
       <description>:speaking_head: Overview This research topic aims to build a helpful bot for the software development. Also, the topic focuses on the bot on the Social Coding Platform in the social network services. The one goal of the topic is to build a bot for gently helping GitHub flow.
-:books: Publications 宮崎 光，玉田 春昭，CUIツールの開発支援サービスとしての再構築手順の提案”，信学技法，Vol.119，No.246, SS2019-14, pp.7–12, October 2019（熊本）. 玉田 春昭，”初学者向けGitHub flow学習支援”，ソフトウェアシンポジウム2019 ワークショップ 討論テーマ（2）実証的ソフトウェア工学によるプログラミング教育とソフトウェア工学教育，August 2019.（東京） Ko Miyazaki, Haruaki Tamada, “Identifying Users in the Bridging Service between Two Different Chat Services using User Icons,” In Proc.</description>
+:books: Publications  宮崎 光，玉田 春昭，CUIツールの開発支援サービスとしての再構築手順の提案”，信学技法，Vol.119，No.246, SS2019-14, pp.7–12, October 2019（熊本）. 玉田 春昭，”初学者向けGitHub flow学習支援”，ソフトウェアシンポジウム2019 ワークショップ 討論テーマ（2）実証的ソフトウェア工学によるプログラミング教育とソフトウェア工学教育，August 2019.（東京） Ko Miyazaki, Haruaki Tamada, “Identifying Users in the Bridging Service between Two Different Chat Services using User Icons,” In Proc.</description>
     </item>
     
     <item>
@@ -33,7 +37,7 @@
       
       <guid>https://tamada.github.io/research/software_development_with_ai/</guid>
       <description>:speaking_head: Overview This topic is for mining software repositories. The following surveys were done.
-why do the developers update the build files in the project, and how to build the obliging bots for supporting next action. :books: Publications 鐘ヶ江 由佳，玉田 春昭，畑 秀明，”GitHubにおける言語ごとのビルドファイルの更新理由調査”， 研究報告ソフトウェア工学（SE）, Vol. 2017-SE-196, No.28, July 2017. Akira Inokuchi, Haruaki Tamada, Hideaki Hata, and Masateru Tsunoda, &amp;ldquo;Toward Obliging Bots for Supporting Next Actions,&amp;rdquo; In Proc. of the 4th International Conference on Applied Computing &amp;amp; Information Technology (ACIT 2016), pp.</description>
+ why do the developers update the build files in the project, and how to build the obliging bots for supporting next action.  :books: Publications  鐘ヶ江 由佳，玉田 春昭，畑 秀明，”GitHubにおける言語ごとのビルドファイルの更新理由調査”， 研究報告ソフトウェア工学（SE）, Vol. 2017-SE-196, No.28, July 2017. Akira Inokuchi, Haruaki Tamada, Hideaki Hata, and Masateru Tsunoda, &amp;ldquo;Toward Obliging Bots for Supporting Next Actions,&amp;rdquo; In Proc. of the 4th International Conference on Applied Computing &amp;amp; Information Technology (ACIT 2016), pp.</description>
     </item>
     
     <item>
