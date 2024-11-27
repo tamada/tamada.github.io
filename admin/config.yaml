@@ -1,0 +1,9 @@
+backend:
+  name: github
+  repo: tamada/tamada.github.io
+  branch: trunk
+  site_domain: tamada.github.io
+  base_url: https://tamada.github.io/
+  auth_endpoint: api/auth
+  
+# ここに画像の保存場所や多言語対応、Collectionなどを記述します。
