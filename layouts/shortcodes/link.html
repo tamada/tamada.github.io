@@ -1,0 +1,8 @@
+{{- $link := (.Get "href") -}}
+{{- $url := urls.Parse $link }}
+<a href="{{ $link }}">
+    <div class="inline-flex items-center text-xs font-bold leading-none tracking-tight">
+        <span class="bg-gray-600 text-white px-2 py-1 rounded-l-sm">Link</span>
+        <span class="bg-green-500 text-white px-2 py-1 rounded-r-sm">{{ $url.Host }}</span>
+    </div>
+</a>

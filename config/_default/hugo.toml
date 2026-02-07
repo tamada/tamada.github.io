@@ -1,0 +1,7 @@
+theme = "blowfish"
+title = "Haruaki Tamada"
+baseurl = "https://tamada.github.io"
+defaultContentLanguage = "en"
+
+[pagination]
+pagerSize = 6

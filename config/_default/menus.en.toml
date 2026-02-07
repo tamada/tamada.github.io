@@ -1,0 +1,25 @@
+[[main]]
+  name = "👤 Profile"
+  pageRef = "/profile"
+  weight = 10
+
+[[main]]
+  identifier = "github"
+  pre = "github"
+  url = "https://github.com/tamada"
+  weight = 100
+
+[[footer]]
+  name = ":mobile_phone_with_arrow: Contact"
+  weight = 10
+  pageRef = "/contact"
+
+[[footer]]
+  name = ":label: Tags"
+  weight = 100
+  pageRef = "/tags"
+
+[[footer]]
+  name = ":cherry_blossom: About"
+  weight = 50
+  pageRef = "/about"
