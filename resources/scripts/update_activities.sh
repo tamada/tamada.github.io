@@ -18,9 +18,9 @@ awk  '
     skip = 0           # 終了行に来たらスキップ終了
   }
   !skip
-' $1
+' $1 > tmp_$1 && mv tmp_$1 $1
 
-
+rm tmp_activities.md
 
 ## job-histories to markdown timelineItems
 ## The following command do not used now.
