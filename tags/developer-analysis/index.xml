@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>developer analysis on Haruaki TAMADA</title>
+    <title>Developer Analysis on Haruaki Tamada</title>
     <link>https://tamada.github.io/tags/developer-analysis/</link>
-    <description>Recent content in developer analysis on Haruaki TAMADA</description>
+    <description>Recent content in Developer Analysis on Haruaki Tamada</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Fri, 20 Mar 2015 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://tamada.github.io/tags/developer-analysis/index.xml" rel="self" type="application/rss+xml" />
-    
+    <language>en</language>
+    <copyright>Copyright &amp;copy; by Haruaki Tamada. Made with [Hugo](https://gohugo.io/). Deployed to [GitHub Pages](https://pages.github.com/).</copyright>
+    <lastBuildDate>Fri, 20 Mar 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/developer-analysis/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Characteristics of the developers</title>
@@ -17,8 +15,8 @@
       <pubDate>Fri, 20 Mar 2015 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/research/characteristics_of_developers/</guid>
-      <description>:speaking_head: Overview In software development, multiple developers compose a team, and perform a development process. To succeed the development, understanding developers&amp;rsquo; characteristics are needed. However, there is no way to measure the characteristics of the developer by quantitative analysis. Therefore, a project manager often assigns team members based on his/her own sense, considering experience year of them.
-This paper proposes a measurement framework for developers&amp;rsquo; characteristics using quantitative historical data. The proposed framework is useful for measuring developers&amp;rsquo; characteristics and building a team based on quantitative analysis.</description>
+      <description>&lt;h3 class=&#34;relative group&#34;&gt;:speaking_head: Overview&#xA;    &lt;div id=&#34;speaking_head-overview&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#speaking_head-overview&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h3&gt;&#xA;&lt;p&gt;In software development, multiple developers compose a team, and perform a development process.&#xA;To succeed the development, understanding developers&amp;rsquo; characteristics are needed.&#xA;However, there is no way to measure the characteristics of the developer by quantitative analysis.&#xA;Therefore, a project manager often assigns team members based on his/her own sense, considering experience year of them.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/research/characteristics_of_developers/features.png" />
     </item>
     
   </channel>

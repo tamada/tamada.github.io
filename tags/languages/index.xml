@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>languages on Haruaki TAMADA</title>
+    <title>Languages on Haruaki Tamada</title>
     <link>https://tamada.github.io/tags/languages/</link>
-    <description>Recent content in languages on Haruaki TAMADA</description>
+    <description>Recent content in Languages on Haruaki Tamada</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Thu, 21 Oct 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://tamada.github.io/tags/languages/index.xml" rel="self" type="application/rss+xml" />
-    
+    <language>en</language>
+    <copyright>Copyright &amp;copy; by Haruaki Tamada. Made with [Hugo](https://gohugo.io/). Deployed to [GitHub Pages](https://pages.github.com/).</copyright>
+    <lastBuildDate>Thu, 21 Oct 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/languages/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Programming Languages</title>
@@ -17,9 +15,8 @@
       <pubDate>Thu, 21 Oct 2021 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/blog/20211021_programming_languages/</guid>
-      <description>とあるユーティリティプログラムを作成しようと思ったものの，どのような言語で作成しようかと悩み中． 希望としては，ワンバイナリが生成可能，ジェネリクスあり，ストリーム処理，あたりが扱えると嬉しい． また，クロスコンパイルしたいし，書きやすい（EtoW; Easy to Write）言語であると嬉しい．
-で，まとめてみた．
-   Language One Binary Generics Stream Cross Compile EtoW     Java GraalVM OK OK Hard OK   Go OK 1.17- No OK OK   Rust OK? OK ??? OK? No   Node.js ??? ??? OK N/A OK   Python ??? OK? ??? ??? OK   Kotlin OK? OK OK OK ???    Java は GraalVM を使うとバイナリを作成できるけど，面倒． GraalVM を使ってもクロスコンパイルは難しいんじゃないかな． GitHub Actions などを使えばクロスコンパイルはできそうだけど，面倒だなぁ．</description>
+      <description>&lt;p&gt;とあるユーティリティプログラムを作成しようと思ったものの，どのような言語で作成しようかと悩み中．&#xA;希望としては，ワンバイナリが生成可能，ジェネリクスあり，ストリーム処理，あたりが扱えると嬉しい．&#xA;また，クロスコンパイルしたいし，書きやすい（EtoW; Easy to Write）言語であると嬉しい．&lt;/p&gt;&#xA;&lt;p&gt;で，まとめてみた．&lt;/p&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;Language&lt;/th&gt;&#xA;          &lt;th&gt;One Binary&lt;/th&gt;&#xA;          &lt;th&gt;Generics&lt;/th&gt;&#xA;          &lt;th&gt;Stream&lt;/th&gt;&#xA;          &lt;th&gt;Cross Compile&lt;/th&gt;&#xA;          &lt;th&gt;EtoW&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Java&lt;/td&gt;&#xA;          &lt;td&gt;GraalVM&lt;/td&gt;&#xA;          &lt;td&gt;OK&lt;/td&gt;&#xA;          &lt;td&gt;OK&lt;/td&gt;&#xA;          &lt;td&gt;Hard&lt;/td&gt;&#xA;          &lt;td&gt;OK&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Go&lt;/td&gt;&#xA;          &lt;td&gt;OK&lt;/td&gt;&#xA;          &lt;td&gt;1.17-&lt;/td&gt;&#xA;          &lt;td&gt;No&lt;/td&gt;&#xA;          &lt;td&gt;OK&lt;/td&gt;&#xA;          &lt;td&gt;OK&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Rust&lt;/td&gt;&#xA;          &lt;td&gt;OK?&lt;/td&gt;&#xA;          &lt;td&gt;OK&lt;/td&gt;&#xA;          &lt;td&gt;???&lt;/td&gt;&#xA;          &lt;td&gt;OK?&lt;/td&gt;&#xA;          &lt;td&gt;No&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Node.js&lt;/td&gt;&#xA;          &lt;td&gt;???&lt;/td&gt;&#xA;          &lt;td&gt;???&lt;/td&gt;&#xA;          &lt;td&gt;OK&lt;/td&gt;&#xA;          &lt;td&gt;N/A&lt;/td&gt;&#xA;          &lt;td&gt;OK&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Python&lt;/td&gt;&#xA;          &lt;td&gt;???&lt;/td&gt;&#xA;          &lt;td&gt;OK?&lt;/td&gt;&#xA;          &lt;td&gt;???&lt;/td&gt;&#xA;          &lt;td&gt;???&lt;/td&gt;&#xA;          &lt;td&gt;OK&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;Kotlin&lt;/td&gt;&#xA;          &lt;td&gt;OK?&lt;/td&gt;&#xA;          &lt;td&gt;OK&lt;/td&gt;&#xA;          &lt;td&gt;OK&lt;/td&gt;&#xA;          &lt;td&gt;OK&lt;/td&gt;&#xA;          &lt;td&gt;???&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;Java は GraalVM を使うとバイナリを作成できるけど，面倒．&#xA;GraalVM を使ってもクロスコンパイルは難しいんじゃないかな．&#xA;GitHub Actions などを使えばクロスコンパイルはできそうだけど，面倒だなぁ．&lt;/p&gt;&#xA;&lt;p&gt;Go は概ね良いのだけど，ストリーム処理が行えないのが悩みどころ．&#xA;ジェネリクスも出たばかりであまり書き慣れていない．&#xA;例外処理はなくてもいいや．&lt;/p&gt;&#xA;&lt;p&gt;Rust も良いのだけど，コンパイルを通すのに一苦労な点で，簡単なユーティリティを書くのにはそぐわない気がする．&lt;/p&gt;&#xA;&lt;p&gt;Node.js，Python はよく知らない．&lt;/p&gt;&#xA;&lt;p&gt;ちょっと調べてみると &lt;a href=&#34;https://kotlinlang.org/docs/native-overview.html&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Kotlin がネイティブコードを生成できるらしい&lt;/a&gt;&#xA;Kotlin も結局は Java バイトコードに変換するはずだから，&#xA;GraalVM と何が違うのかはよく分からないし，これまでに書いたことないけど，書いてみようかな．&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/blog/20211021_programming_languages/features.png" />
     </item>
     
   </channel>

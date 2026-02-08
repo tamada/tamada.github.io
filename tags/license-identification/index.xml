@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>License-Identification on Haruaki Tamada</title>
+    <link>https://tamada.github.io/tags/license-identification/</link>
+    <description>Recent content in License-Identification on Haruaki Tamada</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright &amp;copy; by Haruaki Tamada. Made with [Hugo](https://gohugo.io/). Deployed to [GitHub Pages](https://pages.github.com/).</copyright>
+    <lastBuildDate>Sat, 31 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/license-identification/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>lioss</title>
+      <link>https://tamada.github.io/products/retired/lioss/</link>
+      <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/products/retired/lioss/</guid>
+      <description>License Identification tool for OSS. Use &lt;a href=&#34;https://github.com/licensee/licensee&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;licensee&lt;/a&gt;, and &lt;a href=&#34;https://github.com/pivotal/LicenseFinder&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;pivotal/LicenseFinder&lt;/a&gt;.</description>
+      
+    </item>
+    
+  </channel>
+</rss>

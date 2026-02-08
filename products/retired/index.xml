@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>:put_litter_in_its_place: Retiered Projects on Haruaki Tamada</title>
+    <link>https://tamada.github.io/products/retired/</link>
+    <description>Recent content in :put_litter_in_its_place: Retiered Projects on Haruaki Tamada</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright &amp;copy; by Haruaki Tamada. Made with [Hugo](https://gohugo.io/). Deployed to [GitHub Pages](https://pages.github.com/).</copyright>
+    <lastBuildDate>Tue, 03 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/products/retired/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Stigmata</title>
+      <link>https://tamada.github.io/products/retired/stigmata/</link>
+      <pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/products/retired/stigmata/</guid>
+      <description>Java Birthmarking Toolkit. It instead of using &lt;a href=&#34;https://tamada.github.io/pochi&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;tamada/pochi&lt;/a&gt;.</description>
+      
+    </item>
+    
+    <item>
+      <title>lioss</title>
+      <link>https://tamada.github.io/products/retired/lioss/</link>
+      <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/products/retired/lioss/</guid>
+      <description>License Identification tool for OSS. Use &lt;a href=&#34;https://github.com/licensee/licensee&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;licensee&lt;/a&gt;, and &lt;a href=&#34;https://github.com/pivotal/LicenseFinder&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;pivotal/LicenseFinder&lt;/a&gt;.</description>
+      
+    </item>
+    
+    <item>
+      <title>extide</title>
+      <link>https://tamada.github.io/products/retired/extide/</link>
+      <pubDate>Fri, 06 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/products/retired/extide/</guid>
+      <description>Extracting Identifier from Java source and class files. no longer necessary.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
