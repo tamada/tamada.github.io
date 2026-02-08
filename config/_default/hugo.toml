@@ -1,7 +1,7 @@
-theme = "blowfish"
 title = "Haruaki Tamada"
 baseurl = "https://tamada.github.io"
-defaultContentLanguage = "en"
+theme = ["github.com/tamada/hugo_theme_mod", "github.com/nunocoracao/blowfish/v2"]
 
-[pagination]
-pagerSize = 6
+[module]
+  [[module.imports]]
+    path = "github.com/tamada/hugo_theme_mod"

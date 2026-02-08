@@ -1,17 +1,6 @@
 title = "Haruaki Tamada"
 
 [params]
-logo = "harry.png"
-dateFormat = "2006-01-02"
+logo = "images/harry.png"
 description = "Researcher of Software Protectoin, and Developer!"
-copyright = "Copyright &copy; by Haruaki Tamada. Made with [Hugo](https://gohugo.io/). Deployed to [GitHub Pages](https://pages.github.com/)."
 
-[params.author]
-name = "Haruaki Tamada"
-image = "https://github.com/tamada.png"
-links = [
-    { github = "https://github.com/tamada" },
-]
-
-[header]
-showAppearanceSwitcher = true
