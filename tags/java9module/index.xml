@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Java9module on Haruaki Tamada</title>
-    <link>http://localhost:1313/tags/java9module/</link>
+    <link>https://tamada.github.io/tags/java9module/</link>
     <description>Recent content in Java9module on Haruaki Tamada</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; by Haruaki Tamada. Made with [Hugo](https://gohugo.io/). Deployed to [GitHub Pages](https://pages.github.com/).</copyright>
-    <lastBuildDate>Mon, 13 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/java9module/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/java9module/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>:dog: pochi</title>
-      <link>http://localhost:1313/products/pochi/</link>
+      <link>https://tamada.github.io/products/pochi/</link>
       <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/products/pochi/</guid>
+      <guid>https://tamada.github.io/products/pochi/</guid>
       <description>Java birthmark toolkit, detecting the software theft by native characteristics of the programs.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/pochi/features.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/products/pochi/features.png" />
     </item>
     
   </channel>

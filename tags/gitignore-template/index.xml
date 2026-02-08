@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gitignore-Template on Haruaki Tamada</title>
-    <link>http://localhost:1313/tags/gitignore-template/</link>
+    <link>https://tamada.github.io/tags/gitignore-template/</link>
     <description>Recent content in Gitignore-Template on Haruaki Tamada</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; by Haruaki Tamada. Made with [Hugo](https://gohugo.io/). Deployed to [GitHub Pages](https://pages.github.com/).</copyright>
-    <lastBuildDate>Sun, 11 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/gitignore-template/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/gitignore-template/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>gixor</title>
-      <link>http://localhost:1313/products/gixor/</link>
+      <link>https://tamada.github.io/products/gixor/</link>
       <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/products/gixor/</guid>
+      <guid>https://tamada.github.io/products/gixor/</guid>
       <description>Git Ignore Managenement System for Multiple Repositories.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/gixor/features.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/products/gixor/features.svg" />
     </item>
     
   </channel>
