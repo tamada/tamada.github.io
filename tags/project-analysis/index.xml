@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Project-Analysis on Haruaki Tamada</title>
+    <title>Project Analysis on Haruaki Tamada</title>
     <link>https://tamada.github.io/tags/project-analysis/</link>
-    <description>Recent content in Project-Analysis on Haruaki Tamada</description>
+    <description>Recent content in Project Analysis on Haruaki Tamada</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; by Haruaki Tamada. Made with [Hugo](https://gohugo.io/). Deployed to [GitHub Pages](https://pages.github.com/).</copyright>
@@ -16,7 +16,7 @@
       
       <guid>https://tamada.github.io/products/btmeister/</guid>
       <description>Detecting the build tools in use.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/products/btmeister/features.svg" />
     </item>
     
     <item>

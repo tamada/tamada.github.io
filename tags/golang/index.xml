@@ -26,7 +26,7 @@
       
       <guid>https://tamada.github.io/products/heatman/</guid>
       <description>Create heat map image from given csv file.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/products/heatman/features.svg" />
     </item>
     
   </channel>

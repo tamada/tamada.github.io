@@ -76,7 +76,7 @@
       
       <guid>https://tamada.github.io/products/btmeister/</guid>
       <description>Detecting the build tools in use.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/products/btmeister/features.svg" />
     </item>
     
     <item>
@@ -86,7 +86,7 @@
       
       <guid>https://tamada.github.io/products/pochi/</guid>
       <description>Java birthmark toolkit, detecting the software theft by native characteristics of the programs.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/products/pochi/features.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/products/pochi/features.png" />
     </item>
     
     <item>
@@ -106,7 +106,7 @@
       
       <guid>https://tamada.github.io/products/heatman/</guid>
       <description>Create heat map image from given csv file.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/products/heatman/features.svg" />
     </item>
     
   </channel>
