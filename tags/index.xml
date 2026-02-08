@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>:label: Tags on Haruaki Tamada</title>
+    <title>🏷️ Tags on Haruaki Tamada</title>
     <link>https://tamada.github.io/tags/</link>
-    <description>Recent content in :label: Tags on Haruaki Tamada</description>
+    <description>Recent content in 🏷️ Tags on Haruaki Tamada</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; by Haruaki Tamada. Made with [Hugo](https://gohugo.io/). Deployed to [GitHub Pages](https://pages.github.com/).</copyright>
@@ -100,11 +100,11 @@
     </item>
     
     <item>
-      <title>Cli-Tools</title>
-      <link>https://tamada.github.io/tags/cli-tools/</link>
+      <title>Cli</title>
+      <link>https://tamada.github.io/tags/cli/</link>
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/tags/cli-tools/</guid>
+      <guid>https://tamada.github.io/tags/cli/</guid>
       <description></description>
       
     </item>
@@ -140,7 +140,7 @@
     </item>
     
     <item>
-      <title>Research-Tools</title>
+      <title>Research Tools</title>
       <link>https://tamada.github.io/tags/research-tools/</link>
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
       
@@ -310,16 +310,6 @@
     </item>
     
     <item>
-      <title>Cli</title>
-      <link>https://tamada.github.io/tags/cli/</link>
-      <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/cli/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Git</title>
       <link>https://tamada.github.io/tags/git/</link>
       <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
@@ -380,17 +370,7 @@
     </item>
     
     <item>
-      <title>Birthmark</title>
-      <link>https://tamada.github.io/tags/birthmark/</link>
-      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/birthmark/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Birthmark-Toolkit</title>
+      <title>Birthmark Toolkit</title>
       <link>https://tamada.github.io/tags/birthmark-toolkit/</link>
       <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
       
@@ -410,7 +390,7 @@
     </item>
     
     <item>
-      <title>Plagiarism-Detection</title>
+      <title>Plagiarism Detection</title>
       <link>https://tamada.github.io/tags/plagiarism-detection/</link>
       <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
       
@@ -420,7 +400,17 @@
     </item>
     
     <item>
-      <title>Software-Theft-Detection</title>
+      <title>Software Birthmarks</title>
+      <link>https://tamada.github.io/tags/software-birthmarks/</link>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/software-birthmarks/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Software Theft Detection</title>
       <link>https://tamada.github.io/tags/software-theft-detection/</link>
       <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
       
@@ -450,7 +440,7 @@
     </item>
     
     <item>
-      <title>Project Analysis</title>
+      <title>Project-Analysis</title>
       <link>https://tamada.github.io/tags/project-analysis/</link>
       <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
       
@@ -475,16 +465,6 @@
       <pubDate>Mon, 10 Jun 2024 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/tags/get-in-touch/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Birthmarks</title>
-      <link>https://tamada.github.io/tags/birthmarks/</link>
-      <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/birthmarks/</guid>
       <description></description>
       
     </item>
@@ -560,7 +540,7 @@
     </item>
     
     <item>
-      <title>Github</title>
+      <title>GitHub</title>
       <link>https://tamada.github.io/tags/github/</link>
       <pubDate>Fri, 27 Aug 2021 00:00:00 +0000</pubDate>
       
@@ -600,7 +580,7 @@
     </item>
     
     <item>
-      <title>Program-Education</title>
+      <title>Program Education</title>
       <link>https://tamada.github.io/tags/program-education/</link>
       <pubDate>Fri, 27 Aug 2021 00:00:00 +0000</pubDate>
       
@@ -620,31 +600,11 @@
     </item>
     
     <item>
-      <title>Software-Birthmarks</title>
-      <link>https://tamada.github.io/tags/software-birthmarks/</link>
-      <pubDate>Fri, 27 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/software-birthmarks/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Software-Obfuscation</title>
+      <title>Software Obfuscation</title>
       <link>https://tamada.github.io/tags/software-obfuscation/</link>
       <pubDate>Fri, 27 Aug 2021 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/tags/software-obfuscation/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Cli-App</title>
-      <link>https://tamada.github.io/tags/cli-app/</link>
-      <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/cli-app/</guid>
       <description></description>
       
     </item>
@@ -660,31 +620,11 @@
     </item>
     
     <item>
-      <title>Rest-Api</title>
+      <title>Rest Api</title>
       <link>https://tamada.github.io/tags/rest-api/</link>
       <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/tags/rest-api/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Wc</title>
-      <link>https://tamada.github.io/tags/wc/</link>
-      <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/wc/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Word-Count</title>
-      <link>https://tamada.github.io/tags/word-count/</link>
-      <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/word-count/</guid>
       <description></description>
       
     </item>
@@ -900,16 +840,6 @@
     </item>
     
     <item>
-      <title>Obfuscation</title>
-      <link>https://tamada.github.io/tags/obfuscation/</link>
-      <pubDate>Mon, 15 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/obfuscation/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Education</title>
       <link>https://tamada.github.io/tags/education/</link>
       <pubDate>Mon, 15 Jan 2018 00:00:00 +0000</pubDate>
@@ -930,11 +860,41 @@
     </item>
     
     <item>
+      <title>Invokedynamic</title>
+      <link>https://tamada.github.io/tags/invokedynamic/</link>
+      <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/invokedynamic/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Developer Analysis</title>
       <link>https://tamada.github.io/tags/developer-analysis/</link>
       <pubDate>Fri, 20 Mar 2015 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/tags/developer-analysis/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Kolmogorov Complexity</title>
+      <link>https://tamada.github.io/tags/kolmogorov-complexity/</link>
+      <pubDate>Sun, 01 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/kolmogorov-complexity/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Method Folding</title>
+      <link>https://tamada.github.io/tags/method-folding/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/method-folding/</guid>
       <description></description>
       
     </item>
@@ -950,11 +910,21 @@
     </item>
     
     <item>
-      <title>OOP</title>
-      <link>https://tamada.github.io/tags/oop/</link>
+      <title>Dynamic Name Resolution</title>
+      <link>https://tamada.github.io/tags/dynamic-name-resolution/</link>
       <pubDate>Tue, 12 Feb 2008 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/tags/oop/</guid>
+      <guid>https://tamada.github.io/tags/dynamic-name-resolution/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Object Oriented Programming</title>
+      <link>https://tamada.github.io/tags/object-oriented-programming/</link>
+      <pubDate>Tue, 12 Feb 2008 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/object-oriented-programming/</guid>
       <description></description>
       
     </item>

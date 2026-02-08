@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; by Haruaki Tamada. Made with [Hugo](https://gohugo.io/). Deployed to [GitHub Pages](https://pages.github.com/).</copyright>
-    <lastBuildDate>Sun, 11 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>:rocket: Products</title>
+      <link>https://tamada.github.io/products/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/products/</guid>
+      <description>This page introduces my developed software products. Most of them are command-line tools and libraries for researchers and developers.</description>
+      
+    </item>
     
     <item>
       <title>gixor</title>
@@ -17,6 +27,16 @@
       <guid>https://tamada.github.io/products/gixor/</guid>
       <description>Git Ignore Managenement System for Multiple Repositories.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/products/gixor/features.svg" />
+    </item>
+    
+    <item>
+      <title>wildcat</title>
+      <link>https://tamada.github.io/products/wildcat/</link>
+      <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/products/wildcat/</guid>
+      <description>another implementation of wc (word count) accepting archives, directories, and file lists</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/products/wildcat/features.svg" />
     </item>
     
   </channel>
