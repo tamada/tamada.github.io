@@ -138,7 +138,7 @@ promoted!
 Faculty of Information Science and Engineering, [Kyoto Sangyo University](https://www.kyoto-su.ac.jp).
 reorganized faculty.
 {{< /timelineItem >}}
-{{< timelineItem icon="university" badge="July 2021 - July 2021" header="Part-time Lecturer" md="true" >}}
+{{< timelineItem icon="university" badge="July 2021" header="Part-time Lecturer" md="true" >}}
 Graduate School of System Informatics, Kobe University.
 [ITスペシャリスト養成コース（Kobe Spiral 2021）](http://www.csi.kobe-u.ac.jp/kenkyu/program.html)
 {{< /timelineItem >}}
