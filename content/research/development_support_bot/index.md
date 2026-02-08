@@ -2,7 +2,7 @@
 title: "Development support bot"
 date: 2019-10-20
 image: research/development_support_bot.png
-tags: ['MSR', 'project analysis']
+tags: ['MSR', 'project analysis', 'program education']
 ---
 
 ### :speaking_head: Overview

@@ -1,8 +1,8 @@
 ---
 title: ":bulb: Researches"
 featureimage: "features/research.png"
-summary: 'Introduces my research works. The main research areas are: empirical software engineering, software security (software theft detection, softwarre obfuscation), and program education.'
-tags: ['research', 'software-obfuscation', 'software-birthmarks', 'program-education']
+summary: 'Introduces my research works. The main research areas are: empirical software engineering, software security (software theft detection, software obfuscation), and program education.'
+tags: ['research', 'software obfuscation', 'software birthmarks', 'program education']
 ---
 
 My research areas are: empirical software engineering :chart_with_upwards_trend:, software security :lock:, software obfuscation, software birthmarks, and software watermarks.

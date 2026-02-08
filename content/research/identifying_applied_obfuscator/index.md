@@ -2,10 +2,10 @@
 title: "Identifying the applied obfuscator"
 date: 2020-01-27
 image: research/identifying_applied_obfuscator.png
-tags: ['evaluating obfuscation', 'opcodes', 'identifiers']
+tags: ['evaluating obfuscation', 'opcodes', 'identifiers', 'software obfuscation']
 ---
 
-### :speaking_head: Overview
+## :speaking_head: Overview
 
 Recently, to prevent cracking, the various protection methods have been proposed.
 One of the protection methods is the obfuscation method.
@@ -22,7 +22,7 @@ By using the proposed method, we could identify the applied obfuscation method.
 
 (Abstract from ICIS 2016)
 
-### :books: Publications
+## :books: Publications
 
 * 大槻 成輝，玉田 春昭，神崎 雄一郎，"JVM環境におけるオペコード列と名前に着目した適用難読化ツールの特定"，2020年暗号と情報セキュリティシンポジウム予稿集（SCIS 2020），January 2020.
 * 玉田 春昭，神崎 雄一郎，Javaバイトコードを対象とした命令の頻度解析による適用難読化ツールの特定”，コンピュータセキュリティシンポジウム2019予稿集（CSS 2019），1C1-3，October 2019.
@@ -30,7 +30,7 @@ By using the proposed method, we could identify the applied obfuscation method.
 * Hayato Sagisaka, and Haruaki Tamada, “Identifying the Applied Obfuscation Method towards De-obfuscation,” In Proc. 15th IEEE/ACIS International Conference on Computer and Information Science (ICIS 2016), pp.873–878, July 2016 (Oakayama, Japan). {{< link href="https://ieeexplore.ieee.org/document/7550869" >}}
 * 匂坂 勇仁，玉田 春昭，”適用保護手法特定の試み −不自然さ評価方法を用いて−”，信学技報, Vol. 115, No. 153, SS2015-21, pp. 63-68, July 2015 (札幌).
 
-### :mag_right: Related Research Topics
+## :mag_right: Related Research Topics
 
 * [De-obfuscate IRM (identifier renaming method)](../deobfuscating_identifier_renaming)
 * [Artificiality evaluation](../artificiality_evaluation)

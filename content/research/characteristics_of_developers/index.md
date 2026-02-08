@@ -5,7 +5,7 @@ image: research/characteristics_of_developers.png
 tags: ['MSR', 'developer analysis', 'project analysis']
 ---
 
-### :speaking_head: Overview
+## :speaking_head: Overview
 
 In software development, multiple developers compose a team, and perform a development process.
 To succeed the development, understanding developers' characteristics are needed.
@@ -20,7 +20,7 @@ As a result, our framework measured developers' characteristics suitability in o
 
 (Abstract from ACIT 2015)
 
-### :books: Publications
+## :books: Publications
 
 * 山崎 尚，五田 篤志，玉田 春昭，畑 秀明，角田 雅照，井垣 宏，”ゲーム理論による開発者特性を考慮したチームビルディング”, 研究報告ソフトウェア工学（SE）, Vol.2015-SE-187, No.6, March 2015.
 * 五田 篤志，山崎 尚，玉田 春昭，畑 秀明，角田 雅照，井垣 宏，”開発履歴による開発者特性とアンケートによる特性の自己診断の関連分析”, 研究報告ソフトウェア工学（SE）, Vol.2015-SE-187, No.5, March 2015.
@@ -32,11 +32,11 @@ As a result, our framework measured developers' characteristics suitability in o
 * Masateru Tsunoda, Haruaki Tamada, and Hideaki Hata, “How to Classify Personalities of Team Members on Project-Based Learning,” In Proc. Software Engineering Education Workshop (SEEW 2014), December 2014 (Jeju, Korea).
 * 藤原 新，五田 篤志，玉田 春昭，角田 雅照，畑 秀明，”ソフトウェア開発履歴を利用した風林火山モデルによる開発者の特性診断の試み”，ソフトウェア工学の基礎XX，日本ソフトウェア科学会 FOSE2013 (FOSE2013), pp.295-296, November 2013.
 
-### :mag_right: Related Research Topics
+## :mag_right: Related Research Topics
 
 * [Development support bot](../development_support_bot)
 
-### :handshake: Collaborators
+## :handshake: Collaborators
 
 * [H. Hata](https://hideakihata.github.io/)@[NAIST SE Lab.](http://se-naist.jp/)
 * [M. Tsunoda](https://www.info.kindai.ac.jp/~tsunoda/)@Kindai University.

@@ -1,6 +1,10 @@
 title = "Haruaki Tamada"
 baseurl = "https://tamada.github.io"
 theme = ["github.com/tamada/hugo_theme_mod", "github.com/nunocoracao/blowfish/v2"]
+dateFormat = "2006-01-02"
+
+[pagination]
+pagerSize = 6
 
 [module]
   [[module.imports]]

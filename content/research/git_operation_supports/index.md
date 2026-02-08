@@ -1,7 +1,7 @@
 ---
 title: "Git/GitHub Operation Support for Novice Programmers"
 date: 2021-08-27
-tags: ["github","git","novices","operation supports","operation recommendation"]
+tags: ["github","git","novices","operation supports","operation recommendation", 'program education']
 ---
 
 ## :speaking_head: Overview

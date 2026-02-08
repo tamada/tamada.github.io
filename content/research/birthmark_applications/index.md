@@ -2,7 +2,7 @@
 title: "Applications of software birthmarks"
 date: 2009-08-15
 image: research/birthmark_applications.png
-tags: ['birthmarks','project analysis']
+tags: ['software birthmarks','project analysis']
 ---
 
 ## :speaking_head: Overview
