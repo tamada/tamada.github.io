@@ -3,6 +3,8 @@ title: ":house_with_garden: Home"
 description: "Professor and Software Engineer, working at Kyoto, Japan"
 date: 2019-07-13
 featureimage: harry.png
+cascade:
+  imagePosition: "90% 90%"
 ---
 
 This is my personal web site.
