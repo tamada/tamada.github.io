@@ -2,71 +2,71 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rust on Haruaki Tamada</title>
-    <link>https://tamada.github.io/tags/rust/</link>
+    <link>http://localhost:1313/tags/rust/</link>
     <description>Recent content in Rust on Haruaki Tamada</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; by Haruaki Tamada. Made with [Hugo](https://gohugo.io/). Deployed to [GitHub Pages](https://pages.github.com/).</copyright>
-    <lastBuildDate>Mon, 26 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/rust/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/rust/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>sibling</title>
-      <link>https://tamada.github.io/products/sibling/</link>
+      <link>http://localhost:1313/products/sibling/</link>
       <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/products/sibling/</guid>
+      <guid>http://localhost:1313/products/sibling/</guid>
       <description>get next/previous sibling directory name.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/products/sibling/features.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/sibling/features.svg" />
     </item>
     
     <item>
       <title>pick-a-boo</title>
-      <link>https://tamada.github.io/products/pick-a-boo/</link>
+      <link>http://localhost:1313/products/pick-a-boo/</link>
       <pubDate>Sun, 25 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/products/pick-a-boo/</guid>
+      <guid>http://localhost:1313/products/pick-a-boo/</guid>
       <description>Simple options picker in CLI.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/products/pick-a-boo/features.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/pick-a-boo/features.svg" />
     </item>
     
     <item>
       <title>Totebag</title>
-      <link>https://tamada.github.io/products/totebag/</link>
+      <link>http://localhost:1313/products/totebag/</link>
       <pubDate>Sun, 25 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/products/totebag/</guid>
+      <guid>http://localhost:1313/products/totebag/</guid>
       <description>A tool for extracting/archiving files and directories in several formats.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/products/totebag/features.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/totebag/features.jpg" />
     </item>
     
     <item>
       <title>gixor</title>
-      <link>https://tamada.github.io/products/gixor/</link>
+      <link>http://localhost:1313/products/gixor/</link>
       <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/products/gixor/</guid>
+      <guid>http://localhost:1313/products/gixor/</guid>
       <description>Git Ignore Managenement System for Multiple Repositories.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/products/gixor/features.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/gixor/features.svg" />
     </item>
     
     <item>
       <title>oinkie</title>
-      <link>https://tamada.github.io/products/oinkie/</link>
+      <link>http://localhost:1313/products/oinkie/</link>
       <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/products/oinkie/</guid>
+      <guid>http://localhost:1313/products/oinkie/</guid>
       <description>The software birthmark toolkit for LLVM IR.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/products/oinkie/features.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/oinkie/features.png" />
     </item>
     
     <item>
       <title>btmeister</title>
-      <link>https://tamada.github.io/products/btmeister/</link>
+      <link>http://localhost:1313/products/btmeister/</link>
       <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/products/btmeister/</guid>
+      <guid>http://localhost:1313/products/btmeister/</guid>
       <description>Detecting the build tools in use.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/products/btmeister/features.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/btmeister/features.svg" />
     </item>
     
   </channel>

@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cli on Haruaki Tamada</title>
-    <link>https://tamada.github.io/tags/cli/</link>
+    <link>http://localhost:1313/tags/cli/</link>
     <description>Recent content in Cli on Haruaki Tamada</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; by Haruaki Tamada. Made with [Hugo](https://gohugo.io/). Deployed to [GitHub Pages](https://pages.github.com/).</copyright>
-    <lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/cli/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>:rocket: Products</title>
-      <link>https://tamada.github.io/products/</link>
+      <link>http://localhost:1313/products/</link>
       <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/products/</guid>
+      <guid>http://localhost:1313/products/</guid>
       <description>This page introduces my developed software products. Most of them are command-line tools and libraries for researchers and developers.</description>
       
     </item>
     
     <item>
       <title>gixor</title>
-      <link>https://tamada.github.io/products/gixor/</link>
+      <link>http://localhost:1313/products/gixor/</link>
       <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/products/gixor/</guid>
+      <guid>http://localhost:1313/products/gixor/</guid>
       <description>Git Ignore Managenement System for Multiple Repositories.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/products/gixor/features.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/gixor/features.svg" />
     </item>
     
     <item>
       <title>wildcat</title>
-      <link>https://tamada.github.io/products/wildcat/</link>
+      <link>http://localhost:1313/products/wildcat/</link>
       <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/products/wildcat/</guid>
+      <guid>http://localhost:1313/products/wildcat/</guid>
       <description>another implementation of wc (word count) accepting archives, directories, and file lists</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/products/wildcat/features.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/wildcat/features.svg" />
     </item>
     
   </channel>

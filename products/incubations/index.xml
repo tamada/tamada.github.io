@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>:hatching_chick: Incubation Projects on Haruaki Tamada</title>
-    <link>https://tamada.github.io/products/incubations/</link>
+    <link>http://localhost:1313/products/incubations/</link>
     <description>Recent content in :hatching_chick: Incubation Projects on Haruaki Tamada</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; by Haruaki Tamada. Made with [Hugo](https://gohugo.io/). Deployed to [GitHub Pages](https://pages.github.com/).</copyright>
-    <lastBuildDate></lastBuildDate><atom:link href="https://tamada.github.io/products/incubations/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate></lastBuildDate><atom:link href="http://localhost:1313/products/incubations/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

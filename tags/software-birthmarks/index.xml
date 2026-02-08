@@ -2,101 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Software Birthmarks on Haruaki Tamada</title>
-    <link>https://tamada.github.io/tags/software-birthmarks/</link>
+    <link>http://localhost:1313/tags/software-birthmarks/</link>
     <description>Recent content in Software Birthmarks on Haruaki Tamada</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; by Haruaki Tamada. Made with [Hugo](https://gohugo.io/). Deployed to [GitHub Pages](https://pages.github.com/).</copyright>
-    <lastBuildDate>Thu, 16 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/software-birthmarks/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/software-birthmarks/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>oinkie</title>
-      <link>https://tamada.github.io/products/oinkie/</link>
+      <link>http://localhost:1313/products/oinkie/</link>
       <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/products/oinkie/</guid>
+      <guid>http://localhost:1313/products/oinkie/</guid>
       <description>The software birthmark toolkit for LLVM IR.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/products/oinkie/features.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/oinkie/features.png" />
     </item>
     
     <item>
       <title>:dog: pochi</title>
-      <link>https://tamada.github.io/products/pochi/</link>
+      <link>http://localhost:1313/products/pochi/</link>
       <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/products/pochi/</guid>
+      <guid>http://localhost:1313/products/pochi/</guid>
       <description>Java birthmark toolkit, detecting the software theft by native characteristics of the programs.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/products/pochi/features.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/pochi/features.png" />
     </item>
     
     <item>
       <title>:bulb: Researches</title>
-      <link>https://tamada.github.io/research/</link>
+      <link>http://localhost:1313/research/</link>
       <pubDate>Fri, 27 Aug 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/research/</guid>
+      <guid>http://localhost:1313/research/</guid>
       <description>Introduces my research works. The main research areas are: empirical software engineering, software security (software theft detection, software obfuscation), and program education.</description>
       
     </item>
     
     <item>
       <title>Stigmata</title>
-      <link>https://tamada.github.io/products/retired/stigmata/</link>
+      <link>http://localhost:1313/products/retired/stigmata/</link>
       <pubDate>Tue, 03 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/products/retired/stigmata/</guid>
+      <guid>http://localhost:1313/products/retired/stigmata/</guid>
       <description>Java Birthmarking Toolkit. It instead of using &lt;a href=&#34;https://tamada.github.io/pochi&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;tamada/pochi&lt;/a&gt;.</description>
       
     </item>
     
     <item>
       <title>Fast comparisons of the birthmarks</title>
-      <link>https://tamada.github.io/research/birthmark_fast_comparison/</link>
+      <link>http://localhost:1313/research/birthmark_fast_comparison/</link>
       <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/research/birthmark_fast_comparison/</guid>
+      <guid>http://localhost:1313/research/birthmark_fast_comparison/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;:speaking_head: Overview&#xA;    &lt;div id=&#34;speaking_head-overview&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#speaking_head-overview&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;The software birthmarks were proposed for detecting the software theft from a large number of suspected programs.&#xA;The birthmark is a technique to compare the extracted characteristics as the software birthmarks, and compute similarities between two birthmarks.&#xA;The conventional birthmarks require a much time by increasing the target programs for comparison.&#xA;Therefore, it is the bottleneck of the conventional birthmarking technique.&#xA;In this paper, we propose a method for reducing total processing time by introducing the narrowing phase between conventional extracting and comparison phases.&#xA;The narrowing phase employs the fast but rough comparison algorithm in order to eliminate unrelated programs.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/research/birthmark_fast_comparison/features.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/research/birthmark_fast_comparison/features.png" />
     </item>
     
     <item>
       <title>Auto-extraction of Dynamic Birthmarks</title>
-      <link>https://tamada.github.io/research/automatic_extraction_of_dynamic_birthmarks/</link>
+      <link>http://localhost:1313/research/automatic_extraction_of_dynamic_birthmarks/</link>
       <pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/research/automatic_extraction_of_dynamic_birthmarks/</guid>
+      <guid>http://localhost:1313/research/automatic_extraction_of_dynamic_birthmarks/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;:speaking_head: Overview&#xA;    &lt;div id=&#34;speaking_head-overview&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#speaking_head-overview&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;The software birthmark methods are proposed to find the stolen software from the huge number of suspects.&#xA;The software birthmark methods are classified into two manners, static and dynamic manners.&#xA;Different from the static birthmarks, dynamic birthmarks require inputs since they base on runtime behaviors.&#xA;Also, the dynamic birthmark varies depending on the inputs, therefore, it is difficult to extract beforehand.&#xA;Hence the extraction cost of the dynamic birthmarks is generally high than the static birthmarks.&#xA;This paper focuses on unit test codes in a project in order to extract the dynamic birthmarks beforehand, and reduce the extraction cost.&#xA;The experiments evaluated the credibility and resilience performance of the birthmarks.&#xA;The performance evaluation showed good results, the similarities were greater than 0.8 between most recent two versions of the same products, and were under 0.355 among different projects.&#xA;In the cost evaluation, the proposed method can reduce the extraction cost of dynamic birthmarks.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/research/automatic_extraction_of_dynamic_birthmarks/features.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/research/automatic_extraction_of_dynamic_birthmarks/features.png" />
     </item>
     
     <item>
       <title>Applications of software birthmarks</title>
-      <link>https://tamada.github.io/research/birthmark_applications/</link>
+      <link>http://localhost:1313/research/birthmark_applications/</link>
       <pubDate>Sat, 15 Aug 2009 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/research/birthmark_applications/</guid>
+      <guid>http://localhost:1313/research/birthmark_applications/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;:speaking_head: Overview&#xA;    &lt;div id=&#34;speaking_head-overview&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#speaking_head-overview&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;This research topics shows applications of software birthmarks.&#xA;In our publications, we try to classify the programs using extracted software birthmarks.&#xA;Because, we believe that the birthmarks shows the functionalities of the programs.&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;:books: Publications&#xA;    &lt;div id=&#34;books-publications&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#books-publications&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;牛窓 朋義, 門田 暁人, 玉田 春昭, 松本 健一, “使用クラスに基づくソフトウェアの機能面からの分類”, 信学技報 ソフトウェアサイエンス研究会, Vol.SS2009-17, pp.31-36, August 2009.&lt;/li&gt;&#xA;&lt;li&gt;玉田 春昭，森崎 修司，門田 暁人，松本 健一，”バースマークを用いたソフトウェア拡張開発での流用度合いの測定”，情報処理学会第70回全国大会，pp.5-399-400, March 2008.&lt;/li&gt;&#xA;&lt;li&gt;Takesi Kakimoto, Akito Monden, Yasutaka Kamei, Haruaki Tamada, Masateru Tsunoda, and Ken-ichi Matsumoto, “Using Software Birthmarks to Identify Similar Classes and Major Functionalities,” In Proc. the 3rd International Workshop on Mining Software Repositories (MSR 2006), pp.171-172, May 2006. (Shanghai, China) &#xA;&lt;a href=&#34;https://dl.acm.org/doi/10.1145/1137983.1138026&#34;&gt;&#xA;    &lt;div class=&#34;inline-flex items-center text-xs font-bold leading-none tracking-tight&#34;&gt;&#xA;        &lt;span class=&#34;bg-gray-600 text-white px-2 py-1 rounded-l-sm&#34;&gt;Link&lt;/span&gt;&#xA;        &lt;span class=&#34;bg-green-500 text-white px-2 py-1 rounded-r-sm&#34;&gt;dl.acm.org&lt;/span&gt;&#xA;    &lt;/div&gt;&#xA;&lt;/a&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;:mag_right: Related Research Topics&#xA;    &lt;div id=&#34;mag_right-related-research-topics&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#mag_right-related-research-topics&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../birthmark_concept&#34; &gt;Concept of Software Birthmarks&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../dynamic_birthmarks&#34; &gt;Dynamic Software Birthmarks&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../birthmark_fast_comparison&#34; &gt;Fast comparisons of the birthmarks&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;:handshake: Collaborators&#xA;    &lt;div id=&#34;handshake-collaborators&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#handshake-collaborators&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://digi-ana.sakura.ne.jp/&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;A. Monden&lt;/a&gt;@&lt;a href=&#34;http://analytics.jpn.org/index-e.html&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Software mesurement and analytics laboratory&lt;/a&gt;, Okayama University&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/research/birthmark_applications/features.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/research/birthmark_applications/features.png" />
     </item>
     
     <item>
       <title>Dynamic birthmarks</title>
-      <link>https://tamada.github.io/research/dynamic_birthmarks/</link>
+      <link>http://localhost:1313/research/dynamic_birthmarks/</link>
       <pubDate>Tue, 01 Aug 2006 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/research/dynamic_birthmarks/</guid>
+      <guid>http://localhost:1313/research/dynamic_birthmarks/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;:speaking_head: Overview&#xA;    &lt;div id=&#34;speaking_head-overview&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#speaking_head-overview&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;This paper presents a technique of dynamic software birthmarks to support efficient detection of software theft.&#xA;A dynamic birthmark $f(p, I)$ is a set of unique and native characteristics of a program $p$, obtained by executing $p$ with a given input $I$.&#xA;For a pair of&#xA;software $p$ and $q$, if $f(p, I) = f(q, I)$ holds, $q$ is suspected as a copy of $p$.&#xA;In this paper, we propose two kinds of dynamic birthmarks, EXESEQ and EXEFREQ which use execution order and frequency distribution of runtime API Calls.&#xA;In the first experiment, we applied the proposed birthmarks to the same-purpose applications.&#xA;As a result, it was shown that an application and its extended version have quite similar birthmarks, and that the applications that are independently implemented possess significantly different birthmarks.&#xA;The second experiment showed that the proposed birthmarks achieve the strong resilience against the usage of different compilers and optimizations.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/research/dynamic_birthmarks/features.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/research/dynamic_birthmarks/features.png" />
     </item>
     
     <item>
       <title>Concept of Birthmarks</title>
-      <link>https://tamada.github.io/research/birthmark_concept/</link>
+      <link>http://localhost:1313/research/birthmark_concept/</link>
       <pubDate>Thu, 01 Sep 2005 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/research/birthmark_concept/</guid>
+      <guid>http://localhost:1313/research/birthmark_concept/</guid>
       <description>&lt;h2 class=&#34;relative group&#34;&gt;:speaking_head: Overview&#xA;    &lt;div id=&#34;speaking_head-overview&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#speaking_head-overview&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;To detect the theft of Java class files efficiently, we propose a concept of &lt;em&gt;Java birthmarks&lt;/em&gt;, which are unique and native characteristics of every class file.&#xA;For a pair of class files $p$ and $q$, if $q$ has the same birthmark as $p$&amp;rsquo;s, $q$ is suspected as a &lt;em&gt;copy&lt;/em&gt; of $p$.&#xA;Ideally, the birthmarks should satisfy the following properties: (a) &lt;em&gt;preservation&lt;/em&gt; &amp;ndash; the birthmarks should be preserved even if the original class file is tampered with, and (b) &lt;em&gt;distinction&lt;/em&gt; &amp;ndash; independent class files must be distinguished by completely different birthmarks.&#xA;Taking (a) and (b) into account, we propose four types of birthmarks for Java class files.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/research/birthmark_concept/features.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/research/birthmark_concept/features.png" />
     </item>
     
   </channel>

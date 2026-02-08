@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docker on Haruaki Tamada</title>
-    <link>https://tamada.github.io/tags/docker/</link>
+    <link>http://localhost:1313/tags/docker/</link>
     <description>Recent content in Docker on Haruaki Tamada</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; by Haruaki Tamada. Made with [Hugo](https://gohugo.io/). Deployed to [GitHub Pages](https://pages.github.com/).</copyright>
-    <lastBuildDate>Fri, 31 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 31 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>btmeister</title>
-      <link>https://tamada.github.io/products/btmeister/</link>
+      <link>http://localhost:1313/products/btmeister/</link>
       <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/products/btmeister/</guid>
+      <guid>http://localhost:1313/products/btmeister/</guid>
       <description>Detecting the build tools in use.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/products/btmeister/features.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/btmeister/features.svg" />
     </item>
     
     <item>
       <title>:dog: pochi</title>
-      <link>https://tamada.github.io/products/pochi/</link>
+      <link>http://localhost:1313/products/pochi/</link>
       <pubDate>Mon, 13 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/products/pochi/</guid>
+      <guid>http://localhost:1313/products/pochi/</guid>
       <description>Java birthmark toolkit, detecting the software theft by native characteristics of the programs.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/products/pochi/features.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/pochi/features.png" />
     </item>
     
     <item>
       <title>wildcat</title>
-      <link>https://tamada.github.io/products/wildcat/</link>
+      <link>http://localhost:1313/products/wildcat/</link>
       <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://tamada.github.io/products/wildcat/</guid>
+      <guid>http://localhost:1313/products/wildcat/</guid>
       <description>another implementation of wc (word count) accepting archives, directories, and file lists</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/products/wildcat/features.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/products/wildcat/features.svg" />
     </item>
     
   </channel>
