@@ -1,0 +1,27 @@
+name: update release date triggered from homebrew-tap repository.
+
+on:
+    repository_dispatch:
+        types: [ update_release_date ]
+    workflow_dispatch:
+
+permissions:
+    contents: write
+
+jobs:
+    update-release-date:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+
+            - name: Update release date
+              run: |
+                sh resources/release_date/update_release_date.sh
+                git add content/products/*/index.md
+
+            - name: Commit and push changes
+              uses: ./.github/actions/commit_and_push
+              with:
+                  commit_message: "Update release date"
+                  branch_name: "main"

@@ -1,0 +1,56 @@
+name: Conditional Publish by Branch Age
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # 9:00 AM JST daily
+  workflow_dispatch:
+
+permissions:
+    contents: write
+
+jobs:
+  publish-site:
+    runs-on: ubuntu-latest
+    steps:
+        - name: Checkout repository
+          uses: actions/checkout@v4
+
+        - name: Compare branch timestamps
+          id: compare
+          run: |
+              # 各ブランチのUnix Timeを取得
+              TRUNK_TIME=$(git log -1 --format="%at" origin/trunk)
+              MAIN_TIME=$(git log -1 --format="%at" origin/main)
+
+              echo "Trunk update: $TRUNK_TIME"
+              echo "Main update: $MAIN_TIME"
+
+              if [ "$TRUNK_TIME" -gt "$MAIN_TIME" ]; then
+                  echo "should_update=true" >> $GITHUB_OUTPUT
+                  echo "Trunk is newer than main. Proceeding to update..."
+              else
+                  echo "should_update=false" >> $GITHUB_OUTPUT
+                  echo "No update needed."
+              fi
+
+        - name: Setup hugo
+          uses: peaceiris/actions-hugo@v3
+          with:
+              hugo-version: 'latest'
+              extended: true
+
+        - name: Build and update site
+          if: steps.compare.outputs.should_update == 'true'
+          run:  |
+              git worktree add public main
+              hugo --minify
+              cd public
+              git add .
+
+        - name: Commit and push changes
+          if: steps.compare.outputs.should_update == 'true'
+          uses: ./.github/actions/commit_and_push
+          with:
+            commit_message: "Publish site update"
+            branch_name: "main"
+            working_directory: "public"

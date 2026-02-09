@@ -90,39 +90,45 @@ tags: [ "profile", "information", "about-me" ]
 
 ## SNSs
 
-### General SNSs
+### General SNS
 
-{{< keywordList >}}
-{{< status_badge href="https://x.com/tama5" label="X" value="tama5" color="1DA1F2" icon="x" >}}
-{{< status_badge href="https://www.instagram.com/htamada" label="Instagram" value="htamada" color="E4405F" icon="instagram" >}}
-{{< status_badge href="https://www.linkedin.com/in/htamada" label="LinkedIn" value="htamada" color="0A66C2" icon="linkedin" >}}
-{{< status_badge href="https://www.facebook.com/haruaki.tamada" label="Facebook" value="haruaki.tamada" color="1877F2" icon="facebook" >}}
-{{< status_badge href="https://www.reddit.com/user/tamada3" label="Reddit" value="u/tamada3" color="FF4500" icon="reddit" >}}
+{{< keywordList markdownify="true">}}
+[![Facebook](https://img.shields.io/badge/Facebook-haruaki.tamada-1877F2?logo=facebook&logoColor=white)](https://www.facebook.com/haruaki.tamada)
+[![Instagram](https://img.shields.io/badge/Instagram-htamada-E4405F?logo=instagram)](https://instagram.com/htamada)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-htamada-0A66C2?logo=linkedin)](https://www.linkedin.com/in/htamada)
+[![Qiita](https://img.shields.io/badge/Qiita-tama5-55C500?logo=qiita)](https://qiita.com/tama5)
+[![Reddit](https://img.shields.io/badge/Reddit-u/tamada3-FF4500?logo=reddit)](https://www.reddit.com/user/tamada3)
+[![X](https://img.shields.io/badge/X-%40tama5-000000?logo=x)](https://x.com/tama5)
+[![zenn.dev](https://img.shields.io/badge/zenn.dev-tamada-3EA8FF?logo=zenn)](https://zenn.dev/tamada)
 {{< /keywordList >}}
 
-### Developers' SNSs
+### Developers' SNS
 
-{{< keywordList >}}
-{{< status_badge href="https://github.com/tamada" label="GitHub" value="tamada" color="181717" icon="github" >}}
-{{< status_badge href="https://hub.docker.com/u/tamada/" label="Docker Hub" value="tamada" color="2496ED" icon="docker" >}}
-{{< status_badge href="https://bitbucket.org/htamada/" label="Bitbucket" value="htamada" color="0052CC" icon="bitbucket" >}}
-{{< status_badge href="https://gitlab.com/htamada" label="GitLab" value="htamada" color="FCA121" icon="gitlab" >}}
+{{< keywordList markdownify="true">}}
+[![Bitbucket](https://img.shields.io/badge/Bitbucket-htamada-0052CC?logo=bitbucket)](https://bitbucket.org/htamada/)
+[![Codeberg](https://img.shields.io/badge/Codeberg-tamada-2185D0?logo=codeberg)](https://codeberg.org/tamada)
+[![crates.io](https://img.shields.io/badge/crates.io-tamada-FDD078?logo=rust)](https://crates.io/users/tamada)
+[![Docker Hub](https://img.shields.io/badge/Docker%20Hub-tamada-2496ED?logo=docker&logoColor=white)](https://hub.docker.com/u/tamada/)
+[![Gitea](https://img.shields.io/badge/Gitea-tamada-609926?logo=gitea)](https://gitea.com/tamada)
+[![GitHub](https://img.shields.io/badge/GitHub-tamada-181717?logo=github)](https://github.com/tamada)
+[![GitLab](https://img.shields.io/badge/GitLab-htamada-FCA121?logo=gitlab)](https://gitlab.com/htamada)
 {{< /keywordList >}}
 
-### Researchers' SNSs
+### Researchers' SNS
 
-{{< keywordList >}}
-{{< status_badge href="https://scholar.google.co.jp/citations?user=Qbslp6UAAAAJ" label="Google Scholar" value="H. Tamada" color="4285F4" icon="google-scholar" >}}
-{{< status_badge href="https://orcid.org/0000-0003-1838-9184" label="ORCID" value="H. Tamada" color="A6CE39" icon="orcid" >}}
-{{< status_badge href="https://kyoto-su.academia.edu/HTamada" label="Academia.edu" value="H. Tamada" color="41454A" icon="academia" >}}
-{{< status_badge href="https://www.researchgate.net/profile/Haruaki_Tamada" label="Research Gate" value="H. Tamada" color="00CCBB" icon="researchgate" >}}
+{{< keywordList markdownify="true">}}
+[![Academia.edu](https://img.shields.io/badge/Academia-H.%20Tamada-41454A?logo=academia)](https://kyoto-su.academia.edu/HTamada)
+[![DBLP](https://img.shields.io/badge/DBLP-Haruaki%20Tamada-004F9F?logo=dblp)](https://dblp.uni-trier.de/pid/07/389.html)
+[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-H.%20Tamada-4285F4?logo=google%20scholar&logoColor=white)](https://scholar.google.co.jp/citations?user=Qbslp6UAAAAJ)
+[![ORCID](https://img.shields.io/badge/ORCID-H.%20Tamada-A6CE39?logo=orcid)](https://orcid.org/0000-0003-1838-9184)
+[![Research Gate](https://img.shields.io/badge/Research%20Gate-H.%20Tamada-00CCBB?logo=researchgate)](https://www.researchgate.net/profile/Haruaki_Tamada)
 {{< /keywordList >}}
 
-### Other SNSs
+### Misc
 
-{{< keywordList >}}
-{{< status_badge href="https://github.com/tamada/homebrew-tap" label="Homebrew" value="tamada/tap" color="FBB040" icon="homebrew" >}}
-{{< status_badge href="https://www.buymeacoffee.com/KP27ij5" label="Buy me a coffee" value="KP27ij5" color="FFDD00" icon="buymeacoffee" >}}
+{{< keywordList markdownify="true">}}
+[![buy me a coffee](https://img.shields.io/badge/Buy%20me-a%20coffee!-ffdd00?logo=buy%20me%20a%20coffee)](https://www.buymeacoffee.com/KP27ij5)
+[![Homebrew](https://img.shields.io/badge/Homebrew-tamada/tap-FBB040?logo=homebrew)](https://github.com/tamada/homebrew-tap)
 {{< /keywordList >}}
 
 ## My histories

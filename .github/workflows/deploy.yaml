@@ -1,9 +1,10 @@
 name: Conditional Update by Branch Age
 
 on:
-  schedule:
-    - cron: "0 0 * * *" # 9:00 AM JST daily
   workflow_dispatch:
+  push:
+    branches:
+      - "**"
 
 permissions:
   contents: write
@@ -20,47 +21,11 @@ jobs:
           if [[ "assets/data/activities.json" -nt "content/profile.md" ]]; then 
             # activities.json is newer than profile.md, so update profile.md
             sh resources/scripts/update_activities.sh content/profile.md
-          fi
-    
-      - name: Compare branch timestamps
-        id: compare
-        run: |
-          # 各ブランチのUnix Timeを取得
-          TRUNK_TIME=$(git log -1 --format="%at" origin/trunk)
-          MAIN_TIME=$(git log -1 --format="%at" origin/main)
-
-          echo "Trunk update: $TRUNK_TIME"
-          echo "Main update: $MAIN_TIME"
-
-          if [ "$TRUNK_TIME" -gt "$MAIN_TIME" ]; then
-            echo "should_update=true" >> $GITHUB_OUTPUT
-            echo "Trunk is newer than main. Proceeding to update..."
-          else
-            echo "should_update=false" >> $GITHUB_OUTPUT
-            echo "No update needed."
+            git add content/profile.md
           fi
 
-      - name: Setup hugo
-        uses: peaceiris/actions-hugo@v3
+      - name: Commit and push changes
+        uses: ./.github/actions/commit_and_push
         with:
-          hugo-version: 'latest'
-          extended: true
-
-      - name: Initialize Git
-        shell: bash
-        run: |
-          git config --global user.name  "GitHub Actions"
-          git config --global user.email "action@github.com"
-          auth_header="$(git config --local --get http.https://github.com/.extraheader)"
-
-      - name: Build and update site
-        if: steps.compare.outputs.should_update == 'true'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run:  |
-          git worktree add public main
-          hugo --minify
-          cd public
-          git add .
-          git commit -m "publish update" || true
-          git push origin main
+          commit_message: "Update profile activities"
+          branch_name: "main"
