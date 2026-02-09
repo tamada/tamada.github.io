@@ -14,11 +14,15 @@ jobs:
     steps:
         - name: Checkout repository
           uses: actions/checkout@v4
+          with:
+                fetch-depth: 0
 
         - name: Compare branch timestamps
           id: compare
           run: |
-              # 各ブランチのUnix Timeを取得
+              git fetch origin trunk main
+
+              # Get unix time of each branch's latest commit
               TRUNK_TIME=$(git log -1 --format="%at" origin/trunk)
               MAIN_TIME=$(git log -1 --format="%at" origin/main)
 
