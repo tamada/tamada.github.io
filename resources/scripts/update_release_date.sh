@@ -9,11 +9,11 @@ echo "========================================="
 gh api graphql -F query=@outputs/query.graphql > outputs/release_dates.json
 cat outputs/release_dates.json | jq -r "$(cat resources/scripts/json2csv.jq)" > outputs/release_dates.csv
 
-tail -n +2 outputs/release_dates.csv | while IFS=',' read -r -a items; do
-  repo_name=$(echo ${items[0]} | tr -d \")
-  publish_date=$(echo ${items[2]} | tr -d \")
+cat outputs/release_dates.csv | while IFS=',' read -r repo_name tag_name publish_date url; do
+  repo_name=$(echo ${repo_name} | tr -d \")
+  publish_date=$(echo ${publish_date} | tr -d \")
   filepath=content/products/${repo_name}/index.md
   if [[ -f ${filepath} ]] && [[ ${publish_date} != "N/A" ]]; then
-    sed -i "s/^date: .*/date: ${publish_date}/" ${filepath}
+    sed "s/^date: .*/date: ${publish_date}/" ${filepath} > a ; mv a ${filepath}
   fi
 done
