@@ -27,5 +27,9 @@ runs:
       shell: bash
       run: |
         cd ${{ inputs.working_directory }}
-        git commit -m "${{ inputs.commit_message }}" || true
-        git push origin ${{ inputs.branch_name }}
+        if git diff --cached --quiet; then
+          echo "No changes found. Nothing to commit or push."
+        else
+          git commit -m "${{ inputs.commit_message }}" || true
+          git push origin ${{ inputs.branch_name }}
+        fi

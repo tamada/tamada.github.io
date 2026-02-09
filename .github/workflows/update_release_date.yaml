@@ -26,4 +26,4 @@ jobs:
               uses: ./.github/actions/commit_and_push
               with:
                   commit_message: "Update release date"
-                  branch_name: "main"
+                  branch_name: "trunk"
