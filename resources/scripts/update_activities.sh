@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/sh
 
 activities2markdown() {
     cat assets/data/activities.json | jq -r '.[] | [.label, .href] | join(",")'

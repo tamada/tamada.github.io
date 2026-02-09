@@ -1,9 +1,13 @@
 #! /bin/sh
 
 mkdir outputs
-sh resources/release_date/query_builder.sh > outputs/query.graphql
+bash resources/scripts/query_builder.sh > outputs/query.graphql
+echo "============= query.graphql ============="
+cat outputs/query.graphql
+echo "========================================="
+
 gh api graphql -F query=@outputs/query.graphql > outputs/release_dates.json
-cat outputs/release_dates.json | jq -r "$(cat resources/release_date/json2csv.jq)" > outputs/release_dates.csv
+cat outputs/release_dates.json | jq -r "$(cat resources/scripts/json2csv.jq)" > outputs/release_dates.csv
 
 for line in $(cat outputs/release_dates.csv | tr -d \"); do
   IFS=',' read -r -a items <<< "$line"

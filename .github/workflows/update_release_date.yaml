@@ -1,4 +1,4 @@
-name: update release date triggered from homebrew-tap repository.
+name: Update release date of products triggered from homebrew-tap repository.
 
 on:
     repository_dispatch:
@@ -16,8 +16,10 @@ jobs:
               uses: actions/checkout@v4
 
             - name: Update release date
+              env:
+                  GH_TOKEN: ${{ github.token }}
               run: |
-                sh resources/release_date/update_release_date.sh
+                sh resources/scripts/update_release_date.sh
                 git add content/products/*/index.md
 
             - name: Commit and push changes

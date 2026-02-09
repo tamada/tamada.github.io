@@ -1,4 +1,4 @@
-name: Conditional Update by Branch Age
+name: Update Activities on Profile Change
 
 on:
   workflow_dispatch:
