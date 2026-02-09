@@ -17,14 +17,17 @@ jobs:
         uses: actions/checkout@v4
     
       - name: Update activities if needed
+        id: activities
         run: |
           if [[ "assets/data/activities.json" -nt "content/profile.md" ]]; then 
             # activities.json is newer than profile.md, so update profile.md
+            echo "should_update=true" >> $GITHUB_OUTPUT
             sh resources/scripts/update_activities.sh content/profile.md
             git add content/profile.md
           fi
 
       - name: Commit and push changes
+        if: steps.activities.outputs.should_update == 'true'
         uses: ./.github/actions/commit_and_push
         with:
           commit_message: "Update profile activities"
