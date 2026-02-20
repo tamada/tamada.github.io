@@ -1,4 +1,3 @@
-  ["name", "tagName", "publishedAt", "url"],
   (.data | to_entries[].value | [
     .name,
     (.latestRelease.tagName // "N/A"),
