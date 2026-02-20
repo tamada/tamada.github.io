@@ -2,6 +2,7 @@
 title: ":rocket: Products"
 featureimage: "features/products.png"
 summary: 'This page introduces my developed software products. Most of them are command-line tools and libraries for researchers and developers.'
+aliases: [ "/projects/" ]
 tags: [ 'products', "cli", "libraries", "research tools" ]
 ---
 
