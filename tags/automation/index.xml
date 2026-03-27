@@ -1,32 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Automation on Haruaki Tamada</title><link>https://tamada.github.io/tags/automation/</link><description>Recent content in Automation on Haruaki Tamada</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright &amp;copy; by Haruaki Tamada. Made with [Hugo](https://gohugo.io/). Deployed to [GitHub Pages](https://pages.github.com/).</copyright><lastBuildDate>Sat, 15 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/automation/index.xml" rel="self" type="application/rss+xml"/><item><title>Fast comparisons of the birthmarks</title><link>https://tamada.github.io/research/birthmark_fast_comparison/</link><pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate><guid>https://tamada.github.io/research/birthmark_fast_comparison/</guid><description>&lt;h2 class="relative group"&gt;:speaking_head: Overview
- &lt;div id="speaking_head-overview" class="anchor"&gt;&lt;/div&gt;
- 
- &lt;span
- class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
- &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#speaking_head-overview" aria-label="Anchor"&gt;#&lt;/a&gt;
- &lt;/span&gt;
- 
-&lt;/h2&gt;
-&lt;p&gt;The software birthmarks were proposed for detecting the software theft from a large number of suspected programs.
-The birthmark is a technique to compare the extracted characteristics as the software birthmarks, and compute similarities between two birthmarks.
-The conventional birthmarks require a much time by increasing the target programs for comparison.
-Therefore, it is the bottleneck of the conventional birthmarking technique.
-In this paper, we propose a method for reducing total processing time by introducing the narrowing phase between conventional extracting and comparison phases.
-The narrowing phase employs the fast but rough comparison algorithm in order to eliminate unrelated programs.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/research/birthmark_fast_comparison/features.png"/></item><item><title>Auto-extraction of Dynamic Birthmarks</title><link>https://tamada.github.io/research/automatic_extraction_of_dynamic_birthmarks/</link><pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate><guid>https://tamada.github.io/research/automatic_extraction_of_dynamic_birthmarks/</guid><description>&lt;h2 class="relative group"&gt;:speaking_head: Overview
- &lt;div id="speaking_head-overview" class="anchor"&gt;&lt;/div&gt;
- 
- &lt;span
- class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
- &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#speaking_head-overview" aria-label="Anchor"&gt;#&lt;/a&gt;
- &lt;/span&gt;
- 
-&lt;/h2&gt;
-&lt;p&gt;The software birthmark methods are proposed to find the stolen software from the huge number of suspects.
-The software birthmark methods are classified into two manners, static and dynamic manners.
-Different from the static birthmarks, dynamic birthmarks require inputs since they base on runtime behaviors.
-Also, the dynamic birthmark varies depending on the inputs, therefore, it is difficult to extract beforehand.
-Hence the extraction cost of the dynamic birthmarks is generally high than the static birthmarks.
-This paper focuses on unit test codes in a project in order to extract the dynamic birthmarks beforehand, and reduce the extraction cost.
-The experiments evaluated the credibility and resilience performance of the birthmarks.
-The performance evaluation showed good results, the similarities were greater than 0.8 between most recent two versions of the same products, and were under 0.355 among different projects.
-In the cost evaluation, the proposed method can reduce the extraction cost of dynamic birthmarks.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/research/automatic_extraction_of_dynamic_birthmarks/features.png"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Automation on Haruaki Tamada</title>
+    <link>https://tamada.github.io/tags/automation/</link>
+    <description>Recent content in Automation on Haruaki Tamada</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright &amp;copy; by Haruaki Tamada. Made with [Hugo](https://gohugo.io/). Deployed to [GitHub Pages](https://pages.github.com/).</copyright>
+    <lastBuildDate>Sat, 15 Feb 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/automation/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Fast comparisons of the birthmarks</title>
+      <link>https://tamada.github.io/research/birthmark_fast_comparison/</link>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/birthmark_fast_comparison/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;:speaking_head: Overview&#xA;    &lt;div id=&#34;speaking_head-overview&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#speaking_head-overview&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;The software birthmarks were proposed for detecting the software theft from a large number of suspected programs.&#xA;The birthmark is a technique to compare the extracted characteristics as the software birthmarks, and compute similarities between two birthmarks.&#xA;The conventional birthmarks require a much time by increasing the target programs for comparison.&#xA;Therefore, it is the bottleneck of the conventional birthmarking technique.&#xA;In this paper, we propose a method for reducing total processing time by introducing the narrowing phase between conventional extracting and comparison phases.&#xA;The narrowing phase employs the fast but rough comparison algorithm in order to eliminate unrelated programs.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/research/birthmark_fast_comparison/features.png" />
+    </item>
+    
+    <item>
+      <title>Auto-extraction of Dynamic Birthmarks</title>
+      <link>https://tamada.github.io/research/automatic_extraction_of_dynamic_birthmarks/</link>
+      <pubDate>Mon, 15 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/research/automatic_extraction_of_dynamic_birthmarks/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;:speaking_head: Overview&#xA;    &lt;div id=&#34;speaking_head-overview&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#speaking_head-overview&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;The software birthmark methods are proposed to find the stolen software from the huge number of suspects.&#xA;The software birthmark methods are classified into two manners, static and dynamic manners.&#xA;Different from the static birthmarks, dynamic birthmarks require inputs since they base on runtime behaviors.&#xA;Also, the dynamic birthmark varies depending on the inputs, therefore, it is difficult to extract beforehand.&#xA;Hence the extraction cost of the dynamic birthmarks is generally high than the static birthmarks.&#xA;This paper focuses on unit test codes in a project in order to extract the dynamic birthmarks beforehand, and reduce the extraction cost.&#xA;The experiments evaluated the credibility and resilience performance of the birthmarks.&#xA;The performance evaluation showed good results, the similarities were greater than 0.8 between most recent two versions of the same products, and were under 0.355 among different projects.&#xA;In the cost evaluation, the proposed method can reduce the extraction cost of dynamic birthmarks.&lt;/p&gt;</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/research/automatic_extraction_of_dynamic_birthmarks/features.png" />
+    </item>
+    
+  </channel>
+</rss>

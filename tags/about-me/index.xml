@@ -1,114 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>About-Me on Haruaki Tamada</title><link>https://tamada.github.io/tags/about-me/</link><description>Recent content in About-Me on Haruaki Tamada</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright &amp;copy; by Haruaki Tamada. Made with [Hugo](https://gohugo.io/). Deployed to [GitHub Pages](https://pages.github.com/).</copyright><lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/about-me/index.xml" rel="self" type="application/rss+xml"/><item><title>:bust_in_silhouette: Profile</title><link>https://tamada.github.io/profile/</link><pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate><guid>https://tamada.github.io/profile/</guid><description>&lt;h2 class="relative group"&gt;:identification_card: General Information
- &lt;div id="identification_card-general-information" class="anchor"&gt;&lt;/div&gt;
- 
- &lt;span
- class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
- &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#identification_card-general-information" aria-label="Anchor"&gt;#&lt;/a&gt;
- &lt;/span&gt;
- 
-&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Professor, Faculty of Information Science and Engineering, Kyoto Sangyo University.
-&lt;ul&gt;
-&lt;li&gt;Doctor of Engineering (Nara Institute of Science and Technology, 2006)&lt;/li&gt;
-&lt;li&gt;Motoyama, Kamigamo, Kita-ku, Kyoto-pref, Kyoto, Japan, Postal Code 603-8555.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Programmer/Software Engineer&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 class="relative group"&gt;:graduation_cap: Research Topics
- &lt;div id="graduation_cap-research-topics" class="anchor"&gt;&lt;/div&gt;
- 
- &lt;span
- class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
- &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#graduation_cap-research-topics" aria-label="Anchor"&gt;#&lt;/a&gt;
- &lt;/span&gt;
- 
-&lt;/h3&gt;
-&lt;div class="flex flex-row flex-wrap items-center space-x-2"&gt;
-&lt;span class="flex cursor-pointer"&gt;
- &lt;span
- class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"&gt;
- &lt;a href="https://tamada.github.io/tags/software-birthmarks/" &gt;Software Birthmarks&lt;/a&gt;
- &lt;/span&gt;
-&lt;/span&gt;
-
-
-&lt;span class="flex cursor-pointer"&gt;
- &lt;span
- class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"&gt;
- &lt;a href="https://tamada.github.io/tags/software-obfuscation/" &gt;Software Obfuscation&lt;/a&gt;
- &lt;/span&gt;
-&lt;/span&gt;
-
-
-&lt;span class="flex cursor-pointer"&gt;
- &lt;span
- class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"&gt;
- &lt;a href="https://tamada.github.io/tags/evaluating-obfuscation/" &gt;Evaluating Obfuscation&lt;/a&gt;
- &lt;/span&gt;
-&lt;/span&gt;
-
-
-&lt;span class="flex cursor-pointer"&gt;
- &lt;span
- class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"&gt;
- &lt;a href="https://tamada.github.io/tags/developer-analysis/" &gt;Developer Analysis&lt;/a&gt;
- &lt;/span&gt;
-&lt;/span&gt;
-
-
-&lt;span class="flex cursor-pointer"&gt;
- &lt;span
- class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"&gt;
- &lt;a href="https://tamada.github.io/tags/project-analysis/" &gt;Project Analysis&lt;/a&gt;
- &lt;/span&gt;
-&lt;/span&gt;
-
-
-&lt;span class="flex cursor-pointer"&gt;
- &lt;span
- class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"&gt;
- &lt;a href="https://tamada.github.io/tags/program-readability-analysis" &gt;Program Readability Analysis&lt;/a&gt;
- &lt;/span&gt;
-&lt;/span&gt;
-
-
-&lt;span class="flex cursor-pointer"&gt;
- &lt;span
- class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"&gt;
- &lt;a href="https://tamada.github.io/tags/git-github-operation-support" &gt;Git/GitHub Operation Support&lt;/a&gt;
- &lt;/span&gt;
-&lt;/span&gt;
-
-
-&lt;span class="flex cursor-pointer"&gt;
- &lt;span
- class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400"&gt;
- &lt;a href="https://tamada.github.io/tags/empirical-software-engineering" &gt;Empirical Software Engineering&lt;/a&gt;
- &lt;/span&gt;
-&lt;/span&gt;
-
-
-&lt;/div&gt;
-
-
-&lt;h3 class="relative group"&gt;:muscle: Skills
- &lt;div id="muscle-skills" class="anchor"&gt;&lt;/div&gt;
- 
- &lt;span
- class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
- &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#muscle-skills" aria-label="Anchor"&gt;#&lt;/a&gt;
- &lt;/span&gt;
- 
-&lt;/h3&gt;
-&lt;p&gt;&lt;a href="https://skillicons.dev" target="_blank" rel="noreferrer"&gt;&lt;figure&gt;&lt;img
- class="my-0 rounded-md"
- loading="lazy"
- decoding="async"
- fetchpriority="low"
- alt="Skill icons"
- src="https://skillicons.dev/icons?i=apple,bash,c,docker,eclipse,emacs,git,github,githubactions,go,html,java,js,latex,maven,md,obsidian,pkl,python,rust,vscode&amp;amp;theme=light&amp;amp;perline=7"
- &gt;&lt;/figure&gt;
-&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About-Me on Haruaki Tamada</title>
+    <link>https://tamada.github.io/tags/about-me/</link>
+    <description>Recent content in About-Me on Haruaki Tamada</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright &amp;copy; by Haruaki Tamada. Made with [Hugo](https://gohugo.io/). Deployed to [GitHub Pages](https://pages.github.com/).</copyright>
+    <lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/about-me/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>:bust_in_silhouette: Profile</title>
+      <link>https://tamada.github.io/profile/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/profile/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;:identification_card: General Information&#xA;    &lt;div id=&#34;identification_card-general-information&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#identification_card-general-information&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Professor, Faculty of Information Science and Engineering, Kyoto Sangyo University.&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Doctor of Engineering (Nara Institute of Science and Technology, 2006)&lt;/li&gt;&#xA;&lt;li&gt;Motoyama, Kamigamo, Kita-ku, Kyoto-pref, Kyoto, Japan, Postal Code 603-8555.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Programmer/Software Engineer&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;:graduation_cap: Research Topics&#xA;    &lt;div id=&#34;graduation_cap-research-topics&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#graduation_cap-research-topics&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h3&gt;&#xA;&lt;div class=&#34;flex flex-row flex-wrap items-center space-x-2&#34;&gt;&#xA;&lt;span class=&#34;flex cursor-pointer&#34;&gt;&#xA;  &lt;span&#xA;    class=&#34;rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400&#34;&gt;&#xA;    &lt;a href=&#34;https://tamada.github.io/tags/software-birthmarks/&#34; &gt;Software Birthmarks&lt;/a&gt;&#xA;  &lt;/span&gt;&#xA;&lt;/span&gt;&#xA;&#xA;&#xA;&lt;span class=&#34;flex cursor-pointer&#34;&gt;&#xA;  &lt;span&#xA;    class=&#34;rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400&#34;&gt;&#xA;    &lt;a href=&#34;https://tamada.github.io/tags/software-obfuscation/&#34; &gt;Software Obfuscation&lt;/a&gt;&#xA;  &lt;/span&gt;&#xA;&lt;/span&gt;&#xA;&#xA;&#xA;&lt;span class=&#34;flex cursor-pointer&#34;&gt;&#xA;  &lt;span&#xA;    class=&#34;rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400&#34;&gt;&#xA;    &lt;a href=&#34;https://tamada.github.io/tags/evaluating-obfuscation/&#34; &gt;Evaluating Obfuscation&lt;/a&gt;&#xA;  &lt;/span&gt;&#xA;&lt;/span&gt;&#xA;&#xA;&#xA;&lt;span class=&#34;flex cursor-pointer&#34;&gt;&#xA;  &lt;span&#xA;    class=&#34;rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400&#34;&gt;&#xA;    &lt;a href=&#34;https://tamada.github.io/tags/developer-analysis/&#34; &gt;Developer Analysis&lt;/a&gt;&#xA;  &lt;/span&gt;&#xA;&lt;/span&gt;&#xA;&#xA;&#xA;&lt;span class=&#34;flex cursor-pointer&#34;&gt;&#xA;  &lt;span&#xA;    class=&#34;rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400&#34;&gt;&#xA;    &lt;a href=&#34;https://tamada.github.io/tags/project-analysis/&#34; &gt;Project Analysis&lt;/a&gt;&#xA;  &lt;/span&gt;&#xA;&lt;/span&gt;&#xA;&#xA;&#xA;&lt;span class=&#34;flex cursor-pointer&#34;&gt;&#xA;  &lt;span&#xA;    class=&#34;rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400&#34;&gt;&#xA;    &lt;a href=&#34;https://tamada.github.io/tags/program-readability-analysis&#34; &gt;Program Readability Analysis&lt;/a&gt;&#xA;  &lt;/span&gt;&#xA;&lt;/span&gt;&#xA;&#xA;&#xA;&lt;span class=&#34;flex cursor-pointer&#34;&gt;&#xA;  &lt;span&#xA;    class=&#34;rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400&#34;&gt;&#xA;    &lt;a href=&#34;https://tamada.github.io/tags/git-github-operation-support&#34; &gt;Git/GitHub Operation Support&lt;/a&gt;&#xA;  &lt;/span&gt;&#xA;&lt;/span&gt;&#xA;&#xA;&#xA;&lt;span class=&#34;flex cursor-pointer&#34;&gt;&#xA;  &lt;span&#xA;    class=&#34;rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400&#34;&gt;&#xA;    &lt;a href=&#34;https://tamada.github.io/tags/empirical-software-engineering&#34; &gt;Empirical Software Engineering&lt;/a&gt;&#xA;  &lt;/span&gt;&#xA;&lt;/span&gt;&#xA;&#xA;&#xA;&lt;/div&gt;&#xA;&#xA;&#xA;&lt;h3 class=&#34;relative group&#34;&gt;:muscle: Skills&#xA;    &lt;div id=&#34;muscle-skills&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#muscle-skills&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://skillicons.dev&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;&lt;figure&gt;&lt;img&#xA;    class=&#34;my-0 rounded-md&#34;&#xA;    loading=&#34;lazy&#34;&#xA;    decoding=&#34;async&#34;&#xA;    fetchpriority=&#34;low&#34;&#xA;    alt=&#34;Skill icons&#34;&#xA;    src=&#34;https://skillicons.dev/icons?i=apple,bash,c,docker,eclipse,emacs,git,github,githubactions,go,html,java,js,latex,maven,md,obsidian,pkl,python,rust,vscode&amp;amp;theme=light&amp;amp;perline=7&#34;&#xA;    &gt;&lt;/figure&gt;&#xA;&lt;/a&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
