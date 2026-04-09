@@ -3,6 +3,14 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>https://tamada.github.io/research/</loc>
+    <lastmod>2026-04-01T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://tamada.github.io/research/cross_architecture_birthmarks/</loc>
+    <lastmod>2026-04-01T00:00:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>https://tamada.github.io/products/</loc>
     <lastmod>2026-03-27T00:00:00+00:00</lastmod>
   </url>
@@ -37,10 +45,6 @@
   <url>
     <loc>https://tamada.github.io/blog/20211021_programming_languages/</loc>
     <lastmod>2021-10-21T00:00:00+00:00</lastmod>
-  </url>
-  <url>
-    <loc>https://tamada.github.io/research/</loc>
-    <lastmod>2021-08-27T00:00:00+00:00</lastmod>
   </url>
   <url>
     <loc>https://tamada.github.io/research/git_operation_supports/</loc>

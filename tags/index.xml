@@ -7,7 +7,77 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; by Haruaki Tamada. Made with [Hugo](https://gohugo.io/). Deployed to [GitHub Pages](https://pages.github.com/).</copyright>
-    <lastBuildDate>Fri, 27 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Cross-Architecture</title>
+      <link>https://tamada.github.io/tags/cross-architecture/</link>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/cross-architecture/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Ghidra P-Code</title>
+      <link>https://tamada.github.io/tags/ghidra-p-code/</link>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/ghidra-p-code/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Program Education</title>
+      <link>https://tamada.github.io/tags/program-education/</link>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/program-education/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>https://tamada.github.io/tags/research/</link>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/research/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Software Birthmarks</title>
+      <link>https://tamada.github.io/tags/software-birthmarks/</link>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/software-birthmarks/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Software Obfuscation</title>
+      <link>https://tamada.github.io/tags/software-obfuscation/</link>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/software-obfuscation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Theft-Detection</title>
+      <link>https://tamada.github.io/tags/theft-detection/</link>
+      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/theft-detection/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Cli</title>
@@ -300,7 +370,7 @@
     </item>
     
     <item>
-      <title>Command-Line-Utility</title>
+      <title>Command Line Utility</title>
       <link>https://tamada.github.io/tags/command-line-utility/</link>
       <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
       
@@ -480,16 +550,6 @@
     </item>
     
     <item>
-      <title>Software Birthmarks</title>
-      <link>https://tamada.github.io/tags/software-birthmarks/</link>
-      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/software-birthmarks/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Software Theft Detection</title>
       <link>https://tamada.github.io/tags/software-theft-detection/</link>
       <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
@@ -540,7 +600,7 @@
     </item>
     
     <item>
-      <title>Project-Analysis</title>
+      <title>Project Analysis</title>
       <link>https://tamada.github.io/tags/project-analysis/</link>
       <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
       
@@ -680,36 +740,6 @@
     </item>
     
     <item>
-      <title>Program Education</title>
-      <link>https://tamada.github.io/tags/program-education/</link>
-      <pubDate>Fri, 27 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/program-education/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Research</title>
-      <link>https://tamada.github.io/tags/research/</link>
-      <pubDate>Fri, 27 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/research/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Software Obfuscation</title>
-      <link>https://tamada.github.io/tags/software-obfuscation/</link>
-      <pubDate>Fri, 27 Aug 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/software-obfuscation/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Golang</title>
       <link>https://tamada.github.io/tags/golang/</link>
       <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
@@ -740,7 +770,7 @@
     </item>
     
     <item>
-      <title>Code-Quality</title>
+      <title>Code Quality</title>
       <link>https://tamada.github.io/tags/code-quality/</link>
       <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
       
@@ -925,16 +955,6 @@
       <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/tags/automation/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Theft Detection</title>
-      <link>https://tamada.github.io/tags/theft-detection/</link>
-      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/theft-detection/</guid>
       <description></description>
       
     </item>
