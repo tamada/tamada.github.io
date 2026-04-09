@@ -100,6 +100,7 @@ tags: [ "profile", "information", "about-me" ]
 [![Reddit](https://img.shields.io/badge/Reddit-u/tamada3-FF4500?logo=reddit)](https://www.reddit.com/user/tamada3)
 [![X](https://img.shields.io/badge/X-%40tama5-000000?logo=x)](https://x.com/tama5)
 [![zenn.dev](https://img.shields.io/badge/zenn.dev-tamada-3EA8FF?logo=zenn)](https://zenn.dev/tamada)
+[![BlueSky](https://img.shields.io/badge/BlueSky-htamada-1185FE?logo=bluesky)](https://bsky.app/profile/htamada.bsky.social)
 {{< /keywordList >}}
 
 ### Developers' SNS
@@ -122,6 +123,8 @@ tags: [ "profile", "information", "about-me" ]
 [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-H.%20Tamada-4285F4?logo=google%20scholar&logoColor=white)](https://scholar.google.co.jp/citations?user=Qbslp6UAAAAJ)
 [![ORCID](https://img.shields.io/badge/ORCID-H.%20Tamada-A6CE39?logo=orcid)](https://orcid.org/0000-0003-1838-9184)
 [![Research Gate](https://img.shields.io/badge/Research%20Gate-H.%20Tamada-00CCBB?logo=researchgate)](https://www.researchgate.net/profile/Haruaki_Tamada)
+[![Zenodo](https://img.shields.io/badge/Zenodo-tamada-1682D4?logo=zenodo)](https://zenodo.org/communities/tamada/)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-htamada-FFD21E?logo=huggingface)](https://huggingface.co/htamada)
 {{< /keywordList >}}
 
 ### Misc
