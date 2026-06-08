@@ -34,12 +34,15 @@ tags: [ "profile", "information", "about-me" ]
 ### Committees
 
 {{< keywordList "committee" >}}
+{{< badge >}}[WSSE 2026](https://wsse.org){{< /badge >}}
+{{< badge >}}[SNPD 2026-I](https://acisinternational.org/conferences/snpd-2026-i/){{< /badge >}}
+{{< badge >}}[ICIS 2026](https://acisinternational.org/conferences/icis-2026/){{< /badge >}}
 {{< badge >}}[SERA 2026](https://acisinternational.org/conferences/sera-2026/){{< /badge >}}
 {{< badge >}}[ICEIS 2026](https://iceis.scitevents.org/?y=2026){{< /badge >}}
 {{< badge >}}[SNPD 2025 Winter](https://acisinternational.org/conferences/snpd-2025-winter/){{< /badge >}}
 {{< badge >}}[SNPD 2025 Summer-I](https://acisinternational.org/conferences/snpd-2025-summeri/){{< /badge >}}
 {{< badge >}}[BCD 2025-Winter](https://acisinternational.org/conferences/bcd-2024-winter/){{< /badge >}}
-{{< badge >}}[WSSE 2025](https://wsse.org){{< /badge >}}
+{{< badge >}}[WSSE 2025](https://wsse.org/2025.html){{< /badge >}}
 {{< badge >}}[SERA 2025](https://acisinternational.org/conferences/sera-2025/){{< /badge >}}
 {{< badge >}}[ICEIS 2025](https://iceis.scitevents.org/?y=2025){{< /badge >}}
 {{< badge >}}[SNPD 2024-Winter](https://acisinternational.org/conferences/snpd2024-winter/){{< /badge >}}
