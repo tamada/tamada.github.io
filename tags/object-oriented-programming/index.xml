@@ -1,33 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Object Oriented Programming on Haruaki Tamada</title>
-    <link>https://tamada.github.io/tags/object-oriented-programming/</link>
-    <description>Recent content in Object Oriented Programming on Haruaki Tamada</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Copyright &amp;copy; by Haruaki Tamada. Made with [Hugo](https://gohugo.io/). Deployed to [GitHub Pages](https://pages.github.com/).</copyright>
-    <lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/object-oriented-programming/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>fritter</title>
-      <link>https://tamada.github.io/products/retired/fritter/</link>
-      <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/products/retired/fritter/</guid>
-      <description>Small object programming/Object-oriented programming exercise checker.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/products/retired/fritter/features.svg" />
-    </item>
-    
-    <item>
-      <title>Obfuscation by dynamic name resolution</title>
-      <link>https://tamada.github.io/research/obfuscation_by_dnr/</link>
-      <pubDate>Tue, 12 Feb 2008 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/research/obfuscation_by_dnr/</guid>
-      <description>&lt;h2 class=&#34;relative group&#34;&gt;:speaking_head: Overview&#xA;    &lt;div id=&#34;speaking_head-overview&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#speaking_head-overview&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Name obfuscation is a software protection technique, which renames identifiers in a given program, to protect the program from illegal cracking.&#xA;The conventional methods replace names appearing in the declaration part with the meaningless ones.&#xA;Therefore, the methods cannot be used to obfuscate names declared in system libraries, since changing such system-defined names significantly deteriorates the program portability.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/research/obfuscation_by_dnr/features.png" />
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Object Oriented Programming on Haruaki Tamada</title><link>https://tamada.github.io/tags/object-oriented-programming/</link><description>Recent content in Object Oriented Programming on Haruaki Tamada</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright &amp;copy; by Haruaki Tamada. Made with [Hugo](https://gohugo.io/). Deployed to [GitHub Pages](https://pages.github.com/).</copyright><lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/object-oriented-programming/index.xml" rel="self" type="application/rss+xml"/><item><title>fritter</title><link>https://tamada.github.io/products/retired/fritter/</link><pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate><guid>https://tamada.github.io/products/retired/fritter/</guid><description>Small object programming/Object-oriented programming exercise checker.</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/products/retired/fritter/features.svg"/></item><item><title>Obfuscation by dynamic name resolution</title><link>https://tamada.github.io/research/obfuscation_by_dnr/</link><pubDate>Tue, 12 Feb 2008 00:00:00 +0000</pubDate><guid>https://tamada.github.io/research/obfuscation_by_dnr/</guid><description>&lt;h2 class="relative group"&gt;:speaking_head: Overview
+ &lt;div id="speaking_head-overview" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#speaking_head-overview" aria-label="Anchor"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;Name obfuscation is a software protection technique, which renames identifiers in a given program, to protect the program from illegal cracking.
+The conventional methods replace names appearing in the declaration part with the meaningless ones.
+Therefore, the methods cannot be used to obfuscate names declared in system libraries, since changing such system-defined names significantly deteriorates the program portability.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/research/obfuscation_by_dnr/features.png"/></item></channel></rss>

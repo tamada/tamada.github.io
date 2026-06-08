@@ -1,23 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Cross-Architecture on Haruaki Tamada</title>
-    <link>https://tamada.github.io/tags/cross-architecture/</link>
-    <description>Recent content in Cross-Architecture on Haruaki Tamada</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Copyright &amp;copy; by Haruaki Tamada. Made with [Hugo](https://gohugo.io/). Deployed to [GitHub Pages](https://pages.github.com/).</copyright>
-    <lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/cross-architecture/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>Cross architecture birthmarks</title>
-      <link>https://tamada.github.io/research/cross_architecture_birthmarks/</link>
-      <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/research/cross_architecture_birthmarks/</guid>
-      <description>&lt;h2 class=&#34;relative group&#34;&gt;🗣️ Overview&#xA;    &lt;div id=&#34;-overview&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-overview&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;This research topic proposes a cross-architecture software birthmarks that targets the real-world executables such as Linux ELF, Windows PE, and macOS Mach-O.&#xA;The birthmarks are extracted from the intermediate representation of the executables throughGhidra&amp;rsquo;s p-code.&lt;/p&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;📚 Publications&#xA;    &lt;div id=&#34;-publications&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-publications&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;🔎 Related Research Topics&#xA;    &lt;div id=&#34;-related-research-topics&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-related-research-topics&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../birthmark_concept&#34; &gt;Concept of Software Birthmarks&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;../birthmark_fast_comparison&#34; &gt;Fast comparisons of the birthmarks&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;🤝 Collaborators&#xA;    &lt;div id=&#34;-collaborators&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#-collaborators&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://www.hi.kumamoto-nct.ac.jp/~kanzaki/&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Y. Kanzaki&lt;/a&gt;@Kumamoto National College of Technology&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/research/cross_architecture_birthmarks/features.png" />
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cross-Architecture on Haruaki Tamada</title><link>https://tamada.github.io/tags/cross-architecture/</link><description>Recent content in Cross-Architecture on Haruaki Tamada</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright &amp;copy; by Haruaki Tamada. Made with [Hugo](https://gohugo.io/). Deployed to [GitHub Pages](https://pages.github.com/).</copyright><lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/cross-architecture/index.xml" rel="self" type="application/rss+xml"/><item><title>Cross architecture birthmarks</title><link>https://tamada.github.io/research/cross_architecture_birthmarks/</link><pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate><guid>https://tamada.github.io/research/cross_architecture_birthmarks/</guid><description>&lt;h2 class="relative group"&gt;🗣️ Overview
+ &lt;div id="-overview" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-overview" aria-label="Anchor"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;This research topic proposes a cross-architecture software birthmarks that targets the real-world executables such as Linux ELF, Windows PE, and macOS Mach-O.
+The birthmarks are extracted from the intermediate representation of the executables throughGhidra&amp;rsquo;s p-code.&lt;/p&gt;
+
+&lt;h2 class="relative group"&gt;📚 Publications
+ &lt;div id="-publications" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-publications" aria-label="Anchor"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+
+&lt;h2 class="relative group"&gt;🔎 Related Research Topics
+ &lt;div id="-related-research-topics" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-related-research-topics" aria-label="Anchor"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="../birthmark_concept" &gt;Concept of Software Birthmarks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="../birthmark_fast_comparison" &gt;Fast comparisons of the birthmarks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 class="relative group"&gt;🤝 Collaborators
+ &lt;div id="-collaborators" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#-collaborators" aria-label="Anchor"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.hi.kumamoto-nct.ac.jp/~kanzaki/" target="_blank" rel="noreferrer"&gt;Y. Kanzaki&lt;/a&gt;@Kumamoto National College of Technology&lt;/li&gt;
+&lt;/ul&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/research/cross_architecture_birthmarks/features.png"/></item></channel></rss>

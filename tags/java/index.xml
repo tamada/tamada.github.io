@@ -1,63 +1,83 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Java on Haruaki Tamada</title>
-    <link>https://tamada.github.io/tags/java/</link>
-    <description>Recent content in Java on Haruaki Tamada</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Copyright &amp;copy; by Haruaki Tamada. Made with [Hugo](https://gohugo.io/). Deployed to [GitHub Pages](https://pages.github.com/).</copyright>
-    <lastBuildDate>Thu, 04 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>How to get version defined in pom.xml</title>
-      <link>https://tamada.github.io/blog/20211104-vfp/</link>
-      <pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/blog/20211104-vfp/</guid>
-      <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://tamada.github.io/blog/20211104-vfp/#getting-ways-of-the-version-defined-in-pomxml&#34; &gt;Getting ways of the version defined in &lt;code&gt;pom.xml&lt;/code&gt;&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://tamada.github.io/blog/20211104-vfp/#constant&#34; &gt;Constant&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://tamada.github.io/blog/20211104-vfp/#property&#34; &gt;Property&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://tamada.github.io/blog/20211104-vfp/#package&#34; &gt;Package&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://tamada.github.io/blog/20211104-vfp/#module&#34; &gt;Module&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://tamada.github.io/blog/20211104-vfp/#what-the-case-in-the-use-of-native-image&#34; &gt;What the case in the use of &lt;code&gt;native-image&lt;/code&gt;?&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://tamada.github.io/blog/20211104-vfp/#result-of-measurements&#34; &gt;Result of Measurements&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://tamada.github.io/blog/20211104-vfp/#summary&#34; &gt;Summary&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://tamada.github.io/blog/20211104-vfp/#references&#34; &gt;References&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&#xA;&lt;h2 class=&#34;relative group&#34;&gt;Getting ways of the version defined in &lt;code&gt;pom.xml&lt;/code&gt;&#xA;    &lt;div id=&#34;getting-ways-of-the-version-defined-in-pomxml&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#getting-ways-of-the-version-defined-in-pomxml&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Java 17が出たことだし，いい加減に Java のモジュールシステムを本格的に使いだそうとしている．&#xA;最近のJavaの自作ツールは一応モジュール対応にしたつもり（&lt;a href=&#34;https://github.com/tamada/pochi&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;pochi&lt;/a&gt;，&lt;a href=&#34;https://github.com/tamada/vhc&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;vhc&lt;/a&gt;など）．&lt;/p&gt;&#xA;&lt;p&gt;で，ビルドツールは &lt;a href=&#34;https://maven.apache.org&#34;  target=&#34;_blank&#34; rel=&#34;noreferrer&#34;&gt;Maven&lt;/a&gt; を使うことが多いのだけど，&lt;code&gt;pom.xml&lt;/code&gt; で設定したバージョン情報をアプリケーションからどんな情報で取得できるかを確認してみた．&lt;/p&gt;&#xA;&lt;p&gt;次の4つの方法に分類できる．&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;strong&gt;Constant&lt;/strong&gt;: 自分でバージョンの文字列を&lt;code&gt;String&lt;/code&gt;型リテラルとしてソースコードに書き込む．&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Property&lt;/strong&gt;: &lt;code&gt;src/main/resources&lt;/code&gt;にプロパティファイルとしてバージョン情報を置いておく．&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Package&lt;/strong&gt;: &lt;code&gt;MANIFEST.MF&lt;/code&gt;に書かれている &lt;code&gt;Implementation-Version&lt;/code&gt;や&lt;code&gt;Specification-Version&lt;/code&gt;のいずれかを利用する．&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Module&lt;/strong&gt;: &lt;code&gt;ModuleDescriptor&lt;/code&gt;の&lt;code&gt;version&lt;/code&gt;メソッドから利用する．&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;それぞれの分類を独断と偏見で４段階で評価してみた（1が良くて，４が悪い）．&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/blog/20211104-vfp/features.jpg" />
-    </item>
-    
-    <item>
-      <title>omelette</title>
-      <link>https://tamada.github.io/products/retired/omelette/</link>
-      <pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/products/retired/omelette/</guid>
-      <description>Unit tests runner/coverage calculator on the CLI environment for the Java platform.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/products/retired/omelette/features.svg" />
-    </item>
-    
-    <item>
-      <title>Obfuscation by invokedynamic</title>
-      <link>https://tamada.github.io/research/obfuscation_by_invokedynamic/</link>
-      <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/research/obfuscation_by_invokedynamic/</guid>
-      <description>&lt;h2 class=&#34;relative group&#34;&gt;:speaking_head: Overview&#xA;    &lt;div id=&#34;speaking_head-overview&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#speaking_head-overview&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;This paper proposes an obfuscation method against illegal analysis.&#xA;The proposed method tries to build a fake call flow graph from debugging tools.&#xA;The call flow graph represents relations among methods and helps understanding of a program.&#xA;The fake call flow graph leads misunderstanding of the program.&#xA;We focus on a hook mechanism of the method call for changing a callee.&#xA;We conduct two experiments to evaluate the proposed method.&#xA;First experiment simulates attacks by existing tools: Soot, jad, Procyon, and Krakatau.&#xA;The Procyon only succeeded decompilation, the others crashed.&#xA;Second experiment evaluates understandability of the obfuscated program by the hand.&#xA;Only one subject in the nine subjects answered the correct value.&#xA;The experiments shows the proposed method has good tolerance against existing tools, and high difficulty of understanding even if the target program is tiny and simple program.&#xA;(Abstract from IJSI 2015)&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/research/obfuscation_by_invokedynamic/features.png" />
-    </item>
-    
-    <item>
-      <title>Method folding obfuscation</title>
-      <link>https://tamada.github.io/research/obfuscation_by_method_folding/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/research/obfuscation_by_method_folding/</guid>
-      <description>&lt;h2 class=&#34;relative group&#34;&gt;:speaking_head: Overview&#xA;    &lt;div id=&#34;speaking_head-overview&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#speaking_head-overview&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;To improve tamper resistance of programs against illegal modification, this paper proposes &lt;em&gt;instruction folding&lt;/em&gt; applicable to Java platform.&lt;/p&gt;&#xA;&lt;p&gt;In the proposed method, at first, similar methods are selected in a Java program.&#xA;Next, these methods are merged into one method and diffs among these methods are stored in the program.&#xA;Then, at runtime, when one of the merged methods is executed, diffs are restored by self-modification, which is realized by the Java instrumentation mechanism.&#xA;The proposed method is resilient against tampering of folded method.&#xA;Even if an adversary modifies the folded method, the program goes crash because the method is repeatedly modified at runtime.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/research/obfuscation_by_method_folding/features.png" />
-    </item>
-    
-    <item>
-      <title>Obfuscation by dynamic name resolution</title>
-      <link>https://tamada.github.io/research/obfuscation_by_dnr/</link>
-      <pubDate>Tue, 12 Feb 2008 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/research/obfuscation_by_dnr/</guid>
-      <description>&lt;h2 class=&#34;relative group&#34;&gt;:speaking_head: Overview&#xA;    &lt;div id=&#34;speaking_head-overview&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;&#xA;    &#xA;    &lt;span&#xA;        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;&#xA;        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#speaking_head-overview&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&#xA;    &lt;/span&gt;&#xA;    &#xA;&lt;/h2&gt;&#xA;&lt;p&gt;Name obfuscation is a software protection technique, which renames identifiers in a given program, to protect the program from illegal cracking.&#xA;The conventional methods replace names appearing in the declaration part with the meaningless ones.&#xA;Therefore, the methods cannot be used to obfuscate names declared in system libraries, since changing such system-defined names significantly deteriorates the program portability.&lt;/p&gt;</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/research/obfuscation_by_dnr/features.png" />
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Java on Haruaki Tamada</title><link>https://tamada.github.io/tags/java/</link><description>Recent content in Java on Haruaki Tamada</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>Copyright &amp;copy; by Haruaki Tamada. Made with [Hugo](https://gohugo.io/). Deployed to [GitHub Pages](https://pages.github.com/).</copyright><lastBuildDate>Thu, 04 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/java/index.xml" rel="self" type="application/rss+xml"/><item><title>How to get version defined in pom.xml</title><link>https://tamada.github.io/blog/20211104-vfp/</link><pubDate>Thu, 04 Nov 2021 00:00:00 +0000</pubDate><guid>https://tamada.github.io/blog/20211104-vfp/</guid><description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://tamada.github.io/blog/20211104-vfp/#getting-ways-of-the-version-defined-in-pomxml" &gt;Getting ways of the version defined in &lt;code&gt;pom.xml&lt;/code&gt;&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://tamada.github.io/blog/20211104-vfp/#constant" &gt;Constant&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://tamada.github.io/blog/20211104-vfp/#property" &gt;Property&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://tamada.github.io/blog/20211104-vfp/#package" &gt;Package&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://tamada.github.io/blog/20211104-vfp/#module" &gt;Module&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://tamada.github.io/blog/20211104-vfp/#what-the-case-in-the-use-of-native-image" &gt;What the case in the use of &lt;code&gt;native-image&lt;/code&gt;?&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://tamada.github.io/blog/20211104-vfp/#result-of-measurements" &gt;Result of Measurements&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://tamada.github.io/blog/20211104-vfp/#summary" &gt;Summary&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://tamada.github.io/blog/20211104-vfp/#references" &gt;References&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 class="relative group"&gt;Getting ways of the version defined in &lt;code&gt;pom.xml&lt;/code&gt;
+ &lt;div id="getting-ways-of-the-version-defined-in-pomxml" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#getting-ways-of-the-version-defined-in-pomxml" aria-label="Anchor"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;Java 17が出たことだし，いい加減に Java のモジュールシステムを本格的に使いだそうとしている．
+最近のJavaの自作ツールは一応モジュール対応にしたつもり（&lt;a href="https://github.com/tamada/pochi" target="_blank" rel="noreferrer"&gt;pochi&lt;/a&gt;，&lt;a href="https://github.com/tamada/vhc" target="_blank" rel="noreferrer"&gt;vhc&lt;/a&gt;など）．&lt;/p&gt;
+&lt;p&gt;で，ビルドツールは &lt;a href="https://maven.apache.org" target="_blank" rel="noreferrer"&gt;Maven&lt;/a&gt; を使うことが多いのだけど，&lt;code&gt;pom.xml&lt;/code&gt; で設定したバージョン情報をアプリケーションからどんな情報で取得できるかを確認してみた．&lt;/p&gt;
+&lt;p&gt;次の4つの方法に分類できる．&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Constant&lt;/strong&gt;: 自分でバージョンの文字列を&lt;code&gt;String&lt;/code&gt;型リテラルとしてソースコードに書き込む．&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Property&lt;/strong&gt;: &lt;code&gt;src/main/resources&lt;/code&gt;にプロパティファイルとしてバージョン情報を置いておく．&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Package&lt;/strong&gt;: &lt;code&gt;MANIFEST.MF&lt;/code&gt;に書かれている &lt;code&gt;Implementation-Version&lt;/code&gt;や&lt;code&gt;Specification-Version&lt;/code&gt;のいずれかを利用する．&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Module&lt;/strong&gt;: &lt;code&gt;ModuleDescriptor&lt;/code&gt;の&lt;code&gt;version&lt;/code&gt;メソッドから利用する．&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;それぞれの分類を独断と偏見で４段階で評価してみた（1が良くて，４が悪い）．&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/blog/20211104-vfp/features.jpg"/></item><item><title>omelette</title><link>https://tamada.github.io/products/retired/omelette/</link><pubDate>Mon, 13 Jul 2020 00:00:00 +0000</pubDate><guid>https://tamada.github.io/products/retired/omelette/</guid><description>Unit tests runner/coverage calculator on the CLI environment for the Java platform.</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/products/retired/omelette/features.svg"/></item><item><title>Obfuscation by invokedynamic</title><link>https://tamada.github.io/research/obfuscation_by_invokedynamic/</link><pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate><guid>https://tamada.github.io/research/obfuscation_by_invokedynamic/</guid><description>&lt;h2 class="relative group"&gt;:speaking_head: Overview
+ &lt;div id="speaking_head-overview" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#speaking_head-overview" aria-label="Anchor"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;This paper proposes an obfuscation method against illegal analysis.
+The proposed method tries to build a fake call flow graph from debugging tools.
+The call flow graph represents relations among methods and helps understanding of a program.
+The fake call flow graph leads misunderstanding of the program.
+We focus on a hook mechanism of the method call for changing a callee.
+We conduct two experiments to evaluate the proposed method.
+First experiment simulates attacks by existing tools: Soot, jad, Procyon, and Krakatau.
+The Procyon only succeeded decompilation, the others crashed.
+Second experiment evaluates understandability of the obfuscated program by the hand.
+Only one subject in the nine subjects answered the correct value.
+The experiments shows the proposed method has good tolerance against existing tools, and high difficulty of understanding even if the target program is tiny and simple program.
+(Abstract from IJSI 2015)&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/research/obfuscation_by_invokedynamic/features.png"/></item><item><title>Method folding obfuscation</title><link>https://tamada.github.io/research/obfuscation_by_method_folding/</link><pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate><guid>https://tamada.github.io/research/obfuscation_by_method_folding/</guid><description>&lt;h2 class="relative group"&gt;:speaking_head: Overview
+ &lt;div id="speaking_head-overview" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#speaking_head-overview" aria-label="Anchor"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;To improve tamper resistance of programs against illegal modification, this paper proposes &lt;em&gt;instruction folding&lt;/em&gt; applicable to Java platform.&lt;/p&gt;
+&lt;p&gt;In the proposed method, at first, similar methods are selected in a Java program.
+Next, these methods are merged into one method and diffs among these methods are stored in the program.
+Then, at runtime, when one of the merged methods is executed, diffs are restored by self-modification, which is realized by the Java instrumentation mechanism.
+The proposed method is resilient against tampering of folded method.
+Even if an adversary modifies the folded method, the program goes crash because the method is repeatedly modified at runtime.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/research/obfuscation_by_method_folding/features.png"/></item><item><title>Obfuscation by dynamic name resolution</title><link>https://tamada.github.io/research/obfuscation_by_dnr/</link><pubDate>Tue, 12 Feb 2008 00:00:00 +0000</pubDate><guid>https://tamada.github.io/research/obfuscation_by_dnr/</guid><description>&lt;h2 class="relative group"&gt;:speaking_head: Overview
+ &lt;div id="speaking_head-overview" class="anchor"&gt;&lt;/div&gt;
+ 
+ &lt;span
+ class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none"&gt;
+ &lt;a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#speaking_head-overview" aria-label="Anchor"&gt;#&lt;/a&gt;
+ &lt;/span&gt;
+ 
+&lt;/h2&gt;
+&lt;p&gt;Name obfuscation is a software protection technique, which renames identifiers in a given program, to protect the program from illegal cracking.
+The conventional methods replace names appearing in the declaration part with the meaningless ones.
+Therefore, the methods cannot be used to obfuscate names declared in system libraries, since changing such system-defined names significantly deteriorates the program portability.&lt;/p&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/research/obfuscation_by_dnr/features.png"/></item></channel></rss>
