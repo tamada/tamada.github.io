@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Llvm-Ir/Bc on Haruaki Tamada</title>
+    <link>https://tamada.github.io/tags/llvm-ir/bc/</link>
+    <description>Recent content in Llvm-Ir/Bc on Haruaki Tamada</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright &amp;copy; by Haruaki Tamada. Made with [Hugo](https://gohugo.io/). Deployed to [GitHub Pages](https://pages.github.com/).</copyright>
+    <lastBuildDate>Tue, 16 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/llvm-ir/bc/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>oinkie</title>
+      <link>https://tamada.github.io/products/oinkie/</link>
+      <pubDate>Tue, 16 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/products/oinkie/</guid>
+      <description>The software birthmark toolkit for Ghidra P-code.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/products/oinkie/features.png" />
+    </item>
+    
+  </channel>
+</rss>
