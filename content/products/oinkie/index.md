@@ -1,7 +1,7 @@
 ---
 title: "oinkie"
-summary: "The software birthmark toolkit for LLVM IR."
-date: 2025-10-16
+summary: "The software birthmark toolkit for Ghidra P-code."
+date: 2026-06-16
 externalurl: "https://github.com/tamada/oinkie"
-tags: [ "rust", "llvm-ir", "software birthmarks", "software theft detection", "plagiarism detection", "birthmark toolkit", "research tools" ]
+tags: [ "rust", "software birthmarks", "software theft detection", "plagiarism detection", "birthmark toolkit", "research tools", "ghidra p-code", "llvm-ir/bc" ]
 ---
