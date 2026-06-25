@@ -50,14 +50,14 @@
   <meta property="og:site_name" content="Haruaki Tamada">
   <meta property="og:title" content="Cross architecture birthmarks">
   <meta property="og:description" content="🗣️ Overview # This research topic proposes a cross-architecture software birthmarks that targets the real-world executables such as Linux ELF, Windows PE, and macOS Mach-O. The birthmarks are extracted from the intermediate representation of the executables throughGhidra’s p-code.
-📚 Publications # Haruaki Tamada, “Cross-Platform Software Birthmarking for Real-World Binaries via Intermediate Representation,” 34th IEEE/ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD2026), August 2026 (Okayama, Japan, to appear). 🔎 Related Research Topics # Concept of Software Birthmarks Fast comparisons of the birthmarks 🤝 Collaborators # Y. Kanzaki@Kumamoto National College of Technology">
+📚 Publications # Nikolay Fedorov,Akito Monden,Hiroki Inayoshi,Haruaki Tamada,Masateru Tsunoda, ‘‘Detection of LLM-assisted Code Plagiarism Using \(k\)-gram Software Birthmarks’’, Proc. 8th World Symposium on Software Engineering (WSSE 2026), October 2026 (Nara, Japan; submitted). Haruaki Tamada, “Cross-Platform Software Birthmarking for Real-World Binaries via Intermediate Representation,” 34th IEEE/ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD2026), August 2026 (Okayama, Japan, submitted). 🔎 Related Research Topics # Concept of Software Birthmarks Fast comparisons of the birthmarks 🤝 Collaborators # Y. Kanzaki@Kumamoto National College of Technology">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="research">
     <meta property="article:published_time" content="2026-04-01T00:00:00+00:00">
     <meta property="article:modified_time" content="2026-04-01T00:00:00+00:00">
     <meta property="article:tag" content="Software Birthmarks">
-    <meta property="article:tag" content="Theft Detection">
+    <meta property="article:tag" content="Theft-Detection">
     <meta property="article:tag" content="Cross-Architecture">
     <meta property="article:tag" content="Ghidra P-Code">
     <meta property="og:image" content="https://tamada.github.io/research/cross_architecture_birthmarks/features.png">
@@ -67,7 +67,7 @@
   <meta name="twitter:image" content="https://tamada.github.io/research/cross_architecture_birthmarks/features.png">
   <meta name="twitter:title" content="Cross architecture birthmarks">
   <meta name="twitter:description" content="🗣️ Overview # This research topic proposes a cross-architecture software birthmarks that targets the real-world executables such as Linux ELF, Windows PE, and macOS Mach-O. The birthmarks are extracted from the intermediate representation of the executables throughGhidra’s p-code.
-📚 Publications # Haruaki Tamada, “Cross-Platform Software Birthmarking for Real-World Binaries via Intermediate Representation,” 34th IEEE/ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD2026), August 2026 (Okayama, Japan, to appear). 🔎 Related Research Topics # Concept of Software Birthmarks Fast comparisons of the birthmarks 🤝 Collaborators # Y. Kanzaki@Kumamoto National College of Technology">
+📚 Publications # Nikolay Fedorov,Akito Monden,Hiroki Inayoshi,Haruaki Tamada,Masateru Tsunoda, ‘‘Detection of LLM-assisted Code Plagiarism Using \(k\)-gram Software Birthmarks’’, Proc. 8th World Symposium on Software Engineering (WSSE 2026), October 2026 (Nara, Japan; submitted). Haruaki Tamada, “Cross-Platform Software Birthmarking for Real-World Binaries via Intermediate Representation,” 34th IEEE/ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (SNPD2026), August 2026 (Okayama, Japan, submitted). 🔎 Related Research Topics # Concept of Software Birthmarks Fast comparisons of the birthmarks 🤝 Collaborators # Y. Kanzaki@Kumamoto National College of Technology">
 
   
   
@@ -171,6 +171,145 @@
 
 
 
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/lib/katex/katex.min.d2ee85d2418f4d482ca2af2a3dad30d370b1c66133dea61f97d7933c92fc0cae10244f7f5cbd524a8897a1886f0d70ab04c0555ad680216b16a028354e42726c.css"
+    integrity="sha512-0u6F0kGPTUgsoq8qPa0w03CxxmEz3qYfl9eTPJL8DK4QJE9/XL1SSoiXoYhvDXCrBMBVWtaAIWsWoCg1TkJybA==">
+  
+  
+  
+  <script
+    defer
+    type="text/javascript"
+    src="/js/katex.bundle.30c179d64bdee5ed56cf63adf7227f13507841aa61a91a492e45b333d618bc901f2b196d2effcfe6716a23e01416a572441480d511b13320dba26d58e1246178.js"
+    integrity="sha512-MMF51kve5e1Wz2Ot9yJ/E1B4QaphqRpJLkWzM9YYvJAfKxltLv/P5nFqI&#43;AUFqVyRBSA1RGxMyDbom1Y4SRheA=="
+    id="katex-render"></script>
+  
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+
 
 
 
@@ -237,7 +376,7 @@
     "keywords": ["software birthmarks","theft-detection","cross-architecture","ghidra p-code"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "95"
+    "wordCount": "123"
   },
   {
     "@context": "https://schema.org",
@@ -643,7 +782,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2026-04-01T00:00:00&#43;00:00">2026-04-01</time><span class="px-2 text-primary-500">&middot;</span><span>95 words</span>
+      <time datetime="2026-04-01T00:00:00&#43;00:00">2026-04-01</time><span class="px-2 text-primary-500">&middot;</span><span>123 words</span>
     
 
     
@@ -677,7 +816,7 @@
                 <span class="flex cursor-pointer">
   <span
     class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Theft Detection
+    Theft-Detection
   </span>
 </span>
 
@@ -749,6 +888,8 @@
 
         <div class="article-content max-w-prose mb-20">
           
+
+
 <h2 class="relative group">🗣️ Overview
     <div id="-overview" class="anchor"></div>
     
@@ -771,7 +912,16 @@ The birthmarks are extracted from the intermediate representation of the executa
     
 </h2>
 <ul>
-<li>Haruaki Tamada, &ldquo;Cross-Platform Software Birthmarking for Real-World Binaries via Intermediate Representation,&rdquo; 34th IEEE/ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (<a href="https://acisinternational.org/conferences/snpd-2026-i/"  target="_blank" rel="noreferrer">SNPD2026</a>), August 2026 (Okayama, Japan, to appear).</li>
+<li>Nikolay Fedorov,Akito Monden,Hiroki Inayoshi,Haruaki Tamada,Masateru Tsunoda, &lsquo;&lsquo;Detection of LLM-assisted Code Plagiarism Using \(k\)-gram Software Birthmarks&rsquo;&rsquo;, Proc. 8th World Symposium on Software Engineering (<a href="https://wsse.org/"  target="_blank" rel="noreferrer">WSSE 2026</a>), October 2026 (Nara, Japan; submitted).</li>
+<li>Haruaki Tamada, &ldquo;Cross-Platform Software Birthmarking for Real-World Binaries via Intermediate Representation,&rdquo; 34th IEEE/ACIS International Conference on Software Engineering, Artificial Intelligence, Networking and Parallel/Distributed Computing (<a href="https://acisinternational.org/conferences/snpd-2026-i/"  target="_blank" rel="noreferrer">SNPD2026</a>), August 2026 (Okayama, Japan, submitted). <a href="https://arxiv.org/abs/2606.21988"  target="_blank" rel="noreferrer"><figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="low"
+    alt="arXiv"
+    src="https://img.shields.io/badge/arXiv-2606.21988-B31B1B?logo=arxiv"
+    ></figure>
+</a></li>
 </ul>
 
 <h2 class="relative group">🔎 Related Research Topics
