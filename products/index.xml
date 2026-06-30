@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; by Haruaki Tamada. Made with [Hugo](https://gohugo.io/). Deployed to [GitHub Pages](https://pages.github.com/).</copyright>
-    <lastBuildDate>Tue, 16 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/products/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/products/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>fauxrest</title>
+      <link>https://tamada.github.io/products/fauxrest/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/products/fauxrest/</guid>
+      <description>A CLI tool for generating static JSON APIs from local data files</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://tamada.github.io/products/fauxrest/features.svg" />
+    </item>
     
     <item>
       <title>oinkie</title>

@@ -7,14 +7,74 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; by Haruaki Tamada. Made with [Hugo](https://gohugo.io/). Deployed to [GitHub Pages](https://pages.github.com/).</copyright>
-    <lastBuildDate>Fri, 19 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Cli</title>
       <link>https://tamada.github.io/tags/cli/</link>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/tags/cli/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Command-Line</title>
+      <link>https://tamada.github.io/tags/command-line/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/command-line/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Generator</title>
+      <link>https://tamada.github.io/tags/generator/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/generator/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Libraries</title>
+      <link>https://tamada.github.io/tags/libraries/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/libraries/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Products</title>
+      <link>https://tamada.github.io/tags/products/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/products/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Research Tools</title>
+      <link>https://tamada.github.io/tags/research-tools/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/research-tools/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Rest Api</title>
+      <link>https://tamada.github.io/tags/rest-api/</link>
+      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/rest-api/</guid>
       <description></description>
       
     </item>
@@ -30,41 +90,11 @@
     </item>
     
     <item>
-      <title>Libraries</title>
-      <link>https://tamada.github.io/tags/libraries/</link>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/libraries/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>List-Files</title>
       <link>https://tamada.github.io/tags/list-files/</link>
       <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/tags/list-files/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Products</title>
-      <link>https://tamada.github.io/tags/products/</link>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/products/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Research Tools</title>
-      <link>https://tamada.github.io/tags/research-tools/</link>
-      <pubDate>Fri, 19 Jun 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/research-tools/</guid>
       <description></description>
       
     </item>
@@ -765,16 +795,6 @@
       <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/tags/golang/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Rest Api</title>
-      <link>https://tamada.github.io/tags/rest-api/</link>
-      <pubDate>Wed, 28 Apr 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/rest-api/</guid>
       <description></description>
       
     </item>
