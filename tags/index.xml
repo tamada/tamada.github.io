@@ -7,14 +7,84 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright &amp;copy; by Haruaki Tamada. Made with [Hugo](https://gohugo.io/). Deployed to [GitHub Pages](https://pages.github.com/).</copyright>
-    <lastBuildDate>Tue, 30 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tamada.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Cheat-Sheet</title>
+      <link>https://tamada.github.io/tags/cheat-sheet/</link>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/cheat-sheet/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Claude</title>
+      <link>https://tamada.github.io/tags/claude/</link>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/claude/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Cli</title>
       <link>https://tamada.github.io/tags/cli/</link>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/tags/cli/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Github Flow</title>
+      <link>https://tamada.github.io/tags/github-flow/</link>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/github-flow/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Jujutsu</title>
+      <link>https://tamada.github.io/tags/jujutsu/</link>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/jujutsu/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Libraries</title>
+      <link>https://tamada.github.io/tags/libraries/</link>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/libraries/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Products</title>
+      <link>https://tamada.github.io/tags/products/</link>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/products/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Research Tools</title>
+      <link>https://tamada.github.io/tags/research-tools/</link>
+      <pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://tamada.github.io/tags/research-tools/</guid>
       <description></description>
       
     </item>
@@ -35,36 +105,6 @@
       <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
       
       <guid>https://tamada.github.io/tags/generator/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Libraries</title>
-      <link>https://tamada.github.io/tags/libraries/</link>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/libraries/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Products</title>
-      <link>https://tamada.github.io/tags/products/</link>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/products/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Research Tools</title>
-      <link>https://tamada.github.io/tags/research-tools/</link>
-      <pubDate>Tue, 30 Jun 2026 00:00:00 +0000</pubDate>
-      
-      <guid>https://tamada.github.io/tags/research-tools/</guid>
       <description></description>
       
     </item>
@@ -210,7 +250,7 @@
     </item>
     
     <item>
-      <title>Theft-Detection</title>
+      <title>Theft Detection</title>
       <link>https://tamada.github.io/tags/theft-detection/</link>
       <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
       
@@ -460,7 +500,7 @@
     </item>
     
     <item>
-      <title>Command-Line-Utility</title>
+      <title>Command Line Utility</title>
       <link>https://tamada.github.io/tags/command-line-utility/</link>
       <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
       
@@ -750,7 +790,7 @@
     </item>
     
     <item>
-      <title>Github</title>
+      <title>GitHub</title>
       <link>https://tamada.github.io/tags/github/</link>
       <pubDate>Fri, 27 Aug 2021 00:00:00 +0000</pubDate>
       
