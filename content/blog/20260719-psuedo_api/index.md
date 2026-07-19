@@ -1,7 +1,8 @@
 ---
-title: 'Pseudo REST API'
+title: '情報の一元化のために、擬似REST APIを構築した'
 date: 2026-07-19
-tags: ['rest-api']
+externalurl: https://zenn.dev/tamada/articles/build-pseudo-rest-api-for-centrization
+tags: ['rest-api', 'zenn.dev', 'pseudo-rest-api']
 ---
 
 ## 背景
