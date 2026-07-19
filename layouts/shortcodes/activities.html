@@ -1,0 +1,16 @@
+{{- $url := "https://tamada.github.io/api/activities" -}}
+{{- with try (resources.GetRemote $url) -}}
+  {{- with .Value -}}
+    {{- $data := unmarshal . -}}
+    {{- $line := ""}}
+    {{- range $data -}}
+      {{- $line = printf "%s{{< badge >}}[%s](%s){{< /badge >}}" $line .label .href -}}
+    {{- end -}}
+    {{- $result := printf "{{< keywordList \"committee\" >}}%s{{< /keywordList >}}" $line -}}
+    {{- $.Page.RenderString $result -}}
+  {{- else with .Err -}}
+    <p>データの取得に失敗しました: {{ .Err }}</p>
+  {{- else -}}
+    <p>API にアクセスできませんでした。</p>
+  {{- end -}}
+{{- end -}}

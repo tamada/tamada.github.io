@@ -1,0 +1,20 @@
+{{- $url := "https://tamada.github.io/api/degrees" -}}
+{{- with try (resources.GetRemote $url) -}}
+  {{- with .Value -}}
+    {{- $data := unmarshal . -}}
+    {{- $line := ""}}
+    {{- range $item := $data -}}
+      {{- $content := printf "- **School**: %s\n- **Enrolled**: %s to %s" $item.school $item.from $item.to -}}
+      {{- with $item.href -}}
+        {{- $content = printf "- **Dissertation**: [%s](%s)\n%s" $item.dissertation $item.href $content -}}
+      {{- end -}}
+      {{- $line = printf "%s{{< timelineItem md=\"true\" header=\"%s\" badge=\"%s\" >}}%s{{< /timelineItem >}}" $line $item.title $item.to $content -}}
+    {{- end -}}
+    {{- $result := printf "{{< timeline >}}%s{{< /timeline >}}" $line -}}
+    {{- $.Page.RenderString $result -}}
+  {{- else with .Err -}}
+    <p>データの取得に失敗しました: {{ .Err }}</p>
+  {{- else -}}
+  <p>API にアクセスできませんでした。</p>
+  {{- end -}}
+{{- end -}}

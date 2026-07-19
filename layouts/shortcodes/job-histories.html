@@ -1,0 +1,24 @@
+{{- $url := "https://tamada.github.io/api/job-histories" -}}
+{{- with try (resources.GetRemote $url) -}}
+  {{- with .Value -}}
+    {{- $data := unmarshal . -}}
+    {{- $line := ""}}
+    {{- range $item := $data -}}
+      {{- $badge := "" -}}
+      {{- if eq $item.from $item.to -}}
+        {{- $badge = printf "%s" $item.from -}}
+      {{- else -}}
+        {{- $badge = printf "%s to %s" $item.from $item.to -}}
+      {{- end -}}
+      {{- $note := cond (eq $item.note "") "" $item.note -}}
+      {{- $content := printf "#### %s\n%s" $item.at $note }}
+      {{- $line = printf "%s{{< timelineItem md=\"true\" icon=\"%s\" header=\"%s\" badge=\"%s\" >}}%s{{< /timelineItem >}}" $line $item.category $item.as $badge $content -}}
+    {{- end -}}
+    {{- $result := printf "{{< timeline >}}%s{{< /timeline >}}" $line -}}
+    {{- $.Page.RenderString $result -}}
+  {{- else with .Err -}}
+    <p>データの取得に失敗しました: {{ .Err }}</p>
+  {{- else -}}
+  <p>API にアクセスできませんでした。</p>
+  {{- end -}}
+{{- end -}}

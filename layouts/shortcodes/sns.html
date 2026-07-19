@@ -1,0 +1,21 @@
+{{- $url := "https://tamada.github.io/api/snss" -}}
+{{- $category := .Get "category" -}}
+
+{{- with try (resources.GetRemote $url) -}}
+  {{- with .Value -}}
+    {{- $data := unmarshal . -}}
+    {{- $line := ""}}
+    {{- range $item := $data -}}
+      {{- if eq $item.category $category }}
+         {{- $line = printf "%s[![%s](%s)](%s)" $line $item.label $item.image $item.href -}}
+      {{- end -}}
+    {{- end -}}
+    {{- $html := markdownify $line -}}
+    {{- $result := printf "{{< keywordList \"sns\">}}%s{{< /keywordList >}}" $html -}}
+    {{- $.Page.RenderString $result -}}
+  {{- else with .Err -}}
+    <p>データの取得に失敗しました: {{ .Err }}</p>
+  {{- else -}}
+  <p>API にアクセスできませんでした。</p>
+  {{- end -}}
+{{- end -}}
