@@ -6,7 +6,8 @@
   "scripts": {
     "build:css": "NODE_ENV=production tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/custom.css --minify && npm run dedupe:css",
     "watch:css": "NODE_ENV=development tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/custom.css --watch",
-    "dedupe:css": "node scripts/dedupe-css.cjs"
+    "dedupe:css": "node scripts/dedupe-css.cjs",
+    "update:products-date": "node scripts/update-products-date.cjs"
   },
   "devDependencies": {
     "@tailwindcss/cli": "^4.1.18",

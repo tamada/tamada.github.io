@@ -43,6 +43,11 @@ jobs:
       - name: Build CSS
         run: npm run build:css
 
+      # Rewrites the products page's `date` to the newest product last_updated,
+      # in the working copy only -- the change is never committed back.
+      - name: Update the products page date
+        run: npm run update:products-date
+
       - name: Build site
         run: |
           mkdir -p public
