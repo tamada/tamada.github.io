@@ -45,7 +45,12 @@
       {{- with $item.releases -}}
         {{- $rel = index (sort . "release_date" "desc") 0 -}}
       {{- end -}}
-      <article class="flex flex-col gap-2 px-3 py-2 border bf-border-color bf-border-color-hover rounded-lg bg-neutral dark:bg-neutral-800 shadow-sm hover:shadow-md transition duration-200">
+      {{- /* `not-prose`: the card is built entirely from utilities, so opt the whole
+             subtree out of the theme's prose styles. Without it prose wins the
+             specificity tie against utilities like `m-0` -- both sit in
+             @layer utilities and `.prose` is declared later -- and e.g. the logo
+             picks up prose's `margin: 2em 0`. */ -}}
+      <article class="not-prose flex flex-col gap-2 px-3 py-2 border bf-border-color bf-border-color-hover rounded-lg bg-neutral dark:bg-neutral-800 shadow-sm hover:shadow-md transition duration-200">
         {{- /* flex-wrap so the chip stack below can drop onto its own line on narrow
                viewports; without it the non-shrinking stack sets a floor on the card
                width and the whole page overflows horizontally under ~480px. */ -}}
