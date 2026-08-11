@@ -1,0 +1,168 @@
+{{- $url := "https://tamada.github.io/api/products/" -}}
+
+{{- /* link label -> icon name. Unknown/future labels fall back to the generic "link" icon. */ -}}
+{{- $iconMap := dict
+      "repository" "github"
+      "www"        "globe"
+      "docs"       "file-lines"
+      "registry"   "package"
+      "container"  "docker"
+      "sbom"       "list-check"
+-}}
+{{- $titleMap := dict
+      "repository" "Repository"
+      "www"        "Web site"
+      "docs"       "Documentation"
+      "registry"   "Package registry"
+      "container"  "Container image"
+      "sbom"       "SBOM (software bill of materials)"
+-}}
+{{- /* fixed display order for the icon row; anything else is appended with a generic icon */ -}}
+{{- $linkOrder := slice "repository" "www" "docs" "registry" "container" "sbom" -}}
+
+{{- /* Styling note: utility classes below are resolved from two stylesheets: the
+       theme's precompiled main.css, plus assets/css/custom.css which this repo
+       generates with Tailwind (`npm run build:css`) from layouts/ and content/.
+       The bf-* classes are theme helpers. */ -}}
+
+{{- with try (resources.GetRemote $url) -}}
+  {{- with .Value -}}
+    {{- $data := unmarshal . -}}
+    {{- /* single column at every viewport */ -}}
+    <div class="grid gap-3 my-3">
+    {{- range $item := $data -}}
+      {{- /* index the links array by label so we can look labels up directly */ -}}
+      {{- $links := dict -}}
+      {{- range $item.links -}}
+        {{- if and .label .url -}}
+          {{- $links = merge $links (dict .label .url) -}}
+        {{- end -}}
+      {{- end -}}
+      {{- $logo := index $links "logo" -}}
+      {{- $home := or (index $links "www") (index $links "repository") -}}
+      {{- /* newest release, if any (jj-cheat-sheet has none) */ -}}
+      {{- $rel := false -}}
+      {{- with $item.releases -}}
+        {{- $rel = index (sort . "release_date" "desc") 0 -}}
+      {{- end -}}
+      <article class="flex flex-col gap-2 px-3 py-2 border bf-border-color bf-border-color-hover rounded-lg bg-neutral dark:bg-neutral-800 shadow-sm hover:shadow-md transition duration-200">
+        {{- /* flex-wrap so the chip stack below can drop onto its own line on narrow
+               viewports; without it the non-shrinking stack sets a floor on the card
+               width and the whole page overflows horizontally under ~480px. */ -}}
+        <header class="flex flex-wrap items-start gap-2 min-w-0">
+          {{- /* the logo eats 30% of the header, which is too much once the chips sit
+                 on their own row below; 22% keeps it recognisable on phones. */ -}}
+          {{- with $logo -}}
+            <img class="shrink-0 m-0 w-[22%] sm:w-[30%] max-w-[96px] aspect-square object-contain rounded-md" src="{{ . }}" alt="" loading="lazy" decoding="async">
+          {{- else -}}
+            <span class="shrink-0 flex w-[22%] sm:w-[30%] max-w-[96px] aspect-square items-center justify-center rounded-md bg-neutral-100 dark:bg-neutral-700 text-4xl font-semibold leading-none text-neutral-500 dark:text-neutral-400" aria-hidden="true">{{ substr $item.name 0 1 | upper }}</span>
+          {{- end -}}
+          <div class="min-w-0 flex-1 flex flex-col gap-1">
+            {{- /* no `truncate`: the full owner/name always shows, wrapping if needed */ -}}
+            <h3 class="m-0 min-w-0 break-words text-base font-bold leading-tight">
+              {{- with $item.owner }}<span class="text-sm font-normal text-neutral-500 dark:text-neutral-400">{{ . }}/</span>{{ end -}}
+              {{- if $home -}}
+                <a class="no-underline text-neutral-800 dark:text-neutral-100 hover:underline hover:text-primary-600 dark:hover:text-primary-400" href="{{ $home }}" target="_blank" rel="noopener">{{ $item.name }}</a>
+              {{- else -}}
+                {{ $item.name }}
+              {{- end -}}
+            </h3>
+
+            {{- with $item.description -}}
+              <p class="m-0 text-sm text-neutral-600 dark:text-neutral-300" title="{{ . }}">{{ . }}</p>
+            {{- end -}}
+
+            <div class="flex flex-wrap items-center gap-x-2 gap-y-1">
+              {{- range $lbl := $linkOrder -}}
+                {{- with index $links $lbl -}}
+                  {{- $t := index $titleMap $lbl | default $lbl -}}
+                  <a class="inline-flex items-center justify-center text-2xl leading-none no-underline text-neutral-500 dark:text-neutral-400 bf-icon-color-hover" href="{{ . }}" title="{{ $t }}" aria-label="{{ $t }}" target="_blank" rel="noopener">
+                    {{- partial "icon.html" (index $iconMap $lbl | default "link") -}}
+                  </a>
+                {{- end -}}
+              {{- end -}}
+              {{- /* any label we do not know about (and never the logo, which is an image) */ -}}
+              {{- range $item.links -}}
+                {{- if and (ne .label "logo") (not (in $linkOrder .label)) -}}
+                  <a class="inline-flex items-center justify-center text-2xl leading-none no-underline text-neutral-500 dark:text-neutral-400 bf-icon-color-hover" href="{{ .url }}" title="{{ .label }}" aria-label="{{ .label }}" target="_blank" rel="noopener">
+                    {{- partial "icon.html" "link" -}}
+                  </a>
+                {{- end -}}
+              {{- end -}}
+            </div>
+          </div>
+          {{- /* Below `sm` (640px) the stack is a full-width row that wraps onto its own
+                 line under the logo and title, right-aligned; the chips are small, so a
+                 row wastes far less vertical space than three stacked lines. At `sm` and
+                 up it is the tight, top-aligned right-hand column again. `shrink-0` is
+                 only applied from `sm` so it cannot defeat the `w-full` wrap. */ -}}
+          <div class="w-full order-last flex flex-row flex-wrap items-center justify-end gap-x-2 gap-y-1 text-xs sm:w-auto sm:order-none sm:shrink-0 sm:flex-col sm:items-end sm:justify-start sm:gap-1">
+            {{- range $item.license -}}
+              {{- $spdx := cond (ne .spdx "") (upper .spdx) .name -}}
+              {{- /* text-base on the chip drives the icon (`.icon svg` is 1em); the label stays text-xs */ -}}
+              {{- if .url -}}
+                <a class="inline-flex items-center gap-1 text-base leading-none !whitespace-nowrap no-underline text-neutral-500 dark:text-neutral-400 bf-icon-color-hover" href="{{ .url }}" title="{{ .name }}" target="_blank" rel="noopener">{{- partial "icon.html" "scale-balanced" -}}<span class="text-xs">{{ $spdx }}</span></a>
+              {{- else -}}
+                <span class="inline-flex items-center gap-1 text-base leading-none !whitespace-nowrap text-neutral-500 dark:text-neutral-400" title="{{ .name }}">{{- partial "icon.html" "scale-balanced" -}}<span class="text-xs">{{ $spdx }}</span></span>
+              {{- end -}}
+            {{- end -}}
+            {{- with $item.last_updated -}}
+              <span class="inline-flex items-center gap-1 text-base leading-none !whitespace-nowrap text-neutral-500 dark:text-neutral-400" title="Last updated: {{ . }}">{{- partial "icon.html" "calendar" -}}<span class="text-xs">{{ time.Format "2006-01-02" . }}</span></span>
+            {{- end -}}
+            {{- with $rel -}}
+              {{- $rname := strings.TrimPrefix "Release " .name -}}
+              {{- $rdate := "" -}}
+              {{- with .release_date -}}{{- $rdate = time.Format "2006-01-02" . -}}{{- end -}}
+              {{- /* $rname, not .name: the raw name is often already "Release v1.2.3" */ -}}
+              {{- $rtitle := printf "Latest release: %s%s" $rname (cond (ne $rdate "") (printf " (%s)" $rdate) "") -}}
+              {{- /* Release notes (raw markdown) appended to the tooltip only, never to the
+                     short aria-label -- some descriptions run to 1000+ characters, which
+                     would be a poor accessible name for the link. CRLF normalized to LF so
+                     no stray \r characters leak into the rendered attribute. */ -}}
+              {{- $rdesc := replace (.description | default "") "\r" "" -}}
+              {{- $rtooltip := cond (ne $rdesc "") (printf "%s\n\n%s" $rtitle $rdesc) $rtitle -}}
+              {{- /* Link the chip to the GitHub release page, but only when the repository
+                     URL is a github.com one -- other forges do not share the
+                     /releases/tag/<tag> layout, so there we keep the plain chip. */ -}}
+              {{- $repo := strings.TrimSuffix "/" (index $links "repository" | default "") -}}
+              {{- $relURL := "" -}}
+              {{- if and (ne $rname "") (or (hasPrefix $repo "https://github.com/") (hasPrefix $repo "http://github.com/")) -}}
+                {{- $relURL = printf "%s/releases/tag/%s" $repo $rname -}}
+              {{- end -}}
+              {{- if $relURL -}}
+                <a class="inline-flex items-center gap-1 text-base leading-none !whitespace-nowrap font-semibold no-underline text-neutral-500 dark:text-neutral-400 bf-icon-color-hover" href="{{ $relURL }}" title="{{ $rtooltip }}" aria-label="{{ $rtitle }}" target="_blank" rel="noopener">{{- partial "icon.html" "tag" -}}<span class="text-xs">{{ $rname }}</span>{{ with $rdate }}<span class="text-xs font-normal opacity-65">{{ . }}</span>{{ end }}</a>
+              {{- else -}}
+                <span class="inline-flex items-center gap-1 text-base leading-none !whitespace-nowrap font-semibold text-neutral-500 dark:text-neutral-400" title="{{ $rtooltip }}">{{- partial "icon.html" "tag" -}}<span class="text-xs">{{ $rname }}</span>{{ with $rdate }}<span class="text-xs font-normal opacity-65">{{ . }}</span>{{ end }}</span>
+              {{- end -}}
+            {{- end -}}
+          </div>
+        </header>
+
+        <div class="flex flex-wrap items-center gap-x-2 gap-y-1 text-xs">
+          {{- with $item.languages -}}
+            {{- range . -}}
+              {{- $l := lower . -}}
+              {{- if resources.Get (printf "icons/%s.svg" $l) -}}
+                <span class="inline-flex items-center justify-center text-xl leading-none text-neutral-500 dark:text-neutral-400" title="{{ . }}" aria-label="{{ . }}">{{- partial "icon.html" $l -}}</span>
+              {{- else -}}
+                <span class="inline-flex items-center px-1 rounded-md bg-neutral-100 dark:bg-neutral-700 text-[0.7rem] text-neutral-600 dark:text-neutral-300" title="{{ . }}">{{ . }}</span>
+              {{- end -}}
+            {{- end -}}
+          {{- end -}}
+        </div>
+
+        {{- /* mt-auto pushes the topic tags to the bottom of the stretched card */ -}}
+        {{- with $item.topics -}}
+          <div class="mt-auto flex flex-wrap gap-1">
+            {{- range . -}}<span class="px-2 py-[1px] rounded-full bg-secondary-100 dark:bg-secondary-800 text-[0.7rem] text-secondary-700 dark:text-secondary-100">{{ . }}</span>{{- end -}}
+          </div>
+        {{- end -}}
+      </article>
+    {{- end -}}
+    </div>
+  {{- else with .Err -}}
+    <p>データの取得に失敗しました: {{ .Err }}</p>
+  {{- else -}}
+  <p>API にアクセスできませんでした。</p>
+  {{- end -}}
+{{- end -}}
