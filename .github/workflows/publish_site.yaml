@@ -6,13 +6,58 @@ on:
     branches:
       - trunk
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
-  call-hugo-build:
-    uses: tamada/workflows/.github/workflows/build-hugo-and-publish.yaml@main
-    with:
-      workdir: "."
-      branch: trunk
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install npm dependencies
+        run: npm ci
+
+      # Generates assets/css/custom.css, the additive Tailwind stylesheet that the
+      # Blowfish theme loads on top of its own precompiled main.css. It is
+      # gitignored, so it MUST be built here or the site renders half-styled.
+      - name: Build CSS
+        run: npm run build:css
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: latest
+          extended: true
+
+      - name: Build site
+        run: |
+          mkdir -p public
+          hugo --minify
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5

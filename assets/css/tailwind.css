@@ -1,0 +1,24 @@
+/*
+ * Additive Tailwind entry point for this site.
+ *
+ * Blowfish ships a precompiled, JIT-purged `assets/css/compiled/main.css` that we do
+ * NOT rebuild. This file generates ONLY the extra utility classes referenced by this
+ * repo's own `layouts/` and `content/`, and the theme loads the result
+ * (`assets/css/custom.css`) immediately after `compiled/main.css`.
+ *
+ * Therefore, on purpose:
+ *   - no preflight / base reset  -> would fight the theme's own reset
+ *   - no theme layer emitted     -> `theme(reference)` makes the design tokens
+ *                                   available to the utility generator without
+ *                                   duplicating the theme's CSS variables
+ *
+ * Build with `npm run build:css` (see README).
+ */
+
+@import "tailwindcss/theme.css" theme(reference);
+@import "tailwindcss/utilities.css" layer(utilities) source(none);
+
+@config "../../tailwind.config.js";
+
+@source "../../layouts";
+@source "../../content";
