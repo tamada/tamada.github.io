@@ -28,9 +28,25 @@
 {{- with try (resources.GetRemote $url) -}}
   {{- with .Value -}}
     {{- $data := unmarshal . -}}
+    {{- /* Newest first: `last_updated` (GitHub's pushed_at, so it moves only on a
+           real commit), then the latest release date to break ties -- seven of the
+           products share just two `last_updated` days. `sort` takes a single key,
+           so pack both into one string; ISO-8601 sorts correctly as text, and a
+           product with no release gets an empty second field and lands after one
+           that has a release on the same day. */ -}}
+    {{- $sortable := slice -}}
+    {{- range $item := $data -}}
+      {{- $relDate := "" -}}
+      {{- with $item.releases -}}
+        {{- $relDate = (index (sort . "release_date" "desc") 0).release_date | default "" -}}
+      {{- end -}}
+      {{- $key := printf "%s|%s" ($item.last_updated | default "") $relDate -}}
+      {{- $sortable = $sortable | append (dict "key" $key "product" $item) -}}
+    {{- end -}}
     {{- /* single column at every viewport */ -}}
     <div class="grid gap-3 my-3">
-    {{- range $item := $data -}}
+    {{- range $entry := sort $sortable "key" "desc" -}}
+      {{- $item := $entry.product -}}
       {{- /* index the links array by label so we can look labels up directly */ -}}
       {{- $links := dict -}}
       {{- range $item.links -}}
