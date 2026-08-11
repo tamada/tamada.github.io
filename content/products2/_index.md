@@ -1,9 +1,7 @@
 ---
-title: ":rocket: Products"
+title: ":rocket: Products (per-product pages)"
 featureimage: "features/products.png"
-summary: 'This page introduces my developed software products. Most of them are command-line tools and libraries for researchers and developers.'
-aliases: [ "/projects/" ]
-tags: [ 'products', "cli", "libraries", "research tools" ]
+summary: 'The previous, per-product layout. /products/ is now the canonical list; this section is kept only until that page has been running without trouble, then it goes away.'
 ---
 
 I created those projects, almost projects wrote by Rust {{< icon "rust" >}}, and Go {{< icon "go" >}} languages.
