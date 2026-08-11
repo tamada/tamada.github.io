@@ -3,14 +3,25 @@
  *
  * Blowfish ships a precompiled, JIT-purged `assets/css/compiled/main.css` that we do
  * NOT rebuild. This file generates ONLY the extra utility classes referenced by this
- * repo's own `layouts/` and `content/`, and the theme loads the result
- * (`assets/css/custom.css`) immediately after `compiled/main.css`.
+ * repo's own `layouts/`, and the theme loads the result (`assets/css/custom.css`)
+ * immediately after `compiled/main.css`.
  *
  * Therefore, on purpose:
  *   - no preflight / base reset  -> would fight the theme's own reset
  *   - no theme layer emitted     -> `theme(reference)` makes the design tokens
  *                                   available to the utility generator without
  *                                   duplicating the theme's CSS variables
+ *   - `content/` is NOT scanned  -> the scanner is plain text matching, so front
+ *                                   matter keys become class candidates. A page
+ *                                   with `hidden: true` emitted `.hidden`, and
+ *                                   because this file is concatenated AFTER the
+ *                                   theme it beat the theme's `md:flex` and hid
+ *                                   the desktop nav site-wide. Keep Tailwind
+ *                                   classes in layouts/, never in content.
+ *
+ * Cascade warning: whatever this file emits always wins over the theme on ties,
+ * since it is loaded last. Re-emitting a utility the theme already ships can flip
+ * an intended override -- that is exactly how the `.hidden` bug above happened.
  *
  * Build with `npm run build:css` (see README).
  */
@@ -21,4 +32,3 @@
 @config "../../tailwind.config.js";
 
 @source "../../layouts";
-@source "../../content";

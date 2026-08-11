@@ -4,7 +4,7 @@
   "private": true,
   "description": "Build tooling for tamada.github.io: generates the additive Tailwind stylesheet (assets/css/custom.css) layered on top of the Blowfish theme's precompiled CSS.",
   "scripts": {
-    "build:css": "NODE_ENV=production tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/custom.css --minify",
+    "build:css": "NODE_ENV=production tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/custom.css --minify && node scripts/dedupe-css.cjs",
     "watch:css": "NODE_ENV=development tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/custom.css --watch"
   },
   "devDependencies": {

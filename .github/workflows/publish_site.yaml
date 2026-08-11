@@ -29,17 +29,19 @@ jobs:
       - name: Install npm dependencies
         run: npm ci
 
-      # Generates assets/css/custom.css, the additive Tailwind stylesheet that the
-      # Blowfish theme loads on top of its own precompiled main.css. It is
-      # gitignored, so it MUST be built here or the site renders half-styled.
-      - name: Build CSS
-        run: npm run build:css
-
+      # Must come before "Build CSS": the dedupe step shells out to
+      # `hugo config mounts` to locate the active theme's precompiled CSS.
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: latest
           extended: true
+
+      # Generates assets/css/custom.css, the additive Tailwind stylesheet that the
+      # Blowfish theme loads on top of its own precompiled main.css. It is
+      # gitignored, so it MUST be built here or the site renders half-styled.
+      - name: Build CSS
+        run: npm run build:css
 
       - name: Build site
         run: |
