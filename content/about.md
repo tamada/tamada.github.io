@@ -11,7 +11,7 @@ You can use the contents in this site obey the [CC BY 4.0](https://creativecommo
 Note that, some products introduced in this site may have different licenses,
 so please check the licenses of each product before using them.
 
-[![CC BY 4.0](/images/cc-by-4.0.png)](https://creativecommons.org/licenses/by/4.0/)
+{{< figure src="/images/cc-by-4.0.png" alt="CC BY 4.0" href="https://creativecommons.org/licenses/by/4.0/" nozoom=true >}}
 
 ## 🔧 Technologies used to build this site
 

@@ -27,7 +27,7 @@ tags: [ "profile", "information", "about-me" ]
 
 ### 💪 Skills
 
-[![Skill icons](https://skillicons.dev/icons?i=apple,bash,c,docker,eclipse,emacs,git,github,githubactions,go,html,java,js,latex,maven,md,obsidian,pkl,python,rust,vscode&theme=light&perline=7)](https://skillicons.dev)
+{{< figure src="https://skillicons.dev/icons?i=apple,bash,c,docker,eclipse,emacs,git,github,githubactions,go,html,java,js,latex,maven,md,obsidian,pkl,python,rust,vscode&theme=light&perline=7" alt="Skill icons" href="https://skillicons.dev" nozoom=true >}}
 
 ## 🏃‍♂️ Activities
 
