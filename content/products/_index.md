@@ -1,5 +1,5 @@
 ---
-title: ":rocket: Products"
+title: "🚀 Products"
 summary: 'A compact card view of my software products, generated from the products API. Each card packs the repository, web site, documentation, registry, container and SBOM links, plus languages, license, last update and the latest release.'
 tags: [ 'products', "cli", "libraries", "research tools" ]
 aliases: [ "/projects/" ]

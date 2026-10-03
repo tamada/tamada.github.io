@@ -10,26 +10,26 @@
   weight = 100
 
 [[footer]]
-  name = ":mobile_phone_with_arrow: Contact"
+  name = "📲 Contact"
   weight = 10
   pageRef = "/contact"
 
 [[footer]]
-  name = ":label: Tags"
+  name = "🏷️ Tags"
   weight = 100
   pageRef = "/tags"
 
 [[footer]]
-  name = ":cherry_blossom: About"
+  name = "🌸 About"
   weight = 50
   pageRef = "/about"
 
 [[footer]]
-  name = ":lock: Privacy Policy"
+  name = "🔒 Privacy Policy"
   weight = 60
   pageRef = "/privacy-policy"
 
 [[footer]]
-  name = ":cookie: Cookie Settings"
+  name = "🍪 Cookie Settings"
   weight = 70
   url = "#consent-settings"

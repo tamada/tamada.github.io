@@ -1,5 +1,5 @@
 ---
-title: ":dog: pochi"
+title: "🐶 pochi"
 summary: "Java birthmark toolkit, detecting the software theft by native characteristics of the programs."
 date: 2021-12-13
 externalurl: "https://tamada.github.io/pochi"
