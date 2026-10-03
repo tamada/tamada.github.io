@@ -14,3 +14,6 @@ pagerSize = 6
 [module]
   [[module.imports]]
     path = "github.com/tamada/hugo_theme_mod"
+
+[caches.getresource]
+   maxAge = "10m"
