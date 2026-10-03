@@ -1,5 +1,5 @@
 module github.com/tamada/tamada.github.io
 
-go 1.25.6
+go 1.26
 
-require github.com/tamada/hugo_theme_mod v0.0.0-20260608010205-78eae833d6b2 // indirect
+require github.com/tamada/hugo_theme_mod v0.0.0-20260925061538-9db9e9141595 // indirect
