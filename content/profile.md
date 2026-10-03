@@ -1,18 +1,18 @@
 ---
-title: ":bust_in_silhouette: Profile"
+title: "👤 Profile"
 date: 2026-02-06
 showTableOfContents: true
 tags: [ "profile", "information", "about-me" ]
 ---
 
-## :identification_card: General Information
+## 🪪 General Information
 
 - Professor, Faculty of Information Science and Engineering, Kyoto Sangyo University.
   - Doctor of Engineering (Nara Institute of Science and Technology, 2006)
   - Motoyama, Kamigamo, Kita-ku, Kyoto-pref, Kyoto, Japan, Postal Code 603-8555.
 - Programmer/Software Engineer
 
-### :graduation_cap: Research Topics
+### 🎓 Research Topics
 
 {{< tagList >}}
 {{< badge >}}[Software Birthmarks](/tags/software-birthmarks){{< /badge >}}
@@ -25,11 +25,11 @@ tags: [ "profile", "information", "about-me" ]
 {{< badge >}}[Empirical Software Engineering](/tags/empirical-software-engineering){{< /badge >}}
 {{< /tagList >}}
 
-### :muscle: Skills
+### 💪 Skills
 
-[![Skill icons](https://skillicons.dev/icons?i=apple,bash,c,docker,eclipse,emacs,git,github,githubactions,go,html,java,js,latex,maven,md,obsidian,pkl,python,rust,vscode&theme=light&perline=7)](https://skillicons.dev)
+{{< figure src="https://skillicons.dev/icons?i=apple,bash,c,docker,eclipse,emacs,git,github,githubactions,go,html,java,js,latex,maven,md,obsidian,pkl,python,rust,vscode&theme=light&perline=7" alt="Skill icons" href="https://skillicons.dev" nozoom=true >}}
 
-## :runner: Activities
+## 🏃‍♂️ Activities
 
 ### Committees
 
@@ -64,12 +64,12 @@ tags: [ "profile", "information", "about-me" ]
 
 ## My histories
 
-### :necktie: Job histories
+### 👔 Job histories
 
 {{< job-histories >}}
 
 
-### :school: Degrees
+### 🏫 Degrees
 
 {{< degrees >}}
 

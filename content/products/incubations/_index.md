@@ -1,5 +1,5 @@
 ---
-title: ":hatching_chick: Incubation Projects"
+title: "🐣 Incubation Projects"
 date: 2025-11-15
 summary: "These projects are currently under development."
 tags: [ 'incubation' ]

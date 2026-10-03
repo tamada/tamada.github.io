@@ -4,9 +4,9 @@ date: 2026-10-03
 tags: [ "privacy", "site", "information" ]
 ---
 
-[:gb: English](/privacy-policy/)
+[🇬🇧 English](/privacy-policy/)
 
-## :lock: プライバシーポリシー
+## 🔒 プライバシーポリシー
 
 本ポリシーは、本サイト (https://tamada.github.io/) における訪問者の情報の取り扱いについて定めるものです。
 

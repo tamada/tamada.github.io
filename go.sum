@@ -1,2 +1,4 @@
-github.com/tamada/hugo_theme_mod v0.0.0-20260608010205-78eae833d6b2 h1:DGFCQmQU6NI3Vjgo+Tnl8I9i6XqtmDW5e5Y4mYdxiGw=
-github.com/tamada/hugo_theme_mod v0.0.0-20260608010205-78eae833d6b2/go.mod h1:9X6na3BQHPMbdY85ViJZuM6OxnPEjQ/073zT26mDZKc=
+github.com/tamada/hugo_theme_mod v0.0.0-20260925061538-9db9e9141595 h1:I2oSKoCgLEgIdT18yIHGY9NG4Jhy8ogOxVkd6cFq3kY=
+github.com/tamada/hugo_theme_mod v0.0.0-20260925061538-9db9e9141595/go.mod h1:+NIBm4+UfDb90SqCJZngPJgdqb8MOZk7MCdZaYTxzec=
+github.com/tamada/hugo_theme_mod v0.0.0-20261003042856-4413e5a574ea h1:Thowpev8DEL8M8lXlouYdeetPOlQMN7W58kEQ4Bgnlg=
+github.com/tamada/hugo_theme_mod v0.0.0-20261003042856-4413e5a574ea/go.mod h1:+NIBm4+UfDb90SqCJZngPJgdqb8MOZk7MCdZaYTxzec=
