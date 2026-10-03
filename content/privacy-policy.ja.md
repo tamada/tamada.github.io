@@ -8,7 +8,7 @@ tags: [ "privacy", "site", "information" ]
 
 ## :lock: プライバシーポリシー
 
-本ポリシーは、本サイト(https://tamada.github.io/)における訪問者の情報の取り扱いについて定めるものです。
+本ポリシーは、本サイト (https://tamada.github.io/) における訪問者の情報の取り扱いについて定めるものです。
 
 ### 取得する情報
 
@@ -16,7 +16,7 @@ tags: [ "privacy", "site", "information" ]
 
 ### アクセス解析
 
-本サイトでは、利用状況を把握するために、Google LLC が提供する Google アナリティクス 4(GA4)を使用しています。
+本サイトでは、利用状況を把握するために、Google LLC が提供する Google アナリティクス 4 (GA4)を使用しています。
 GA4 は Cookie などの技術を用いて、閲覧したページ、参照元、おおまかな地域、ブラウザやデバイスの情報といったトラフィックデータを収集します。
 これらのデータは匿名で収集されるもので、個人を特定するものではありません。
 
@@ -24,7 +24,11 @@ GA4 は Cookie などの技術を用いて、閲覧したページ、参照元�
 データは Google により、[Google のプライバシーポリシー](https://policies.google.com/privacy?hl=ja)に従って処理されます。
 詳しくは[Google のサービスを使用するサイトやアプリから収集した情報の Google による使用](https://policies.google.com/technologies/partner-sites?hl=ja)もご覧ください。
 
-ブラウザの設定で Cookie を無効にするか、[Google アナリティクス オプトアウト アドオン](https://tools.google.com/dlpage/gaoptout?hl=ja)を導入することで、GA4 による収集を拒否できます。
+GA4 の Cookie は、初回訪問時に表示される Cookie バナーで同意した場合にのみ使用されます。
+同意するまでの間、GA4 には Cookie を使わない匿名の通信のみが送信されます。
+選択内容はお使いのブラウザに保存され、フッタの「Cookie Settings」からいつでも変更できます。
+
+また、ブラウザの設定で Cookie を無効にするか、[Google アナリティクス オプトアウト アドオン](https://tools.google.com/dlpage/gaoptout?hl=ja)を導入することで、GA4 による収集を拒否できます。
 
 ### 第三者サービス
 

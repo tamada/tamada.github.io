@@ -28,3 +28,8 @@
   name = ":lock: Privacy Policy"
   weight = 60
   pageRef = "/privacy-policy"
+
+[[footer]]
+  name = ":cookie: Cookie Settings"
+  weight = 70
+  url = "#cookie-settings"

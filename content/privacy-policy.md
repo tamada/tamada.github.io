@@ -24,7 +24,11 @@ The collected data is used only to improve the site.
 It is processed by Google under [Google's Privacy Policy](https://policies.google.com/privacy).
 See also [How Google uses information from sites or apps that use our services](https://policies.google.com/technologies/partner-sites).
 
-You can opt out of GA4 by disabling cookies in your browser settings or by installing the [Google Analytics opt-out browser add-on](https://tools.google.com/dlpage/gaoptout).
+GA4 cookies are used only if you accept them in the cookie banner shown on your first visit.
+Until you accept, GA4 receives only anonymous pings without cookies.
+Your choice is stored in your browser and can be changed at any time from "Cookie Settings" in the footer.
+
+You can also opt out of GA4 by disabling cookies in your browser settings or by installing the [Google Analytics opt-out browser add-on](https://tools.google.com/dlpage/gaoptout).
 
 ### Third-party services
 
