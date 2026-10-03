@@ -6,7 +6,7 @@
     {{- range $data -}}
       {{- $line = printf "%s{{< badge >}}[%s](%s){{< /badge >}}" $line .label .href -}}
     {{- end -}}
-    {{- $result := printf "{{< keywordList \"committee\" >}}%s{{< /keywordList >}}" $line -}}
+    {{- $result := printf "{{< tagList >}}%s{{< /tagList >}}" $line -}}
     {{- $.Page.RenderString $result -}}
   {{- else with .Err -}}
     <p>データの取得に失敗しました: {{ .Err }}</p>

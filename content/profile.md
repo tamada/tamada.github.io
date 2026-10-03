@@ -14,7 +14,7 @@ tags: [ "profile", "information", "about-me" ]
 
 ### :graduation_cap: Research Topics
 
-{{< keywordList >}}
+{{< tagList >}}
 {{< badge >}}[Software Birthmarks](/tags/software-birthmarks){{< /badge >}}
 {{< badge >}}[Software Obfuscation](/tags/software-obfuscation){{< /badge >}}
 {{< badge >}}[Evaluating Obfuscation](/tags/evaluating-obfuscation){{< /badge >}}
@@ -23,7 +23,7 @@ tags: [ "profile", "information", "about-me" ]
 {{< badge >}}[Program Readability Analysis](/tags/program-readability-analysis){{< /badge >}}
 {{< badge >}}[Git/GitHub Operation Support](/tags/git-github-operation-support){{< /badge >}}
 {{< badge >}}[Empirical Software Engineering](/tags/empirical-software-engineering){{< /badge >}}
-{{< /keywordList >}}
+{{< /tagList >}}
 
 ### :muscle: Skills
 

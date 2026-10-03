@@ -4,15 +4,13 @@
 {{- with try (resources.GetRemote $url) -}}
   {{- with .Value -}}
     {{- $data := unmarshal . -}}
-    {{- $line := ""}}
+    {{- $html := "" -}}
     {{- range $item := $data -}}
       {{- if eq $item.category $category }}
-         {{- $line = printf "%s[![%s](%s)](%s)" $line $item.label $item.image $item.href -}}
+        {{- $html = printf "%s%s" $html (partial "shield.html" (dict "href" $item.href "src" $item.image "alt" $item.label)) -}}
       {{- end -}}
     {{- end -}}
-    {{- $html := markdownify $line -}}
-    {{- $result := printf "{{< keywordList \"sns\">}}%s{{< /keywordList >}}" $html -}}
-    {{- $.Page.RenderString $result -}}
+    {{- partial "tag-list.html" ($html | safeHTML) -}}
   {{- else with .Err -}}
     <p>データの取得に失敗しました: {{ .Err }}</p>
   {{- else -}}
