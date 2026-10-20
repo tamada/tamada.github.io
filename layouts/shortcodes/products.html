@@ -8,6 +8,7 @@
       "registry"   "package"
       "container"  "docker"
       "sbom"       "list-check"
+      "artifact"   "download"
 -}}
 {{- $titleMap := dict
       "repository" "Repository"
@@ -16,9 +17,10 @@
       "registry"   "Package registry"
       "container"  "Container image"
       "sbom"       "SBOM (software bill of materials)"
+      "artifact"   "Artifact"
 -}}
 {{- /* fixed display order for the icon row; anything else is appended with a generic icon */ -}}
-{{- $linkOrder := slice "repository" "www" "docs" "registry" "container" "sbom" -}}
+{{- $linkOrder := slice "repository" "www" "docs" "registry" "container" "artifact" "sbom" -}}
 
 {{- /* Styling note: utility classes below are resolved from two stylesheets: the
        theme's precompiled main.css, plus assets/css/custom.css which this repo
@@ -52,6 +54,13 @@
       {{- range $item.links -}}
         {{- if and .label .url -}}
           {{- $links = merge $links (dict .label .url) -}}
+        {{- end -}}
+      {{- end -}}
+      {{- /* `ref` (only `artifact` links carry one, e.g. an OCI reference) is shown in the tooltip */ -}}
+      {{- $refs := dict -}}
+      {{- range $item.links -}}
+        {{- if and .label .ref -}}
+          {{- $refs = merge $refs (dict .label .ref) -}}
         {{- end -}}
       {{- end -}}
       {{- $logo := index $links "logo" -}}
@@ -97,6 +106,7 @@
               {{- range $lbl := $linkOrder -}}
                 {{- with index $links $lbl -}}
                   {{- $t := index $titleMap $lbl | default $lbl -}}
+                  {{- with index $refs $lbl }}{{ $t = printf "%s: %s" $t . }}{{ end -}}
                   <a class="inline-flex items-center justify-center text-2xl leading-none no-underline text-neutral-500 dark:text-neutral-400 bf-icon-color-hover" href="{{ . }}" title="{{ $t }}" aria-label="{{ $t }}" target="_blank" rel="noopener">
                     {{- partial "icon.html" (index $iconMap $lbl | default "link") -}}
                   </a>
@@ -105,7 +115,7 @@
               {{- /* any label we do not know about (and never the logo, which is an image) */ -}}
               {{- range $item.links -}}
                 {{- if and (ne .label "logo") (not (in $linkOrder .label)) -}}
-                  <a class="inline-flex items-center justify-center text-2xl leading-none no-underline text-neutral-500 dark:text-neutral-400 bf-icon-color-hover" href="{{ .url }}" title="{{ .label }}" aria-label="{{ .label }}" target="_blank" rel="noopener">
+                  <a class="inline-flex items-center justify-center text-2xl leading-none no-underline text-neutral-500 dark:text-neutral-400 bf-icon-color-hover" href="{{ .url }}" title="{{ .label }}{{ with .ref }}: {{ . }}{{ end }}" aria-label="{{ .label }}{{ with .ref }}: {{ . }}{{ end }}" target="_blank" rel="noopener">
                     {{- partial "icon.html" "link" -}}
                   </a>
                 {{- end -}}
